@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="GB2312"?>
+<Simulation>
+ <Scenario>
+   <Time Value="0">
+     <Item ItemClass="CTank" ID="0" Name="tank_2">
+       <Parameter Name="latitude" Value="25.00"/>
+       <Parameter Name="longitude" Value="116.010"/>
+       <Parameter Name="velocity" Value="30.00"/>
+       <Parameter Name="heading" Value="50.00"/>
+     </Item>
+     <Item ItemClass="CLineObj" ID="0" Name="line_1">
+       <Parameter  Name="PointsCount" Value="3"/>
+       <Parameter  Name="Points" Value="25.5,116.34,0;25.65,116.50,0;25.6,116.78,0;"/>
+     </Item>
+   </Time>
+  </Scenario>
+</Simulation>

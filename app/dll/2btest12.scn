@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="GB2312"?>
+<Simulation>
+  <Scenario>
+    <Time Value="0">
+      <Item ItemClass="CScnProfile" Name="" ID="0">
+        <Parameter Name="ScnName" Value="2btest"/>
+        <Parameter Name="OutLine" Value="2btest"/>
+        <Parameter Name="ScnStartTime" Value="2018,1,1,0,0,0"/>
+        <Parameter Name="ScnEndTime" Value="2018,1,2,0,0,0"/>
+        <Parameter Name="UseRadomSeed" Value="0"/>
+        <Parameter Name="RadomSeed" Value="0"/>
+        <Parameter Name="T" Value="0"/>
+        <Parameter Name="SimNetworkComm" Value="0"/>
+        <!---->
+        <!--仿真区域:矩形区域-->
+        <Parameter Name="WayPoint" Value="0,0,0"/>
+        <Parameter Name="WayPoint" Value="0,0,0"/>
+        <Parameter Name="WayPoint" Value="0,0,0"/>
+        <Parameter Name="WayPoint" Value="0,0,0"/>
+      </Item>
+      <!---->
+      <!--环境信息-->
+      <Item ItemClass="CEnvironment" Name="" ID="0">
+        <Parameter Name="EnvObjName" Value="Env_All"/>
+        <Parameter Name="WayPoint" Value="0,0,0"/>
+        <Parameter Name="WayPoint" Value="0,0,0"/>
+        <Parameter Name="WayPoint" Value="0,0,0"/>
+        <Parameter Name="WayPoint" Value="0,0,0"/>
+        <Parameter Name="SeaStateLevel" Value="2"/>
+        <Parameter Name="WindCou" Value="290"/>
+        <Parameter Name="WindVel" Value="15"/>
+        <Parameter Name="RainModelTem" Value="0"/>
+        <Parameter Name="RainModelHeight" Value="0"/>
+        <Parameter Name="RainModelRate" Value="0"/>
+      </Item>
+      <!---->
+      <!---->
+      <!---->
+      <!--红方初始态势-->
+      <Item ItemClass="CRedCommanderEntity" Name="" ID="-1">
+        <Parameter Name="Side" Value="1"/>
+        <Parameter Name="EntityName" Value="红方指挥所 1"/>
+        <Parameter Name="Marking" Value="Def"/>
+        <Parameter Name="Level" Value="1"/>
+        <Parameter Name="ReportToSuperior" Value="0"/>
+        <Parameter Name="InformToSubordinates" Value="0"/>
+        <Parameter Name="InfomationReleaseCycle" Value="0"/>
+        <Parameter Name="Position" Value="32.0481,112.279,73.8175"/>
+        <Parameter Name="Velocity" Value="0"/>
+        <Parameter Name="Heading" Value="0"/>
+        <Parameter Name="Infrared" Value="0,0,0.0"/>
+        <Parameter Name="Embarkation" Value="-1"/>
+        <Parameter Name="JoinCommNetwork" Value="0"/>
+        <Parameter Name="ExEntityId" Value="5001"/>
+        <Parameter Name="extra_long1" Value="0"/>
+        <Parameter Name="UseExternDataFile" Value="0"/>
+        <Parameter Name="ExternDataStep" Value="0"/>
+        <Parameter Name="IsRecSelfMoveData" Value="0"/>
+        <Parameter Name="RecSample" Value="1"/>
+        <Parameter Name="IsAutoPlan" Value="-1"/>
+        <Parameter Name="AutoTime" Value="0"/>
+        <Parameter Name="ASMPlanDataCount" Value="0"/>
+        <Parameter Name="isAccompanySuppress" Value="0"/>
+        <Parameter Name="ASMCoopAttackMode" Value="0"/>
+        <Parameter Name="AttackSingleOrGroup" Value="0"/>
+        <Parameter Name="RoutePlanMode" Value="-1"/>
+        <Parameter Name="BatchCount" Value="0"/>
+        <Parameter Name="BatchInterval" Value="0"/>
+        <Parameter Name="RoutePlanTime" Value="1"/>
+        <Parameter Name="1stLaunchTime" Value="60"/>
+        <Parameter Name="isAutoGroupAntiAir" Value="-1"/>
+        <Parameter Name="GroupIntptStrategy" Value="0"/>
+        <Parameter Name="isEWPlaneSupport" Value="0"/>
+        <Parameter Name="GroupAAMLaunchMode" Value="0"/>
+      </Item>
+      <Item ItemClass="CGroundAAFCRadar" Name="" ID="-1">
+        <Parameter Name="Side" Value="1"/>
+        <Parameter Name="EntityName" Value="GroundAAFCRadar 2"/>
+        <Parameter Name="Marking" Value="Def"/>
+        <Parameter Name="Level" Value="2"/>
+        <Parameter Name="Superior" Value="红方指挥所 1"/>
+        <Parameter Name="ReportToSuperior" Value="0"/>
+        <Parameter Name="InformToSubordinates" Value="0"/>
+        <Parameter Name="InfomationReleaseCycle" Value="0"/>
+        <Parameter Name="Position" Value="30.76819343,113.08334429,32.40552808"/>
+        <Parameter Name="Velocity" Value="0"/>
+        <Parameter Name="Heading" Value="90"/>
+        <Parameter Name="Infrared" Value="0,0,0.0"/>
+        <Parameter Name="Embarkation" Value="-1"/>
+        <Parameter Name="JoinCommNetwork" Value="0"/>
+        <Parameter Name="ExEntityId" Value="1501"/>
+        <Parameter Name="extra_long1" Value="0"/>
+        <Parameter Name="UseExternDataFile" Value="0"/>
+        <Parameter Name="ExternDataStep" Value="0"/>
+        <Parameter Name="IsRecSelfMoveData" Value="0"/>
+        <Parameter Name="RecSample" Value="1"/>
+        <Parameter Name="Type" Value="1"/>
+        <Parameter Name="DetectRadius" Value="500000"/>
+        <Parameter Name="DetectSection" Value="180"/>
+        <Parameter Name="MaxTrackTargetCount" Value="30"/>
+        <Parameter Name="MaxFireChannelCount" Value="10"/>
+        <Parameter Name="RelateAAMVehicleID" Value="1601"/>
+      </Item>
+      <Item ItemClass="CGroundAAMVehicle" Name="" ID="-1">
+        <Parameter Name="Side" Value="1"/>
+        <Parameter Name="EntityName" Value="GroundAAMVehicle 2"/>
+        <Parameter Name="Marking" Value="Def"/>
+        <Parameter Name="Level" Value="2"/>
+        <Parameter Name="Superior" Value="红方指挥所 1"/>
+        <Parameter Name="ReportToSuperior" Value="0"/>
+        <Parameter Name="InformToSubordinates" Value="0"/>
+        <Parameter Name="InfomationReleaseCycle" Value="0"/>
+        <Parameter Name="Position" Value="30.77202752,113.07672252,33.04630957"/>
+        <Parameter Name="Velocity" Value="0"/>
+        <Parameter Name="Heading" Value="0"/>
+        <Parameter Name="Infrared" Value="0,0,0.0"/>
+        <Parameter Name="Embarkation" Value="-1"/>
+        <Parameter Name="JoinCommNetwork" Value="0"/>
+        <Parameter Name="ExEntityId" Value="1601"/>
+        <Parameter Name="extra_long1" Value="0"/>
+        <Parameter Name="UseExternDataFile" Value="0"/>
+        <Parameter Name="ExternDataStep" Value="0"/>
+        <Parameter Name="IsRecSelfMoveData" Value="0"/>
+        <Parameter Name="RecSample" Value="1"/>
+        <Parameter Name="Type" Value="1"/>
+        <Parameter Name="LauncherState" Value="0"/>
+        <Parameter Name="MaxLoadingAAMCount" Value="18"/>
+        <Parameter Name="TimeIntervalBtw2AAM" Value="5"/>
+        <Parameter Name="FillingTime" Value="60"/>
+        <Parameter Name="AAMDataCount" Value="1"/>
+        <Parameter Name="AAMData" Value="2_0_5000_148000_9.14_24384_100000_1500_0_4000_0.8/"/>
+        <Parameter Name="MatchFCRadarType" Value="1"/>
+        <Parameter Name="MatchFCRadarID" Value="1501"/>
+        <Parameter Name="SelfAutoAntiAir" Value="0"/>
+        <Parameter Name="SelfInterceptStratege" Value="2"/>
+        <Parameter Name="OODACycleTime" Value="5.0"/>
+      </Item>
+      <Item ItemClass="CAAGuardField" Name="" ID="-1">
+        <Parameter Name="Side" Value="1"/>
+        <Parameter Name="EntityName" Value="AAGuardField 3"/>
+        <Parameter Name="Marking" Value="Def"/>
+        <Parameter Name="Level" Value="2"/>
+        <Parameter Name="Superior" Value="红方指挥所 1"/>
+        <Parameter Name="ReportToSuperior" Value="0"/>
+        <Parameter Name="InformToSubordinates" Value="0"/>
+        <Parameter Name="InfomationReleaseCycle" Value="0"/>
+        <Parameter Name="Position" Value="31.2197,113.521,69.4738"/>
+        <Parameter Name="Velocity" Value="0"/>
+        <Parameter Name="Heading" Value="0"/>
+        <Parameter Name="Infrared" Value="0,0,0.0"/>
+        <Parameter Name="Embarkation" Value="-1"/>
+        <Parameter Name="JoinCommNetwork" Value="0"/>
+        <Parameter Name="ExEntityId" Value="0"/>
+        <Parameter Name="extra_long1" Value="0"/>
+        <Parameter Name="UseExternDataFile" Value="0"/>
+        <Parameter Name="ExternDataStep" Value="0"/>
+        <Parameter Name="IsRecSelfMoveData" Value="0"/>
+        <Parameter Name="RecSample" Value="1"/>
+        <Parameter Name="GuardRadius" Value="60000"/>
+      </Item>
+      <Item ItemClass="CAAGuardField" Name="" ID="-1">
+        <Parameter Name="Side" Value="1"/>
+        <Parameter Name="EntityName" Value="AAGuardField 2"/>
+        <Parameter Name="Marking" Value="Def"/>
+        <Parameter Name="Level" Value="2"/>
+        <Parameter Name="Superior" Value="红方指挥所 1"/>
+        <Parameter Name="ReportToSuperior" Value="0"/>
+        <Parameter Name="InformToSubordinates" Value="0"/>
+        <Parameter Name="InfomationReleaseCycle" Value="0"/>
+        <Parameter Name="Position" Value="30.5404,114.154,22.3866"/>
+        <Parameter Name="Velocity" Value="0"/>
+        <Parameter Name="Heading" Value="0"/>
+        <Parameter Name="Infrared" Value="0,0,0.0"/>
+        <Parameter Name="Embarkation" Value="-1"/>
+        <Parameter Name="JoinCommNetwork" Value="0"/>
+        <Parameter Name="ExEntityId" Value="0"/>
+        <Parameter Name="extra_long1" Value="0"/>
+        <Parameter Name="UseExternDataFile" Value="0"/>
+        <Parameter Name="ExternDataStep" Value="0"/>
+        <Parameter Name="IsRecSelfMoveData" Value="0"/>
+        <Parameter Name="RecSample" Value="1"/>
+        <Parameter Name="GuardRadius" Value="50000"/>
+      </Item>
+      <Item ItemClass="CGroundAAMVehicle" Name="" ID="-1">
+        <Parameter Name="Side" Value="1"/>
+        <Parameter Name="EntityName" Value="GroundAAMVehicle 1"/>
+        <Parameter Name="Marking" Value="Def"/>
+        <Parameter Name="Level" Value="2"/>
+        <Parameter Name="Superior" Value="红方指挥所 1"/>
+        <Parameter Name="ReportToSuperior" Value="0"/>
+        <Parameter Name="InformToSubordinates" Value="0"/>
+        <Parameter Name="InfomationReleaseCycle" Value="0"/>
+        <Parameter Name="Position" Value="30.61499701,113.66020427,25.44447902"/>
+        <Parameter Name="Velocity" Value="0"/>
+        <Parameter Name="Heading" Value="0"/>
+        <Parameter Name="Infrared" Value="0,0,0.0"/>
+        <Parameter Name="Embarkation" Value="-1"/>
+        <Parameter Name="JoinCommNetwork" Value="0"/>
+        <Parameter Name="ExEntityId" Value="1600"/>
+        <Parameter Name="extra_long1" Value="0"/>
+        <Parameter Name="UseExternDataFile" Value="0"/>
+        <Parameter Name="ExternDataStep" Value="0"/>
+        <Parameter Name="IsRecSelfMoveData" Value="0"/>
+        <Parameter Name="RecSample" Value="1"/>
+        <Parameter Name="Type" Value="1"/>
+        <Parameter Name="LauncherState" Value="0"/>
+        <Parameter Name="MaxLoadingAAMCount" Value="18"/>
+        <Parameter Name="TimeIntervalBtw2AAM" Value="5.0"/>
+        <Parameter Name="FillingTime" Value="60.0"/>
+        <Parameter Name="AAMDataCount" Value="1"/>
+        <Parameter Name="AAMData" Value="2_0_5000_148000_9.14_24384_100000_1500_0_4000_0.8/"/>
+        <Parameter Name="MatchFCRadarType" Value="1"/>
+        <Parameter Name="MatchFCRadarID" Value="1500"/>
+        <Parameter Name="SelfAutoAntiAir" Value="0"/>
+        <Parameter Name="SelfInterceptStratege" Value="2"/>
+        <Parameter Name="OODACycleTime" Value="5.0"/>
+      </Item>
+      <Item ItemClass="CGroundAAFCRadar" Name="" ID="-1">
+        <Parameter Name="Side" Value="1"/>
+        <Parameter Name="EntityName" Value="GroundAAFCRadar 1"/>
+        <Parameter Name="Marking" Value="Def"/>
+        <Parameter Name="Level" Value="2"/>
+        <Parameter Name="Superior" Value="红方指挥所 1"/>
+        <Parameter Name="ReportToSuperior" Value="0"/>
+        <Parameter Name="InformToSubordinates" Value="0"/>
+        <Parameter Name="InfomationReleaseCycle" Value="0"/>
+        <Parameter Name="Position" Value="30.61155460,113.66690059,26.47093810"/>
+        <Parameter Name="Velocity" Value="0"/>
+        <Parameter Name="Heading" Value="90"/>
+        <Parameter Name="Infrared" Value="0,0,0.0"/>
+        <Parameter Name="Embarkation" Value="-1"/>
+        <Parameter Name="JoinCommNetwork" Value="0"/>
+        <Parameter Name="ExEntityId" Value="1500"/>
+        <Parameter Name="extra_long1" Value="0"/>
+        <Parameter Name="UseExternDataFile" Value="0"/>
+        <Parameter Name="ExternDataStep" Value="0"/>
+        <Parameter Name="IsRecSelfMoveData" Value="0"/>
+        <Parameter Name="RecSample" Value="1"/>
+        <Parameter Name="Type" Value="1"/>
+        <Parameter Name="DetectRadius" Value="500000"/>
+        <Parameter Name="DetectSection" Value="180"/>
+        <Parameter Name="MaxTrackTargetCount" Value="30"/>
+        <Parameter Name="MaxFireChannelCount" Value="10"/>
+        <Parameter Name="RelateAAMVehicleID" Value="1600"/>
+      </Item>
+      <Item ItemClass="CGroundAAEWRadar" Name="" ID="-1">
+        <Parameter Name="Side" Value="1"/>
+        <Parameter Name="EntityName" Value="GroundAAEWRadar 1"/>
+        <Parameter Name="Marking" Value="Def"/>
+        <Parameter Name="Level" Value="2"/>
+        <Parameter Name="Superior" Value="红方指挥所 1"/>
+        <Parameter Name="ReportToSuperior" Value="0"/>
+        <Parameter Name="InformToSubordinates" Value="0"/>
+        <Parameter Name="InfomationReleaseCycle" Value="0"/>
+        <Parameter Name="Position" Value="31.3607,114.079,97.941"/>
+        <Parameter Name="Velocity" Value="0"/>
+        <Parameter Name="Heading" Value="90"/>
+        <Parameter Name="Infrared" Value="0,0,0.0"/>
+        <Parameter Name="Embarkation" Value="-1"/>
+        <Parameter Name="JoinCommNetwork" Value="0"/>
+        <Parameter Name="ExEntityId" Value="0"/>
+        <Parameter Name="extra_long1" Value="0"/>
+        <Parameter Name="UseExternDataFile" Value="0"/>
+        <Parameter Name="ExternDataStep" Value="0"/>
+        <Parameter Name="IsRecSelfMoveData" Value="0"/>
+        <Parameter Name="RecSample" Value="1"/>
+        <Parameter Name="Type" Value="1"/>
+        <Parameter Name="DetectRadius" Value="1000000"/>
+        <Parameter Name="DetectSection" Value="120"/>
+      </Item>
+      <Item ItemClass="CAAGuardField" Name="" ID="-1">
+        <Parameter Name="Side" Value="1"/>
+        <Parameter Name="EntityName" Value="AAGuardField 1"/>
+        <Parameter Name="Marking" Value="Def"/>
+        <Parameter Name="Level" Value="2"/>
+        <Parameter Name="Superior" Value="红方指挥所 1"/>
+        <Parameter Name="ReportToSuperior" Value="0"/>
+        <Parameter Name="InformToSubordinates" Value="0"/>
+        <Parameter Name="InfomationReleaseCycle" Value="0"/>
+        <Parameter Name="Position" Value="30.6474,112.888,30.479"/>
+        <Parameter Name="Velocity" Value="0"/>
+        <Parameter Name="Heading" Value="0"/>
+        <Parameter Name="Infrared" Value="0,0,0.0"/>
+        <Parameter Name="Embarkation" Value="-1"/>
+        <Parameter Name="JoinCommNetwork" Value="0"/>
+        <Parameter Name="ExEntityId" Value="0"/>
+        <Parameter Name="extra_long1" Value="0"/>
+        <Parameter Name="UseExternDataFile" Value="0"/>
+        <Parameter Name="ExternDataStep" Value="0"/>
+        <Parameter Name="IsRecSelfMoveData" Value="0"/>
+        <Parameter Name="RecSample" Value="1"/>
+        <Parameter Name="GuardRadius" Value="10000"/>
+      </Item>
+      <!---->
+      <!---->
+      <!---->
+      <!--蓝方初始态势-->
+      <Item ItemClass="CBlueCommanderEntity" Name="" ID="-1">
+        <Parameter Name="Side" Value="2"/>
+        <Parameter Name="EntityName" Value="蓝方指挥所 1"/>
+        <Parameter Name="Marking" Value="Def"/>
+        <Parameter Name="Level" Value="1"/>
+        <Parameter Name="ReportToSuperior" Value="0"/>
+        <Parameter Name="InformToSubordinates" Value="0"/>
+        <Parameter Name="InfomationReleaseCycle" Value="0"/>
+        <Parameter Name="Position" Value="33.0737,130.476,15.8653"/>
+        <Parameter Name="Velocity" Value="0"/>
+        <Parameter Name="Heading" Value="0"/>
+        <Parameter Name="Infrared" Value="0,0,0.0"/>
+        <Parameter Name="Embarkation" Value="-1"/>
+        <Parameter Name="JoinCommNetwork" Value="0"/>
+        <Parameter Name="ExEntityId" Value="6001"/>
+        <Parameter Name="extra_long1" Value="0"/>
+        <Parameter Name="UseExternDataFile" Value="0"/>
+        <Parameter Name="ExternDataStep" Value="0"/>
+        <Parameter Name="IsRecSelfMoveData" Value="0"/>
+        <Parameter Name="RecSample" Value="1"/>
+        <Parameter Name="IsAutoPlan" Value="2"/>
+        <Parameter Name="AutoTime" Value="0"/>
+        <Parameter Name="ASMPlanData" Value="1,AttackMissileField 1,1,AAGuardField 1,270.0,0,0,0,30.64740000-112.88800000-30.47900000-1500-1/,1,1,0:0:5,0,0;1,AttackMissileField 2,1,AAGuardField 2,270.0,0,0,0,30.64740000-112.88800000-30.47900000-1500-1/,1,1,0:0:8,0,0;1,AttackMissileField 3,1,AAGuardField 3,270.0,0,0,0,30.64740000-112.88800000-30.47900000-1500-1/,1,2,0:0:6,0,0;1,AttackMissileField 4,1,AAGuardField 3,270.0,0,0,0,30.64740000-112.88800000-30.47900000-1500-1/,1,2,0:0:10,0,0;"/>
+        <Parameter Name="ASMPlanDataCount" Value="2"/>
+        <Parameter Name="isAccompanySuppress" Value="0"/>
+        <Parameter Name="ASMCoopAttackMode" Value="1"/>
+        <Parameter Name="AttackSingleOrGroup" Value="1"/>
+        <Parameter Name="RoutePlanMode" Value="-1"/>
+        <Parameter Name="BatchCount" Value="1"/>
+        <Parameter Name="BatchInterval" Value="0"/>
+        <Parameter Name="RoutePlanTime" Value="5"/>
+        <Parameter Name="1stLaunchTime" Value="60"/>
+        <Parameter Name="isAutoGroupAntiAir" Value="-1"/>
+        <Parameter Name="GroupIntptStrategy" Value="0"/>
+        <Parameter Name="isEWPlaneSupport" Value="0"/>
+        <Parameter Name="GroupAAMLaunchMode" Value="0"/>
+      </Item>
+      <Item ItemClass="CAttackMissileField" Name="" ID="-1">
+        <Parameter Name="Side" Value="2"/>
+        <Parameter Name="EntityName" Value="AttackMissileField 4"/>
+        <Parameter Name="Marking" Value="Def"/>
+        <Parameter Name="Level" Value="2"/>
+        <Parameter Name="Superior" Value="蓝方指挥所 1"/>
+        <Parameter Name="ReportToSuperior" Value="0"/>
+        <Parameter Name="InformToSubordinates" Value="0"/>
+        <Parameter Name="InfomationReleaseCycle" Value="0"/>
+        <Parameter Name="Position" Value="31.4743,131.053,41.5986"/>
+        <Parameter Name="Velocity" Value="0"/>
+        <Parameter Name="Heading" Value="0"/>
+        <Parameter Name="Infrared" Value="0,0,0.0"/>
+        <Parameter Name="Embarkation" Value="-1"/>
+        <Parameter Name="JoinCommNetwork" Value="0"/>
+        <Parameter Name="ExEntityId" Value="2004"/>
+        <Parameter Name="extra_long1" Value="0"/>
+        <Parameter Name="UseExternDataFile" Value="0"/>
+        <Parameter Name="ExternDataStep" Value="0"/>
+        <Parameter Name="IsRecSelfMoveData" Value="0"/>
+        <Parameter Name="RecSample" Value="1"/>
+        <Parameter Name="LaunchVehicleInfo" Value="1,0,5,55,5.0,5000,1000000,0.7,1,1,100,50000,500,1;"/>
+        <Parameter Name="LaunchVehicleCount" Value="1"/>
+      </Item>
+      <Item ItemClass="CAttackMissileField" Name="" ID="-1">
+        <Parameter Name="Side" Value="2"/>
+        <Parameter Name="EntityName" Value="AttackMissileField 3"/>
+        <Parameter Name="Marking" Value="Def"/>
+        <Parameter Name="Level" Value="2"/>
+        <Parameter Name="Superior" Value="蓝方指挥所 1"/>
+        <Parameter Name="ReportToSuperior" Value="0"/>
+        <Parameter Name="InformToSubordinates" Value="0"/>
+        <Parameter Name="InfomationReleaseCycle" Value="0"/>
+        <Parameter Name="Position" Value="31.8124,131.055,159.389"/>
+        <Parameter Name="Velocity" Value="0"/>
+        <Parameter Name="Heading" Value="0"/>
+        <Parameter Name="Infrared" Value="0,0,0.0"/>
+        <Parameter Name="Embarkation" Value="-1"/>
+        <Parameter Name="JoinCommNetwork" Value="0"/>
+        <Parameter Name="ExEntityId" Value="2003"/>
+        <Parameter Name="extra_long1" Value="0"/>
+        <Parameter Name="UseExternDataFile" Value="0"/>
+        <Parameter Name="ExternDataStep" Value="0"/>
+        <Parameter Name="IsRecSelfMoveData" Value="0"/>
+        <Parameter Name="RecSample" Value="1"/>
+        <Parameter Name="LaunchVehicleInfo" Value="1,0,5,55,5.0,5000,1000000,0.7,1,1,100,50000,500,1;"/>
+        <Parameter Name="LaunchVehicleCount" Value="1"/>
+      </Item>
+      <Item ItemClass="CAttackMissileField" Name="" ID="-1">
+        <Parameter Name="Side" Value="2"/>
+        <Parameter Name="EntityName" Value="AttackMissileField 2"/>
+        <Parameter Name="Marking" Value="Def"/>
+        <Parameter Name="Level" Value="2"/>
+        <Parameter Name="Superior" Value="蓝方指挥所 1"/>
+        <Parameter Name="ReportToSuperior" Value="0"/>
+        <Parameter Name="InformToSubordinates" Value="0"/>
+        <Parameter Name="InfomationReleaseCycle" Value="0"/>
+        <Parameter Name="Position" Value="31.7024,130.37,230.889"/>
+        <Parameter Name="Velocity" Value="0"/>
+        <Parameter Name="Heading" Value="180"/>
+        <Parameter Name="Infrared" Value="0,0,0.0"/>
+        <Parameter Name="Embarkation" Value="-1"/>
+        <Parameter Name="JoinCommNetwork" Value="0"/>
+        <Parameter Name="ExEntityId" Value="2002"/>
+        <Parameter Name="extra_long1" Value="0"/>
+        <Parameter Name="UseExternDataFile" Value="0"/>
+        <Parameter Name="ExternDataStep" Value="0"/>
+        <Parameter Name="IsRecSelfMoveData" Value="0"/>
+        <Parameter Name="RecSample" Value="1"/>
+        <Parameter Name="LaunchVehicleInfo" Value="1,0,5,55,5.0,5000,2000000,0.7,1,1,100,50000,500,1;"/>
+        <Parameter Name="LaunchVehicleCount" Value="1"/>
+      </Item>
+      <Item ItemClass="CAttackMissileField" Name="" ID="-1">
+        <Parameter Name="Side" Value="2"/>
+        <Parameter Name="EntityName" Value="AttackMissileField 1"/>
+        <Parameter Name="Marking" Value="Def"/>
+        <Parameter Name="Level" Value="2"/>
+        <Parameter Name="Superior" Value="蓝方指挥所 1"/>
+        <Parameter Name="ReportToSuperior" Value="0"/>
+        <Parameter Name="InformToSubordinates" Value="0"/>
+        <Parameter Name="InfomationReleaseCycle" Value="0"/>
+        <Parameter Name="Position" Value="31.8928,130.312,74.446"/>
+        <Parameter Name="Velocity" Value="0"/>
+        <Parameter Name="Heading" Value="0"/>
+        <Parameter Name="Infrared" Value="0,0,0.0"/>
+        <Parameter Name="Embarkation" Value="-1"/>
+        <Parameter Name="JoinCommNetwork" Value="0"/>
+        <Parameter Name="ExEntityId" Value="2001"/>
+        <Parameter Name="extra_long1" Value="0"/>
+        <Parameter Name="UseExternDataFile" Value="0"/>
+        <Parameter Name="ExternDataStep" Value="0"/>
+        <Parameter Name="IsRecSelfMoveData" Value="0"/>
+        <Parameter Name="RecSample" Value="1"/>
+        <Parameter Name="LaunchVehicleInfo" Value="1,0,5,55,5.0,5000,2000000,0.7,1,1,100,50000,500,1;"/>
+        <Parameter Name="LaunchVehicleCount" Value="1"/>
+      </Item>
+      <!---->
+      <!---->
+      <!---->
+      <!--中立初始态势-->
+      <!---->
+      <!---->
+      <!---->
+      <!--其他初始态势-->
+      <!---->
+      <!---->
+      <!---->
+      <!--控制对象信息-->
+      <!---->
+      <!---->
+      <!---->
+      <!--任务信息-->
+      <Item ItemClass="CSimTask" Name="" ID="-1">
+        <Parameter Name="Executant" Value="GroundAAEWRadar 1"/>
+        <Parameter Name="TaskName" Value="任务"/>
+        <Parameter Name="TaskType" Value="SensorOper"/>
+        <Parameter Name="StartTime" Value="10"/>
+        <Parameter Name="DeviceName" Value="2bEWRadar"/>
+        <Parameter Name="SensorOperType" Value="1"/>
+        <Parameter Name="PowerOn" Value="1"/>
+      </Item>
+      <Item ItemClass="CSimTask" Name="" ID="-1">
+        <Parameter Name="Executant" Value="GroundAAFCRadar 1"/>
+        <Parameter Name="TaskName" Value="任务"/>
+        <Parameter Name="TaskType" Value="SensorOper"/>
+        <Parameter Name="StartTime" Value="50"/>
+        <Parameter Name="DeviceName" Value="2bFCRadar"/>
+        <Parameter Name="SensorOperType" Value="1"/>
+        <Parameter Name="PowerOn" Value="1"/>
+      </Item>
+      <Item ItemClass="CSimTask" Name="" ID="-1">
+        <Parameter Name="Executant" Value="GroundAAFCRadar 2"/>
+        <Parameter Name="TaskName" Value="任务"/>
+        <Parameter Name="TaskType" Value="SensorOper"/>
+        <Parameter Name="StartTime" Value="60"/>
+        <Parameter Name="DeviceName" Value="2bFCRadar"/>
+        <Parameter Name="SensorOperType" Value="1"/>
+        <Parameter Name="PowerOn" Value="1"/>
+      </Item>
+    </Time>
+  </Scenario>
+</Simulation>

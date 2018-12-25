@@ -1,0 +1,1525 @@
+TYPE=0, INFO=进入 ReadParameters
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1000,ObjName=(null)
+TYPE=0, INFO=离开 ReadParameters
+TYPE=0, INFO=进入 LoadComponent
+TYPE=0, INFO=Load component dll:RTIBrged.dll
+TYPE=0, INFO=ClsObj Created Name=CRTIBridge
+TYPE=0, INFO=Load component dll:XBrged.dll
+TYPE=0, INFO=ClsObj Created Name=CXBridge
+TYPE=0, INFO=Load component dll:DataComd.dll
+TYPE=0, INFO=ClsObj Created Name=CControlObj
+TYPE=0, INFO=ClsObj Created Name=CCreateCtrlObj
+TYPE=0, INFO=ClsObj Created Name=CCreateForceEntity
+TYPE=0, INFO=ClsObj Created Name=CNodeMoveOrderEvt
+TYPE=0, INFO=ClsObj Created Name=CNodeMoveTask
+TYPE=0, INFO=ClsObj Created Name=CNodeStateRep
+TYPE=0, INFO=ClsObj Created Name=CLineObj
+TYPE=0, INFO=ClsObj Created Name=CShipStateRep
+TYPE=0, INFO=ClsObj Created Name=CSimObjStateRep
+TYPE=0, INFO=ClsObj Created Name=CStateRepository
+TYPE=0, INFO=ClsObj Created Name=CSubmarineStateRep
+TYPE=0, INFO=ClsObj Created Name=CTargetIndicatingEvt
+TYPE=0, INFO=ClsObj Created Name=CTask
+TYPE=0, INFO=ClsObj Created Name=CSetDataRequest
+TYPE=0, INFO=ClsObj Created Name=CTorpedoBindingParams
+TYPE=0, INFO=ClsObj Created Name=CTorpedoStateRep
+TYPE=0, INFO=Load component dll:ModelComd.dll
+TYPE=0, INFO=ClsObj Created Name=CController
+TYPE=0, INFO=ClsObj Created Name=CDragSonarSensorModel
+TYPE=0, INFO=ClsObj Created Name=CMainMgr
+TYPE=0, INFO=ClsObj Created Name=CModel
+TYPE=0, INFO=ClsObj Created Name=CSensorModel
+TYPE=0, INFO=ClsObj Created Name=CShipCtrlModel
+TYPE=0, INFO=ClsObj Created Name=CShipMoveModel
+TYPE=0, INFO=ClsObj Created Name=CSonarSensorModel
+TYPE=0, INFO=ClsObj Created Name=CSubmarineCtrlModel
+TYPE=0, INFO=ClsObj Created Name=CSubMoveModel
+TYPE=0, INFO=ClsObj Created Name=CSubSonarSensorModel
+TYPE=0, INFO=ClsObj Created Name=CTorpedoCtrlModel
+TYPE=0, INFO=ClsObj Created Name=CTorpedoMoveModel
+TYPE=0, INFO=ClsObj Created Name=CTorpedoSonarSensorModel
+TYPE=0, INFO=离开 LoadComponent
+TYPE=0, INFO=进入 ParseFedItemClasses
+TYPE=0, INFO=离开 ParseFedItemClasses
+TYPE=0, INFO=进入 ParseAllComponentItemClasses
+TYPE=0, INFO=离开 ParseAllComponentItemClasses
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1001,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1002,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1003,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1004,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1005,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1006,ObjName=(null)
+TYPE=0, INFO=ClsObj Created Name=CxxSubmarineEntity
+TYPE=0, INFO=装配实体模型:CxxSubmarineEntity成功
+TYPE=0, INFO=ClsObj Created Name=CSDRController
+TYPE=0, INFO=装配实体模型:CSDRController成功
+TYPE=0, INFO=ClsObj Created Name=CyyTorpedoEntity
+TYPE=0, INFO=装配实体模型:CyyTorpedoEntity成功
+TYPE=0, INFO=ClsObj Created Name=CzzShipEntity
+TYPE=0, INFO=装配实体模型:CzzShipEntity成功
+TYPE=0, INFO=进入 CreateGlobalObj
+TYPE=0, INFO=CreateObj: clsName=CMainMgr,Objid=1,ObjName=PlanMgr
+TYPE=0, INFO=CreateObj: clsName=CDisp,Objid=1007,ObjName=Disp
+TYPE=0, INFO=离开 CreateGlobalObj
+TYPE=0, INFO=进入 ClassInit
+TYPE=0, INFO=离开 ClassInit
+TYPE=0, INFO=进入 ReadAllHLAClasses
+TYPE=1, INFO=订阅发布时没有找到类CEntityStateRep的类信息
+TYPE=1, INFO=订阅发布时没有找到类CEntityMoveOrderEvt的类信息
+TYPE=1, INFO=订阅发布时没有找到类CSimEnd的类信息
+TYPE=1, INFO=订阅发布时没有找到类CSimStart的类信息
+TYPE=1, INFO=订阅发布时没有找到类CSimPause的类信息
+TYPE=1, INFO=订阅发布时没有找到类CEntityMoveTask的类信息
+TYPE=0, INFO=离开 ReadAllHLAClasses
+TYPE=1, INFO=没有创建对象的类信息:类名=CNULLBridge
+TYPE=0, INFO=CreateObj: clsName=CNullBridge,Objid=65535,ObjName=bridge
+TYPE=1, INFO=桥接器对象CNULLBridge创建出错!!!
+TYPE=0, INFO=使用桥接器:CNullBridge
+TYPE=0, INFO=进入 RegisterHLAClasses
+TYPE=0, INFO=ClsName=CRTIBridge,ClsID=-1,PS=0
+TYPE=0, INFO=ClsName=CXBridge,ClsID=-1,PS=0
+TYPE=0, INFO=ClsName=CCreateCtrlObj,ClsID=-1,PS=3
+TYPE=0, INFO=ClsName=CCreateForceEntity,ClsID=-1,PS=3
+TYPE=0, INFO=ClsName=CTargetIndicatingEvt,ClsID=-1,PS=3
+TYPE=0, INFO=ClsName=CTask,ClsID=-1,PS=3
+TYPE=0, INFO=ClsName=CTorpedoBindingParams,ClsID=-1,PS=3
+TYPE=0, INFO=ClsName=CStateRepository,ClsID=0,PS=3
+TYPE=0, INFO=ClsName=CSimObjStateRep,ClsID=0,PS=3
+TYPE=0, INFO=ClsName=CControlObj,ClsID=0,PS=3
+TYPE=0, INFO=ClsName=CLineObj,ClsID=0,PS=3
+TYPE=0, INFO=ClsName=CShipStateRep,ClsID=0,PS=3
+TYPE=0, INFO=ClsName=CSubmarineStateRep,ClsID=0,PS=3
+TYPE=0, INFO=ClsName=CTorpedoStateRep,ClsID=0,PS=3
+TYPE=0, INFO=ClsName=CModel,ClsID=0,PS=3
+TYPE=0, INFO=ClsName=CController,ClsID=0,PS=3
+TYPE=0, INFO=ClsName=CShipCtrlModel,ClsID=0,PS=3
+TYPE=0, INFO=ClsName=CSubmarineCtrlModel,ClsID=0,PS=3
+TYPE=0, INFO=ClsName=CTorpedoCtrlModel,ClsID=0,PS=3
+TYPE=0, INFO=ClsName=CSensorModel,ClsID=0,PS=3
+TYPE=0, INFO=ClsName=CSonarSensorModel,ClsID=0,PS=3
+TYPE=0, INFO=ClsName=CDragSonarSensorModel,ClsID=0,PS=3
+TYPE=0, INFO=ClsName=CSubSonarSensorModel,ClsID=0,PS=3
+TYPE=0, INFO=ClsName=CTorpedoSonarSensorModel,ClsID=0,PS=3
+TYPE=0, INFO=ClsName=CShipMoveModel,ClsID=0,PS=3
+TYPE=0, INFO=ClsName=CSubMoveModel,ClsID=0,PS=3
+TYPE=0, INFO=ClsName=CTorpedoMoveModel,ClsID=0,PS=3
+TYPE=0, INFO=离开 RegisterHLAClasses
+TYPE=0, INFO=进入 Publish
+TYPE=0, INFO=离开 Publish
+TYPE=0, INFO=进入 Subscribe
+TYPE=0, INFO=离开 Subscribe
+TYPE=1, INFO=InitClassToMdb Name=CSimObjStateRep MaxObjNu=3200 ObjDataSize=8
+TYPE=1, INFO=InitClassToMdb Name=CControlObj MaxObjNu=3200 ObjDataSize=8
+TYPE=1, INFO=InitClassToMdb Name=CLineObj MaxObjNu=3200 ObjDataSize=256
+TYPE=1, INFO=InitClassToMdb Name=CShipStateRep MaxObjNu=3200 ObjDataSize=112
+TYPE=1, INFO=InitClassToMdb Name=CSubmarineStateRep MaxObjNu=3200 ObjDataSize=112
+TYPE=1, INFO=InitClassToMdb Name=CTorpedoStateRep MaxObjNu=3200 ObjDataSize=112
+TYPE=1, INFO=InitClassToMdb Name=CModel MaxObjNu=3200 ObjDataSize=8
+TYPE=1, INFO=InitClassToMdb Name=CController MaxObjNu=3200 ObjDataSize=8
+TYPE=1, INFO=InitClassToMdb Name=CShipCtrlModel MaxObjNu=3200 ObjDataSize=8
+TYPE=1, INFO=InitClassToMdb Name=CSubmarineCtrlModel MaxObjNu=3200 ObjDataSize=8
+TYPE=1, INFO=InitClassToMdb Name=CTorpedoCtrlModel MaxObjNu=3200 ObjDataSize=8
+TYPE=1, INFO=InitClassToMdb Name=CSensorModel MaxObjNu=3200 ObjDataSize=8
+TYPE=1, INFO=InitClassToMdb Name=CSonarSensorModel MaxObjNu=3200 ObjDataSize=8
+TYPE=1, INFO=InitClassToMdb Name=CDragSonarSensorModel MaxObjNu=3200 ObjDataSize=8
+TYPE=1, INFO=InitClassToMdb Name=CSubSonarSensorModel MaxObjNu=3200 ObjDataSize=8
+TYPE=1, INFO=InitClassToMdb Name=CTorpedoSonarSensorModel MaxObjNu=3200 ObjDataSize=8
+TYPE=1, INFO=InitClassToMdb Name=CShipMoveModel MaxObjNu=3200 ObjDataSize=8
+TYPE=1, INFO=InitClassToMdb Name=CSubMoveModel MaxObjNu=3200 ObjDataSize=8
+TYPE=1, INFO=InitClassToMdb Name=CTorpedoMoveModel MaxObjNu=3200 ObjDataSize=8
+TYPE=0, INFO=进入 LoadScenario
+TYPE=0, INFO=在联邦Time=0.000000时刻场景被加载
+TYPE=0, INFO=Scn time=0.000000
+TYPE=0, INFO=CreateObj: clsName=CSDRController,Objid=1009,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CSubmarineStateRep,Objid=65581,ObjName=None_46
+TYPE=0, INFO=CreateObj: clsName=CSubmarineCtrlModel,Objid=1010,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CSubSonarSensorModel,Objid=1011,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CSubMoveModel,Objid=1012,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CxxSubmarineEntity,Objid=1008,ObjName=xxSub
+TYPE=0, INFO=CreateObj: clsName=CSDRController,Objid=1014,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CShipStateRep,Objid=65582,ObjName=None_47
+TYPE=0, INFO=CreateObj: clsName=CDragSonarSensorModel,Objid=1015,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CShipCtrlModel,Objid=1016,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CShipMoveModel,Objid=1017,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CzzShipEntity,Objid=1013,ObjName=xxship_1
+TYPE=0, INFO=CreateObj: clsName=CSDRController,Objid=1019,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CShipStateRep,Objid=65583,ObjName=None_48
+TYPE=0, INFO=CreateObj: clsName=CDragSonarSensorModel,Objid=1020,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CShipCtrlModel,Objid=1021,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CShipMoveModel,Objid=1022,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CzzShipEntity,Objid=1018,ObjName=xxship_2
+TYPE=0, INFO=CreateObj: clsName=CLineObj,Objid=65584,ObjName=line_1
+TYPE=0, INFO=计划场景中的事件已调度结束,Time=0.000000
+TYPE=0, INFO=离开 LoadScenario
+TYPE=0, INFO=运行开始...
+TYPE=0, INFO=Wait=98 Evt=2 t=0 TAR=0 S=0 O=0 Feq=0
+TYPE=0, INFO=CreateObj: clsName=CSDRController,Objid=1023,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CTorpedoStateRep,Objid=65586,ObjName=None_51
+TYPE=0, INFO=CreateObj: clsName=CTorpedoCtrlModel,Objid=1024,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CTorpedoMoveModel,Objid=1025,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CTorpedoSonarSensorModel,Objid=1026,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CyyTorpedoEntity,Objid=65585,ObjName=RedTorpedo_301
+TYPE=0, INFO=Wait=100 Evt=0 t=0 TAR=0 S=0 O=0 Feq=51
+TYPE=0, INFO=Wait=37 Evt=2 t=61 TAR=0 S=0 O=0 Feq=4791
+TYPE=0, INFO=Wait=0 Evt=3 t=95 TAR=2 S=0 O=0 Feq=7622
+TYPE=0, INFO=Wait=1 Evt=5 t=92 TAR=1 S=1 O=0 Feq=4147
+TYPE=0, INFO=Wait=0 Evt=1 t=98 TAR=1 S=0 O=0 Feq=3014
+TYPE=0, INFO=Wait=0 Evt=2 t=97 TAR=1 S=0 O=0 Feq=3007
+TYPE=0, INFO=Wait=0 Evt=1 t=98 TAR=1 S=0 O=0 Feq=3001
+TYPE=0, INFO=Wait=0 Evt=2 t=97 TAR=0 S=0 O=1 Feq=2917
+TYPE=0, INFO=Wait=0 Evt=2 t=96 TAR=1 S=0 O=1 Feq=3001
+TYPE=0, INFO=Wait=1 Evt=2 t=95 TAR=2 S=0 O=0 Feq=5882
+TYPE=0, INFO=Wait=2 Evt=3 t=91 TAR=3 S=0 O=1 Feq=7825
+TYPE=0, INFO=Wait=0 Evt=5 t=94 TAR=1 S=0 O=0 Feq=7883
+TYPE=0, INFO=Wait=1 Evt=9 t=89 TAR=0 S=0 O=1 Feq=7930
+TYPE=0, INFO=Wait=0 Evt=7 t=91 TAR=1 S=0 O=1 Feq=7921
+TYPE=0, INFO=场景管理器得到请求，对象 ID=65585 请求退出
+TYPE=0, INFO=Delete LinkObj:id=65585,parentid=1,threadid=5568
+TYPE=0, INFO=Delete LinkObj:id=1023,parentid=65585,threadid=5568
+TYPE=0, INFO=Delete LinkObj:id=65586,parentid=65585,threadid=5568
+TYPE=0, INFO=Delete LinkObj:id=1024,parentid=65585,threadid=5568
+TYPE=0, INFO=Delete LinkObj:id=1025,parentid=65585,threadid=5568
+TYPE=0, INFO=Delete LinkObj:id=1026,parentid=65585,threadid=5568
+TYPE=0, INFO=Wait=0 Evt=3 t=96 TAR=1 S=0 O=0 Feq=8390
+TYPE=0, INFO=Wait=1 Evt=5 t=90 TAR=3 S=0 O=1 Feq=8946
+TYPE=0, INFO=Wait=2 Evt=4 t=93 TAR=1 S=0 O=0 Feq=8439
+TYPE=0, INFO=Wait=0 Evt=1 t=96 TAR=1 S=1 O=1 Feq=8744
+TYPE=0, INFO=Wait=0 Evt=4 t=94 TAR=1 S=0 O=1 Feq=7684
+TYPE=0, INFO=Wait=0 Evt=2 t=94 TAR=4 S=0 O=0 Feq=3292
+TYPE=0, INFO=Wait=0 Evt=2 t=97 TAR=1 S=0 O=0 Feq=3258
+TYPE=0, INFO=Wait=0 Evt=1 t=96 TAR=1 S=2 O=0 Feq=3207
+TYPE=0, INFO=Wait=0 Evt=6 t=93 TAR=1 S=0 O=0 Feq=8026
+TYPE=0, INFO=Wait=1 Evt=0 t=95 TAR=4 S=0 O=0 Feq=8894
+TYPE=0, INFO=Wait=1 Evt=5 t=90 TAR=3 S=0 O=1 Feq=9007
+TYPE=0, INFO=Wait=1 Evt=2 t=92 TAR=4 S=0 O=1 Feq=9010
+TYPE=0, INFO=Wait=1 Evt=2 t=93 TAR=4 S=0 O=0 Feq=9010
+TYPE=0, INFO=Wait=0 Evt=4 t=94 TAR=2 S=0 O=0 Feq=8995
+TYPE=0, INFO=Wait=0 Evt=0 t=98 TAR=1 S=0 O=1 Feq=9005
+TYPE=0, INFO=Wait=0 Evt=7 t=92 TAR=0 S=0 O=1 Feq=8805
+TYPE=0, INFO=Wait=0 Evt=4 t=95 TAR=1 S=0 O=0 Feq=8903
+TYPE=0, INFO=Wait=2 Evt=8 t=86 TAR=2 S=0 O=2 Feq=8900
+TYPE=0, INFO=Wait=0 Evt=3 t=92 TAR=4 S=0 O=1 Feq=8879
+TYPE=0, INFO=Wait=0 Evt=3 t=94 TAR=3 S=0 O=0 Feq=8880
+TYPE=0, INFO=Wait=0 Evt=4 t=96 TAR=0 S=0 O=0 Feq=8995
+TYPE=0, INFO=Wait=0 Evt=3 t=95 TAR=2 S=0 O=0 Feq=8996
+TYPE=0, INFO=Wait=0 Evt=3 t=96 TAR=1 S=0 O=0 Feq=8971
+TYPE=0, INFO=Wait=3 Evt=6 t=86 TAR=4 S=1 O=0 Feq=8919
+TYPE=0, INFO=Wait=0 Evt=3 t=95 TAR=2 S=0 O=0 Feq=8986
+TYPE=0, INFO=Wait=1 Evt=1 t=98 TAR=0 S=0 O=0 Feq=9010
+TYPE=0, INFO=Wait=2 Evt=5 t=89 TAR=1 S=0 O=3 Feq=8892
+TYPE=0, INFO=Wait=1 Evt=3 t=93 TAR=2 S=0 O=1 Feq=8798
+TYPE=0, INFO=Wait=0 Evt=3 t=92 TAR=3 S=2 O=0 Feq=8983
+TYPE=0, INFO=Wait=1 Evt=4 t=92 TAR=1 S=2 O=0 Feq=8954
+TYPE=0, INFO=Wait=0 Evt=4 t=92 TAR=3 S=0 O=1 Feq=8995
+TYPE=0, INFO=Wait=2 Evt=4 t=92 TAR=1 S=0 O=1 Feq=8878
+TYPE=0, INFO=Wait=0 Evt=4 t=91 TAR=1 S=1 O=3 Feq=9010
+TYPE=0, INFO=Wait=0 Evt=5 t=93 TAR=0 S=1 O=1 Feq=8971
+TYPE=0, INFO=Wait=0 Evt=7 t=89 TAR=2 S=0 O=2 Feq=8999
+TYPE=0, INFO=Wait=1 Evt=6 t=91 TAR=1 S=0 O=1 Feq=9019
+TYPE=0, INFO=Wait=0 Evt=3 t=95 TAR=2 S=0 O=0 Feq=8859
+TYPE=0, INFO=Wait=1 Evt=4 t=94 TAR=1 S=0 O=0 Feq=8587
+TYPE=0, INFO=Wait=1 Evt=3 t=92 TAR=4 S=0 O=0 Feq=8715
+TYPE=0, INFO=Wait=0 Evt=2 t=92 TAR=5 S=0 O=1 Feq=8988
+TYPE=0, INFO=Wait=1 Evt=6 t=92 TAR=1 S=0 O=0 Feq=8859
+TYPE=0, INFO=Wait=1 Evt=2 t=92 TAR=4 S=0 O=1 Feq=8890
+TYPE=0, INFO=Wait=0 Evt=2 t=94 TAR=1 S=0 O=3 Feq=9019
+TYPE=0, INFO=Wait=1 Evt=5 t=91 TAR=1 S=0 O=2 Feq=8658
+TYPE=0, INFO=Wait=2 Evt=3 t=93 TAR=2 S=0 O=0 Feq=8692
+TYPE=0, INFO=Wait=0 Evt=1 t=96 TAR=2 S=0 O=1 Feq=8990
+TYPE=0, INFO=Wait=0 Evt=2 t=93 TAR=4 S=0 O=1 Feq=8655
+TYPE=0, INFO=Wait=0 Evt=5 t=94 TAR=0 S=0 O=1 Feq=8619
+TYPE=0, INFO=Wait=0 Evt=5 t=89 TAR=5 S=0 O=1 Feq=8961
+TYPE=0, INFO=Wait=1 Evt=2 t=96 TAR=1 S=0 O=0 Feq=8905
+TYPE=0, INFO=Wait=1 Evt=4 t=95 TAR=0 S=0 O=0 Feq=8299
+TYPE=0, INFO=Wait=0 Evt=5 t=89 TAR=5 S=1 O=0 Feq=8945
+TYPE=0, INFO=Wait=0 Evt=4 t=94 TAR=1 S=0 O=1 Feq=9004
+TYPE=0, INFO=Wait=0 Evt=5 t=94 TAR=1 S=0 O=0 Feq=8900
+TYPE=0, INFO=Wait=1 Evt=7 t=90 TAR=1 S=1 O=0 Feq=8977
+TYPE=0, INFO=Wait=0 Evt=2 t=95 TAR=2 S=0 O=1 Feq=8676
+TYPE=0, INFO=Wait=0 Evt=3 t=94 TAR=1 S=0 O=2 Feq=9035
+TYPE=0, INFO=Wait=0 Evt=4 t=95 TAR=0 S=0 O=1 Feq=8349
+TYPE=0, INFO=Wait=0 Evt=4 t=92 TAR=4 S=0 O=0 Feq=9045
+TYPE=0, INFO=Wait=0 Evt=3 t=91 TAR=4 S=0 O=2 Feq=8749
+TYPE=0, INFO=Wait=1 Evt=1 t=95 TAR=3 S=0 O=0 Feq=8467
+TYPE=0, INFO=Wait=0 Evt=3 t=93 TAR=3 S=0 O=1 Feq=8927
+TYPE=0, INFO=Wait=0 Evt=5 t=92 TAR=2 S=1 O=0 Feq=8950
+TYPE=0, INFO=Wait=0 Evt=2 t=96 TAR=1 S=0 O=1 Feq=8906
+TYPE=0, INFO=Wait=2 Evt=6 t=88 TAR=4 S=0 O=0 Feq=8786
+TYPE=0, INFO=Wait=0 Evt=4 t=91 TAR=3 S=1 O=1 Feq=8998
+TYPE=0, INFO=Wait=1 Evt=5 t=90 TAR=3 S=0 O=1 Feq=8744
+TYPE=0, INFO=Wait=1 Evt=5 t=86 TAR=5 S=2 O=1 Feq=9008
+TYPE=0, INFO=Wait=0 Evt=5 t=92 TAR=3 S=0 O=0 Feq=8616
+TYPE=0, INFO=Wait=0 Evt=3 t=93 TAR=2 S=0 O=2 Feq=8976
+TYPE=0, INFO=Wait=1 Evt=3 t=92 TAR=4 S=0 O=0 Feq=8604
+TYPE=0, INFO=Wait=2 Evt=5 t=93 TAR=0 S=0 O=0 Feq=8714
+TYPE=0, INFO=Wait=0 Evt=6 t=93 TAR=1 S=0 O=0 Feq=8962
+TYPE=0, INFO=Wait=0 Evt=4 t=90 TAR=4 S=2 O=0 Feq=8995
+TYPE=0, INFO=Wait=0 Evt=7 t=89 TAR=4 S=0 O=0 Feq=8975
+TYPE=0, INFO=Wait=1 Evt=1 t=94 TAR=3 S=1 O=0 Feq=9002
+TYPE=0, INFO=Wait=0 Evt=8 t=89 TAR=3 S=0 O=0 Feq=8921
+TYPE=0, INFO=Wait=1 Evt=4 t=89 TAR=5 S=0 O=1 Feq=8884
+TYPE=0, INFO=Wait=0 Evt=5 t=92 TAR=2 S=0 O=1 Feq=8430
+TYPE=0, INFO=Wait=2 Evt=4 t=91 TAR=2 S=1 O=0 Feq=9007
+TYPE=0, INFO=Wait=1 Evt=6 t=91 TAR=1 S=0 O=1 Feq=8694
+TYPE=0, INFO=Wait=2 Evt=3 t=93 TAR=2 S=0 O=0 Feq=8958
+TYPE=0, INFO=Wait=0 Evt=5 t=94 TAR=1 S=0 O=0 Feq=9035
+TYPE=0, INFO=Wait=1 Evt=2 t=93 TAR=2 S=1 O=1 Feq=8519
+TYPE=0, INFO=Wait=0 Evt=5 t=92 TAR=2 S=0 O=1 Feq=9011
+TYPE=0, INFO=Wait=0 Evt=2 t=97 TAR=1 S=0 O=0 Feq=9030
+TYPE=0, INFO=Wait=0 Evt=2 t=95 TAR=3 S=0 O=0 Feq=9015
+TYPE=0, INFO=Wait=0 Evt=4 t=94 TAR=1 S=0 O=1 Feq=8728
+TYPE=0, INFO=Wait=0 Evt=10 t=87 TAR=2 S=0 O=1 Feq=8318
+TYPE=0, INFO=Wait=0 Evt=3 t=93 TAR=4 S=0 O=0 Feq=8990
+TYPE=0, INFO=Wait=1 Evt=3 t=96 TAR=0 S=0 O=0 Feq=8668
+TYPE=0, INFO=Wait=0 Evt=6 t=92 TAR=1 S=0 O=1 Feq=8936
+TYPE=0, INFO=Wait=1 Evt=3 t=95 TAR=1 S=0 O=0 Feq=8730
+TYPE=0, INFO=Wait=0 Evt=4 t=95 TAR=0 S=0 O=1 Feq=9004
+TYPE=0, INFO=Wait=0 Evt=5 t=93 TAR=2 S=0 O=0 Feq=8804
+TYPE=0, INFO=Wait=0 Evt=4 t=93 TAR=1 S=0 O=2 Feq=8755
+TYPE=0, INFO=Wait=1 Evt=3 t=95 TAR=1 S=0 O=0 Feq=9020
+TYPE=0, INFO=Wait=1 Evt=4 t=91 TAR=4 S=0 O=0 Feq=8982
+TYPE=0, INFO=Wait=0 Evt=5 t=94 TAR=0 S=0 O=1 Feq=8888
+TYPE=0, INFO=Wait=0 Evt=8 t=92 TAR=0 S=0 O=0 Feq=9006
+TYPE=0, INFO=Wait=1 Evt=4 t=90 TAR=4 S=0 O=1 Feq=9015
+TYPE=0, INFO=Wait=0 Evt=4 t=90 TAR=3 S=2 O=1 Feq=9010
+TYPE=0, INFO=Wait=2 Evt=5 t=89 TAR=3 S=1 O=0 Feq=8986
+TYPE=0, INFO=Wait=0 Evt=1 t=95 TAR=2 S=0 O=2 Feq=8956
+TYPE=0, INFO=Wait=0 Evt=3 t=95 TAR=0 S=0 O=2 Feq=9027
+TYPE=0, INFO=Wait=1 Evt=3 t=95 TAR=1 S=0 O=0 Feq=8930
+TYPE=0, INFO=Wait=1 Evt=4 t=88 TAR=5 S=2 O=0 Feq=8625
+TYPE=0, INFO=Wait=0 Evt=5 t=94 TAR=1 S=0 O=0 Feq=8664
+TYPE=0, INFO=Wait=0 Evt=4 t=95 TAR=1 S=0 O=0 Feq=8687
+TYPE=0, INFO=Wait=1 Evt=2 t=93 TAR=4 S=0 O=0 Feq=8561
+TYPE=0, INFO=Wait=1 Evt=4 t=92 TAR=2 S=0 O=1 Feq=8949
+TYPE=0, INFO=Wait=1 Evt=5 t=92 TAR=2 S=0 O=0 Feq=8746
+TYPE=0, INFO=Wait=2 Evt=3 t=92 TAR=2 S=0 O=1 Feq=9013
+TYPE=0, INFO=Wait=2 Evt=5 t=91 TAR=2 S=0 O=0 Feq=8726
+TYPE=0, INFO=Wait=1 Evt=2 t=93 TAR=2 S=1 O=1 Feq=8688
+TYPE=0, INFO=Wait=3 Evt=8 t=88 TAR=1 S=0 O=0 Feq=8658
+TYPE=0, INFO=Wait=1 Evt=5 t=86 TAR=7 S=0 O=1 Feq=8990
+TYPE=0, INFO=Wait=1 Evt=7 t=86 TAR=6 S=0 O=0 Feq=8717
+TYPE=0, INFO=Wait=0 Evt=1 t=93 TAR=4 S=0 O=2 Feq=8928
+TYPE=0, INFO=Wait=1 Evt=2 t=92 TAR=5 S=0 O=0 Feq=9000
+TYPE=0, INFO=Wait=1 Evt=6 t=89 TAR=3 S=1 O=0 Feq=9030
+TYPE=0, INFO=Wait=1 Evt=4 t=93 TAR=1 S=0 O=1 Feq=8787
+TYPE=0, INFO=Wait=0 Evt=3 t=93 TAR=2 S=0 O=2 Feq=8673
+TYPE=0, INFO=Wait=1 Evt=5 t=94 TAR=0 S=0 O=0 Feq=8657
+TYPE=0, INFO=Wait=1 Evt=3 t=93 TAR=0 S=1 O=2 Feq=9010
+TYPE=0, INFO=Wait=0 Evt=3 t=96 TAR=1 S=0 O=0 Feq=8740
+TYPE=0, INFO=Wait=0 Evt=6 t=93 TAR=0 S=0 O=1 Feq=9039
+TYPE=0, INFO=Wait=0 Evt=3 t=95 TAR=1 S=0 O=1 Feq=8756
+TYPE=0, INFO=Wait=1 Evt=7 t=90 TAR=1 S=0 O=1 Feq=8797
+TYPE=0, INFO=Wait=1 Evt=3 t=96 TAR=0 S=0 O=0 Feq=9052
+TYPE=0, INFO=Wait=0 Evt=2 t=94 TAR=3 S=0 O=1 Feq=8382
+TYPE=0, INFO=Wait=1 Evt=7 t=89 TAR=2 S=1 O=0 Feq=8319
+TYPE=0, INFO=Wait=0 Evt=7 t=90 TAR=2 S=1 O=0 Feq=8982
+TYPE=0, INFO=Wait=0 Evt=6 t=92 TAR=2 S=0 O=0 Feq=8701
+TYPE=0, INFO=Wait=0 Evt=10 t=87 TAR=2 S=0 O=1 Feq=8695
+TYPE=0, INFO=Wait=0 Evt=6 t=87 TAR=5 S=2 O=0 Feq=9040
+TYPE=0, INFO=Wait=0 Evt=7 t=93 TAR=0 S=0 O=0 Feq=8688
+TYPE=0, INFO=Wait=2 Evt=2 t=96 TAR=0 S=0 O=0 Feq=8735
+TYPE=0, INFO=Wait=1 Evt=6 t=92 TAR=0 S=0 O=1 Feq=9023
+TYPE=0, INFO=Wait=0 Evt=9 t=90 TAR=1 S=0 O=0 Feq=8716
+TYPE=0, INFO=Wait=0 Evt=9 t=88 TAR=2 S=0 O=1 Feq=8938
+TYPE=0, INFO=Wait=1 Evt=3 t=90 TAR=6 S=0 O=0 Feq=8995
+TYPE=0, INFO=Wait=0 Evt=3 t=93 TAR=2 S=1 O=1 Feq=9013
+TYPE=0, INFO=Wait=0 Evt=3 t=96 TAR=1 S=0 O=0 Feq=9012
+TYPE=0, INFO=Wait=1 Evt=5 t=91 TAR=3 S=0 O=0 Feq=8655
+TYPE=0, INFO=Wait=1 Evt=6 t=91 TAR=2 S=0 O=0 Feq=8998
+TYPE=0, INFO=Wait=0 Evt=4 t=95 TAR=1 S=0 O=0 Feq=8949
+TYPE=0, INFO=Wait=1 Evt=4 t=91 TAR=4 S=0 O=0 Feq=8641
+TYPE=0, INFO=Wait=3 Evt=4 t=89 TAR=2 S=0 O=2 Feq=8914
+TYPE=0, INFO=Wait=1 Evt=5 t=92 TAR=1 S=0 O=1 Feq=9006
+TYPE=0, INFO=Wait=0 Evt=2 t=94 TAR=2 S=0 O=2 Feq=8912
+TYPE=0, INFO=Wait=0 Evt=3 t=94 TAR=3 S=0 O=0 Feq=9028
+TYPE=0, INFO=Wait=0 Evt=8 t=88 TAR=4 S=0 O=0 Feq=8683
+TYPE=0, INFO=Wait=1 Evt=5 t=91 TAR=2 S=1 O=0 Feq=8603
+TYPE=0, INFO=Wait=0 Evt=6 t=91 TAR=1 S=1 O=1 Feq=8961
+TYPE=0, INFO=Wait=0 Evt=1 t=97 TAR=2 S=0 O=0 Feq=8675
+TYPE=0, INFO=Wait=0 Evt=5 t=92 TAR=2 S=0 O=1 Feq=8887
+TYPE=0, INFO=Wait=0 Evt=5 t=87 TAR=7 S=0 O=1 Feq=8580
+TYPE=0, INFO=Wait=0 Evt=6 t=90 TAR=4 S=0 O=0 Feq=8995
+TYPE=0, INFO=Wait=0 Evt=7 t=91 TAR=2 S=0 O=0 Feq=8704
+TYPE=0, INFO=Wait=0 Evt=4 t=93 TAR=1 S=1 O=1 Feq=8679
+TYPE=0, INFO=Wait=1 Evt=5 t=93 TAR=0 S=1 O=0 Feq=8894
+TYPE=0, INFO=Wait=0 Evt=4 t=95 TAR=1 S=0 O=0 Feq=9017
+TYPE=0, INFO=Wait=0 Evt=7 t=89 TAR=3 S=0 O=1 Feq=9015
+TYPE=0, INFO=Wait=0 Evt=3 t=96 TAR=1 S=0 O=0 Feq=9028
+TYPE=0, INFO=Wait=1 Evt=2 t=94 TAR=1 S=0 O=2 Feq=8995
+TYPE=0, INFO=Wait=0 Evt=6 t=92 TAR=2 S=0 O=0 Feq=8783
+TYPE=0, INFO=Wait=0 Evt=5 t=92 TAR=3 S=0 O=0 Feq=8520
+TYPE=0, INFO=Wait=0 Evt=3 t=96 TAR=1 S=0 O=0 Feq=8876
+TYPE=0, INFO=Wait=0 Evt=3 t=93 TAR=4 S=0 O=0 Feq=8904
+TYPE=0, INFO=Wait=0 Evt=4 t=90 TAR=3 S=1 O=2 Feq=8999
+TYPE=0, INFO=Wait=1 Evt=8 t=88 TAR=2 S=1 O=0 Feq=8845
+TYPE=0, INFO=Wait=0 Evt=2 t=95 TAR=2 S=1 O=0 Feq=9005
+TYPE=0, INFO=Wait=0 Evt=2 t=95 TAR=3 S=0 O=0 Feq=9018
+TYPE=0, INFO=Wait=0 Evt=4 t=94 TAR=1 S=0 O=1 Feq=8898
+TYPE=0, INFO=Wait=0 Evt=2 t=96 TAR=2 S=0 O=0 Feq=9020
+TYPE=0, INFO=Wait=0 Evt=5 t=90 TAR=3 S=1 O=1 Feq=8597
+TYPE=0, INFO=Wait=0 Evt=6 t=90 TAR=3 S=0 O=1 Feq=8978
+TYPE=0, INFO=Wait=0 Evt=5 t=91 TAR=2 S=2 O=0 Feq=8926
+TYPE=0, INFO=Wait=0 Evt=11 t=87 TAR=2 S=0 O=0 Feq=8893
+TYPE=0, INFO=Wait=0 Evt=3 t=95 TAR=2 S=0 O=0 Feq=8869
+TYPE=0, INFO=Wait=0 Evt=5 t=90 TAR=3 S=0 O=2 Feq=9033
+TYPE=0, INFO=Wait=0 Evt=3 t=90 TAR=3 S=1 O=3 Feq=8959
+TYPE=0, INFO=Wait=1 Evt=6 t=90 TAR=0 S=1 O=2 Feq=8522
+TYPE=0, INFO=Wait=1 Evt=4 t=94 TAR=0 S=0 O=1 Feq=8987
+TYPE=0, INFO=Wait=0 Evt=6 t=92 TAR=2 S=0 O=0 Feq=8996
+TYPE=0, INFO=Wait=0 Evt=4 t=93 TAR=0 S=0 O=3 Feq=8898
+TYPE=0, INFO=Wait=0 Evt=9 t=91 TAR=0 S=0 O=0 Feq=9020
+TYPE=0, INFO=Wait=0 Evt=8 t=87 TAR=3 S=0 O=2 Feq=8735
+TYPE=0, INFO=Wait=0 Evt=6 t=93 TAR=0 S=0 O=1 Feq=8596
+TYPE=0, INFO=Wait=0 Evt=5 t=91 TAR=3 S=0 O=1 Feq=8582
+TYPE=0, INFO=Wait=0 Evt=3 t=95 TAR=1 S=1 O=0 Feq=8718
+TYPE=0, INFO=Wait=0 Evt=3 t=91 TAR=3 S=1 O=2 Feq=8944
+TYPE=0, INFO=Wait=1 Evt=3 t=92 TAR=3 S=0 O=1 Feq=9024
+TYPE=0, INFO=Wait=1 Evt=1 t=96 TAR=2 S=0 O=0 Feq=8700
+TYPE=0, INFO=Wait=1 Evt=5 t=93 TAR=0 S=1 O=0 Feq=8651
+TYPE=0, INFO=Wait=0 Evt=2 t=97 TAR=1 S=0 O=0 Feq=8909
+TYPE=0, INFO=Wait=1 Evt=7 t=87 TAR=4 S=0 O=1 Feq=8994
+TYPE=0, INFO=Wait=0 Evt=2 t=96 TAR=1 S=1 O=0 Feq=8634
+TYPE=0, INFO=Wait=0 Evt=6 t=92 TAR=2 S=0 O=0 Feq=8945
+TYPE=0, INFO=Wait=1 Evt=4 t=93 TAR=2 S=0 O=0 Feq=8871
+TYPE=0, INFO=Wait=2 Evt=3 t=90 TAR=3 S=0 O=2 Feq=9028
+TYPE=0, INFO=Wait=0 Evt=4 t=93 TAR=2 S=1 O=0 Feq=9051
+TYPE=0, INFO=Wait=1 Evt=1 t=97 TAR=1 S=0 O=0 Feq=9042
+TYPE=0, INFO=Wait=2 Evt=6 t=88 TAR=2 S=1 O=1 Feq=9017
+TYPE=0, INFO=Wait=0 Evt=1 t=98 TAR=1 S=0 O=0 Feq=8708
+TYPE=0, INFO=Wait=1 Evt=4 t=90 TAR=4 S=0 O=1 Feq=8727
+TYPE=0, INFO=Wait=1 Evt=7 t=90 TAR=2 S=0 O=0 Feq=8872
+TYPE=0, INFO=Wait=0 Evt=2 t=93 TAR=4 S=0 O=1 Feq=8476
+TYPE=0, INFO=Wait=2 Evt=5 t=90 TAR=2 S=0 O=1 Feq=8754
+TYPE=0, INFO=Wait=0 Evt=4 t=92 TAR=4 S=0 O=0 Feq=8959
+TYPE=0, INFO=Wait=1 Evt=2 t=92 TAR=4 S=0 O=1 Feq=9014
+TYPE=0, INFO=Wait=0 Evt=3 t=93 TAR=2 S=1 O=1 Feq=8768
+TYPE=0, INFO=Wait=1 Evt=5 t=91 TAR=1 S=1 O=1 Feq=8873
+TYPE=0, INFO=Wait=0 Evt=5 t=91 TAR=3 S=0 O=1 Feq=9028
+TYPE=0, INFO=Wait=1 Evt=3 t=90 TAR=2 S=1 O=3 Feq=8924
+TYPE=0, INFO=Wait=1 Evt=4 t=93 TAR=1 S=1 O=0 Feq=9036
+TYPE=0, INFO=Wait=0 Evt=3 t=95 TAR=2 S=0 O=0 Feq=8731
+TYPE=0, INFO=Wait=0 Evt=3 t=94 TAR=3 S=0 O=0 Feq=8661
+TYPE=0, INFO=Wait=0 Evt=7 t=90 TAR=2 S=0 O=1 Feq=8973
+TYPE=0, INFO=Wait=3 Evt=3 t=93 TAR=1 S=0 O=0 Feq=8741
+TYPE=0, INFO=Wait=0 Evt=6 t=92 TAR=2 S=0 O=0 Feq=8930
+TYPE=0, INFO=Wait=0 Evt=3 t=92 TAR=3 S=1 O=1 Feq=9012
+TYPE=0, INFO=Wait=0 Evt=6 t=92 TAR=1 S=1 O=0 Feq=8390
+TYPE=0, INFO=Wait=0 Evt=4 t=95 TAR=1 S=0 O=0 Feq=8654
+TYPE=0, INFO=Wait=1 Evt=6 t=89 TAR=2 S=0 O=2 Feq=9009
+TYPE=0, INFO=Wait=0 Evt=7 t=90 TAR=2 S=0 O=1 Feq=9000
+TYPE=0, INFO=Wait=0 Evt=5 t=95 TAR=0 S=0 O=0 Feq=8713
+TYPE=0, INFO=Wait=0 Evt=3 t=93 TAR=3 S=0 O=1 Feq=8640
+TYPE=0, INFO=Wait=1 Evt=7 t=90 TAR=2 S=0 O=0 Feq=8697
+TYPE=0, INFO=Wait=0 Evt=8 t=91 TAR=1 S=0 O=0 Feq=8564
+TYPE=0, INFO=Wait=1 Evt=5 t=88 TAR=4 S=1 O=1 Feq=8685
+TYPE=0, INFO=Wait=0 Evt=6 t=92 TAR=1 S=0 O=1 Feq=9013
+TYPE=0, INFO=Wait=1 Evt=7 t=88 TAR=3 S=0 O=1 Feq=8743
+TYPE=0, INFO=Wait=0 Evt=2 t=96 TAR=1 S=0 O=1 Feq=8968
+TYPE=0, INFO=Wait=2 Evt=3 t=90 TAR=4 S=0 O=1 Feq=8909
+TYPE=0, INFO=Wait=1 Evt=3 t=92 TAR=3 S=0 O=1 Feq=9044
+TYPE=0, INFO=Wait=1 Evt=5 t=87 TAR=4 S=2 O=1 Feq=8762
+TYPE=0, INFO=Wait=1 Evt=1 t=96 TAR=1 S=0 O=1 Feq=8310
+TYPE=0, INFO=Wait=0 Evt=2 t=98 TAR=0 S=0 O=0 Feq=8985
+TYPE=0, INFO=Wait=2 Evt=9 t=86 TAR=3 S=0 O=0 Feq=8748
+TYPE=0, INFO=Wait=0 Evt=1 t=95 TAR=4 S=0 O=0 Feq=8546
+TYPE=0, INFO=Wait=0 Evt=4 t=94 TAR=1 S=0 O=1 Feq=8921
+TYPE=0, INFO=Wait=0 Evt=4 t=93 TAR=2 S=0 O=1 Feq=7722
+TYPE=0, INFO=Wait=0 Evt=4 t=93 TAR=2 S=0 O=1 Feq=9077
+TYPE=0, INFO=Wait=0 Evt=6 t=92 TAR=1 S=0 O=1 Feq=9125
+TYPE=0, INFO=Wait=0 Evt=6 t=92 TAR=2 S=0 O=0 Feq=9101
+TYPE=0, INFO=Wait=0 Evt=3 t=94 TAR=2 S=1 O=0 Feq=9151
+TYPE=0, INFO=Wait=0 Evt=4 t=94 TAR=1 S=0 O=1 Feq=9187
+TYPE=0, INFO=Wait=1 Evt=5 t=89 TAR=2 S=2 O=1 Feq=9180
+TYPE=0, INFO=Wait=3 Evt=5 t=90 TAR=1 S=0 O=1 Feq=9113
+TYPE=0, INFO=Wait=1 Evt=8 t=87 TAR=2 S=1 O=1 Feq=8669
+TYPE=0, INFO=Wait=1 Evt=1 t=95 TAR=0 S=0 O=3 Feq=7688
+TYPE=0, INFO=Wait=0 Evt=4 t=95 TAR=1 S=0 O=0 Feq=8884
+TYPE=0, INFO=Wait=0 Evt=2 t=93 TAR=4 S=1 O=0 Feq=9184
+TYPE=0, INFO=Wait=0 Evt=6 t=88 TAR=3 S=1 O=2 Feq=9161
+TYPE=0, INFO=Wait=0 Evt=3 t=95 TAR=1 S=0 O=1 Feq=9178
+TYPE=0, INFO=Wait=0 Evt=4 t=91 TAR=4 S=0 O=1 Feq=9138
+TYPE=0, INFO=Wait=1 Evt=7 t=84 TAR=5 S=0 O=3 Feq=9163
+TYPE=0, INFO=Wait=0 Evt=3 t=92 TAR=4 S=0 O=1 Feq=9172
+TYPE=0, INFO=Wait=0 Evt=4 t=92 TAR=3 S=0 O=1 Feq=9167
+TYPE=0, INFO=Wait=2 Evt=5 t=92 TAR=0 S=1 O=0 Feq=9154
+TYPE=0, INFO=Wait=1 Evt=5 t=92 TAR=2 S=0 O=0 Feq=9169
+TYPE=0, INFO=Wait=0 Evt=3 t=97 TAR=0 S=0 O=0 Feq=9158
+TYPE=0, INFO=Wait=2 Evt=2 t=95 TAR=0 S=0 O=1 Feq=9175
+TYPE=0, INFO=Wait=0 Evt=4 t=93 TAR=2 S=1 O=0 Feq=9142
+TYPE=0, INFO=Wait=0 Evt=2 t=97 TAR=1 S=0 O=0 Feq=9167
+TYPE=0, INFO=Wait=0 Evt=5 t=93 TAR=2 S=0 O=0 Feq=9180
+TYPE=0, INFO=Wait=1 Evt=5 t=89 TAR=4 S=0 O=1 Feq=9137
+TYPE=0, INFO=Wait=0 Evt=4 t=94 TAR=1 S=0 O=1 Feq=9176
+TYPE=0, INFO=Wait=3 Evt=6 t=87 TAR=3 S=0 O=1 Feq=9176
+TYPE=0, INFO=Wait=0 Evt=8 t=89 TAR=2 S=0 O=1 Feq=9166
+TYPE=0, INFO=Wait=0 Evt=9 t=88 TAR=3 S=0 O=0 Feq=9168
+TYPE=0, INFO=Wait=1 Evt=2 t=93 TAR=3 S=0 O=1 Feq=9182
+TYPE=0, INFO=Wait=0 Evt=3 t=96 TAR=1 S=0 O=0 Feq=9228
+TYPE=0, INFO=Wait=0 Evt=8 t=88 TAR=3 S=0 O=1 Feq=9195
+TYPE=0, INFO=Wait=0 Evt=3 t=95 TAR=2 S=0 O=0 Feq=9146
+TYPE=0, INFO=Wait=1 Evt=6 t=90 TAR=2 S=0 O=1 Feq=9187
+TYPE=0, INFO=Wait=1 Evt=5 t=90 TAR=4 S=0 O=0 Feq=9171
+TYPE=0, INFO=Wait=0 Evt=7 t=89 TAR=3 S=0 O=1 Feq=9156
+TYPE=0, INFO=Wait=0 Evt=3 t=95 TAR=2 S=0 O=0 Feq=9163
+TYPE=0, INFO=Wait=1 Evt=5 t=91 TAR=1 S=2 O=0 Feq=9152
+TYPE=0, INFO=Wait=1 Evt=4 t=87 TAR=6 S=2 O=0 Feq=9177
+TYPE=0, INFO=Wait=1 Evt=5 t=89 TAR=4 S=0 O=1 Feq=9149
+TYPE=0, INFO=Wait=0 Evt=8 t=88 TAR=4 S=0 O=0 Feq=9190
+TYPE=0, INFO=Wait=0 Evt=4 t=94 TAR=2 S=0 O=0 Feq=9176
+TYPE=0, INFO=Wait=1 Evt=7 t=90 TAR=2 S=0 O=0 Feq=9159
+TYPE=0, INFO=Wait=0 Evt=6 t=93 TAR=1 S=0 O=0 Feq=9163
+TYPE=0, INFO=Wait=0 Evt=4 t=91 TAR=3 S=1 O=1 Feq=9164
+TYPE=0, INFO=Wait=0 Evt=7 t=86 TAR=4 S=0 O=3 Feq=9172
+TYPE=0, INFO=Wait=0 Evt=5 t=89 TAR=6 S=0 O=0 Feq=9160
+TYPE=0, INFO=Wait=1 Evt=4 t=92 TAR=3 S=0 O=0 Feq=9176
+TYPE=0, INFO=Wait=2 Evt=3 t=91 TAR=4 S=0 O=0 Feq=9156
+TYPE=0, INFO=Wait=0 Evt=5 t=91 TAR=3 S=0 O=1 Feq=9155
+TYPE=0, INFO=Wait=1 Evt=3 t=94 TAR=2 S=0 O=0 Feq=9183
+TYPE=0, INFO=Wait=0 Evt=5 t=89 TAR=6 S=0 O=0 Feq=9148
+TYPE=0, INFO=Wait=0 Evt=3 t=95 TAR=0 S=1 O=1 Feq=9106
+TYPE=0, INFO=Wait=0 Evt=1 t=93 TAR=2 S=0 O=4 Feq=9158
+TYPE=0, INFO=Wait=1 Evt=5 t=91 TAR=3 S=0 O=0 Feq=9167
+TYPE=0, INFO=Wait=0 Evt=7 t=90 TAR=2 S=1 O=0 Feq=9183
+TYPE=0, INFO=Wait=0 Evt=8 t=88 TAR=4 S=0 O=0 Feq=9153
+TYPE=0, INFO=Wait=0 Evt=2 t=95 TAR=3 S=0 O=0 Feq=9164
+TYPE=0, INFO=Wait=2 Evt=5 t=88 TAR=4 S=0 O=1 Feq=9148
+TYPE=0, INFO=Wait=0 Evt=0 t=98 TAR=2 S=0 O=0 Feq=9145
+TYPE=0, INFO=Wait=1 Evt=7 t=89 TAR=0 S=0 O=3 Feq=9146
+TYPE=0, INFO=Wait=0 Evt=5 t=93 TAR=1 S=1 O=0 Feq=9156
+TYPE=0, INFO=Wait=0 Evt=5 t=93 TAR=2 S=0 O=0 Feq=9162
+TYPE=0, INFO=Wait=0 Evt=6 t=90 TAR=3 S=1 O=0 Feq=9169
+TYPE=0, INFO=Wait=0 Evt=3 t=95 TAR=1 S=0 O=1 Feq=9177
+TYPE=0, INFO=Wait=0 Evt=5 t=90 TAR=3 S=1 O=1 Feq=9176
+TYPE=0, INFO=Wait=1 Evt=5 t=89 TAR=4 S=0 O=1 Feq=9163
+TYPE=0, INFO=Wait=0 Evt=5 t=94 TAR=1 S=0 O=0 Feq=9147
+TYPE=0, INFO=Wait=0 Evt=6 t=88 TAR=3 S=1 O=2 Feq=9162
+TYPE=0, INFO=Wait=0 Evt=3 t=91 TAR=5 S=0 O=1 Feq=9160
+TYPE=0, INFO=Wait=0 Evt=6 t=91 TAR=3 S=0 O=0 Feq=9166
+TYPE=0, INFO=Wait=0 Evt=8 t=90 TAR=0 S=0 O=2 Feq=9175
+TYPE=0, INFO=Wait=1 Evt=6 t=91 TAR=1 S=0 O=1 Feq=9137
+TYPE=0, INFO=Wait=1 Evt=5 t=93 TAR=1 S=0 O=0 Feq=9162
+TYPE=0, INFO=Wait=1 Evt=7 t=89 TAR=3 S=0 O=0 Feq=9151
+TYPE=0, INFO=Wait=0 Evt=4 t=91 TAR=3 S=1 O=1 Feq=9162
+TYPE=0, INFO=Wait=1 Evt=4 t=93 TAR=1 S=0 O=1 Feq=9162
+TYPE=0, INFO=Wait=0 Evt=5 t=95 TAR=0 S=0 O=0 Feq=9176
+TYPE=0, INFO=Wait=1 Evt=2 t=96 TAR=0 S=1 O=0 Feq=9179
+TYPE=0, INFO=Wait=1 Evt=4 t=91 TAR=2 S=2 O=0 Feq=9193
+TYPE=0, INFO=Wait=0 Evt=3 t=90 TAR=4 S=1 O=2 Feq=9184
+TYPE=0, INFO=Wait=1 Evt=1 t=92 TAR=2 S=1 O=3 Feq=9166
+TYPE=0, INFO=Wait=1 Evt=3 t=91 TAR=4 S=0 O=1 Feq=9186
+TYPE=0, INFO=Wait=0 Evt=3 t=95 TAR=2 S=0 O=0 Feq=9188
+TYPE=0, INFO=Wait=0 Evt=4 t=90 TAR=1 S=2 O=3 Feq=9188
+TYPE=0, INFO=Wait=2 Evt=4 t=89 TAR=4 S=0 O=1 Feq=9187
+TYPE=0, INFO=Wait=0 Evt=9 t=86 TAR=3 S=0 O=2 Feq=9158
+TYPE=0, INFO=Wait=1 Evt=2 t=96 TAR=1 S=0 O=0 Feq=9189
+TYPE=0, INFO=Wait=0 Evt=4 t=93 TAR=2 S=0 O=1 Feq=9196
+TYPE=0, INFO=Wait=1 Evt=3 t=96 TAR=0 S=0 O=0 Feq=9144
+TYPE=0, INFO=Wait=1 Evt=1 t=94 TAR=3 S=0 O=1 Feq=9181
+TYPE=0, INFO=Wait=0 Evt=0 t=100 TAR=0 S=0 O=0 Feq=9165
+TYPE=0, INFO=Wait=0 Evt=2 t=95 TAR=1 S=1 O=1 Feq=9164
+TYPE=0, INFO=Wait=0 Evt=4 t=92 TAR=1 S=0 O=3 Feq=9188
+TYPE=0, INFO=Wait=1 Evt=8 t=88 TAR=1 S=0 O=2 Feq=9181
+TYPE=0, INFO=Wait=2 Evt=4 t=92 TAR=1 S=1 O=0 Feq=9201
+TYPE=0, INFO=Wait=1 Evt=4 t=91 TAR=4 S=0 O=0 Feq=9173
+TYPE=0, INFO=Wait=0 Evt=4 t=94 TAR=2 S=0 O=0 Feq=9165
+TYPE=0, INFO=Wait=0 Evt=1 t=96 TAR=3 S=0 O=0 Feq=9184
+TYPE=0, INFO=Wait=1 Evt=3 t=96 TAR=0 S=0 O=0 Feq=9151
+TYPE=0, INFO=Wait=0 Evt=6 t=94 TAR=0 S=0 O=0 Feq=9180
+TYPE=0, INFO=Wait=1 Evt=3 t=91 TAR=2 S=1 O=2 Feq=9185
+TYPE=0, INFO=Wait=0 Evt=2 t=95 TAR=3 S=0 O=0 Feq=9206
+TYPE=0, INFO=Wait=0 Evt=5 t=93 TAR=1 S=1 O=0 Feq=9200
+TYPE=0, INFO=Wait=1 Evt=5 t=89 TAR=4 S=0 O=1 Feq=9191
+TYPE=0, INFO=Wait=2 Evt=5 t=91 TAR=2 S=0 O=0 Feq=9171
+TYPE=0, INFO=Wait=0 Evt=3 t=93 TAR=4 S=0 O=0 Feq=9168
+TYPE=0, INFO=Wait=1 Evt=1 t=96 TAR=1 S=0 O=1 Feq=9171
+TYPE=0, INFO=Wait=0 Evt=7 t=91 TAR=1 S=0 O=1 Feq=9144
+TYPE=0, INFO=Wait=1 Evt=2 t=97 TAR=0 S=0 O=0 Feq=9160
+TYPE=0, INFO=Wait=1 Evt=4 t=91 TAR=3 S=0 O=1 Feq=9151
+TYPE=0, INFO=Wait=0 Evt=4 t=92 TAR=3 S=1 O=0 Feq=9190
+TYPE=0, INFO=Wait=1 Evt=4 t=91 TAR=3 S=1 O=0 Feq=9206
+TYPE=0, INFO=Wait=2 Evt=4 t=92 TAR=1 S=0 O=1 Feq=9171
+TYPE=0, INFO=Wait=0 Evt=8 t=90 TAR=1 S=0 O=1 Feq=9169
+TYPE=0, INFO=Wait=0 Evt=2 t=93 TAR=3 S=0 O=2 Feq=9158
+TYPE=0, INFO=Wait=1 Evt=4 t=91 TAR=4 S=0 O=0 Feq=9159
+TYPE=0, INFO=Wait=0 Evt=4 t=91 TAR=1 S=1 O=3 Feq=9071
+TYPE=0, INFO=Wait=0 Evt=5 t=95 TAR=0 S=0 O=0 Feq=9129
+TYPE=0, INFO=Wait=1 Evt=6 t=88 TAR=3 S=0 O=2 Feq=9183
+TYPE=0, INFO=Wait=0 Evt=5 t=93 TAR=2 S=0 O=0 Feq=9175
+TYPE=0, INFO=Wait=0 Evt=5 t=90 TAR=5 S=0 O=0 Feq=9181
+TYPE=0, INFO=Wait=0 Evt=3 t=93 TAR=4 S=0 O=0 Feq=9130
+TYPE=0, INFO=Wait=0 Evt=5 t=91 TAR=1 S=1 O=2 Feq=9192
+TYPE=0, INFO=Wait=0 Evt=2 t=97 TAR=1 S=0 O=0 Feq=9162
+TYPE=0, INFO=Wait=1 Evt=4 t=93 TAR=1 S=0 O=1 Feq=9159
+TYPE=0, INFO=Wait=1 Evt=6 t=90 TAR=1 S=1 O=1 Feq=9163
+TYPE=0, INFO=Wait=0 Evt=7 t=93 TAR=0 S=0 O=0 Feq=8896
+TYPE=0, INFO=Wait=0 Evt=5 t=88 TAR=7 S=0 O=0 Feq=8002
+TYPE=0, INFO=Wait=1 Evt=3 t=96 TAR=0 S=0 O=0 Feq=8981
+TYPE=0, INFO=Wait=0 Evt=4 t=90 TAR=3 S=1 O=2 Feq=9145
+TYPE=0, INFO=Wait=0 Evt=4 t=93 TAR=3 S=0 O=0 Feq=9145
+TYPE=0, INFO=Wait=0 Evt=2 t=97 TAR=0 S=0 O=1 Feq=9140
+TYPE=0, INFO=Wait=1 Evt=4 t=92 TAR=2 S=1 O=0 Feq=9154
+TYPE=0, INFO=Wait=0 Evt=5 t=92 TAR=3 S=0 O=0 Feq=9182
+TYPE=0, INFO=Wait=0 Evt=5 t=91 TAR=2 S=0 O=2 Feq=9147
+TYPE=0, INFO=Wait=1 Evt=7 t=91 TAR=1 S=0 O=0 Feq=9178
+TYPE=0, INFO=Wait=1 Evt=8 t=88 TAR=3 S=0 O=0 Feq=9197
+TYPE=0, INFO=Wait=0 Evt=6 t=90 TAR=3 S=0 O=1 Feq=9125
+TYPE=0, INFO=Wait=0 Evt=6 t=91 TAR=2 S=1 O=0 Feq=9133
+TYPE=0, INFO=Wait=1 Evt=1 t=93 TAR=2 S=1 O=2 Feq=9164
+TYPE=0, INFO=Wait=0 Evt=7 t=89 TAR=2 S=0 O=2 Feq=9102
+TYPE=0, INFO=Wait=0 Evt=7 t=87 TAR=3 S=2 O=1 Feq=9191
+TYPE=0, INFO=Wait=0 Evt=6 t=92 TAR=2 S=0 O=0 Feq=9188
+TYPE=0, INFO=Wait=1 Evt=6 t=93 TAR=0 S=0 O=0 Feq=8913
+TYPE=0, INFO=Wait=1 Evt=8 t=88 TAR=2 S=0 O=1 Feq=9164
+TYPE=0, INFO=Wait=1 Evt=3 t=93 TAR=2 S=0 O=1 Feq=9184
+TYPE=0, INFO=Wait=0 Evt=2 t=92 TAR=6 S=0 O=0 Feq=9159
+TYPE=0, INFO=Wait=1 Evt=2 t=93 TAR=3 S=0 O=1 Feq=9183
+TYPE=0, INFO=Wait=0 Evt=4 t=94 TAR=2 S=0 O=0 Feq=9185
+TYPE=0, INFO=Wait=2 Evt=3 t=91 TAR=3 S=0 O=1 Feq=9171
+TYPE=0, INFO=Wait=0 Evt=0 t=97 TAR=3 S=0 O=0 Feq=9171
+TYPE=0, INFO=Wait=2 Evt=6 t=89 TAR=3 S=0 O=0 Feq=9140
+TYPE=0, INFO=Wait=0 Evt=5 t=93 TAR=2 S=0 O=0 Feq=9150
+TYPE=0, INFO=Wait=0 Evt=6 t=91 TAR=2 S=0 O=1 Feq=9123
+TYPE=0, INFO=Wait=0 Evt=6 t=90 TAR=4 S=0 O=0 Feq=9156
+TYPE=0, INFO=Wait=0 Evt=2 t=96 TAR=2 S=0 O=0 Feq=9181
+TYPE=0, INFO=Wait=1 Evt=5 t=91 TAR=3 S=0 O=0 Feq=9159
+TYPE=0, INFO=Wait=0 Evt=1 t=94 TAR=3 S=0 O=2 Feq=9174
+TYPE=0, INFO=Wait=0 Evt=5 t=93 TAR=2 S=0 O=0 Feq=9140
+TYPE=0, INFO=Wait=0 Evt=2 t=96 TAR=1 S=0 O=1 Feq=9160
+TYPE=0, INFO=Wait=1 Evt=2 t=96 TAR=1 S=0 O=0 Feq=9155
+TYPE=0, INFO=Wait=1 Evt=3 t=96 TAR=0 S=0 O=0 Feq=9098
+TYPE=0, INFO=Wait=1 Evt=2 t=94 TAR=2 S=1 O=0 Feq=9143
+TYPE=0, INFO=Wait=0 Evt=3 t=95 TAR=2 S=0 O=0 Feq=9149
+TYPE=0, INFO=Wait=0 Evt=5 t=93 TAR=2 S=0 O=0 Feq=9143
+TYPE=0, INFO=Wait=1 Evt=3 t=93 TAR=2 S=0 O=1 Feq=9144
+TYPE=0, INFO=Wait=1 Evt=3 t=95 TAR=0 S=1 O=0 Feq=9169
+TYPE=0, INFO=Wait=0 Evt=7 t=88 TAR=3 S=0 O=2 Feq=9176
+TYPE=0, INFO=Wait=0 Evt=3 t=97 TAR=0 S=0 O=0 Feq=9159
+TYPE=0, INFO=Wait=0 Evt=3 t=94 TAR=3 S=0 O=0 Feq=9166
+TYPE=0, INFO=Wait=0 Evt=5 t=92 TAR=2 S=1 O=0 Feq=9162
+TYPE=0, INFO=Wait=0 Evt=3 t=96 TAR=0 S=1 O=0 Feq=9134
+TYPE=0, INFO=Wait=2 Evt=4 t=92 TAR=2 S=0 O=0 Feq=9156
+TYPE=0, INFO=Wait=0 Evt=3 t=93 TAR=4 S=0 O=0 Feq=9162
+TYPE=0, INFO=Wait=1 Evt=6 t=88 TAR=5 S=0 O=0 Feq=8929
+TYPE=0, INFO=Wait=1 Evt=2 t=91 TAR=4 S=2 O=0 Feq=9188
+TYPE=0, INFO=Wait=0 Evt=1 t=99 TAR=0 S=0 O=0 Feq=9160
+TYPE=0, INFO=Wait=0 Evt=5 t=90 TAR=3 S=1 O=1 Feq=9173
+TYPE=0, INFO=Wait=0 Evt=1 t=98 TAR=1 S=0 O=0 Feq=9169
+TYPE=0, INFO=Wait=1 Evt=5 t=91 TAR=2 S=0 O=1 Feq=9167
+TYPE=0, INFO=Wait=0 Evt=7 t=89 TAR=3 S=1 O=0 Feq=9163
+TYPE=0, INFO=Wait=1 Evt=5 t=93 TAR=1 S=0 O=0 Feq=9142
+TYPE=0, INFO=Wait=2 Evt=5 t=92 TAR=1 S=0 O=0 Feq=9153
+TYPE=0, INFO=Wait=1 Evt=4 t=92 TAR=2 S=0 O=1 Feq=9145
+TYPE=0, INFO=Wait=0 Evt=2 t=96 TAR=1 S=0 O=1 Feq=9141
+TYPE=0, INFO=Wait=1 Evt=6 t=91 TAR=2 S=0 O=0 Feq=9203
+TYPE=0, INFO=Wait=0 Evt=6 t=92 TAR=2 S=0 O=0 Feq=9202
+TYPE=0, INFO=Wait=0 Evt=0 t=98 TAR=2 S=0 O=0 Feq=9195
+TYPE=0, INFO=Wait=1 Evt=1 t=97 TAR=0 S=1 O=0 Feq=9181
+TYPE=0, INFO=Wait=1 Evt=4 t=92 TAR=3 S=0 O=0 Feq=9189
+TYPE=0, INFO=Wait=0 Evt=2 t=96 TAR=1 S=0 O=1 Feq=9160
+TYPE=0, INFO=Wait=0 Evt=2 t=93 TAR=4 S=0 O=1 Feq=9171
+TYPE=0, INFO=Wait=2 Evt=2 t=94 TAR=2 S=0 O=0 Feq=9184
+TYPE=0, INFO=Wait=0 Evt=7 t=89 TAR=3 S=0 O=1 Feq=9170
+TYPE=0, INFO=Wait=1 Evt=2 t=94 TAR=1 S=1 O=1 Feq=9152
+TYPE=0, INFO=Wait=0 Evt=5 t=90 TAR=3 S=1 O=1 Feq=9177
+TYPE=0, INFO=Wait=1 Evt=2 t=94 TAR=2 S=0 O=1 Feq=9156
+TYPE=0, INFO=Wait=1 Evt=4 t=94 TAR=1 S=0 O=0 Feq=9158
+TYPE=0, INFO=Wait=1 Evt=3 t=94 TAR=2 S=0 O=0 Feq=9154
+TYPE=0, INFO=Wait=1 Evt=5 t=90 TAR=4 S=0 O=0 Feq=9168
+TYPE=0, INFO=Wait=2 Evt=6 t=90 TAR=1 S=1 O=0 Feq=8850
+TYPE=0, INFO=Wait=1 Evt=6 t=90 TAR=2 S=1 O=0 Feq=9168
+TYPE=0, INFO=Wait=0 Evt=7 t=89 TAR=3 S=0 O=1 Feq=9159
+TYPE=0, INFO=Wait=0 Evt=2 t=96 TAR=2 S=0 O=0 Feq=9136
+TYPE=0, INFO=Wait=0 Evt=3 t=94 TAR=2 S=1 O=0 Feq=9155
+TYPE=0, INFO=Wait=0 Evt=8 t=87 TAR=3 S=1 O=1 Feq=9139
+TYPE=0, INFO=Wait=1 Evt=0 t=98 TAR=1 S=0 O=0 Feq=9176
+TYPE=0, INFO=Wait=2 Evt=3 t=89 TAR=3 S=1 O=2 Feq=9175
+TYPE=0, INFO=Wait=0 Evt=4 t=93 TAR=1 S=0 O=2 Feq=9148
+TYPE=0, INFO=Wait=0 Evt=8 t=89 TAR=3 S=0 O=0 Feq=9155
+TYPE=0, INFO=Wait=0 Evt=5 t=91 TAR=3 S=0 O=1 Feq=9123
+TYPE=0, INFO=Wait=0 Evt=6 t=91 TAR=2 S=0 O=1 Feq=9119
+TYPE=0, INFO=Wait=1 Evt=5 t=91 TAR=2 S=0 O=1 Feq=9157
+TYPE=0, INFO=Wait=1 Evt=1 t=93 TAR=2 S=1 O=2 Feq=9150
+TYPE=0, INFO=Wait=1 Evt=4 t=90 TAR=4 S=0 O=1 Feq=9181
+TYPE=0, INFO=Wait=1 Evt=3 t=94 TAR=2 S=0 O=0 Feq=9142
+TYPE=0, INFO=Wait=0 Evt=2 t=92 TAR=6 S=0 O=0 Feq=9162
+TYPE=0, INFO=Wait=1 Evt=6 t=90 TAR=2 S=0 O=1 Feq=9162
+TYPE=0, INFO=Wait=1 Evt=9 t=86 TAR=2 S=1 O=1 Feq=9164
+TYPE=0, INFO=Wait=0 Evt=5 t=93 TAR=1 S=0 O=1 Feq=9107
+TYPE=0, INFO=Wait=1 Evt=5 t=90 TAR=4 S=0 O=0 Feq=9149
+TYPE=0, INFO=Wait=0 Evt=3 t=94 TAR=3 S=0 O=0 Feq=9169
+TYPE=0, INFO=Wait=1 Evt=7 t=89 TAR=2 S=0 O=1 Feq=9160
+TYPE=0, INFO=Wait=2 Evt=2 t=93 TAR=2 S=1 O=0 Feq=9150
+TYPE=0, INFO=Wait=0 Evt=3 t=95 TAR=0 S=0 O=2 Feq=9145
+TYPE=0, INFO=Wait=0 Evt=4 t=93 TAR=3 S=0 O=0 Feq=9110
+TYPE=0, INFO=Wait=0 Evt=5 t=92 TAR=3 S=0 O=0 Feq=9138
+TYPE=0, INFO=Wait=2 Evt=3 t=85 TAR=7 S=2 O=1 Feq=9156
+TYPE=0, INFO=Wait=0 Evt=7 t=92 TAR=1 S=0 O=0 Feq=9134
+TYPE=0, INFO=Wait=0 Evt=1 t=94 TAR=2 S=0 O=3 Feq=9182
+TYPE=0, INFO=Wait=0 Evt=4 t=93 TAR=2 S=1 O=0 Feq=9170
+TYPE=0, INFO=Wait=1 Evt=6 t=88 TAR=2 S=2 O=1 Feq=8894
+TYPE=0, INFO=Wait=0 Evt=12 t=86 TAR=2 S=0 O=0 Feq=9164
+TYPE=0, INFO=Wait=1 Evt=9 t=85 TAR=5 S=0 O=0 Feq=9199
+TYPE=0, INFO=Wait=0 Evt=6 t=89 TAR=4 S=0 O=1 Feq=9195
+TYPE=0, INFO=Wait=1 Evt=5 t=91 TAR=3 S=0 O=0 Feq=9206
+TYPE=0, INFO=Wait=1 Evt=3 t=93 TAR=0 S=1 O=2 Feq=9190
+TYPE=0, INFO=Wait=1 Evt=3 t=93 TAR=3 S=0 O=0 Feq=9170
+TYPE=0, INFO=Wait=0 Evt=9 t=89 TAR=2 S=0 O=0 Feq=9176
+TYPE=0, INFO=Wait=0 Evt=6 t=88 TAR=3 S=0 O=3 Feq=9228
+TYPE=0, INFO=Wait=1 Evt=7 t=88 TAR=2 S=0 O=2 Feq=9150
+TYPE=0, INFO=Wait=0 Evt=1 t=93 TAR=4 S=0 O=2 Feq=8842
+TYPE=0, INFO=Wait=1 Evt=5 t=92 TAR=1 S=0 O=1 Feq=9145
+TYPE=0, INFO=Wait=1 Evt=1 t=93 TAR=5 S=0 O=0 Feq=9137
+TYPE=0, INFO=Wait=1 Evt=8 t=89 TAR=1 S=0 O=1 Feq=9162
+TYPE=0, INFO=Wait=0 Evt=5 t=91 TAR=2 S=0 O=2 Feq=9152
+TYPE=0, INFO=Wait=0 Evt=0 t=96 TAR=3 S=0 O=1 Feq=9188
+TYPE=0, INFO=Wait=0 Evt=4 t=89 TAR=4 S=0 O=3 Feq=9176
+TYPE=0, INFO=Wait=2 Evt=5 t=91 TAR=2 S=0 O=0 Feq=9167
+TYPE=0, INFO=Wait=3 Evt=2 t=93 TAR=2 S=0 O=0 Feq=9180
+TYPE=0, INFO=Wait=1 Evt=7 t=89 TAR=1 S=0 O=2 Feq=9146
+TYPE=0, INFO=Wait=0 Evt=6 t=89 TAR=4 S=0 O=1 Feq=9154
+TYPE=0, INFO=Wait=1 Evt=5 t=90 TAR=3 S=1 O=0 Feq=9172
+TYPE=0, INFO=Wait=0 Evt=6 t=90 TAR=1 S=0 O=3 Feq=9148
+TYPE=0, INFO=Wait=0 Evt=5 t=90 TAR=2 S=2 O=1 Feq=9126
+TYPE=0, INFO=Wait=0 Evt=4 t=93 TAR=3 S=0 O=0 Feq=9155
+TYPE=0, INFO=Wait=2 Evt=7 t=87 TAR=3 S=0 O=1 Feq=9171
+TYPE=0, INFO=Wait=1 Evt=2 t=93 TAR=3 S=0 O=1 Feq=9174
+TYPE=0, INFO=Wait=1 Evt=6 t=92 TAR=1 S=0 O=0 Feq=9164
+TYPE=0, INFO=Wait=1 Evt=3 t=93 TAR=3 S=0 O=0 Feq=9176
+TYPE=0, INFO=Wait=0 Evt=6 t=93 TAR=1 S=0 O=0 Feq=9152
+TYPE=0, INFO=Wait=2 Evt=4 t=92 TAR=1 S=0 O=1 Feq=9155
+TYPE=0, INFO=Wait=2 Evt=2 t=96 TAR=0 S=0 O=0 Feq=9165
+TYPE=0, INFO=Wait=0 Evt=4 t=95 TAR=1 S=0 O=0 Feq=9193
+TYPE=0, INFO=Wait=1 Evt=3 t=93 TAR=1 S=1 O=1 Feq=9120
+TYPE=0, INFO=Wait=0 Evt=7 t=91 TAR=2 S=0 O=0 Feq=9168
+TYPE=0, INFO=Wait=1 Evt=3 t=94 TAR=2 S=0 O=0 Feq=9169
+TYPE=0, INFO=Wait=1 Evt=4 t=94 TAR=0 S=0 O=1 Feq=9178
+TYPE=0, INFO=Wait=0 Evt=6 t=89 TAR=5 S=0 O=0 Feq=9160
+TYPE=0, INFO=Wait=0 Evt=1 t=95 TAR=3 S=0 O=1 Feq=9155
+TYPE=0, INFO=Wait=0 Evt=4 t=93 TAR=3 S=0 O=0 Feq=9145
+TYPE=0, INFO=Wait=0 Evt=3 t=96 TAR=1 S=0 O=0 Feq=9176
+TYPE=0, INFO=Wait=0 Evt=0 t=97 TAR=0 S=0 O=3 Feq=9181
+TYPE=0, INFO=Wait=0 Evt=2 t=97 TAR=1 S=0 O=0 Feq=9180
+TYPE=0, INFO=Wait=0 Evt=10 t=87 TAR=2 S=0 O=1 Feq=9184
+TYPE=0, INFO=Wait=1 Evt=4 t=93 TAR=2 S=0 O=0 Feq=9149
+TYPE=0, INFO=Wait=1 Evt=4 t=91 TAR=3 S=0 O=1 Feq=9159
+TYPE=0, INFO=Wait=1 Evt=5 t=91 TAR=2 S=1 O=0 Feq=9161
+TYPE=0, INFO=Wait=0 Evt=3 t=94 TAR=2 S=1 O=0 Feq=9129
+TYPE=0, INFO=Wait=0 Evt=3 t=93 TAR=4 S=0 O=0 Feq=9168
+TYPE=0, INFO=Wait=0 Evt=7 t=91 TAR=1 S=0 O=1 Feq=9147
+TYPE=0, INFO=Wait=0 Evt=2 t=93 TAR=5 S=0 O=0 Feq=8889
+TYPE=0, INFO=Wait=1 Evt=5 t=91 TAR=2 S=1 O=0 Feq=9180
+TYPE=0, INFO=Wait=1 Evt=1 t=96 TAR=2 S=0 O=0 Feq=9157
+TYPE=0, INFO=Wait=2 Evt=1 t=95 TAR=1 S=1 O=0 Feq=9133
+TYPE=0, INFO=Wait=1 Evt=8 t=90 TAR=1 S=0 O=0 Feq=9175
+TYPE=0, INFO=Wait=0 Evt=5 t=94 TAR=0 S=0 O=1 Feq=9153
+TYPE=0, INFO=Wait=0 Evt=3 t=95 TAR=2 S=0 O=0 Feq=9156
+TYPE=0, INFO=Wait=0 Evt=5 t=87 TAR=8 S=0 O=0 Feq=9149
+TYPE=0, INFO=Wait=1 Evt=2 t=94 TAR=2 S=0 O=1 Feq=9141
+TYPE=0, INFO=Wait=1 Evt=4 t=92 TAR=2 S=0 O=1 Feq=9152
+TYPE=0, INFO=Wait=0 Evt=4 t=94 TAR=2 S=0 O=0 Feq=9133
+TYPE=0, INFO=Wait=1 Evt=7 t=90 TAR=2 S=0 O=0 Feq=9148
+TYPE=0, INFO=Wait=1 Evt=6 t=92 TAR=0 S=0 O=1 Feq=9171
+TYPE=0, INFO=Wait=0 Evt=5 t=90 TAR=2 S=1 O=2 Feq=9137
+TYPE=0, INFO=Wait=1 Evt=7 t=89 TAR=3 S=0 O=0 Feq=9147
+TYPE=0, INFO=Wait=0 Evt=5 t=93 TAR=2 S=0 O=0 Feq=9150
+TYPE=0, INFO=Wait=0 Evt=7 t=89 TAR=3 S=1 O=0 Feq=9169
+TYPE=0, INFO=Wait=0 Evt=5 t=90 TAR=4 S=1 O=0 Feq=9166
+TYPE=0, INFO=Wait=0 Evt=4 t=93 TAR=3 S=0 O=0 Feq=9150
+TYPE=0, INFO=Wait=0 Evt=8 t=87 TAR=5 S=0 O=0 Feq=9178
+TYPE=0, INFO=Wait=0 Evt=2 t=94 TAR=2 S=2 O=0 Feq=9192
+TYPE=0, INFO=Wait=0 Evt=7 t=92 TAR=0 S=1 O=0 Feq=9183
+TYPE=0, INFO=Wait=0 Evt=3 t=95 TAR=2 S=0 O=0 Feq=9180
+TYPE=0, INFO=Wait=1 Evt=2 t=94 TAR=1 S=1 O=1 Feq=9147
+TYPE=0, INFO=Wait=1 Evt=2 t=96 TAR=1 S=0 O=0 Feq=9140
+TYPE=0, INFO=Wait=0 Evt=8 t=89 TAR=1 S=1 O=1 Feq=9169
+TYPE=0, INFO=Wait=0 Evt=3 t=95 TAR=0 S=2 O=0 Feq=8893
+TYPE=0, INFO=Wait=1 Evt=5 t=92 TAR=2 S=0 O=0 Feq=9084
+TYPE=0, INFO=Wait=1 Evt=3 t=92 TAR=3 S=1 O=0 Feq=9176
+TYPE=0, INFO=Wait=0 Evt=1 t=95 TAR=2 S=1 O=1 Feq=9184
+TYPE=0, INFO=Wait=0 Evt=4 t=89 TAR=3 S=1 O=3 Feq=9204
+TYPE=0, INFO=Wait=0 Evt=3 t=96 TAR=1 S=0 O=0 Feq=9156
+TYPE=0, INFO=Wait=0 Evt=3 t=94 TAR=1 S=1 O=1 Feq=9155
+TYPE=0, INFO=Wait=0 Evt=3 t=93 TAR=2 S=0 O=2 Feq=8800
+TYPE=0, INFO=Wait=0 Evt=4 t=92 TAR=2 S=1 O=1 Feq=9110
+TYPE=0, INFO=Wait=1 Evt=1 t=95 TAR=2 S=1 O=0 Feq=9161
+TYPE=0, INFO=Wait=0 Evt=7 t=89 TAR=3 S=1 O=0 Feq=9158
+TYPE=0, INFO=Wait=0 Evt=3 t=95 TAR=1 S=0 O=1 Feq=9163
+TYPE=0, INFO=Wait=0 Evt=4 t=95 TAR=1 S=0 O=0 Feq=9212
+TYPE=0, INFO=Wait=0 Evt=3 t=95 TAR=1 S=0 O=1 Feq=9197
+TYPE=0, INFO=Wait=2 Evt=6 t=91 TAR=0 S=0 O=1 Feq=9170
+TYPE=0, INFO=Wait=1 Evt=4 t=91 TAR=2 S=0 O=2 Feq=9168
+TYPE=0, INFO=Wait=0 Evt=8 t=89 TAR=1 S=1 O=1 Feq=9185
+TYPE=0, INFO=Wait=0 Evt=4 t=95 TAR=1 S=0 O=0 Feq=9161
+TYPE=0, INFO=Wait=1 Evt=2 t=92 TAR=2 S=1 O=2 Feq=9151
+TYPE=0, INFO=Wait=0 Evt=2 t=95 TAR=1 S=0 O=2 Feq=9134
+TYPE=0, INFO=Wait=0 Evt=4 t=95 TAR=0 S=0 O=1 Feq=9158
+TYPE=0, INFO=Wait=0 Evt=6 t=89 TAR=5 S=0 O=0 Feq=9166
+TYPE=0, INFO=Wait=0 Evt=5 t=89 TAR=4 S=1 O=1 Feq=9065
+TYPE=0, INFO=Wait=0 Evt=4 t=94 TAR=2 S=0 O=0 Feq=9150
+TYPE=0, INFO=Wait=1 Evt=3 t=93 TAR=3 S=0 O=0 Feq=9169
+TYPE=0, INFO=Wait=0 Evt=5 t=90 TAR=3 S=1 O=1 Feq=9155
+TYPE=0, INFO=Wait=0 Evt=3 t=94 TAR=3 S=0 O=0 Feq=9163
+TYPE=0, INFO=Wait=0 Evt=1 t=95 TAR=3 S=1 O=0 Feq=9168
+TYPE=0, INFO=Wait=0 Evt=4 t=92 TAR=3 S=0 O=1 Feq=9167
+TYPE=0, INFO=Wait=0 Evt=7 t=90 TAR=3 S=0 O=0 Feq=9181
+TYPE=0, INFO=Wait=2 Evt=4 t=90 TAR=3 S=0 O=1 Feq=9168
+TYPE=0, INFO=Wait=0 Evt=2 t=93 TAR=3 S=1 O=1 Feq=9160
+TYPE=0, INFO=Wait=1 Evt=2 t=95 TAR=2 S=0 O=0 Feq=9104
+TYPE=0, INFO=Wait=0 Evt=6 t=93 TAR=0 S=1 O=0 Feq=9194
+TYPE=0, INFO=Wait=1 Evt=3 t=93 TAR=1 S=0 O=2 Feq=9168
+TYPE=0, INFO=Wait=1 Evt=6 t=88 TAR=4 S=1 O=0 Feq=9175
+TYPE=0, INFO=Wait=1 Evt=3 t=90 TAR=5 S=0 O=1 Feq=9140
+TYPE=0, INFO=Wait=0 Evt=5 t=91 TAR=2 S=0 O=2 Feq=9179
+TYPE=0, INFO=Wait=1 Evt=7 t=86 TAR=5 S=0 O=1 Feq=9146
+TYPE=0, INFO=Wait=1 Evt=2 t=96 TAR=1 S=0 O=0 Feq=9142
+TYPE=0, INFO=Wait=2 Evt=4 t=91 TAR=1 S=0 O=2 Feq=9170
+TYPE=0, INFO=Wait=0 Evt=3 t=94 TAR=1 S=1 O=1 Feq=9175
+TYPE=0, INFO=Wait=0 Evt=5 t=91 TAR=3 S=1 O=0 Feq=9165
+TYPE=0, INFO=Wait=0 Evt=4 t=92 TAR=3 S=0 O=1 Feq=9181
+TYPE=0, INFO=Wait=1 Evt=8 t=89 TAR=1 S=0 O=1 Feq=9144
+TYPE=0, INFO=Wait=0 Evt=8 t=91 TAR=1 S=0 O=0 Feq=9070
+TYPE=0, INFO=Wait=0 Evt=6 t=91 TAR=2 S=0 O=1 Feq=9167
+TYPE=0, INFO=Wait=0 Evt=5 t=91 TAR=1 S=0 O=3 Feq=9160
+TYPE=0, INFO=Wait=1 Evt=6 t=90 TAR=1 S=1 O=1 Feq=9174
+TYPE=0, INFO=Wait=0 Evt=4 t=93 TAR=0 S=1 O=2 Feq=9161
+TYPE=0, INFO=Wait=0 Evt=3 t=95 TAR=1 S=1 O=0 Feq=9183
+TYPE=0, INFO=Wait=0 Evt=5 t=88 TAR=5 S=0 O=2 Feq=9158
+TYPE=0, INFO=Wait=2 Evt=6 t=90 TAR=2 S=0 O=0 Feq=9138
+TYPE=0, INFO=Wait=1 Evt=7 t=92 TAR=0 S=0 O=0 Feq=9167
+TYPE=0, INFO=Wait=1 Evt=5 t=88 TAR=5 S=1 O=0 Feq=9192
+TYPE=0, INFO=Wait=1 Evt=4 t=93 TAR=2 S=0 O=0 Feq=9183
+TYPE=0, INFO=Wait=0 Evt=7 t=91 TAR=2 S=0 O=0 Feq=9181
+TYPE=0, INFO=Wait=1 Evt=3 t=94 TAR=2 S=0 O=0 Feq=9170
+TYPE=0, INFO=Wait=1 Evt=5 t=93 TAR=0 S=1 O=0 Feq=9081
+TYPE=0, INFO=Wait=0 Evt=1 t=97 TAR=2 S=0 O=0 Feq=9165
+TYPE=0, INFO=Wait=1 Evt=5 t=90 TAR=3 S=1 O=0 Feq=9126
+TYPE=0, INFO=Wait=1 Evt=4 t=91 TAR=3 S=0 O=1 Feq=9168
+TYPE=0, INFO=Wait=0 Evt=3 t=95 TAR=2 S=0 O=0 Feq=8854
+TYPE=0, INFO=Wait=1 Evt=5 t=92 TAR=1 S=0 O=1 Feq=9167
+TYPE=0, INFO=Wait=1 Evt=5 t=89 TAR=4 S=0 O=1 Feq=9166
+TYPE=0, INFO=Wait=1 Evt=3 t=90 TAR=3 S=0 O=3 Feq=9126
+TYPE=0, INFO=Wait=1 Evt=5 t=92 TAR=2 S=0 O=0 Feq=9175
+TYPE=0, INFO=Wait=1 Evt=2 t=94 TAR=3 S=0 O=0 Feq=9173
+TYPE=0, INFO=Wait=0 Evt=7 t=91 TAR=0 S=0 O=2 Feq=9154
+TYPE=0, INFO=Wait=0 Evt=7 t=89 TAR=3 S=0 O=1 Feq=9154
+TYPE=0, INFO=Wait=1 Evt=6 t=86 TAR=4 S=1 O=2 Feq=9150
+TYPE=0, INFO=Wait=1 Evt=5 t=91 TAR=2 S=1 O=0 Feq=9161
+TYPE=0, INFO=Wait=0 Evt=3 t=94 TAR=2 S=1 O=0 Feq=9150
+TYPE=0, INFO=Wait=1 Evt=7 t=87 TAR=3 S=0 O=2 Feq=9161
+TYPE=0, INFO=Wait=0 Evt=5 t=88 TAR=4 S=1 O=2 Feq=9158
+TYPE=0, INFO=Wait=2 Evt=5 t=89 TAR=3 S=0 O=1 Feq=9161
+TYPE=0, INFO=Wait=0 Evt=4 t=93 TAR=2 S=0 O=1 Feq=9175
+TYPE=0, INFO=Wait=1 Evt=6 t=92 TAR=1 S=0 O=0 Feq=8747
+TYPE=0, INFO=Wait=0 Evt=4 t=92 TAR=3 S=1 O=0 Feq=9156
+TYPE=0, INFO=Wait=1 Evt=5 t=92 TAR=1 S=0 O=1 Feq=9140
+TYPE=0, INFO=Wait=0 Evt=3 t=95 TAR=2 S=0 O=0 Feq=9158
+TYPE=0, INFO=Wait=0 Evt=3 t=92 TAR=4 S=1 O=0 Feq=9183
+TYPE=0, INFO=Wait=0 Evt=4 t=91 TAR=3 S=1 O=1 Feq=9169
+TYPE=0, INFO=Wait=1 Evt=5 t=88 TAR=2 S=2 O=2 Feq=9183
+TYPE=0, INFO=Wait=0 Evt=6 t=89 TAR=4 S=0 O=1 Feq=9232
+TYPE=0, INFO=Wait=0 Evt=7 t=88 TAR=4 S=0 O=1 Feq=9212
+TYPE=0, INFO=Wait=2 Evt=4 t=92 TAR=0 S=1 O=1 Feq=9181
+TYPE=0, INFO=Wait=1 Evt=4 t=94 TAR=1 S=0 O=0 Feq=9177
+TYPE=0, INFO=Wait=0 Evt=4 t=93 TAR=3 S=0 O=0 Feq=9173
+TYPE=0, INFO=Wait=0 Evt=2 t=96 TAR=2 S=0 O=0 Feq=9181
+TYPE=0, INFO=Wait=0 Evt=3 t=95 TAR=2 S=0 O=0 Feq=9160
+TYPE=0, INFO=Wait=0 Evt=3 t=95 TAR=2 S=0 O=0 Feq=9173
+TYPE=0, INFO=Wait=0 Evt=3 t=96 TAR=0 S=1 O=0 Feq=9144
+TYPE=0, INFO=Wait=0 Evt=5 t=92 TAR=3 S=0 O=0 Feq=9172
+TYPE=0, INFO=Wait=0 Evt=4 t=91 TAR=3 S=2 O=0 Feq=9134
+TYPE=0, INFO=Wait=0 Evt=3 t=92 TAR=3 S=0 O=2 Feq=9094
+TYPE=0, INFO=Wait=0 Evt=4 t=94 TAR=2 S=0 O=0 Feq=9167
+TYPE=0, INFO=Wait=0 Evt=1 t=93 TAR=6 S=0 O=0 Feq=9161
+TYPE=0, INFO=Wait=2 Evt=7 t=90 TAR=1 S=0 O=0 Feq=8916
+TYPE=0, INFO=Wait=1 Evt=4 t=93 TAR=1 S=1 O=0 Feq=9146
+TYPE=0, INFO=Wait=0 Evt=5 t=93 TAR=1 S=1 O=0 Feq=9154
+TYPE=0, INFO=Wait=1 Evt=9 t=87 TAR=1 S=1 O=1 Feq=9148
+TYPE=0, INFO=Wait=0 Evt=4 t=95 TAR=1 S=0 O=0 Feq=9174
+TYPE=0, INFO=Wait=3 Evt=4 t=88 TAR=3 S=1 O=1 Feq=9184
+TYPE=0, INFO=Wait=4 Evt=4 t=87 TAR=5 S=0 O=0 Feq=9172
+TYPE=0, INFO=Wait=0 Evt=4 t=91 TAR=4 S=0 O=1 Feq=9185
+TYPE=0, INFO=Wait=0 Evt=0 t=99 TAR=1 S=0 O=0 Feq=9161
+TYPE=0, INFO=Wait=1 Evt=2 t=96 TAR=1 S=0 O=0 Feq=9157
+TYPE=0, INFO=Wait=1 Evt=3 t=88 TAR=4 S=0 O=4 Feq=9156
+TYPE=0, INFO=Wait=1 Evt=3 t=90 TAR=6 S=0 O=0 Feq=9167
+TYPE=0, INFO=Wait=1 Evt=5 t=89 TAR=2 S=1 O=2 Feq=9192
+TYPE=0, INFO=Wait=1 Evt=2 t=96 TAR=0 S=1 O=0 Feq=9144
+TYPE=0, INFO=Wait=1 Evt=4 t=92 TAR=3 S=0 O=0 Feq=9152
+TYPE=0, INFO=Wait=0 Evt=4 t=95 TAR=1 S=0 O=0 Feq=9166
+TYPE=0, INFO=Wait=0 Evt=11 t=86 TAR=2 S=0 O=1 Feq=9170
+TYPE=0, INFO=Wait=1 Evt=4 t=91 TAR=2 S=0 O=2 Feq=9155
+TYPE=0, INFO=Wait=1 Evt=6 t=92 TAR=1 S=0 O=0 Feq=9151
+TYPE=0, INFO=Wait=0 Evt=4 t=94 TAR=2 S=0 O=0 Feq=9177
+TYPE=0, INFO=Wait=0 Evt=3 t=94 TAR=3 S=0 O=0 Feq=9159
+TYPE=0, INFO=Wait=0 Evt=6 t=92 TAR=1 S=0 O=1 Feq=9186
+TYPE=0, INFO=Wait=1 Evt=8 t=87 TAR=3 S=1 O=0 Feq=9175
+TYPE=0, INFO=Wait=0 Evt=5 t=93 TAR=2 S=0 O=0 Feq=9174
+TYPE=0, INFO=Wait=0 Evt=6 t=90 TAR=3 S=1 O=0 Feq=9172
+TYPE=0, INFO=Wait=0 Evt=10 t=87 TAR=2 S=0 O=1 Feq=9137
+TYPE=0, INFO=Wait=0 Evt=4 t=93 TAR=1 S=1 O=1 Feq=9154
+TYPE=0, INFO=Wait=1 Evt=6 t=91 TAR=1 S=0 O=1 Feq=9028
+TYPE=0, INFO=Wait=0 Evt=4 t=94 TAR=1 S=0 O=1 Feq=9169
+TYPE=0, INFO=Wait=0 Evt=4 t=94 TAR=1 S=0 O=1 Feq=9199
+TYPE=0, INFO=Wait=1 Evt=2 t=96 TAR=0 S=0 O=1 Feq=9138
+TYPE=0, INFO=Wait=0 Evt=5 t=95 TAR=0 S=0 O=0 Feq=9131
+TYPE=0, INFO=Wait=0 Evt=3 t=96 TAR=1 S=0 O=0 Feq=9150
+TYPE=0, INFO=Wait=0 Evt=4 t=90 TAR=5 S=1 O=0 Feq=9158
+TYPE=0, INFO=Wait=1 Evt=5 t=92 TAR=2 S=0 O=0 Feq=9172
+TYPE=0, INFO=Wait=1 Evt=2 t=93 TAR=2 S=0 O=2 Feq=9174
+TYPE=0, INFO=Wait=0 Evt=3 t=95 TAR=2 S=0 O=0 Feq=9150
+TYPE=0, INFO=Wait=1 Evt=4 t=91 TAR=3 S=0 O=1 Feq=9168
+TYPE=0, INFO=Wait=0 Evt=4 t=93 TAR=3 S=0 O=0 Feq=9186
+TYPE=0, INFO=Wait=0 Evt=3 t=92 TAR=5 S=0 O=0 Feq=9154
+TYPE=0, INFO=Wait=1 Evt=7 t=91 TAR=1 S=0 O=0 Feq=9161
+TYPE=0, INFO=Wait=0 Evt=5 t=93 TAR=1 S=0 O=1 Feq=9155
+TYPE=0, INFO=Wait=0 Evt=3 t=94 TAR=1 S=1 O=1 Feq=9185
+TYPE=0, INFO=Wait=1 Evt=2 t=96 TAR=0 S=0 O=1 Feq=9167
+TYPE=0, INFO=Wait=1 Evt=7 t=90 TAR=2 S=0 O=0 Feq=9170
+TYPE=0, INFO=Wait=1 Evt=5 t=90 TAR=2 S=1 O=1 Feq=9119
+TYPE=0, INFO=Wait=1 Evt=5 t=90 TAR=3 S=0 O=1 Feq=9125
+TYPE=0, INFO=Wait=0 Evt=4 t=91 TAR=4 S=0 O=1 Feq=9139
+TYPE=0, INFO=Wait=1 Evt=7 t=90 TAR=2 S=0 O=0 Feq=9166
+TYPE=0, INFO=Wait=1 Evt=8 t=88 TAR=2 S=0 O=1 Feq=9193
+TYPE=0, INFO=Wait=0 Evt=7 t=91 TAR=1 S=0 O=1 Feq=9158
+TYPE=0, INFO=Wait=0 Evt=6 t=92 TAR=1 S=0 O=1 Feq=9169
+TYPE=0, INFO=Wait=2 Evt=8 t=88 TAR=1 S=0 O=1 Feq=9123
+TYPE=0, INFO=Wait=1 Evt=2 t=94 TAR=2 S=1 O=0 Feq=9144
+TYPE=0, INFO=Wait=1 Evt=5 t=93 TAR=1 S=0 O=0 Feq=9168
+TYPE=0, INFO=Wait=0 Evt=5 t=93 TAR=1 S=0 O=1 Feq=9170
+TYPE=0, INFO=Wait=0 Evt=3 t=97 TAR=0 S=0 O=0 Feq=9160
+TYPE=0, INFO=Wait=1 Evt=5 t=89 TAR=3 S=1 O=1 Feq=9164
+TYPE=0, INFO=Wait=0 Evt=4 t=94 TAR=2 S=0 O=0 Feq=9204
+TYPE=0, INFO=Wait=1 Evt=3 t=92 TAR=3 S=0 O=1 Feq=8925
+TYPE=0, INFO=Wait=2 Evt=4 t=90 TAR=1 S=0 O=3 Feq=9157
+TYPE=0, INFO=Wait=0 Evt=2 t=95 TAR=1 S=0 O=2 Feq=9173
+TYPE=0, INFO=Wait=0 Evt=3 t=92 TAR=3 S=1 O=1 Feq=9183
+TYPE=0, INFO=Wait=0 Evt=3 t=95 TAR=1 S=0 O=1 Feq=9159
+TYPE=0, INFO=Wait=1 Evt=4 t=92 TAR=2 S=0 O=1 Feq=9177
+TYPE=0, INFO=Wait=0 Evt=8 t=90 TAR=2 S=0 O=0 Feq=9167
+TYPE=0, INFO=Wait=0 Evt=6 t=92 TAR=1 S=0 O=1 Feq=9151
+TYPE=0, INFO=Wait=1 Evt=8 t=84 TAR=4 S=2 O=1 Feq=9178
+TYPE=0, INFO=Wait=0 Evt=4 t=96 TAR=0 S=0 O=0 Feq=9130
+TYPE=0, INFO=Wait=1 Evt=3 t=95 TAR=1 S=0 O=0 Feq=9165
+TYPE=0, INFO=Wait=0 Evt=6 t=92 TAR=1 S=0 O=1 Feq=9151
+TYPE=0, INFO=Wait=1 Evt=8 t=87 TAR=2 S=0 O=2 Feq=9170
+TYPE=0, INFO=Wait=0 Evt=1 t=96 TAR=3 S=0 O=0 Feq=9148
+TYPE=0, INFO=Wait=0 Evt=4 t=94 TAR=2 S=0 O=0 Feq=9155
+TYPE=0, INFO=Wait=1 Evt=1 t=91 TAR=3 S=0 O=4 Feq=9164
+TYPE=0, INFO=Wait=2 Evt=4 t=90 TAR=3 S=0 O=1 Feq=9163
+TYPE=0, INFO=Wait=0 Evt=2 t=95 TAR=3 S=0 O=0 Feq=9158
+TYPE=0, INFO=Wait=0 Evt=8 t=87 TAR=3 S=0 O=2 Feq=9153
+TYPE=0, INFO=Wait=2 Evt=4 t=92 TAR=2 S=0 O=0 Feq=9151
+TYPE=0, INFO=Wait=0 Evt=4 t=93 TAR=3 S=0 O=0 Feq=9168
+TYPE=0, INFO=Wait=2 Evt=4 t=92 TAR=2 S=0 O=0 Feq=9164
+TYPE=0, INFO=Wait=0 Evt=4 t=93 TAR=0 S=0 O=3 Feq=9167
+TYPE=0, INFO=Wait=1 Evt=1 t=98 TAR=0 S=0 O=0 Feq=9148
+TYPE=0, INFO=Wait=1 Evt=10 t=87 TAR=1 S=0 O=1 Feq=9160
+TYPE=0, INFO=Wait=1 Evt=3 t=93 TAR=2 S=0 O=1 Feq=9177
+TYPE=0, INFO=Wait=0 Evt=5 t=93 TAR=2 S=0 O=0 Feq=9148
+TYPE=0, INFO=Wait=1 Evt=5 t=92 TAR=1 S=0 O=1 Feq=9163
+TYPE=0, INFO=Wait=1 Evt=6 t=88 TAR=3 S=0 O=2 Feq=9125
+TYPE=0, INFO=Wait=0 Evt=7 t=90 TAR=2 S=0 O=1 Feq=9177
+TYPE=0, INFO=Wait=0 Evt=5 t=90 TAR=3 S=1 O=1 Feq=9069
+TYPE=0, INFO=Wait=3 Evt=6 t=86 TAR=5 S=0 O=0 Feq=9178
+TYPE=0, INFO=Wait=1 Evt=6 t=90 TAR=3 S=0 O=0 Feq=9186
+TYPE=0, INFO=Wait=1 Evt=7 t=90 TAR=1 S=0 O=1 Feq=9179
+TYPE=0, INFO=Wait=0 Evt=4 t=94 TAR=2 S=0 O=0 Feq=9144
+TYPE=0, INFO=Wait=1 Evt=4 t=89 TAR=5 S=0 O=1 Feq=9178
+TYPE=0, INFO=Wait=1 Evt=5 t=91 TAR=3 S=0 O=0 Feq=9185
+TYPE=0, INFO=Wait=1 Evt=3 t=93 TAR=1 S=0 O=2 Feq=9167
+TYPE=0, INFO=Wait=0 Evt=5 t=93 TAR=1 S=1 O=0 Feq=9133
+TYPE=0, INFO=Wait=0 Evt=5 t=92 TAR=2 S=0 O=1 Feq=9153
+TYPE=0, INFO=Wait=2 Evt=5 t=89 TAR=2 S=1 O=1 Feq=9135
+TYPE=0, INFO=Wait=1 Evt=2 t=94 TAR=1 S=0 O=2 Feq=9150
+TYPE=0, INFO=Wait=0 Evt=7 t=89 TAR=3 S=0 O=1 Feq=9163
+TYPE=0, INFO=Wait=1 Evt=3 t=92 TAR=2 S=1 O=1 Feq=9193
+TYPE=0, INFO=Wait=0 Evt=2 t=97 TAR=0 S=0 O=1 Feq=9191
+TYPE=0, INFO=Wait=2 Evt=6 t=85 TAR=5 S=0 O=2 Feq=9166
+TYPE=0, INFO=Wait=0 Evt=4 t=91 TAR=5 S=0 O=0 Feq=9086
+TYPE=0, INFO=Wait=1 Evt=10 t=88 TAR=1 S=0 O=0 Feq=9163
+TYPE=0, INFO=Wait=4 Evt=3 t=91 TAR=1 S=1 O=0 Feq=9053
+TYPE=0, INFO=Wait=0 Evt=6 t=86 TAR=6 S=1 O=1 Feq=9153
+TYPE=0, INFO=Wait=2 Evt=5 t=91 TAR=2 S=0 O=0 Feq=9169
+TYPE=0, INFO=Wait=0 Evt=5 t=92 TAR=2 S=0 O=1 Feq=9157
+TYPE=0, INFO=Wait=0 Evt=3 t=95 TAR=2 S=0 O=0 Feq=9139
+TYPE=0, INFO=Wait=0 Evt=7 t=87 TAR=5 S=1 O=0 Feq=9172
+TYPE=0, INFO=Wait=0 Evt=5 t=91 TAR=3 S=0 O=1 Feq=9161
+TYPE=0, INFO=Wait=1 Evt=10 t=85 TAR=3 S=1 O=0 Feq=9177
+TYPE=0, INFO=Wait=0 Evt=3 t=95 TAR=1 S=0 O=1 Feq=9165
+TYPE=0, INFO=Wait=0 Evt=6 t=94 TAR=0 S=0 O=0 Feq=9178
+TYPE=0, INFO=Wait=0 Evt=6 t=90 TAR=3 S=1 O=0 Feq=9155
+TYPE=0, INFO=Wait=0 Evt=3 t=96 TAR=1 S=0 O=0 Feq=9166
+TYPE=0, INFO=Wait=1 Evt=3 t=91 TAR=3 S=1 O=1 Feq=9185
+TYPE=0, INFO=Wait=2 Evt=7 t=87 TAR=3 S=0 O=1 Feq=9171
+TYPE=0, INFO=Wait=0 Evt=4 t=92 TAR=2 S=1 O=1 Feq=9173
+TYPE=0, INFO=Wait=3 Evt=4 t=88 TAR=4 S=0 O=1 Feq=9176
+TYPE=0, INFO=Wait=0 Evt=4 t=91 TAR=3 S=2 O=0 Feq=9175
+TYPE=0, INFO=Wait=2 Evt=4 t=92 TAR=2 S=0 O=0 Feq=9174
+TYPE=0, INFO=Wait=0 Evt=5 t=88 TAR=3 S=0 O=4 Feq=9168
+TYPE=0, INFO=Wait=1 Evt=1 t=97 TAR=1 S=0 O=0 Feq=9161
+TYPE=0, INFO=Wait=0 Evt=3 t=93 TAR=3 S=0 O=1 Feq=9125
+TYPE=0, INFO=Wait=0 Evt=2 t=92 TAR=5 S=0 O=1 Feq=9177
+TYPE=0, INFO=Wait=0 Evt=3 t=97 TAR=0 S=0 O=0 Feq=9170
+TYPE=0, INFO=Wait=0 Evt=5 t=91 TAR=3 S=1 O=0 Feq=9186
+TYPE=0, INFO=Wait=0 Evt=6 t=87 TAR=5 S=0 O=2 Feq=9224
+TYPE=0, INFO=Wait=0 Evt=5 t=91 TAR=3 S=1 O=0 Feq=9207
+TYPE=0, INFO=Wait=2 Evt=4 t=93 TAR=1 S=0 O=0 Feq=9170
+TYPE=0, INFO=Wait=0 Evt=3 t=94 TAR=0 S=1 O=2 Feq=9166
+TYPE=0, INFO=Wait=0 Evt=4 t=93 TAR=0 S=1 O=2 Feq=9165
+TYPE=0, INFO=Wait=0 Evt=5 t=89 TAR=5 S=0 O=1 Feq=9166
+TYPE=0, INFO=Wait=1 Evt=9 t=90 TAR=0 S=0 O=0 Feq=9153
+TYPE=0, INFO=Wait=0 Evt=4 t=93 TAR=2 S=0 O=1 Feq=9154
+TYPE=0, INFO=Wait=0 Evt=5 t=91 TAR=2 S=0 O=2 Feq=9164
+TYPE=0, INFO=Wait=1 Evt=5 t=93 TAR=0 S=0 O=1 Feq=9170
+TYPE=0, INFO=Wait=1 Evt=2 t=94 TAR=2 S=0 O=1 Feq=9161
+TYPE=0, INFO=Wait=1 Evt=6 t=91 TAR=1 S=0 O=1 Feq=9175
+TYPE=0, INFO=Wait=0 Evt=1 t=98 TAR=1 S=0 O=0 Feq=9167
+TYPE=0, INFO=Wait=1 Evt=2 t=92 TAR=3 S=1 O=1 Feq=9151
+TYPE=0, INFO=Wait=1 Evt=6 t=90 TAR=2 S=1 O=0 Feq=9166
+TYPE=0, INFO=Wait=0 Evt=8 t=88 TAR=3 S=0 O=1 Feq=9172
+TYPE=0, INFO=Wait=1 Evt=5 t=94 TAR=0 S=0 O=0 Feq=9158
+TYPE=0, INFO=Wait=1 Evt=6 t=90 TAR=1 S=1 O=1 Feq=9160
+TYPE=0, INFO=Wait=1 Evt=3 t=91 TAR=5 S=0 O=0 Feq=9142
+TYPE=0, INFO=Wait=1 Evt=5 t=92 TAR=1 S=1 O=0 Feq=9149
+TYPE=0, INFO=Wait=0 Evt=4 t=92 TAR=4 S=0 O=0 Feq=9179
+TYPE=0, INFO=Wait=0 Evt=4 t=91 TAR=4 S=0 O=1 Feq=9188
+TYPE=0, INFO=Wait=2 Evt=3 t=93 TAR=2 S=0 O=0 Feq=9157
+TYPE=0, INFO=Wait=0 Evt=3 t=91 TAR=6 S=0 O=0 Feq=9136
+TYPE=0, INFO=Wait=0 Evt=6 t=92 TAR=1 S=0 O=1 Feq=9149
+TYPE=0, INFO=Wait=0 Evt=3 t=92 TAR=5 S=0 O=0 Feq=9176
+TYPE=0, INFO=Wait=0 Evt=3 t=95 TAR=2 S=0 O=0 Feq=9176
+TYPE=0, INFO=Wait=0 Evt=4 t=93 TAR=2 S=0 O=1 Feq=9153
+TYPE=0, INFO=Wait=1 Evt=6 t=93 TAR=0 S=0 O=0 Feq=9153
+TYPE=0, INFO=Wait=1 Evt=6 t=88 TAR=4 S=0 O=1 Feq=9154
+TYPE=0, INFO=Wait=1 Evt=6 t=89 TAR=4 S=0 O=0 Feq=9151
+TYPE=0, INFO=Wait=0 Evt=6 t=93 TAR=0 S=0 O=1 Feq=9166
+TYPE=0, INFO=Wait=0 Evt=6 t=90 TAR=4 S=0 O=0 Feq=9170
+TYPE=0, INFO=Wait=0 Evt=3 t=95 TAR=2 S=0 O=0 Feq=9189
+TYPE=0, INFO=Wait=1 Evt=5 t=91 TAR=2 S=0 O=1 Feq=9205
+TYPE=0, INFO=Wait=0 Evt=4 t=91 TAR=4 S=1 O=0 Feq=9187
+TYPE=0, INFO=Wait=2 Evt=5 t=88 TAR=3 S=0 O=2 Feq=9175
+TYPE=0, INFO=Wait=1 Evt=4 t=91 TAR=3 S=0 O=1 Feq=9116
+TYPE=0, INFO=Wait=0 Evt=7 t=91 TAR=2 S=0 O=0 Feq=9143
+TYPE=0, INFO=Wait=0 Evt=2 t=97 TAR=1 S=0 O=0 Feq=9167
+TYPE=0, INFO=Wait=0 Evt=5 t=92 TAR=3 S=0 O=0 Feq=9169
+TYPE=0, INFO=Wait=1 Evt=6 t=88 TAR=5 S=0 O=0 Feq=9165
+TYPE=0, INFO=Wait=0 Evt=5 t=94 TAR=1 S=0 O=0 Feq=9148
+TYPE=0, INFO=Wait=0 Evt=6 t=92 TAR=1 S=1 O=0 Feq=9152
+TYPE=0, INFO=Wait=0 Evt=10 t=84 TAR=5 S=0 O=1 Feq=9158
+TYPE=0, INFO=Wait=1 Evt=6 t=92 TAR=1 S=0 O=0 Feq=9196
+TYPE=0, INFO=Wait=0 Evt=3 t=91 TAR=6 S=0 O=0 Feq=9132
+TYPE=0, INFO=Wait=1 Evt=4 t=94 TAR=1 S=0 O=0 Feq=9140
+TYPE=0, INFO=Wait=2 Evt=5 t=92 TAR=0 S=1 O=0 Feq=9174
+TYPE=0, INFO=Wait=0 Evt=3 t=94 TAR=2 S=1 O=0 Feq=9144
+TYPE=0, INFO=Wait=0 Evt=4 t=93 TAR=3 S=0 O=0 Feq=9144
+TYPE=0, INFO=Wait=0 Evt=6 t=92 TAR=1 S=1 O=0 Feq=9135
+TYPE=0, INFO=Wait=2 Evt=4 t=90 TAR=4 S=0 O=0 Feq=9159
+TYPE=0, INFO=Wait=0 Evt=4 t=91 TAR=4 S=0 O=1 Feq=9158
+TYPE=0, INFO=Wait=2 Evt=5 t=91 TAR=1 S=0 O=1 Feq=9153
+TYPE=0, INFO=Wait=0 Evt=7 t=91 TAR=2 S=0 O=0 Feq=9161
+TYPE=0, INFO=Wait=0 Evt=4 t=93 TAR=2 S=0 O=1 Feq=9187
+TYPE=0, INFO=Wait=2 Evt=1 t=97 TAR=0 S=0 O=0 Feq=9143
+TYPE=0, INFO=Wait=2 Evt=4 t=93 TAR=0 S=0 O=1 Feq=8791
+TYPE=0, INFO=Wait=0 Evt=5 t=94 TAR=1 S=0 O=0 Feq=9184
+TYPE=0, INFO=Wait=1 Evt=6 t=89 TAR=3 S=0 O=1 Feq=9157
+TYPE=0, INFO=Wait=0 Evt=3 t=94 TAR=1 S=1 O=1 Feq=9159
+TYPE=0, INFO=Wait=1 Evt=5 t=91 TAR=2 S=1 O=0 Feq=9052
+TYPE=0, INFO=Wait=0 Evt=3 t=92 TAR=5 S=0 O=0 Feq=9103
+TYPE=0, INFO=Wait=1 Evt=4 t=93 TAR=1 S=0 O=1 Feq=9166
+TYPE=0, INFO=Wait=0 Evt=4 t=92 TAR=4 S=0 O=0 Feq=9163
+TYPE=0, INFO=Wait=0 Evt=4 t=96 TAR=0 S=0 O=0 Feq=9179
+TYPE=0, INFO=Wait=1 Evt=4 t=93 TAR=2 S=0 O=0 Feq=9148
+TYPE=0, INFO=Wait=0 Evt=5 t=93 TAR=2 S=0 O=0 Feq=9170
+TYPE=0, INFO=Wait=0 Evt=2 t=95 TAR=1 S=0 O=2 Feq=9179
+TYPE=0, INFO=Wait=0 Evt=1 t=98 TAR=1 S=0 O=0 Feq=9122
+TYPE=0, INFO=Wait=1 Evt=7 t=90 TAR=2 S=0 O=0 Feq=9184
+TYPE=0, INFO=Wait=0 Evt=3 t=94 TAR=3 S=0 O=0 Feq=8907
+TYPE=0, INFO=Wait=3 Evt=4 t=86 TAR=7 S=0 O=0 Feq=9233
+TYPE=0, INFO=Wait=0 Evt=6 t=89 TAR=5 S=0 O=0 Feq=9186
+TYPE=0, INFO=Wait=0 Evt=4 t=89 TAR=2 S=1 O=4 Feq=9167
+TYPE=0, INFO=Wait=0 Evt=2 t=92 TAR=4 S=1 O=1 Feq=9169
+TYPE=0, INFO=Wait=1 Evt=10 t=85 TAR=3 S=0 O=1 Feq=9189
+TYPE=0, INFO=Wait=0 Evt=5 t=92 TAR=2 S=0 O=1 Feq=9209
+TYPE=0, INFO=Wait=0 Evt=6 t=90 TAR=2 S=0 O=2 Feq=9162
+TYPE=0, INFO=Wait=1 Evt=4 t=91 TAR=3 S=0 O=1 Feq=9186
+TYPE=0, INFO=Wait=0 Evt=4 t=93 TAR=3 S=0 O=0 Feq=9193
+TYPE=0, INFO=Wait=0 Evt=8 t=90 TAR=1 S=0 O=1 Feq=9166
+TYPE=0, INFO=Wait=0 Evt=4 t=93 TAR=2 S=0 O=1 Feq=9181
+TYPE=0, INFO=Wait=1 Evt=2 t=95 TAR=1 S=0 O=1 Feq=9147
+TYPE=0, INFO=Wait=0 Evt=3 t=94 TAR=3 S=0 O=0 Feq=9087
+TYPE=0, INFO=Wait=1 Evt=6 t=90 TAR=1 S=1 O=1 Feq=9166
+TYPE=0, INFO=Wait=1 Evt=4 t=94 TAR=0 S=0 O=1 Feq=9181
+TYPE=0, INFO=Wait=1 Evt=5 t=92 TAR=2 S=0 O=0 Feq=9171
+TYPE=0, INFO=Wait=2 Evt=3 t=90 TAR=5 S=0 O=0 Feq=9163
+TYPE=0, INFO=Wait=0 Evt=4 t=93 TAR=0 S=1 O=2 Feq=9174
+TYPE=0, INFO=Wait=0 Evt=7 t=91 TAR=1 S=0 O=1 Feq=9163
+TYPE=0, INFO=Wait=0 Evt=4 t=93 TAR=3 S=0 O=0 Feq=9188
+TYPE=0, INFO=Wait=1 Evt=5 t=90 TAR=3 S=0 O=1 Feq=9228
+TYPE=0, INFO=Wait=1 Evt=6 t=88 TAR=3 S=0 O=2 Feq=9195
+TYPE=0, INFO=Wait=1 Evt=3 t=92 TAR=2 S=0 O=2 Feq=9149
+TYPE=0, INFO=Wait=1 Evt=5 t=91 TAR=3 S=0 O=0 Feq=9139
+TYPE=0, INFO=Wait=1 Evt=5 t=93 TAR=0 S=0 O=1 Feq=9195
+TYPE=0, INFO=Wait=1 Evt=4 t=95 TAR=0 S=0 O=0 Feq=9244
+TYPE=0, INFO=Wait=0 Evt=6 t=91 TAR=3 S=0 O=0 Feq=9149
+TYPE=0, INFO=Wait=1 Evt=6 t=91 TAR=1 S=0 O=1 Feq=9171
+TYPE=0, INFO=Wait=0 Evt=3 t=96 TAR=1 S=0 O=0 Feq=8917
+TYPE=0, INFO=Wait=0 Evt=4 t=94 TAR=1 S=1 O=0 Feq=9192
+TYPE=0, INFO=Wait=0 Evt=6 t=91 TAR=2 S=0 O=1 Feq=9173
+TYPE=0, INFO=Wait=3 Evt=8 t=87 TAR=1 S=0 O=1 Feq=9152
+TYPE=0, INFO=Wait=0 Evt=3 t=93 TAR=3 S=1 O=0 Feq=9169
+TYPE=0, INFO=Wait=0 Evt=5 t=92 TAR=2 S=1 O=0 Feq=9164
+TYPE=0, INFO=Wait=0 Evt=3 t=95 TAR=1 S=0 O=1 Feq=9182
+TYPE=0, INFO=Wait=1 Evt=3 t=91 TAR=4 S=1 O=0 Feq=9165
+TYPE=0, INFO=Wait=0 Evt=2 t=97 TAR=1 S=0 O=0 Feq=9135
+TYPE=0, INFO=Wait=2 Evt=8 t=85 TAR=3 S=1 O=1 Feq=9023
+TYPE=0, INFO=Wait=1 Evt=3 t=92 TAR=3 S=0 O=1 Feq=9186
+TYPE=0, INFO=Wait=2 Evt=7 t=86 TAR=3 S=1 O=1 Feq=9184
+TYPE=0, INFO=Wait=1 Evt=5 t=92 TAR=1 S=0 O=1 Feq=9176
+TYPE=0, INFO=Wait=0 Evt=9 t=88 TAR=0 S=1 O=2 Feq=9173
+TYPE=0, INFO=Wait=1 Evt=3 t=94 TAR=1 S=0 O=1 Feq=9175
+TYPE=0, INFO=Wait=0 Evt=4 t=95 TAR=1 S=0 O=0 Feq=9177
+TYPE=0, INFO=Wait=0 Evt=6 t=92 TAR=2 S=0 O=0 Feq=9175
+TYPE=0, INFO=Wait=0 Evt=6 t=92 TAR=2 S=0 O=0 Feq=9183
+TYPE=0, INFO=Wait=0 Evt=7 t=90 TAR=3 S=0 O=0 Feq=9177
+TYPE=0, INFO=Wait=2 Evt=6 t=90 TAR=1 S=1 O=0 Feq=9174
+TYPE=0, INFO=Wait=1 Evt=3 t=94 TAR=2 S=0 O=0 Feq=9225
+TYPE=0, INFO=Wait=1 Evt=5 t=91 TAR=3 S=0 O=0 Feq=9155
+TYPE=0, INFO=Wait=0 Evt=6 t=90 TAR=3 S=0 O=1 Feq=9192
+TYPE=0, INFO=Wait=1 Evt=4 t=94 TAR=1 S=0 O=0 Feq=9076
+TYPE=0, INFO=Wait=2 Evt=8 t=89 TAR=0 S=0 O=1 Feq=9147
+TYPE=0, INFO=Wait=2 Evt=5 t=88 TAR=4 S=0 O=1 Feq=9129
+TYPE=0, INFO=Wait=1 Evt=6 t=88 TAR=4 S=0 O=1 Feq=9171
+TYPE=0, INFO=Wait=0 Evt=5 t=92 TAR=3 S=0 O=0 Feq=9191
+TYPE=0, INFO=Wait=2 Evt=5 t=91 TAR=2 S=0 O=0 Feq=9187
+TYPE=0, INFO=Wait=1 Evt=5 t=93 TAR=1 S=0 O=0 Feq=9146
+TYPE=0, INFO=Wait=1 Evt=2 t=94 TAR=2 S=0 O=1 Feq=9149
+TYPE=0, INFO=Wait=0 Evt=8 t=88 TAR=4 S=0 O=0 Feq=9179
+TYPE=0, INFO=Wait=0 Evt=0 t=94 TAR=1 S=1 O=4 Feq=9170
+TYPE=0, INFO=Wait=0 Evt=4 t=94 TAR=2 S=0 O=0 Feq=9188
+TYPE=0, INFO=Wait=0 Evt=5 t=90 TAR=5 S=0 O=0 Feq=9166
+TYPE=0, INFO=Wait=1 Evt=7 t=90 TAR=1 S=0 O=1 Feq=9185
+TYPE=0, INFO=Wait=0 Evt=4 t=95 TAR=1 S=0 O=0 Feq=9191
+TYPE=0, INFO=Wait=2 Evt=3 t=94 TAR=0 S=0 O=1 Feq=9175
+TYPE=0, INFO=Wait=0 Evt=6 t=90 TAR=1 S=1 O=2 Feq=9155
+TYPE=0, INFO=Wait=0 Evt=3 t=95 TAR=2 S=0 O=0 Feq=9176
+TYPE=0, INFO=Wait=0 Evt=3 t=96 TAR=0 S=0 O=1 Feq=9162
+TYPE=0, INFO=Wait=0 Evt=7 t=89 TAR=3 S=0 O=1 Feq=9140
+TYPE=0, INFO=Wait=1 Evt=4 t=90 TAR=4 S=0 O=1 Feq=9172
+TYPE=0, INFO=Wait=0 Evt=3 t=95 TAR=1 S=1 O=0 Feq=9181
+TYPE=0, INFO=Wait=0 Evt=5 t=90 TAR=3 S=2 O=0 Feq=9230
+TYPE=0, INFO=Wait=1 Evt=5 t=93 TAR=1 S=0 O=0 Feq=9216
+TYPE=0, INFO=Wait=0 Evt=4 t=93 TAR=3 S=0 O=0 Feq=9148
+TYPE=0, INFO=Wait=0 Evt=4 t=92 TAR=3 S=0 O=1 Feq=9194
+TYPE=0, INFO=Wait=0 Evt=4 t=94 TAR=0 S=1 O=1 Feq=9166
+TYPE=0, INFO=Wait=0 Evt=2 t=95 TAR=2 S=0 O=1 Feq=9187
+TYPE=0, INFO=Wait=0 Evt=1 t=94 TAR=2 S=1 O=2 Feq=9208
+TYPE=0, INFO=Wait=1 Evt=7 t=90 TAR=1 S=0 O=1 Feq=9181
+TYPE=0, INFO=Wait=0 Evt=4 t=94 TAR=0 S=1 O=1 Feq=9195
+TYPE=0, INFO=Wait=0 Evt=6 t=91 TAR=3 S=0 O=0 Feq=9118
+TYPE=0, INFO=Wait=0 Evt=3 t=95 TAR=2 S=0 O=0 Feq=9174
+TYPE=0, INFO=Wait=0 Evt=7 t=91 TAR=1 S=0 O=1 Feq=9166
+TYPE=0, INFO=Wait=0 Evt=6 t=93 TAR=1 S=0 O=0 Feq=9204
+TYPE=0, INFO=Wait=0 Evt=5 t=93 TAR=2 S=0 O=0 Feq=9185
+TYPE=0, INFO=Wait=1 Evt=3 t=96 TAR=0 S=0 O=0 Feq=9175
+TYPE=0, INFO=Wait=0 Evt=5 t=93 TAR=2 S=0 O=0 Feq=9160
+TYPE=0, INFO=Wait=0 Evt=1 t=92 TAR=3 S=0 O=4 Feq=9184
+TYPE=0, INFO=Wait=1 Evt=7 t=89 TAR=3 S=0 O=0 Feq=9171
+TYPE=0, INFO=Wait=0 Evt=5 t=93 TAR=2 S=0 O=0 Feq=9159
+TYPE=0, INFO=Wait=2 Evt=3 t=94 TAR=1 S=0 O=0 Feq=9187
+TYPE=0, INFO=Wait=1 Evt=1 t=93 TAR=4 S=1 O=0 Feq=9154
+TYPE=0, INFO=Wait=1 Evt=3 t=92 TAR=2 S=0 O=2 Feq=9144
+TYPE=0, INFO=Wait=1 Evt=7 t=87 TAR=3 S=1 O=1 Feq=9182
+TYPE=0, INFO=Wait=1 Evt=8 t=84 TAR=5 S=0 O=2 Feq=9157
+TYPE=0, INFO=Wait=0 Evt=6 t=92 TAR=0 S=0 O=2 Feq=9157
+TYPE=0, INFO=Wait=1 Evt=4 t=92 TAR=2 S=1 O=0 Feq=9139
+TYPE=0, INFO=Wait=1 Evt=3 t=93 TAR=3 S=0 O=0 Feq=9184
+TYPE=0, INFO=Wait=0 Evt=5 t=94 TAR=0 S=1 O=0 Feq=9152
+TYPE=0, INFO=Wait=0 Evt=7 t=91 TAR=1 S=1 O=0 Feq=9186
+TYPE=0, INFO=Wait=0 Evt=2 t=94 TAR=3 S=0 O=1 Feq=9141
+TYPE=0, INFO=Wait=1 Evt=7 t=90 TAR=2 S=0 O=0 Feq=9189
+TYPE=0, INFO=Wait=0 Evt=3 t=92 TAR=4 S=1 O=0 Feq=9150
+TYPE=0, INFO=Wait=0 Evt=5 t=88 TAR=6 S=1 O=0 Feq=9149
+TYPE=0, INFO=Wait=1 Evt=3 t=93 TAR=2 S=0 O=1 Feq=9178
+TYPE=0, INFO=Wait=0 Evt=6 t=90 TAR=3 S=0 O=1 Feq=9168
+TYPE=0, INFO=Wait=1 Evt=4 t=94 TAR=0 S=1 O=0 Feq=9152
+TYPE=0, INFO=Wait=0 Evt=2 t=93 TAR=5 S=0 O=0 Feq=9158
+TYPE=0, INFO=Wait=0 Evt=5 t=92 TAR=3 S=0 O=0 Feq=9173
+TYPE=0, INFO=Wait=0 Evt=5 t=90 TAR=5 S=0 O=0 Feq=9169
+TYPE=0, INFO=Wait=2 Evt=7 t=89 TAR=2 S=0 O=0 Feq=9148
+TYPE=0, INFO=Wait=0 Evt=3 t=95 TAR=1 S=1 O=0 Feq=9170
+TYPE=0, INFO=Wait=0 Evt=4 t=92 TAR=2 S=0 O=2 Feq=9182
+TYPE=0, INFO=Wait=1 Evt=4 t=95 TAR=0 S=0 O=0 Feq=9128
+TYPE=0, INFO=Wait=0 Evt=1 t=96 TAR=2 S=0 O=1 Feq=9196
+TYPE=0, INFO=Wait=2 Evt=1 t=94 TAR=2 S=0 O=1 Feq=9172
+TYPE=0, INFO=Wait=1 Evt=5 t=91 TAR=3 S=0 O=0 Feq=9157
+TYPE=0, INFO=Wait=1 Evt=6 t=92 TAR=1 S=0 O=0 Feq=9180
+TYPE=0, INFO=Wait=0 Evt=8 t=89 TAR=2 S=1 O=0 Feq=9160
+TYPE=0, INFO=Wait=1 Evt=2 t=92 TAR=2 S=0 O=3 Feq=9193
+TYPE=0, INFO=Wait=0 Evt=4 t=93 TAR=2 S=0 O=1 Feq=9171
+TYPE=0, INFO=Wait=0 Evt=1 t=95 TAR=3 S=0 O=1 Feq=9166
+TYPE=0, INFO=Wait=0 Evt=1 t=94 TAR=4 S=0 O=1 Feq=9147
+TYPE=0, INFO=Wait=0 Evt=7 t=90 TAR=0 S=1 O=2 Feq=9148
+TYPE=0, INFO=Wait=2 Evt=2 t=92 TAR=3 S=1 O=0 Feq=9145
+TYPE=0, INFO=Wait=1 Evt=3 t=93 TAR=3 S=0 O=0 Feq=9166
+TYPE=0, INFO=Wait=0 Evt=5 t=91 TAR=2 S=1 O=1 Feq=9172
+TYPE=0, INFO=Wait=1 Evt=3 t=92 TAR=2 S=0 O=2 Feq=8993
+TYPE=0, INFO=Wait=0 Evt=4 t=92 TAR=3 S=0 O=1 Feq=9182
+TYPE=0, INFO=Wait=1 Evt=5 t=90 TAR=3 S=0 O=1 Feq=9202
+TYPE=0, INFO=Wait=0 Evt=7 t=90 TAR=2 S=0 O=1 Feq=9164
+TYPE=0, INFO=Wait=0 Evt=2 t=93 TAR=4 S=0 O=1 Feq=9180
+TYPE=0, INFO=Wait=1 Evt=7 t=89 TAR=2 S=0 O=1 Feq=9157
+TYPE=0, INFO=Wait=0 Evt=4 t=95 TAR=1 S=0 O=0 Feq=9175
+TYPE=0, INFO=Wait=1 Evt=7 t=92 TAR=0 S=0 O=0 Feq=9194
+TYPE=0, INFO=Wait=0 Evt=6 t=88 TAR=4 S=0 O=2 Feq=9180
+TYPE=0, INFO=Wait=1 Evt=4 t=91 TAR=3 S=1 O=0 Feq=9170
+TYPE=0, INFO=Wait=0 Evt=4 t=93 TAR=3 S=0 O=0 Feq=9154
+TYPE=0, INFO=Wait=1 Evt=5 t=93 TAR=0 S=0 O=1 Feq=9187
+TYPE=0, INFO=Wait=0 Evt=4 t=92 TAR=4 S=0 O=0 Feq=9169
+TYPE=0, INFO=Wait=1 Evt=5 t=88 TAR=3 S=2 O=1 Feq=9114
+TYPE=0, INFO=Wait=0 Evt=3 t=89 TAR=7 S=1 O=0 Feq=9160
+TYPE=0, INFO=Wait=0 Evt=8 t=89 TAR=1 S=1 O=1 Feq=9148
+TYPE=0, INFO=Wait=0 Evt=4 t=94 TAR=1 S=0 O=1 Feq=9233
+TYPE=0, INFO=Wait=0 Evt=8 t=90 TAR=1 S=0 O=1 Feq=9217
+TYPE=0, INFO=Wait=2 Evt=7 t=89 TAR=1 S=0 O=1 Feq=9198
+TYPE=0, INFO=Wait=0 Evt=2 t=93 TAR=4 S=1 O=0 Feq=9156
+TYPE=0, INFO=Wait=1 Evt=6 t=88 TAR=4 S=1 O=0 Feq=9153
+TYPE=0, INFO=Wait=1 Evt=7 t=89 TAR=3 S=0 O=0 Feq=8929
+TYPE=0, INFO=Wait=1 Evt=4 t=90 TAR=5 S=0 O=0 Feq=9199
+TYPE=0, INFO=Wait=0 Evt=6 t=88 TAR=4 S=1 O=1 Feq=9150
+TYPE=0, INFO=Wait=0 Evt=5 t=91 TAR=3 S=1 O=0 Feq=9158
+TYPE=0, INFO=Wait=0 Evt=7 t=91 TAR=1 S=0 O=1 Feq=9161
+TYPE=0, INFO=Wait=0 Evt=4 t=93 TAR=3 S=0 O=0 Feq=9157
+TYPE=0, INFO=Wait=0 Evt=4 t=92 TAR=3 S=1 O=0 Feq=9170
+TYPE=0, INFO=Wait=0 Evt=9 t=89 TAR=1 S=0 O=1 Feq=9079
+TYPE=0, INFO=Wait=1 Evt=7 t=88 TAR=3 S=0 O=1 Feq=9179
+TYPE=0, INFO=Wait=1 Evt=5 t=91 TAR=3 S=0 O=0 Feq=9177
+TYPE=0, INFO=Wait=0 Evt=3 t=93 TAR=4 S=0 O=0 Feq=9142
+TYPE=0, INFO=Wait=0 Evt=3 t=95 TAR=2 S=0 O=0 Feq=9187
+TYPE=0, INFO=Wait=1 Evt=6 t=92 TAR=1 S=0 O=0 Feq=9163
+TYPE=0, INFO=Wait=0 Evt=1 t=96 TAR=1 S=2 O=0 Feq=9146
+TYPE=0, INFO=Wait=0 Evt=4 t=93 TAR=1 S=1 O=1 Feq=9160
+TYPE=0, INFO=Wait=1 Evt=3 t=94 TAR=1 S=1 O=0 Feq=9171
+TYPE=0, INFO=Wait=0 Evt=3 t=94 TAR=3 S=0 O=0 Feq=9155
+TYPE=0, INFO=Wait=0 Evt=5 t=93 TAR=2 S=0 O=0 Feq=9173
+TYPE=0, INFO=Wait=0 Evt=4 t=91 TAR=4 S=0 O=1 Feq=9175
+TYPE=0, INFO=Wait=0 Evt=5 t=92 TAR=2 S=0 O=1 Feq=9150
+TYPE=0, INFO=Wait=1 Evt=8 t=90 TAR=0 S=1 O=0 Feq=9187
+TYPE=0, INFO=Wait=0 Evt=4 t=94 TAR=2 S=0 O=0 Feq=9170
+TYPE=0, INFO=Wait=1 Evt=7 t=90 TAR=2 S=0 O=0 Feq=9182
+TYPE=0, INFO=Wait=0 Evt=4 t=94 TAR=2 S=0 O=0 Feq=9178
+TYPE=0, INFO=Wait=0 Evt=4 t=92 TAR=2 S=1 O=1 Feq=9164
+TYPE=0, INFO=Wait=1 Evt=6 t=92 TAR=1 S=0 O=0 Feq=9168
+TYPE=0, INFO=Wait=1 Evt=5 t=91 TAR=1 S=0 O=2 Feq=9115
+TYPE=0, INFO=Wait=1 Evt=3 t=94 TAR=1 S=0 O=1 Feq=9142
+TYPE=0, INFO=Wait=0 Evt=7 t=87 TAR=3 S=1 O=2 Feq=9146
+TYPE=0, INFO=Wait=2 Evt=3 t=92 TAR=2 S=1 O=0 Feq=9161
+TYPE=0, INFO=Wait=0 Evt=4 t=93 TAR=3 S=0 O=0 Feq=9167
+TYPE=0, INFO=Wait=0 Evt=4 t=91 TAR=4 S=0 O=1 Feq=9140
+TYPE=0, INFO=Wait=1 Evt=4 t=89 TAR=5 S=1 O=0 Feq=9149
+TYPE=0, INFO=Wait=0 Evt=4 t=95 TAR=0 S=0 O=1 Feq=9182
+TYPE=0, INFO=Wait=0 Evt=2 t=95 TAR=1 S=0 O=2 Feq=9170
+TYPE=0, INFO=Wait=1 Evt=6 t=92 TAR=1 S=0 O=0 Feq=9162
+TYPE=0, INFO=Wait=0 Evt=4 t=93 TAR=3 S=0 O=0 Feq=9154
+TYPE=0, INFO=Wait=1 Evt=5 t=91 TAR=1 S=0 O=2 Feq=9186
+TYPE=0, INFO=Wait=1 Evt=2 t=90 TAR=4 S=0 O=3 Feq=9177
+TYPE=0, INFO=Wait=0 Evt=4 t=93 TAR=3 S=0 O=0 Feq=9146
+TYPE=0, INFO=Wait=0 Evt=6 t=91 TAR=2 S=0 O=1 Feq=9165
+TYPE=0, INFO=Wait=0 Evt=5 t=94 TAR=0 S=0 O=1 Feq=9152
+TYPE=0, INFO=Wait=0 Evt=6 t=90 TAR=3 S=0 O=1 Feq=9189
+TYPE=0, INFO=Wait=1 Evt=6 t=90 TAR=2 S=0 O=1 Feq=9200
+TYPE=0, INFO=Wait=0 Evt=4 t=93 TAR=3 S=0 O=0 Feq=9153
+TYPE=0, INFO=Wait=1 Evt=2 t=93 TAR=2 S=0 O=2 Feq=9170
+TYPE=0, INFO=Wait=0 Evt=2 t=96 TAR=2 S=0 O=0 Feq=9193
+TYPE=0, INFO=Wait=1 Evt=4 t=91 TAR=4 S=0 O=0 Feq=9171
+TYPE=0, INFO=Wait=0 Evt=4 t=93 TAR=3 S=0 O=0 Feq=9143
+TYPE=0, INFO=Wait=0 Evt=6 t=89 TAR=4 S=1 O=0 Feq=9160
+TYPE=0, INFO=Wait=0 Evt=6 t=91 TAR=2 S=0 O=1 Feq=9133
+TYPE=0, INFO=Wait=2 Evt=4 t=91 TAR=2 S=1 O=0 Feq=9133
+TYPE=0, INFO=Wait=1 Evt=4 t=91 TAR=3 S=1 O=0 Feq=9155
+TYPE=0, INFO=Wait=1 Evt=5 t=93 TAR=0 S=0 O=1 Feq=9159
+TYPE=0, INFO=Wait=0 Evt=3 t=94 TAR=1 S=0 O=2 Feq=9168
+TYPE=0, INFO=Wait=0 Evt=2 t=97 TAR=0 S=0 O=1 Feq=9158
+TYPE=0, INFO=Wait=0 Evt=5 t=91 TAR=3 S=0 O=1 Feq=8870
+TYPE=0, INFO=Wait=0 Evt=9 t=86 TAR=5 S=0 O=0 Feq=9163
+TYPE=0, INFO=Wait=0 Evt=2 t=94 TAR=2 S=1 O=1 Feq=9168
+TYPE=0, INFO=Wait=1 Evt=4 t=92 TAR=2 S=0 O=1 Feq=9172
+TYPE=0, INFO=Wait=0 Evt=6 t=93 TAR=1 S=0 O=0 Feq=9162
+TYPE=0, INFO=Wait=0 Evt=4 t=90 TAR=5 S=0 O=1 Feq=9164
+TYPE=0, INFO=Wait=1 Evt=6 t=88 TAR=3 S=0 O=2 Feq=9101
+TYPE=0, INFO=Wait=0 Evt=5 t=92 TAR=2 S=1 O=0 Feq=9167
+TYPE=0, INFO=Wait=1 Evt=1 t=97 TAR=1 S=0 O=0 Feq=9177
+TYPE=0, INFO=Wait=0 Evt=4 t=93 TAR=2 S=0 O=1 Feq=9137
+TYPE=0, INFO=Wait=0 Evt=7 t=88 TAR=2 S=1 O=2 Feq=9139
+TYPE=0, INFO=Wait=1 Evt=7 t=89 TAR=3 S=0 O=0 Feq=9212
+TYPE=0, INFO=Wait=0 Evt=1 t=96 TAR=2 S=0 O=1 Feq=9172
+TYPE=0, INFO=Wait=1 Evt=5 t=87 TAR=5 S=0 O=2 Feq=9181
+TYPE=0, INFO=Wait=0 Evt=0 t=95 TAR=2 S=0 O=3 Feq=9164
+TYPE=0, INFO=Wait=1 Evt=9 t=87 TAR=2 S=1 O=0 Feq=9137
+TYPE=0, INFO=Wait=1 Evt=5 t=91 TAR=3 S=0 O=0 Feq=9178
+TYPE=0, INFO=Wait=0 Evt=4 t=92 TAR=3 S=0 O=1 Feq=9209
+TYPE=0, INFO=Wait=0 Evt=6 t=90 TAR=4 S=0 O=0 Feq=9187
+TYPE=0, INFO=Wait=0 Evt=4 t=95 TAR=0 S=0 O=1 Feq=9156
+TYPE=0, INFO=Wait=0 Evt=1 t=97 TAR=0 S=1 O=1 Feq=9174
+TYPE=0, INFO=Wait=1 Evt=1 t=93 TAR=3 S=1 O=1 Feq=9167
+TYPE=0, INFO=Wait=0 Evt=3 t=96 TAR=1 S=0 O=0 Feq=9170
+TYPE=0, INFO=Wait=0 Evt=4 t=94 TAR=0 S=2 O=0 Feq=8826
+TYPE=0, INFO=Wait=0 Evt=2 t=94 TAR=2 S=1 O=1 Feq=9179
+TYPE=0, INFO=Wait=0 Evt=2 t=94 TAR=2 S=1 O=1 Feq=9191
+TYPE=0, INFO=Wait=1 Evt=4 t=89 TAR=4 S=0 O=2 Feq=9163
+TYPE=0, INFO=Wait=0 Evt=2 t=92 TAR=3 S=0 O=3 Feq=9175
+TYPE=0, INFO=Wait=0 Evt=4 t=92 TAR=3 S=1 O=0 Feq=9188
+TYPE=0, INFO=Wait=1 Evt=4 t=94 TAR=0 S=0 O=1 Feq=9195
+TYPE=0, INFO=Wait=0 Evt=4 t=92 TAR=3 S=0 O=1 Feq=9190
+TYPE=0, INFO=Wait=0 Evt=4 t=93 TAR=2 S=0 O=1 Feq=9159
+TYPE=0, INFO=Wait=3 Evt=7 t=88 TAR=2 S=0 O=0 Feq=9152
+TYPE=0, INFO=Wait=1 Evt=8 t=86 TAR=4 S=0 O=1 Feq=9165
+TYPE=0, INFO=Wait=0 Evt=4 t=95 TAR=1 S=0 O=0 Feq=9167
+TYPE=0, INFO=Wait=0 Evt=10 t=87 TAR=2 S=0 O=1 Feq=9145
+TYPE=0, INFO=Wait=0 Evt=5 t=89 TAR=2 S=2 O=2 Feq=9172
+TYPE=0, INFO=Wait=0 Evt=7 t=90 TAR=2 S=0 O=1 Feq=9158
+TYPE=0, INFO=Wait=1 Evt=5 t=89 TAR=4 S=1 O=0 Feq=9161
+TYPE=0, INFO=Wait=1 Evt=4 t=92 TAR=2 S=0 O=1 Feq=9176
+TYPE=0, INFO=Wait=0 Evt=6 t=90 TAR=4 S=0 O=0 Feq=9161
+TYPE=0, INFO=Wait=1 Evt=3 t=95 TAR=0 S=0 O=1 Feq=9161
+TYPE=0, INFO=Wait=1 Evt=4 t=93 TAR=1 S=1 O=0 Feq=9173
+TYPE=0, INFO=Wait=0 Evt=6 t=92 TAR=2 S=0 O=0 Feq=9181
+TYPE=0, INFO=Wait=1 Evt=3 t=92 TAR=4 S=0 O=0 Feq=8824
+TYPE=0, INFO=Wait=0 Evt=7 t=88 TAR=3 S=1 O=1 Feq=9179
+TYPE=0, INFO=Wait=2 Evt=1 t=95 TAR=0 S=1 O=1 Feq=9215
+TYPE=0, INFO=Wait=0 Evt=4 t=93 TAR=1 S=0 O=2 Feq=9196
+TYPE=0, INFO=Wait=0 Evt=5 t=91 TAR=4 S=0 O=0 Feq=9202
+TYPE=0, INFO=Wait=0 Evt=6 t=93 TAR=1 S=0 O=0 Feq=9175
+TYPE=0, INFO=Wait=1 Evt=5 t=91 TAR=1 S=0 O=2 Feq=9116
+TYPE=0, INFO=Wait=0 Evt=6 t=90 TAR=4 S=0 O=0 Feq=9188
+TYPE=0, INFO=Wait=1 Evt=3 t=90 TAR=5 S=1 O=0 Feq=9147
+TYPE=0, INFO=Wait=0 Evt=4 t=93 TAR=2 S=0 O=1 Feq=9194
+TYPE=0, INFO=Wait=0 Evt=6 t=92 TAR=2 S=0 O=0 Feq=8903
+TYPE=0, INFO=Wait=0 Evt=4 t=91 TAR=5 S=0 O=0 Feq=9176
+TYPE=0, INFO=Wait=1 Evt=3 t=95 TAR=1 S=0 O=0 Feq=9179
+TYPE=0, INFO=Wait=2 Evt=6 t=90 TAR=2 S=0 O=0 Feq=9182
+TYPE=0, INFO=Wait=0 Evt=3 t=92 TAR=2 S=1 O=2 Feq=9177
+TYPE=0, INFO=Wait=0 Evt=6 t=87 TAR=4 S=0 O=3 Feq=9149
+TYPE=0, INFO=Wait=0 Evt=5 t=90 TAR=2 S=1 O=2 Feq=9084
+TYPE=0, INFO=Wait=0 Evt=4 t=92 TAR=1 S=1 O=2 Feq=9166
+TYPE=0, INFO=Wait=0 Evt=1 t=96 TAR=3 S=0 O=0 Feq=9167
+TYPE=0, INFO=Wait=2 Evt=8 t=87 TAR=3 S=0 O=0 Feq=9160
+TYPE=0, INFO=Wait=0 Evt=5 t=94 TAR=1 S=0 O=0 Feq=9167
+TYPE=0, INFO=Wait=1 Evt=4 t=91 TAR=3 S=1 O=0 Feq=9180
+TYPE=0, INFO=Wait=0 Evt=5 t=93 TAR=2 S=0 O=0 Feq=9197
+TYPE=0, INFO=Wait=1 Evt=2 t=96 TAR=1 S=0 O=0 Feq=9142
+TYPE=0, INFO=Wait=3 Evt=8 t=86 TAR=1 S=1 O=1 Feq=9151
+TYPE=0, INFO=Wait=1 Evt=5 t=92 TAR=2 S=0 O=0 Feq=9142
+TYPE=0, INFO=Wait=0 Evt=2 t=96 TAR=1 S=0 O=1 Feq=9165
+TYPE=0, INFO=Wait=0 Evt=5 t=92 TAR=3 S=0 O=0 Feq=9155
+TYPE=0, INFO=Wait=0 Evt=6 t=93 TAR=0 S=1 O=0 Feq=9162
+TYPE=0, INFO=Wait=0 Evt=5 t=93 TAR=2 S=0 O=0 Feq=9138
+TYPE=0, INFO=Wait=0 Evt=3 t=93 TAR=4 S=0 O=0 Feq=9190
+TYPE=0, INFO=Wait=0 Evt=3 t=94 TAR=2 S=0 O=1 Feq=9194
+TYPE=0, INFO=Wait=0 Evt=6 t=92 TAR=2 S=0 O=0 Feq=9196
+TYPE=0, INFO=Wait=0 Evt=2 t=94 TAR=2 S=1 O=1 Feq=9217
+TYPE=0, INFO=Wait=1 Evt=5 t=92 TAR=2 S=0 O=0 Feq=9216
+TYPE=0, INFO=Wait=1 Evt=5 t=93 TAR=1 S=0 O=0 Feq=9194
+TYPE=0, INFO=Wait=0 Evt=6 t=90 TAR=2 S=0 O=2 Feq=9185
+TYPE=0, INFO=Wait=0 Evt=7 t=90 TAR=2 S=0 O=1 Feq=9201
+TYPE=0, INFO=Wait=4 Evt=10 t=83 TAR=2 S=0 O=1 Feq=9194
+TYPE=0, INFO=Wait=0 Evt=5 t=92 TAR=3 S=0 O=0 Feq=9187
+TYPE=0, INFO=Wait=1 Evt=3 t=94 TAR=2 S=0 O=0 Feq=9230
+TYPE=0, INFO=Wait=1 Evt=6 t=87 TAR=4 S=0 O=2 Feq=9212
+TYPE=0, INFO=Wait=0 Evt=3 t=93 TAR=3 S=0 O=1 Feq=9185
+TYPE=0, INFO=Wait=0 Evt=5 t=89 TAR=3 S=2 O=1 Feq=9095
+TYPE=0, INFO=Wait=0 Evt=3 t=93 TAR=3 S=1 O=0 Feq=9132
+TYPE=0, INFO=Wait=2 Evt=2 t=94 TAR=0 S=1 O=1 Feq=9123
+TYPE=0, INFO=Wait=2 Evt=7 t=88 TAR=1 S=0 O=2 Feq=9157
+TYPE=0, INFO=Wait=0 Evt=2 t=95 TAR=3 S=0 O=0 Feq=9180
+TYPE=0, INFO=Wait=0 Evt=6 t=93 TAR=1 S=0 O=0 Feq=9182
+TYPE=0, INFO=Wait=1 Evt=7 t=91 TAR=1 S=0 O=0 Feq=8777
+TYPE=0, INFO=Wait=0 Evt=5 t=93 TAR=1 S=1 O=0 Feq=8416
+TYPE=0, INFO=Wait=0 Evt=3 t=90 TAR=3 S=3 O=1 Feq=9144
+TYPE=0, INFO=Wait=0 Evt=5 t=92 TAR=2 S=0 O=1 Feq=9174
+TYPE=0, INFO=Wait=0 Evt=2 t=97 TAR=1 S=0 O=0 Feq=9175
+TYPE=0, INFO=Wait=0 Evt=2 t=96 TAR=1 S=1 O=0 Feq=9141
+TYPE=0, INFO=Wait=1 Evt=1 t=95 TAR=2 S=1 O=0 Feq=9174
+TYPE=0, INFO=Wait=0 Evt=3 t=94 TAR=3 S=0 O=0 Feq=9088
+TYPE=0, INFO=Wait=0 Evt=1 t=97 TAR=2 S=0 O=0 Feq=9198
+TYPE=0, INFO=Wait=0 Evt=5 t=93 TAR=2 S=0 O=0 Feq=9096
+TYPE=0, INFO=Wait=0 Evt=2 t=96 TAR=1 S=1 O=0 Feq=9197
+TYPE=0, INFO=Wait=1 Evt=3 t=93 TAR=2 S=0 O=1 Feq=9194
+TYPE=0, INFO=Wait=0 Evt=7 t=92 TAR=1 S=0 O=0 Feq=9194
+TYPE=0, INFO=Wait=0 Evt=5 t=92 TAR=2 S=0 O=1 Feq=9186
+TYPE=0, INFO=Wait=0 Evt=4 t=91 TAR=5 S=0 O=0 Feq=9160
+TYPE=0, INFO=Wait=2 Evt=5 t=90 TAR=3 S=0 O=0 Feq=9170
+TYPE=0, INFO=Wait=0 Evt=2 t=94 TAR=3 S=1 O=0 Feq=9076
+TYPE=0, INFO=Wait=1 Evt=5 t=91 TAR=3 S=0 O=0 Feq=9059
+TYPE=0, INFO=Wait=1 Evt=5 t=91 TAR=3 S=0 O=0 Feq=8945
+TYPE=0, INFO=Wait=2 Evt=6 t=88 TAR=2 S=1 O=1 Feq=9175
+TYPE=0, INFO=Wait=1 Evt=6 t=88 TAR=3 S=0 O=2 Feq=9056
+TYPE=0, INFO=Wait=0 Evt=3 t=90 TAR=4 S=1 O=2 Feq=9150
+TYPE=0, INFO=Wait=0 Evt=4 t=93 TAR=2 S=0 O=1 Feq=9172
+TYPE=0, INFO=Wait=1 Evt=3 t=92 TAR=2 S=1 O=1 Feq=9174
+TYPE=0, INFO=Wait=0 Evt=5 t=90 TAR=2 S=0 O=3 Feq=9151
+TYPE=0, INFO=Wait=0 Evt=7 t=91 TAR=2 S=0 O=0 Feq=9181
+TYPE=0, INFO=Wait=0 Evt=6 t=91 TAR=2 S=0 O=1 Feq=9166
+TYPE=0, INFO=Wait=0 Evt=5 t=93 TAR=0 S=1 O=1 Feq=9158
+TYPE=0, INFO=Wait=0 Evt=8 t=89 TAR=0 S=1 O=2 Feq=9154
+TYPE=0, INFO=Wait=0 Evt=5 t=91 TAR=3 S=0 O=1 Feq=9165
+TYPE=0, INFO=Wait=0 Evt=5 t=92 TAR=3 S=0 O=0 Feq=9025
+TYPE=0, INFO=Wait=0 Evt=8 t=87 TAR=4 S=1 O=0 Feq=9180
+TYPE=0, INFO=Wait=1 Evt=8 t=88 TAR=0 S=0 O=3 Feq=9176
+TYPE=0, INFO=Wait=1 Evt=1 t=90 TAR=4 S=1 O=3 Feq=9157
+TYPE=0, INFO=Wait=1 Evt=5 t=92 TAR=2 S=0 O=0 Feq=9189
+TYPE=0, INFO=Wait=0 Evt=3 t=94 TAR=2 S=0 O=1 Feq=9155
+TYPE=0, INFO=Wait=0 Evt=6 t=91 TAR=3 S=0 O=0 Feq=9152
+TYPE=0, INFO=Wait=0 Evt=10 t=87 TAR=3 S=0 O=0 Feq=9150
+TYPE=0, INFO=Wait=0 Evt=1 t=95 TAR=2 S=0 O=2 Feq=9167
+TYPE=0, INFO=Wait=2 Evt=5 t=89 TAR=3 S=0 O=1 Feq=9166
+TYPE=0, INFO=Wait=1 Evt=5 t=88 TAR=5 S=1 O=0 Feq=9172
+TYPE=0, INFO=Wait=2 Evt=8 t=89 TAR=1 S=0 O=0 Feq=9160
+TYPE=0, INFO=Wait=0 Evt=3 t=93 TAR=2 S=1 O=1 Feq=9166
+TYPE=0, INFO=Wait=0 Evt=5 t=89 TAR=5 S=0 O=1 Feq=9177
+TYPE=0, INFO=Wait=1 Evt=2 t=95 TAR=0 S=1 O=1 Feq=9184
+TYPE=0, INFO=Wait=1 Evt=3 t=92 TAR=3 S=0 O=1 Feq=9186
+TYPE=0, INFO=Wait=0 Evt=4 t=91 TAR=4 S=1 O=0 Feq=9151
+TYPE=0, INFO=Wait=0 Evt=4 t=88 TAR=6 S=0 O=2 Feq=9165
+TYPE=0, INFO=Wait=0 Evt=4 t=95 TAR=1 S=0 O=0 Feq=9165
+TYPE=0, INFO=Wait=1 Evt=2 t=95 TAR=2 S=0 O=0 Feq=9175
+TYPE=0, INFO=Wait=0 Evt=6 t=89 TAR=5 S=0 O=0 Feq=8973
+TYPE=0, INFO=Wait=1 Evt=4 t=91 TAR=3 S=1 O=0 Feq=9183
+TYPE=0, INFO=Wait=2 Evt=3 t=94 TAR=0 S=0 O=1 Feq=9171
+TYPE=0, INFO=Wait=2 Evt=6 t=89 TAR=1 S=0 O=2 Feq=8769
+TYPE=0, INFO=Wait=0 Evt=2 t=96 TAR=1 S=1 O=0 Feq=9123
+TYPE=0, INFO=Wait=1 Evt=3 t=91 TAR=5 S=0 O=0 Feq=9164
+TYPE=0, INFO=Wait=1 Evt=6 t=93 TAR=0 S=0 O=0 Feq=9184
+TYPE=0, INFO=Wait=1 Evt=3 t=93 TAR=3 S=0 O=0 Feq=9181
+TYPE=0, INFO=Wait=1 Evt=6 t=87 TAR=4 S=0 O=2 Feq=9148
+TYPE=0, INFO=Wait=1 Evt=7 t=90 TAR=2 S=0 O=0 Feq=9166
+TYPE=0, INFO=Wait=0 Evt=5 t=91 TAR=3 S=1 O=0 Feq=9201
+TYPE=0, INFO=Wait=0 Evt=0 t=99 TAR=1 S=0 O=0 Feq=9155
+TYPE=0, INFO=Wait=1 Evt=3 t=92 TAR=3 S=0 O=1 Feq=9173
+TYPE=0, INFO=Wait=0 Evt=3 t=96 TAR=1 S=0 O=0 Feq=9107
+TYPE=0, INFO=Wait=0 Evt=7 t=89 TAR=4 S=0 O=0 Feq=9218
+TYPE=0, INFO=Wait=3 Evt=7 t=87 TAR=1 S=2 O=0 Feq=9190
+TYPE=0, INFO=Wait=1 Evt=5 t=92 TAR=1 S=1 O=0 Feq=9193
+TYPE=0, INFO=Wait=0 Evt=6 t=89 TAR=4 S=0 O=1 Feq=8866
+TYPE=0, INFO=Wait=0 Evt=3 t=93 TAR=2 S=0 O=2 Feq=9102
+TYPE=0, INFO=Wait=0 Evt=0 t=96 TAR=2 S=2 O=0 Feq=8861
+TYPE=0, INFO=Wait=0 Evt=7 t=90 TAR=2 S=0 O=1 Feq=9165
+TYPE=0, INFO=Wait=2 Evt=5 t=90 TAR=2 S=0 O=1 Feq=9180
+TYPE=0, INFO=Wait=0 Evt=5 t=93 TAR=1 S=0 O=1 Feq=9151
+TYPE=0, INFO=Wait=0 Evt=2 t=96 TAR=2 S=0 O=0 Feq=9211
+TYPE=0, INFO=Wait=0 Evt=5 t=91 TAR=3 S=0 O=1 Feq=9057
+TYPE=0, INFO=Wait=0 Evt=3 t=90 TAR=2 S=3 O=2 Feq=9154
+TYPE=0, INFO=Wait=0 Evt=8 t=88 TAR=2 S=0 O=2 Feq=9167
+TYPE=0, INFO=Wait=0 Evt=3 t=96 TAR=0 S=0 O=1 Feq=9141
+TYPE=0, INFO=Wait=1 Evt=2 t=96 TAR=1 S=0 O=0 Feq=9153
+TYPE=0, INFO=Wait=1 Evt=4 t=93 TAR=1 S=1 O=0 Feq=9169
+TYPE=0, INFO=Wait=0 Evt=4 t=90 TAR=4 S=1 O=1 Feq=9169
+TYPE=0, INFO=Wait=1 Evt=5 t=94 TAR=0 S=0 O=0 Feq=9185
+TYPE=0, INFO=Wait=0 Evt=4 t=95 TAR=1 S=0 O=0 Feq=9169
+TYPE=0, INFO=Wait=0 Evt=7 t=91 TAR=1 S=0 O=1 Feq=9177
+TYPE=0, INFO=Wait=2 Evt=4 t=92 TAR=2 S=0 O=0 Feq=9183
+TYPE=0, INFO=Wait=2 Evt=3 t=92 TAR=3 S=0 O=0 Feq=9164
+TYPE=0, INFO=Wait=0 Evt=3 t=95 TAR=0 S=2 O=0 Feq=9161
+TYPE=0, INFO=Wait=2 Evt=7 t=89 TAR=2 S=0 O=0 Feq=9149
+TYPE=0, INFO=Wait=2 Evt=6 t=89 TAR=1 S=0 O=2 Feq=9173
+TYPE=0, INFO=Wait=0 Evt=5 t=92 TAR=1 S=1 O=1 Feq=9140
+TYPE=0, INFO=Wait=0 Evt=5 t=89 TAR=4 S=0 O=2 Feq=9167
+TYPE=0, INFO=Wait=0 Evt=4 t=93 TAR=2 S=0 O=1 Feq=9175
+TYPE=0, INFO=Wait=0 Evt=5 t=92 TAR=3 S=0 O=0 Feq=9173
+TYPE=0, INFO=Wait=0 Evt=6 t=90 TAR=3 S=0 O=1 Feq=9161
+TYPE=0, INFO=Wait=0 Evt=6 t=93 TAR=0 S=1 O=0 Feq=9151
+TYPE=0, INFO=Wait=2 Evt=3 t=89 TAR=3 S=2 O=1 Feq=9175
+TYPE=0, INFO=Wait=0 Evt=3 t=94 TAR=1 S=1 O=1 Feq=9196
+TYPE=0, INFO=Wait=1 Evt=6 t=93 TAR=0 S=0 O=0 Feq=9174
+TYPE=0, INFO=Wait=1 Evt=4 t=93 TAR=2 S=0 O=0 Feq=9186
+TYPE=0, INFO=Wait=0 Evt=5 t=91 TAR=3 S=1 O=0 Feq=8891
+TYPE=0, INFO=Wait=1 Evt=2 t=94 TAR=1 S=0 O=2 Feq=9178
+TYPE=0, INFO=Wait=0 Evt=4 t=93 TAR=2 S=0 O=1 Feq=9184
+TYPE=0, INFO=Wait=2 Evt=1 t=95 TAR=2 S=0 O=0 Feq=9158
+TYPE=0, INFO=Wait=0 Evt=3 t=95 TAR=2 S=0 O=0 Feq=9186
+TYPE=0, INFO=Wait=0 Evt=5 t=93 TAR=1 S=0 O=1 Feq=9133
+TYPE=0, INFO=Wait=0 Evt=3 t=89 TAR=5 S=0 O=3 Feq=9158
+TYPE=0, INFO=Wait=2 Evt=5 t=91 TAR=2 S=0 O=0 Feq=9166
+TYPE=0, INFO=Wait=0 Evt=3 t=96 TAR=1 S=0 O=0 Feq=9136
+TYPE=0, INFO=Wait=0 Evt=4 t=95 TAR=0 S=0 O=1 Feq=9154
+TYPE=0, INFO=Wait=1 Evt=2 t=97 TAR=0 S=0 O=0 Feq=9163
+TYPE=0, INFO=Wait=0 Evt=3 t=91 TAR=6 S=0 O=0 Feq=9156
+TYPE=0, INFO=Wait=0 Evt=5 t=94 TAR=0 S=0 O=1 Feq=9182
+TYPE=0, INFO=Wait=2 Evt=4 t=90 TAR=4 S=0 O=0 Feq=9170
+TYPE=0, INFO=Wait=0 Evt=3 t=94 TAR=2 S=0 O=1 Feq=9183
+TYPE=0, INFO=Wait=0 Evt=2 t=93 TAR=3 S=1 O=1 Feq=9165
+TYPE=0, INFO=Wait=0 Evt=4 t=93 TAR=1 S=0 O=2 Feq=9177
+TYPE=0, INFO=Wait=0 Evt=8 t=88 TAR=3 S=1 O=0 Feq=9136
+TYPE=0, INFO=Wait=0 Evt=2 t=97 TAR=1 S=0 O=0 Feq=9158
+TYPE=0, INFO=Wait=0 Evt=5 t=94 TAR=1 S=0 O=0 Feq=9173
+TYPE=0, INFO=Wait=1 Evt=7 t=90 TAR=2 S=0 O=0 Feq=9199
+TYPE=0, INFO=Wait=2 Evt=2 t=91 TAR=2 S=1 O=2 Feq=9181
+TYPE=0, INFO=Wait=0 Evt=9 t=88 TAR=3 S=0 O=0 Feq=9207
+TYPE=0, INFO=Wait=0 Evt=3 t=94 TAR=2 S=0 O=1 Feq=9085
+TYPE=0, INFO=Wait=1 Evt=5 t=90 TAR=2 S=0 O=2 Feq=9194
+TYPE=0, INFO=Wait=0 Evt=5 t=94 TAR=1 S=0 O=0 Feq=9174
+TYPE=0, INFO=Wait=1 Evt=4 t=93 TAR=0 S=0 O=2 Feq=9190
+TYPE=0, INFO=Wait=0 Evt=2 t=94 TAR=3 S=0 O=1 Feq=9175
+TYPE=0, INFO=Wait=1 Evt=6 t=88 TAR=3 S=0 O=2 Feq=9183
+TYPE=0, INFO=Wait=0 Evt=5 t=91 TAR=4 S=0 O=0 Feq=9191
+TYPE=0, INFO=Wait=0 Evt=4 t=93 TAR=3 S=0 O=0 Feq=9174
+TYPE=0, INFO=Wait=0 Evt=1 t=95 TAR=1 S=1 O=2 Feq=9145
+TYPE=0, INFO=Wait=0 Evt=3 t=92 TAR=3 S=1 O=1 Feq=9184
+TYPE=0, INFO=Wait=0 Evt=4 t=94 TAR=0 S=0 O=2 Feq=9191
+TYPE=0, INFO=Wait=0 Evt=3 t=94 TAR=3 S=0 O=0 Feq=9158
+TYPE=0, INFO=Wait=0 Evt=4 t=91 TAR=3 S=0 O=2 Feq=9163
+TYPE=0, INFO=Wait=1 Evt=4 t=92 TAR=2 S=1 O=0 Feq=9192
+TYPE=0, INFO=Wait=1 Evt=2 t=92 TAR=4 S=0 O=1 Feq=9205
+TYPE=0, INFO=Wait=1 Evt=7 t=89 TAR=2 S=0 O=1 Feq=9227
+TYPE=0, INFO=Wait=1 Evt=6 t=90 TAR=2 S=1 O=0 Feq=9174
+TYPE=0, INFO=Wait=0 Evt=1 t=93 TAR=4 S=0 O=2 Feq=9175
+TYPE=0, INFO=Wait=0 Evt=6 t=92 TAR=2 S=0 O=0 Feq=9122
+TYPE=0, INFO=Wait=0 Evt=6 t=93 TAR=1 S=0 O=0 Feq=9183
+TYPE=0, INFO=Wait=0 Evt=3 t=93 TAR=4 S=0 O=0 Feq=9197
+TYPE=0, INFO=Wait=2 Evt=4 t=91 TAR=1 S=1 O=1 Feq=9200
+TYPE=0, INFO=Wait=0 Evt=3 t=92 TAR=4 S=0 O=1 Feq=9172
+TYPE=0, INFO=Wait=0 Evt=3 t=95 TAR=0 S=0 O=2 Feq=9182
+TYPE=0, INFO=Wait=0 Evt=6 t=92 TAR=1 S=0 O=1 Feq=8801
+TYPE=0, INFO=Wait=0 Evt=4 t=94 TAR=0 S=0 O=2 Feq=9011
+TYPE=0, INFO=Wait=2 Evt=1 t=96 TAR=1 S=0 O=0 Feq=9097
+TYPE=0, INFO=Wait=0 Evt=8 t=90 TAR=2 S=0 O=0 Feq=9124
+TYPE=0, INFO=Wait=1 Evt=4 t=93 TAR=2 S=0 O=0 Feq=9139
+TYPE=0, INFO=Wait=2 Evt=4 t=90 TAR=4 S=0 O=0 Feq=9172
+TYPE=0, INFO=Wait=0 Evt=6 t=92 TAR=0 S=0 O=2 Feq=9167
+TYPE=0, INFO=Wait=0 Evt=2 t=93 TAR=4 S=0 O=1 Feq=9178
+TYPE=0, INFO=Wait=0 Evt=4 t=92 TAR=2 S=0 O=2 Feq=9175
+TYPE=0, INFO=Wait=1 Evt=7 t=89 TAR=2 S=0 O=1 Feq=9185
+TYPE=0, INFO=Wait=2 Evt=4 t=94 TAR=0 S=0 O=0 Feq=9164
+TYPE=0, INFO=Wait=1 Evt=9 t=88 TAR=2 S=0 O=0 Feq=9146
+TYPE=0, INFO=Wait=2 Evt=2 t=92 TAR=4 S=0 O=0 Feq=9089
+TYPE=0, INFO=Wait=0 Evt=9 t=87 TAR=3 S=0 O=1 Feq=9172
+TYPE=0, INFO=Wait=0 Evt=5 t=94 TAR=0 S=1 O=0 Feq=9126
+TYPE=0, INFO=Engine 0 is closing
+TYPE=0, INFO=运行结束...
+TYPE=0, INFO=场景管理器得到请求，对象 ID=1008 请求退出
+TYPE=0, INFO=Delete LinkObj:id=1008,parentid=1,threadid=5568
+TYPE=0, INFO=Delete LinkObj:id=1009,parentid=1008,threadid=5568
+TYPE=0, INFO=Delete LinkObj:id=65581,parentid=1008,threadid=5568
+TYPE=0, INFO=Delete LinkObj:id=1010,parentid=1008,threadid=5568
+TYPE=0, INFO=Delete LinkObj:id=1011,parentid=1008,threadid=5568
+TYPE=0, INFO=Delete LinkObj:id=1012,parentid=1008,threadid=5568
+TYPE=0, INFO=场景管理器得到请求，对象 ID=1013 请求退出
+TYPE=0, INFO=Delete LinkObj:id=1013,parentid=1,threadid=5568
+TYPE=0, INFO=Delete LinkObj:id=1014,parentid=1013,threadid=5568
+TYPE=0, INFO=Delete LinkObj:id=65582,parentid=1013,threadid=5568
+TYPE=0, INFO=Delete LinkObj:id=1015,parentid=1013,threadid=5568
+TYPE=0, INFO=Delete LinkObj:id=1016,parentid=1013,threadid=5568
+TYPE=0, INFO=Delete LinkObj:id=1017,parentid=1013,threadid=5568
+TYPE=0, INFO=场景管理器得到请求，对象 ID=1018 请求退出
+TYPE=0, INFO=Delete LinkObj:id=1018,parentid=1,threadid=5568
+TYPE=0, INFO=Delete LinkObj:id=1019,parentid=1018,threadid=5568
+TYPE=0, INFO=Delete LinkObj:id=65583,parentid=1018,threadid=5568
+TYPE=0, INFO=Delete LinkObj:id=1020,parentid=1018,threadid=5568
+TYPE=0, INFO=Delete LinkObj:id=1021,parentid=1018,threadid=5568
+TYPE=0, INFO=Delete LinkObj:id=1022,parentid=1018,threadid=5568
+TYPE=0, INFO=场景管理器得到请求，对象 ID=65584 请求退出
+TYPE=0, INFO=Delete LinkObj:id=65584,parentid=1,threadid=5568
+TYPE=0, INFO=Delete LinkObj:id=1,parentid=0,threadid=5568
+TYPE=1, INFO=由对象管理器清除对象:类名=CDisp id=1007
+TYPE=0, INFO=Delete LinkObj:id=1007,parentid=0,threadid=5568
+TYPE=0, INFO=开始清理并释放所分配的资源...
+TYPE=0, INFO=所分配的资源释放完毕

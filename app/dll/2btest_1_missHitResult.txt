@@ -1,0 +1,2 @@
+1    反舰导弹       Agni-3_65582            AttackMissileField 2    AAGuardField 2          AAGuardField 2          0                       114.153968     30.540396      -1.842953           270.000000          24.422895      1    0    0    0    
+2    反舰导弹       Agni-3_65580            AttackMissileField 1    AAGuardField 1          AAGuardField 1          0                       112.887945     30.647393      -3.506214           270.000000          34.396540      1    0    0    0    

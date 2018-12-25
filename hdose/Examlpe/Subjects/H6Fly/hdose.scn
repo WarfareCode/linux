@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="GB2312"?>
+<Simulation>
+ <Scenario>
+  <Time Value="0"><!--仿真0时刻的行为-->
+      <Item ItemClass="CKJ2000" ID="-1" Name=""/><!--ID=-1:创建本地对象-->
+      <Item ItemClass="CPlatform" ID="0" Name=""><!--ID=0:创建远程对象-->
+        <Attribute Name="longitude" Type="double" Value="text:2.0944"/><!--设置初始化参数值-->
+        <Attribute Name="latitude" Type="double" Value="text:0.5256"/>
+      </Item>
+      <Item ItemClass="CPlatform" ID="0" Name="">
+        <Attribute Name="longitude" Type="double" Value="text:2.0944"/>
+        <Attribute Name="latitude" Type="double" Value="text:0.5246"/>
+      </Item>
+      <Item ItemClass="CPlatform" ID="0" Name="">
+        <Attribute Name="longitude" Type="double" Value="text:2.0944"/>
+        <Attribute Name="latitude" Type="double" Value="text:0.5236"/>
+      </Item>
+      <Item ItemClass="CPlatform" ID="0" Name="">
+        <Attribute Name="longitude" Type="double" Value="text:2.0944"/>
+        <Attribute Name="latitude" Type="double" Value="text:0.5226"/>
+      </Item>
+      <Item ItemClass="CPlatform" ID="0" Name="">
+        <Attribute Name="longitude" Type="double" Value="text:2.0944"/>
+        <Attribute Name="latitude" Type="double" Value="text:0.5216"/>
+      </Item>
+      <Item ItemClass="CPlatform" ID="0" Name="x6">
+        <Attribute Name="longitude" Type="double" Value="text:2.0944"/>
+        <Attribute Name="latitude" Type="double" Value="text:0.5206"/>
+      </Item>
+      <Item ItemClass="CPlatform" ID="0" Name="x7">
+        <Attribute Name="longitude" Type="double" Value="text:2.0944"/>
+        <Attribute Name="latitude" Type="double" Value="text:0.5196"/>
+      </Item>
+   </Time>
+   <Time Value="300"><!--仿真时刻=300时的行为-->
+     <SetAttribute ClsName="CPlatform" ObjName="x6"  Name="longitude" Type="double" Value="2.0944"/><!--设置对象的属性值-->
+     <SetParameter ClsName="CDisp" ObjName="Disp"  Name="AutoUpdate" Value="20"/><!--设置参数值-->
+     <DeleteItem ItemClass="CPlatform" Name="x7"/><!--删除对象-->
+     <CreateEvt ItemClass="H6Ginit" DestObjID="1"><!--创建事件-->
+       <Attribute Name="longitude" Type="double" Value="text:2.0954"/><!--设置事件属性值-->
+       <Attribute Name="latitude" Type="double" Value="text:0.5196"/>
+       <Attribute Name="height" Type="double" Value="text:10000"/>
+       <Attribute Name="velocity" Type="double" Value="text:300"/>
+       <Attribute Name="yaw" Type="double" Value="text:0"/>
+       <Attribute Name="roll" Type="double" Value="text:0"/>
+     </CreateEvt>
+     <CreateEvt ItemClass="CEvt" EvtID="22" DestClsName="CPlatformDisplayModel" EvtPara="200,600"/><!--创建简单事件，并设置目的对象类，以及事件参数值-->
+     <Item ItemClass="CPlatform" ID="0" Name="">
+       <Parameter Name="RecPlayMode" Value="0"/>
+       <Attribute Name="longitude" Type="double" Value="text:2.0954"/>
+       <Attribute Name="latitude" Type="double" Value="text:0.5256"/>
+     </Item>
+     <Item ItemClass="CPlatform" ID="0" Name="">
+       <Attribute Name="longitude" Type="double" Value="text:2.0954"/>
+       <Attribute Name="latitude" Type="double" Value="text:0.5246"/>
+     </Item>
+     <Item ItemClass="CPlatform" ID="0" Name="">
+       <Attribute Name="longitude" Type="double" Value="text:2.0954"/>
+       <Attribute Name="latitude" Type="double" Value="text:0.5236"/>
+     </Item>
+     <Item ItemClass="CPlatform" ID="0" Name="">
+       <Attribute Name="longitude" Type="double" Value="text:2.0954"/>
+       <Attribute Name="latitude" Type="double" Value="text:0.5226"/>
+     </Item>
+     <Item ItemClass="CPlatform" ID="0" Name="">
+       <Attribute Name="longitude" Type="double" Value="text:2.0954"/>
+       <Attribute Name="latitude" Type="double" Value="text:0.5216"/>
+     </Item>
+     <Item ItemClass="CPlatform" ID="0" Name="">
+       <Attribute Name="longitude" Type="double" Value="text:2.0954"/>
+       <Attribute Name="latitude" Type="double" Value="text:0.5206"/>
+     </Item>
+     <Item ItemClass="CPlatform" ID="0" Name="">
+       <Attribute Name="longitude" Type="double" Value="text:2.0954"/>
+       <Attribute Name="latitude" Type="double" Value="text:0.5196"/>
+     </Item>
+   </Time>
+   <Time Value="600">
+     <Item ItemClass="CPlatform" ID="0" Name="">
+       <Attribute Name="longitude" Type="double" Value="text:2.0964"/>
+       <Attribute Name="latitude" Type="double" Value="text:0.5256"/>
+     </Item>
+     <Item ItemClass="CPlatform" ID="0" Name="">
+       <Attribute Name="longitude" Type="double" Value="text:2.0964"/>
+       <Attribute Name="latitude" Type="double" Value="text:0.5246"/>
+     </Item>
+     <Item ItemClass="CPlatform" ID="0" Name="">
+       <Attribute Name="longitude" Type="double" Value="text:2.0964"/>
+       <Attribute Name="latitude" Type="double" Value="text:0.5236"/>
+     </Item>
+     <Item ItemClass="CPlatform" ID="0" Name="">
+       <Attribute Name="longitude" Type="double" Value="text:2.0964"/>
+       <Attribute Name="latitude" Type="double" Value="text:0.5226"/>
+     </Item>
+     <Item ItemClass="CPlatform" ID="0" Name="">
+       <Attribute Name="longitude" Type="double" Value="text:2.0964"/>
+       <Attribute Name="latitude" Type="double" Value="text:0.5216"/>
+     </Item>
+     <Item ItemClass="CPlatform" ID="0" Name="">
+       <Attribute Name="longitude" Type="double" Value="text:2.0964"/>
+       <Attribute Name="latitude" Type="double" Value="text:0.5206"/>
+     </Item>
+     <Item ItemClass="CPlatform" ID="0" Name="">
+       <Attribute Name="longitude" Type="double" Value="text:2.0964"/>
+       <Attribute Name="latitude" Type="double" Value="text:0.5196"/>
+     </Item>
+   </Time>
+   <Time Value="900">
+     <Item ItemClass="CPlatform" ID="0" Name="">
+       <Attribute Name="longitude" Type="double" Value="text:2.0974"/>
+       <Attribute Name="latitude" Type="double" Value="text:0.5256"/>
+     </Item>
+     <Item ItemClass="CPlatform" ID="0" Name="">
+       <Attribute Name="longitude" Type="double" Value="text:2.0974"/>
+       <Attribute Name="latitude" Type="double" Value="text:0.5246"/>
+     </Item>
+     <Item ItemClass="CPlatform" ID="0" Name="">
+       <Attribute Name="longitude" Type="double" Value="text:2.0974"/>
+       <Attribute Name="latitude" Type="double" Value="text:0.5236"/>
+     </Item>
+     <Item ItemClass="CPlatform" ID="0" Name="">
+       <Attribute Name="longitude" Type="double" Value="text:2.0974"/>
+       <Attribute Name="latitude" Type="double" Value="text:0.5226"/>
+     </Item>
+     <Item ItemClass="CPlatform" ID="0" Name="">
+       <Attribute Name="longitude" Type="double" Value="text:2.0974"/>
+       <Attribute Name="latitude" Type="double" Value="text:0.5216"/>
+     </Item>
+     <Item ItemClass="CPlatform" ID="0" Name="">
+       <Attribute Name="longitude" Type="double" Value="text:2.0974"/>
+       <Attribute Name="latitude" Type="double" Value="text:0.5206"/>
+     </Item>
+     <Item ItemClass="CPlatform" ID="0" Name="">
+       <Attribute Name="longitude" Type="double" Value="text:2.0974"/>
+       <Attribute Name="latitude" Type="double" Value="text:0.5196"/>
+     </Item>
+   </Time>
+   <Time Value="1200">
+     <Item ItemClass="CPlatform" ID="0" Name="">
+       <Attribute Name="longitude" Type="double" Value="text:2.0984"/>
+       <Attribute Name="latitude" Type="double" Value="text:0.5256"/>
+     </Item>
+     <Item ItemClass="CPlatform" ID="0" Name="">
+       <Attribute Name="longitude" Type="double" Value="text:2.0984"/>
+       <Attribute Name="latitude" Type="double" Value="text:0.5246"/>
+     </Item>
+     <Item ItemClass="CPlatform" ID="0" Name="">
+       <Attribute Name="longitude" Type="double" Value="text:2.0984"/>
+       <Attribute Name="latitude" Type="double" Value="text:0.5236"/>
+     </Item>
+     <Item ItemClass="CPlatform" ID="0" Name="">
+       <Attribute Name="longitude" Type="double" Value="text:2.0984"/>
+       <Attribute Name="latitude" Type="double" Value="text:0.5226"/>
+     </Item>
+     <Item ItemClass="CPlatform" ID="0" Name="">
+       <Attribute Name="longitude" Type="double" Value="text:2.0984"/>
+       <Attribute Name="latitude" Type="double" Value="text:0.5216"/>
+     </Item>
+     <Item ItemClass="CPlatform" ID="0" Name="">
+       <Attribute Name="longitude" Type="double" Value="text:2.0984"/>
+       <Attribute Name="latitude" Type="double" Value="text:0.5206"/>
+     </Item>
+     <Item ItemClass="CPlatform" ID="0" Name="">
+       <Attribute Name="longitude" Type="double" Value="text:2.0984"/>
+       <Attribute Name="latitude" Type="double" Value="text:0.5196"/>
+     </Item>
+   </Time>
+  </Scenario>
+</Simulation>

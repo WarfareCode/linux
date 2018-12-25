@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="GB2312"?>
+
+<Simulation>
+  <Parameters>
+    <Parameter Name="FederateName" Value="TankFed"/>
+    <Parameter Name="FederationName" Value="TankMove"/>
+    <Parameter Name="FedFile" Value="TankMove.fed"/>
+    <Parameter Name="TC" Value="1"/>
+    <Parameter Name="TR" Value="1"/>
+    <Parameter Name="Wallclock" Value="0.01"/>
+    <Parameter Name="Lookahead" Value="0.01"/>
+    <Parameter Name="Timestep" Value="0.01"/>
+    <Parameter Name="RTIthread" Value="1"/>
+    <Parameter Name="Bridge" Value="CNULLBridge"/>
+    <Parameter Name="Scenario" Value="TankMove.scn"/>
+  </Parameters>
+
+  <Events>
+  </Events>
+
+  <Links>
+    <Link Name="CTank" HLA_name="CTank" Publish="1" Subscribe="0"/>
+    <Link Name="CLineObj" HLA_name="CLineObj" Publish="1" Subscribe="0"/>
+  </Links>
+
+  <Components>
+    <Component Source="XBridge.MDF"/>
+    <Component Source="RTIBridge.MDF"/>
+    <Component Source="TankCom.MDF"/>
+  </Components>
+
+  <ItemClasses> 
+  </ItemClasses>
+  
+  <Items>
+    <Item ItemClass="CScnMgr" ID="1" Name="ScnMgr">
+      <Item ItemClass="CDisp" ID="-1" Name="Disp">
+        <Parameter  Name="AutoUpdate" Value="1"/>
+        <Parameter  Name="Truth" Value="None;"/>
+        <Parameter  Name="Sensor" Value="None;"/>
+        <Parameter  Name="Behave" Value="CTank;"/>
+        <Parameter  Name="Update" Value="CTank;"/>
+        <Parameter  Name="Simulation" Value="None;"/>
+        <Parameter  Name="Output" Value="None;"/>
+      </Item>
+    </Item>
+  </Items>
+</Simulation>

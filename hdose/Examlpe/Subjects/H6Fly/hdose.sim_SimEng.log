@@ -1,0 +1,142 @@
+TYPE=0, INFO=进入 ReadParameters
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1000,ObjName=(null)
+TYPE=0, INFO=离开 ReadParameters
+TYPE=0, INFO=进入 LoadComponent
+TYPE=1, INFO=LoadComponentDll没找到组件XBridge.MDF的XML文件
+TYPE=1, INFO=LoadComponentDll没找到组件RTIBridge.MDF的XML文件
+TYPE=1, INFO=LoadComponentDll没找到组件RedisBridge.MDF的XML文件
+TYPE=1, INFO=LoadComponentDll没找到组件ParDisp.MDF的XML文件
+TYPE=0, INFO=Load component dll:libH6Models.so
+TYPE=0, INFO=ClsObj Created Name=H6Ginit
+TYPE=0, INFO=ClsObj Created Name=CMainMgr
+TYPE=0, INFO=ClsObj Created Name=CPlatform
+TYPE=0, INFO=ClsObj Created Name=CTrackStream
+TYPE=0, INFO=ClsObj Created Name=CTargetIndicate
+TYPE=0, INFO=ClsObj Created Name=CSensor
+TYPE=0, INFO=ClsObj Created Name=CPlaMove
+TYPE=0, INFO=离开 LoadComponent
+TYPE=0, INFO=进入 ParseFedItemClasses
+TYPE=0, INFO=离开 ParseFedItemClasses
+TYPE=0, INFO=进入 ParseAllComponentItemClasses
+TYPE=1, INFO=ParseComponentItemClass没找到组件XBridge.MDF的XML文件
+TYPE=1, INFO=ParseComponentItemClass没找到组件RTIBridge.MDF的XML文件
+TYPE=1, INFO=ParseComponentItemClass没找到组件RedisBridge.MDF的XML文件
+TYPE=1, INFO=ParseComponentItemClass没找到组件ParDisp.MDF的XML文件
+TYPE=0, INFO=离开 ParseAllComponentItemClasses
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1001,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1002,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1003,ObjName=(null)
+TYPE=0, INFO=ClsObj Created Name=CKJ2000
+TYPE=0, INFO=装配实体模型:CKJ2000成功
+TYPE=0, INFO=进入 CreateGlobalObj
+TYPE=0, INFO=CreateObj: clsName=CMainMgr,Objid=1,ObjName=ScnMgr
+TYPE=0, INFO=CreateObj: clsName=CDisp,Objid=1004,ObjName=Disp
+TYPE=0, INFO=CreateObj: clsName=CScnMgr,Objid=2,ObjName=RemoteObjMgr
+TYPE=0, INFO=离开 CreateGlobalObj
+TYPE=0, INFO=进入 ClassInit
+TYPE=0, INFO=离开 ClassInit
+TYPE=0, INFO=进入 ReadAllHLAClasses
+TYPE=1, INFO=订阅发布时没有找到类Enable的类信息
+TYPE=0, INFO=离开 ReadAllHLAClasses
+TYPE=0, INFO=CreateObj: clsName=CNullBridge,Objid=65535,ObjName=bridge
+TYPE=0, INFO=使用桥接器:CNullBridge
+TYPE=0, INFO=进入 RegisterHLAClasses
+TYPE=0, INFO=注册事件成功H6Ginit
+TYPE=0, INFO=RegisterHLAClass:ClsName=H6Ginit,ClsID=8000,PS=3
+TYPE=0, INFO=注册事件成功CTargetIndicate
+TYPE=0, INFO=RegisterHLAClass:ClsName=CTargetIndicate,ClsID=8001,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CPlatform,ClsID=0,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CTrackStream,ClsID=0,PS=3
+TYPE=0, INFO=离开 RegisterHLAClasses
+TYPE=0, INFO=没找到事件Enable
+TYPE=0, INFO=注册事件成功Enable
+TYPE=0, INFO=进入 Publish
+TYPE=0, INFO=离开 Publish
+TYPE=0, INFO=进入 Subscribe
+TYPE=0, INFO=离开 Subscribe
+TYPE=0, INFO=进入 Create MDB
+TYPE=0, INFO=离开 Create MDB
+TYPE=1, INFO=InitClassToMdb Name=CPlatform MaxObjNu=3200 ObjDataSize=280
+TYPE=1, INFO=InitClassToMdb Name=CTrackStream MaxObjNu=320 ObjDataSize=3600
+TYPE=0, INFO=进入 LoadScenario
+TYPE=0, INFO=在联邦Time=0.000000时刻场景被加载
+TYPE=0, INFO=Scn time=0.000000
+TYPE=0, INFO=Scn time=300.000000
+TYPE=0, INFO=Scn time=600.000000
+TYPE=0, INFO=Scn time=900.000000
+TYPE=0, INFO=Scn time=1200.000000
+TYPE=0, INFO=CreateObj: clsName=CPlaMove,Objid=1006,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CPlatform,Objid=65536,ObjName=None_1
+TYPE=0, INFO=CreateObj: clsName=CSensor,Objid=1007,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CKJ2000,Objid=1005,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CPlaMove,Objid=1008,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CPlatform,Objid=65537,ObjName=None_2
+TYPE=0, INFO=CreateObj: clsName=CPlaMove,Objid=1009,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CPlatform,Objid=65538,ObjName=None_3
+TYPE=0, INFO=CreateObj: clsName=CPlaMove,Objid=1010,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CPlatform,Objid=65539,ObjName=None_4
+TYPE=0, INFO=CreateObj: clsName=CPlaMove,Objid=1011,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CPlatform,Objid=65540,ObjName=None_5
+TYPE=0, INFO=CreateObj: clsName=CPlaMove,Objid=1012,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CPlatform,Objid=65541,ObjName=None_6
+TYPE=0, INFO=CreateObj: clsName=CPlaMove,Objid=1013,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CPlatform,Objid=65542,ObjName=x6
+TYPE=0, INFO=CreateObj: clsName=CPlaMove,Objid=1014,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CPlatform,Objid=65543,ObjName=x7
+TYPE=0, INFO=离开 LoadScenario
+TYPE=0, INFO=运行开始...
+TYPE=0, INFO=Wait=100 Evt=0 t=0 TAR=0 S=0 O=0 Feq=0
+TYPE=0, INFO=Wait=100 Evt=0 t=0 TAR=0 S=0 O=0 Feq=0
+TYPE=0, INFO=Wait=100 Evt=0 t=0 TAR=0 S=0 O=0 Feq=0
+TYPE=0, INFO=Wait=100 Evt=0 t=0 TAR=0 S=0 O=0 Feq=0
+TYPE=0, INFO=Wait=100 Evt=0 t=0 TAR=0 S=0 O=0 Feq=0
+TYPE=0, INFO=Wait=100 Evt=0 t=0 TAR=0 S=0 O=0 Feq=0
+TYPE=0, INFO=Wait=100 Evt=0 t=0 TAR=0 S=0 O=0 Feq=0
+TYPE=0, INFO=Wait=99 Evt=1 t=0 TAR=0 S=0 O=0 Feq=0
+TYPE=0, INFO=Wait=100 Evt=0 t=0 TAR=0 S=0 O=0 Feq=0
+TYPE=0, INFO=Wait=100 Evt=0 t=0 TAR=0 S=0 O=0 Feq=0
+TYPE=0, INFO=Wait=100 Evt=0 t=0 TAR=0 S=0 O=0 Feq=0
+TYPE=0, INFO=Wait=100 Evt=0 t=0 TAR=0 S=0 O=0 Feq=0
+TYPE=0, INFO=Wait=100 Evt=0 t=0 TAR=0 S=0 O=0 Feq=0
+TYPE=0, INFO=Wait=100 Evt=0 t=0 TAR=0 S=0 O=0 Feq=0
+TYPE=0, INFO=Wait=100 Evt=0 t=0 TAR=0 S=0 O=0 Feq=0
+TYPE=0, INFO=Wait=100 Evt=0 t=0 TAR=0 S=0 O=0 Feq=0
+TYPE=0, INFO=Wait=100 Evt=0 t=0 TAR=0 S=0 O=0 Feq=0
+TYPE=0, INFO=Wait=100 Evt=0 t=0 TAR=0 S=0 O=0 Feq=0
+TYPE=0, INFO=Wait=100 Evt=0 t=0 TAR=0 S=0 O=0 Feq=0
+TYPE=0, INFO=Wait=100 Evt=0 t=0 TAR=0 S=0 O=0 Feq=0
+TYPE=0, INFO=Engine 0 is closing
+TYPE=0, INFO=运行结束...
+TYPE=0, INFO=场景管理器得到请求，对象 ID=1005 请求退出
+TYPE=0, INFO=Delete LinkObj:id=1005,parentid=1,threadid=-1434043536
+TYPE=0, INFO=Delete LinkObj:id=65536,parentid=1005,threadid=-1434043536
+TYPE=0, INFO=Delete LinkObj:id=1006,parentid=65536,threadid=-1434043536
+TYPE=0, INFO=Delete LinkObj:id=1007,parentid=1005,threadid=-1434043536
+TYPE=0, INFO=场景管理器得到请求，对象 ID=65537 请求退出
+TYPE=0, INFO=Delete LinkObj:id=65537,parentid=1,threadid=-1434043536
+TYPE=0, INFO=Delete LinkObj:id=1008,parentid=65537,threadid=-1434043536
+TYPE=0, INFO=场景管理器得到请求，对象 ID=65538 请求退出
+TYPE=0, INFO=Delete LinkObj:id=65538,parentid=1,threadid=-1434043536
+TYPE=0, INFO=Delete LinkObj:id=1009,parentid=65538,threadid=-1434043536
+TYPE=0, INFO=场景管理器得到请求，对象 ID=65539 请求退出
+TYPE=0, INFO=Delete LinkObj:id=65539,parentid=1,threadid=-1434043536
+TYPE=0, INFO=Delete LinkObj:id=1010,parentid=65539,threadid=-1434043536
+TYPE=0, INFO=场景管理器得到请求，对象 ID=65540 请求退出
+TYPE=0, INFO=Delete LinkObj:id=65540,parentid=1,threadid=-1434043536
+TYPE=0, INFO=Delete LinkObj:id=1011,parentid=65540,threadid=-1434043536
+TYPE=0, INFO=场景管理器得到请求，对象 ID=65541 请求退出
+TYPE=0, INFO=Delete LinkObj:id=65541,parentid=1,threadid=-1434043536
+TYPE=0, INFO=Delete LinkObj:id=1012,parentid=65541,threadid=-1434043536
+TYPE=0, INFO=场景管理器得到请求，对象 ID=65542 请求退出
+TYPE=0, INFO=Delete LinkObj:id=65542,parentid=1,threadid=-1434043536
+TYPE=0, INFO=Delete LinkObj:id=1013,parentid=65542,threadid=-1434043536
+TYPE=0, INFO=场景管理器得到请求，对象 ID=65543 请求退出
+TYPE=0, INFO=Delete LinkObj:id=65543,parentid=1,threadid=-1434043536
+TYPE=0, INFO=Delete LinkObj:id=1014,parentid=65543,threadid=-1434043536
+TYPE=0, INFO=Delete LinkObj:id=1,parentid=0,threadid=-1434043536
+TYPE=1, INFO=由对象管理器清除对象:类名=CDisp id=1004
+TYPE=0, INFO=Delete LinkObj:id=1004,parentid=0,threadid=-1434043536
+TYPE=1, INFO=由对象管理器清除对象:类名=CScnMgr id=2
+TYPE=0, INFO=Delete LinkObj:id=2,parentid=0,threadid=-1434043536
+TYPE=0, INFO=开始清理并释放所分配的资源...
+TYPE=0, INFO=所分配的资源释放完毕

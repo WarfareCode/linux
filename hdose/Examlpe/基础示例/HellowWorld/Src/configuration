@@ -1,0 +1,6 @@
+//盟员配置文件
+RTIExec_IBip=127.0.0.1      //RTI服务器IB网IP地址
+RTIExec_ip=192.168.0.100    //RTI服务器千兆网IP地址
+RTIExec_port=41618          //RTI服务器端口号
+LRC_IBip=127.0.0.1          //盟员IB网IP地址
+LRC_IP=192.168.0.120        //盟员千兆网IP地址

@@ -1,0 +1,160 @@
+TYPE=0, INFO=进入 ReadParameters
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1000,ObjName=(null)
+TYPE=0, INFO=离开 ReadParameters
+TYPE=0, INFO=进入 LoadComponent
+TYPE=0, INFO=Load component dll:XBrged.dll
+TYPE=0, INFO=ClsObj Created Name=CXBridge
+TYPE=0, INFO=Load component dll:RTIBrged.dll
+TYPE=0, INFO=ClsObj Created Name=CRTIBridge
+TYPE=0, INFO=Load component dll:TankComd.dll
+TYPE=0, INFO=ClsObj Created Name=CLineObj
+TYPE=0, INFO=ClsObj Created Name=CTank
+TYPE=0, INFO=离开 LoadComponent
+TYPE=0, INFO=进入 ParseFedItemClasses
+TYPE=0, INFO=离开 ParseFedItemClasses
+TYPE=0, INFO=进入 ParseAllComponentItemClasses
+TYPE=0, INFO=离开 ParseAllComponentItemClasses
+TYPE=0, INFO=进入 CreateGlobalObj
+TYPE=0, INFO=CreateObj: clsName=CScnMgr,Objid=1,ObjName=ScnMgr
+TYPE=0, INFO=CreateObj: clsName=CDisp,Objid=1001,ObjName=Disp
+TYPE=0, INFO=离开 CreateGlobalObj
+TYPE=0, INFO=进入 ClassInit
+TYPE=0, INFO=离开 ClassInit
+TYPE=0, INFO=进入 ReadAllHLAClasses
+TYPE=0, INFO=离开 ReadAllHLAClasses
+TYPE=1, INFO=没有创建对象的类信息:类名=CNULLBridge
+TYPE=0, INFO=CreateObj: clsName=CNullBridge,Objid=65535,ObjName=bridge
+TYPE=1, INFO=桥接器对象CNULLBridge创建出错!!!
+TYPE=0, INFO=使用桥接器:CNullBridge
+TYPE=0, INFO=进入 RegisterHLAClasses
+TYPE=0, INFO=ClsName=CXBridge,ClsID=-1,PS=0
+TYPE=0, INFO=ClsName=CRTIBridge,ClsID=-1,PS=0
+TYPE=0, INFO=ClsName=CLineObj,ClsID=0,PS=1
+TYPE=0, INFO=ClsName=CTank,ClsID=0,PS=1
+TYPE=0, INFO=离开 RegisterHLAClasses
+TYPE=0, INFO=进入 Publish
+TYPE=0, INFO=离开 Publish
+TYPE=0, INFO=进入 Subscribe
+TYPE=0, INFO=离开 Subscribe
+TYPE=0, INFO=进入 LoadScenario
+TYPE=0, INFO=在联邦Time=0.000000时刻场景被加载
+TYPE=0, INFO=Scn time=0.000000
+TYPE=0, INFO=CreateObj: clsName=CTank,Objid=65536,ObjName=tank_2
+TYPE=0, INFO=CreateObj: clsName=CLineObj,Objid=65537,ObjName=line_1
+TYPE=0, INFO=计划场景中的事件已调度结束,Time=0.000000
+TYPE=0, INFO=离开 LoadScenario
+TYPE=0, INFO=运行开始...
+TYPE=0, INFO=Wait=98 Evt=2 t=0 TAR=0 S=0 O=0 Feq=0
+TYPE=0, INFO=Wait=100 Evt=0 t=0 TAR=0 S=0 O=0 Feq=0
+TYPE=0, INFO=Wait=100 Evt=0 t=0 TAR=0 S=0 O=0 Feq=0
+TYPE=0, INFO=Wait=100 Evt=0 t=0 TAR=0 S=0 O=0 Feq=5
+TYPE=0, INFO=Wait=100 Evt=0 t=0 TAR=0 S=0 O=0 Feq=99
+TYPE=0, INFO=Wait=99 Evt=1 t=0 TAR=0 S=0 O=0 Feq=99
+TYPE=0, INFO=Wait=100 Evt=0 t=0 TAR=0 S=0 O=0 Feq=100
+TYPE=0, INFO=Wait=100 Evt=0 t=0 TAR=0 S=0 O=0 Feq=100
+TYPE=0, INFO=Wait=100 Evt=0 t=0 TAR=0 S=0 O=0 Feq=100
+TYPE=0, INFO=Wait=100 Evt=0 t=0 TAR=0 S=0 O=0 Feq=100
+TYPE=0, INFO=Wait=100 Evt=0 t=0 TAR=0 S=0 O=0 Feq=100
+TYPE=0, INFO=Wait=100 Evt=0 t=0 TAR=0 S=0 O=0 Feq=100
+TYPE=0, INFO=Wait=100 Evt=0 t=0 TAR=0 S=0 O=0 Feq=100
+TYPE=0, INFO=Wait=100 Evt=0 t=0 TAR=0 S=0 O=0 Feq=100
+TYPE=0, INFO=Wait=100 Evt=0 t=0 TAR=0 S=0 O=0 Feq=100
+TYPE=0, INFO=Wait=100 Evt=0 t=0 TAR=0 S=0 O=0 Feq=100
+TYPE=0, INFO=Wait=100 Evt=0 t=0 TAR=0 S=0 O=0 Feq=100
+TYPE=0, INFO=Wait=100 Evt=0 t=0 TAR=0 S=0 O=0 Feq=100
+TYPE=0, INFO=Wait=100 Evt=0 t=0 TAR=0 S=0 O=0 Feq=100
+TYPE=0, INFO=Wait=99 Evt=0 t=0 TAR=0 S=0 O=1 Feq=288
+TYPE=0, INFO=Wait=9 Evt=10 t=63 TAR=11 S=1 O=6 Feq=37957
+TYPE=0, INFO=Wait=0 Evt=5 t=91 TAR=1 S=0 O=3 Feq=8364
+TYPE=0, INFO=Wait=0 Evt=2 t=98 TAR=0 S=0 O=0 Feq=4900
+TYPE=0, INFO=Wait=0 Evt=2 t=97 TAR=1 S=0 O=0 Feq=5024
+TYPE=0, INFO=Wait=0 Evt=3 t=96 TAR=1 S=0 O=0 Feq=5037
+TYPE=0, INFO=Wait=0 Evt=1 t=98 TAR=1 S=0 O=0 Feq=5043
+TYPE=0, INFO=Wait=0 Evt=3 t=96 TAR=1 S=0 O=0 Feq=4888
+TYPE=0, INFO=Wait=0 Evt=3 t=96 TAR=1 S=0 O=0 Feq=4498
+TYPE=0, INFO=Wait=0 Evt=5 t=94 TAR=1 S=0 O=0 Feq=4728
+TYPE=0, INFO=Wait=1 Evt=2 t=95 TAR=2 S=0 O=0 Feq=4997
+TYPE=0, INFO=Wait=0 Evt=2 t=95 TAR=2 S=1 O=0 Feq=4874
+TYPE=0, INFO=Wait=0 Evt=6 t=93 TAR=1 S=0 O=0 Feq=4907
+TYPE=0, INFO=Wait=0 Evt=2 t=97 TAR=1 S=0 O=0 Feq=4996
+TYPE=0, INFO=Wait=0 Evt=6 t=91 TAR=2 S=0 O=1 Feq=4921
+TYPE=0, INFO=Wait=1 Evt=0 t=99 TAR=0 S=0 O=0 Feq=4872
+TYPE=0, INFO=Wait=1 Evt=2 t=97 TAR=0 S=0 O=0 Feq=4782
+TYPE=0, INFO=Wait=0 Evt=3 t=97 TAR=0 S=0 O=0 Feq=4888
+TYPE=0, INFO=Wait=0 Evt=1 t=98 TAR=1 S=0 O=0 Feq=5038
+TYPE=0, INFO=Wait=1 Evt=3 t=96 TAR=0 S=0 O=0 Feq=4735
+TYPE=0, INFO=Wait=0 Evt=3 t=97 TAR=0 S=0 O=0 Feq=4786
+TYPE=0, INFO=Wait=0 Evt=2 t=95 TAR=0 S=0 O=3 Feq=4619
+TYPE=0, INFO=Wait=0 Evt=3 t=95 TAR=1 S=0 O=1 Feq=5024
+TYPE=0, INFO=Wait=0 Evt=4 t=96 TAR=0 S=0 O=0 Feq=4773
+TYPE=0, INFO=Wait=0 Evt=2 t=96 TAR=2 S=0 O=0 Feq=4692
+TYPE=0, INFO=Wait=0 Evt=0 t=100 TAR=0 S=0 O=0 Feq=4817
+TYPE=0, INFO=Wait=0 Evt=1 t=97 TAR=1 S=0 O=1 Feq=4866
+TYPE=0, INFO=Wait=0 Evt=2 t=97 TAR=1 S=0 O=0 Feq=4905
+TYPE=0, INFO=Wait=0 Evt=0 t=98 TAR=0 S=0 O=2 Feq=4944
+TYPE=0, INFO=Wait=1 Evt=1 t=95 TAR=2 S=0 O=1 Feq=4977
+TYPE=0, INFO=Wait=0 Evt=1 t=97 TAR=0 S=0 O=2 Feq=4738
+TYPE=0, INFO=Wait=1 Evt=2 t=96 TAR=1 S=0 O=0 Feq=4774
+TYPE=0, INFO=Wait=1 Evt=4 t=94 TAR=0 S=0 O=1 Feq=4745
+TYPE=0, INFO=Wait=0 Evt=0 t=97 TAR=3 S=0 O=0 Feq=4756
+TYPE=0, INFO=Wait=0 Evt=1 t=97 TAR=2 S=0 O=0 Feq=4791
+TYPE=0, INFO=Wait=1 Evt=4 t=94 TAR=0 S=0 O=1 Feq=4682
+TYPE=0, INFO=Wait=0 Evt=2 t=96 TAR=1 S=0 O=1 Feq=4710
+TYPE=0, INFO=Wait=0 Evt=1 t=99 TAR=0 S=0 O=0 Feq=4969
+TYPE=0, INFO=Wait=1 Evt=1 t=96 TAR=1 S=0 O=1 Feq=5045
+TYPE=0, INFO=Wait=3 Evt=1 t=93 TAR=2 S=0 O=1 Feq=5028
+TYPE=0, INFO=Wait=1 Evt=2 t=96 TAR=0 S=0 O=1 Feq=4779
+TYPE=0, INFO=Wait=0 Evt=4 t=96 TAR=0 S=0 O=0 Feq=4802
+TYPE=0, INFO=Wait=0 Evt=3 t=96 TAR=0 S=0 O=1 Feq=4562
+TYPE=0, INFO=Wait=0 Evt=0 t=100 TAR=0 S=0 O=0 Feq=4710
+TYPE=0, INFO=Wait=1 Evt=4 t=94 TAR=1 S=0 O=0 Feq=4631
+TYPE=0, INFO=Wait=0 Evt=1 t=97 TAR=2 S=0 O=0 Feq=4670
+TYPE=0, INFO=Wait=0 Evt=7 t=93 TAR=0 S=0 O=0 Feq=4581
+TYPE=0, INFO=Wait=0 Evt=7 t=88 TAR=5 S=0 O=0 Feq=4621
+TYPE=0, INFO=Wait=2 Evt=4 t=94 TAR=0 S=0 O=0 Feq=4819
+TYPE=0, INFO=Wait=1 Evt=2 t=95 TAR=1 S=0 O=1 Feq=4625
+TYPE=0, INFO=Wait=0 Evt=6 t=92 TAR=2 S=0 O=0 Feq=6340
+TYPE=0, INFO=Wait=1 Evt=5 t=93 TAR=0 S=0 O=1 Feq=6354
+TYPE=0, INFO=Wait=1 Evt=5 t=93 TAR=1 S=0 O=0 Feq=6190
+TYPE=0, INFO=Wait=0 Evt=1 t=94 TAR=2 S=0 O=3 Feq=6184
+TYPE=0, INFO=Wait=0 Evt=3 t=93 TAR=1 S=1 O=2 Feq=6152
+TYPE=0, INFO=Wait=1 Evt=4 t=95 TAR=0 S=0 O=0 Feq=5779
+TYPE=0, INFO=Wait=1 Evt=1 t=98 TAR=0 S=0 O=0 Feq=5894
+TYPE=0, INFO=Wait=0 Evt=4 t=94 TAR=1 S=0 O=1 Feq=5863
+TYPE=0, INFO=Wait=1 Evt=4 t=92 TAR=2 S=0 O=1 Feq=5826
+TYPE=0, INFO=Wait=0 Evt=4 t=96 TAR=0 S=0 O=0 Feq=5862
+TYPE=0, INFO=Wait=0 Evt=6 t=91 TAR=2 S=0 O=1 Feq=6080
+TYPE=0, INFO=Wait=0 Evt=1 t=99 TAR=0 S=0 O=0 Feq=5787
+TYPE=0, INFO=Wait=0 Evt=4 t=93 TAR=3 S=0 O=0 Feq=4460
+TYPE=0, INFO=Wait=0 Evt=3 t=97 TAR=0 S=0 O=0 Feq=4873
+TYPE=0, INFO=Wait=0 Evt=2 t=96 TAR=2 S=0 O=0 Feq=4755
+TYPE=0, INFO=Wait=0 Evt=2 t=98 TAR=0 S=0 O=0 Feq=4625
+TYPE=0, INFO=Wait=1 Evt=68 t=31 TAR=0 S=0 O=0 Feq=1564
+TYPE=0, INFO=Wait=0 Evt=3 t=96 TAR=1 S=0 O=0 Feq=4701
+TYPE=0, INFO=Wait=0 Evt=4 t=96 TAR=0 S=0 O=0 Feq=4759
+TYPE=0, INFO=Wait=0 Evt=1 t=99 TAR=0 S=0 O=0 Feq=4740
+TYPE=0, INFO=Wait=0 Evt=2 t=98 TAR=0 S=0 O=0 Feq=4817
+TYPE=0, INFO=Wait=0 Evt=1 t=98 TAR=1 S=0 O=0 Feq=4562
+TYPE=0, INFO=Wait=1 Evt=1 t=97 TAR=1 S=0 O=0 Feq=4650
+TYPE=0, INFO=Wait=2 Evt=2 t=95 TAR=1 S=0 O=0 Feq=4570
+TYPE=0, INFO=Wait=0 Evt=0 t=99 TAR=0 S=0 O=1 Feq=4738
+TYPE=0, INFO=Wait=0 Evt=1 t=99 TAR=0 S=0 O=0 Feq=4721
+TYPE=0, INFO=Wait=1 Evt=2 t=96 TAR=0 S=0 O=1 Feq=4613
+TYPE=0, INFO=Wait=1 Evt=4 t=95 TAR=0 S=0 O=0 Feq=4738
+TYPE=0, INFO=Wait=0 Evt=2 t=98 TAR=0 S=0 O=0 Feq=4757
+TYPE=0, INFO=Wait=1 Evt=2 t=96 TAR=1 S=0 O=0 Feq=4665
+TYPE=0, INFO=Wait=0 Evt=2 t=95 TAR=2 S=0 O=1 Feq=4881
+TYPE=0, INFO=Wait=0 Evt=2 t=96 TAR=2 S=0 O=0 Feq=4514
+TYPE=0, INFO=Wait=1 Evt=20 t=73 TAR=5 S=0 O=1 Feq=26404
+TYPE=0, INFO=Wait=2 Evt=13 t=72 TAR=10 S=1 O=2 Feq=39534
+TYPE=0, INFO=Engine 0 is closing
+TYPE=0, INFO=运行结束...
+TYPE=0, INFO=场景管理器得到请求，对象 ID=65536 请求退出
+TYPE=0, INFO=Delete LinkObj:id=65536,parentid=1,threadid=4716
+TYPE=0, INFO=场景管理器得到请求，对象 ID=65537 请求退出
+TYPE=0, INFO=Delete LinkObj:id=65537,parentid=1,threadid=4716
+TYPE=0, INFO=Delete LinkObj:id=1,parentid=0,threadid=4716
+TYPE=1, INFO=由对象管理器清除对象:类名=CDisp id=1001
+TYPE=0, INFO=Delete LinkObj:id=1001,parentid=0,threadid=4716
+TYPE=0, INFO=开始清理并释放所分配的资源...
+TYPE=0, INFO=所分配的资源释放完毕

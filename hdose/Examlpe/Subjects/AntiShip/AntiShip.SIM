@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!-- Created by SIM_DEMO by (hy) -->
+<Simulation>
+  <Parameters>
+    <Parameter Name="FederateName" Value="AntiShip"/>
+    <Parameter Name="FederationName" Value="AntiShip"/>
+    <Parameter Name="FedFile" Value="AntiShip.fed"/>
+    <Parameter Name="TC" Value="1"/>
+    <Parameter Name="TR" Value="1"/>
+    <Parameter Name="Wallclock" Value="0.01"/>
+    <Parameter Name="Lookahead" Value="0.01"/>
+    <Parameter Name="Timestep" Value="0.01"/>
+    <Parameter Name="FastBest" Value="0"/>
+    <Parameter Name="RTIthread" Value="0"/>
+    <Parameter Name="Bridge" Value="CNULLBridge"/>
+    <Parameter Name="OPD" Value="AntiShip.opd"/>
+    <Parameter Name="Scenario" Value="AntiShip.scn"/>
+  </Parameters>
+  <Events>
+    <Event Name="CTargetIndicatingEvt" HLA_name="CTargetIndicatingEvt" Publish="1" Subscribe="1"/>
+    <Event Name="CEntityMoveOrderEvt" HLA_name="CEntityMoveOrderEvt" Publish="1" Subscribe="1"/>
+    <Event Name="CTorpedoBindingParams" HLA_name="CTorpedoBindingParams" Publish="1" Subscribe="1"/>
+    <Event Name="CCreateForceEntity" HLA_name="CCreateForceEntity" Publish="1" Subscribe="1"/>
+    <Event Name="CCreateCtrlObj" HLA_name="CCreateCtrlObj" Publish="1" Subscribe="1"/>
+    <Event Name="CSimEnd" HLA_name="CSimEnd" Publish="1" Subscribe="1"/>
+    <Event Name="CSimStart" HLA_name="CSimStart" Publish="1" Subscribe="1"/>
+    <Event Name="CSimPause" HLA_name="CSimPause" Publish="1" Subscribe="1"/>
+    <Event Name="CTask" HLA_name="CTask" Publish="1" Subscribe="1"/>
+    <Event Name="CEntityMoveTask" HLA_name="CTask.CEntityMoveTask" Publish="1" Subscribe="1"/>
+  </Events>
+  <Links>
+    <Link Name="CStateRepository" HLA_name="CStateRepository" Publish="1" Subscribe="1"/>
+    <Link Name="CSimObjStateRep" HLA_name="CStateRepository.CSimObjStateRep" Publish="1" Subscribe="1"/>
+    <Link Name="CControlObj" HLA_name="CStateRepository.CSimObjStateRep.CControlObj" Publish="1" Subscribe="1"/>
+    <Link Name="CLineObj" HLA_name="CStateRepository.CSimObjStateRep.CControlObj.CLineObj" Publish="1" Subscribe="1"/>
+    <Link Name="CSubmarineStateRep" HLA_name="CStateRepository.CSimObjStateRep.CEntityStateRep.CSubmarineStateRep" Publish="1" Subscribe="1"/>
+    <Link Name="CEntityStateRep" HLA_name="CStateRepository.CSimObjStateRep.CEntityStateRep" Publish="1" Subscribe="1"/>
+    <Link Name="CShipStateRep" HLA_name="CStateRepository.CSimObjStateRep.CEntityStateRep.CShipStateRep" Publish="1" Subscribe="1"/>
+    <Link Name="CTorpedoStateRep" HLA_name="CStateRepository.CSimObjStateRep.CEntityStateRep.CTorpedoStateRep" Publish="1" Subscribe="1"/>
+    <Link Name="CModel" HLA_name="CModel" Publish="1" Subscribe="1"/>
+    <Link Name="CController" HLA_name="CModel.CController" Publish="1" Subscribe="1"/>
+    <Link Name="CSensorModel" HLA_name="CModel.CSensorModel" Publish="1" Subscribe="1"/>
+    <Link Name="CSonarSensorModel" HLA_name="CModel.CSensorModel.CSonarSensorModel" Publish="1" Subscribe="1"/>
+    <Link Name="CSubSonarSensorModel" HLA_name="CModel.CSensorModel.CSonarSensorModel.CSubSonarSensorModel" Publish="1" Subscribe="1"/>
+    <Link Name="CDragSonarSensorModel" HLA_name="CModel.CSensorModel.CSonarSensorModel.CDragSonarSensorModel" Publish="1" Subscribe="1"/>
+    <Link Name="CTorpedoSonarSensorModel" HLA_name="CModel.CSensorModel.CSonarSensorModel.CTorpedoSonarSensorModel" Publish="1" Subscribe="1"/>
+    <Link Name="CSubmarineCtrlModel" HLA_name="CModel.CController.CSubmarineCtrlModel" Publish="1" Subscribe="1"/>
+    <Link Name="CShipCtrlModel" HLA_name="CModel.CController.CShipCtrlModel" Publish="1" Subscribe="1"/>
+    <Link Name="CTorpedoCtrlModel" HLA_name="CModel.CController.CTorpedoCtrlModel" Publish="1" Subscribe="1"/>
+    <Link Name="CSubMoveModel" HLA_name="CModel.CSubMoveModel" Publish="1" Subscribe="1"/>
+    <Link Name="CShipMoveModel" HLA_name="CModel.CShipMoveModel" Publish="1" Subscribe="1"/>
+    <Link Name="CTorpedoMoveModel" HLA_name="CModel.CTorpedoMoveModel" Publish="1" Subscribe="1"/>
+  </Links>
+  <Components>
+    <Component Source="RTIBridge.MDF"/>
+    <Component Source="XBridge.MDF"/>
+    <Component Source="DataCom.MDF"/>
+    <Component Source="ModelCom.MDF"/>
+  </Components>
+  <ItemClasses>
+  </ItemClasses>
+  <Items>
+    <Item ItemClass="CMainMgr" ID="1" Name="PlanMgr">
+      <Item ItemClass="CDisp" ID="-1" Name="Disp">
+        <Parameter  Name="AutoUpdate" Value="1"/>
+        <Parameter  Name="Truth" Value="CControlObj;CLineObj;CModel;CController;CShipCtrlModel;CTorpedoCtrlModel;"/>
+        <Parameter  Name="Sensor" Value="CSensorModel;CSonarSensorModel;CSubSonarSensorModel;CDragSonarSensorModel;CTorpedoSonarSensorModel;"/>
+        <Parameter  Name="Behave" Value="CSubmarineCtrlModel;CSubMoveModel;CShipMoveModel;CTorpedoMoveModel;"/>
+        <Parameter  Name="Update" Value="CStateRepository;CSimObjStateRep;CSubmarineStateRep;CEntityStateRep;CShipStateRep;CTorpedoStateRep;"/>
+        <Parameter  Name="Simulation" Value="None;"/>
+        <Parameter  Name="Output" Value="None;"/>
+      </Item>
+    </Item>
+  </Items>
+</Simulation>

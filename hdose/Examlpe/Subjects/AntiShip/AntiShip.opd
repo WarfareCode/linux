@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!-- Created by SIM_DEMO by (hy) -->
+<Simulation>
+	<OPDEntrys>
+		<OPDEntry Name="xx潜艇状态池Para">
+			<Parameter Name="Length" Value="80"/>
+			<Parameter Name="MaxRadius" Value="2000"/>
+			<Parameter Name="MaxVel" Value="20"/>
+			<Parameter Name="InitRCS" Value="1000"/>
+			<Parameter Name="InitNoise" Value="500"/>
+		</OPDEntry>
+		<OPDEntry Name="yy鱼雷状态池Para">
+			<Parameter Name="Length" Value="3"/>
+			<Parameter Name="MaxRadius" Value="1"/>
+			<Parameter Name="MaxG" Value="20"/>
+			<Parameter Name="InitRCS" Value="100"/>
+			<Parameter Name="InitNoise" Value="50"/>
+		</OPDEntry>
+		<OPDEntry Name="zz舰艇状态池Para">
+			<Parameter Name="Length" Value="100"/>
+			<Parameter Name="Width" Value="20"/>
+			<Parameter Name="InitRCS" Value="20000"/>
+			<Parameter Name="InitNoise" Value="2000"/>
+		</OPDEntry>
+		<OPDEntry Name="xx潜艇声纳Para">
+			<Parameter Name="MaxDist" Value="20000"/>
+			<Parameter Name="LowestNoise" Value="50"/>
+		</OPDEntry>
+		<OPDEntry Name="yy鱼雷声纳Para">
+			<Parameter Name="MaxDist" Value="10000"/>
+			<Parameter Name="LowestNoise" Value="30"/>
+		</OPDEntry>
+		<OPDEntry Name="zz舰艇声纳Para">
+			<Parameter Name="MaxDist" Value="50000"/>
+			<Parameter Name="LowestNoise" Value="20"/>
+		</OPDEntry>
+	</OPDEntrys>
+
+	<Assembles>
+		<Assemble ItemClass="CxxSubmarineEntity" Type="Entity" Tag="xx潜艇实体">
+			<Assemble ItemClass="CSDRController" Type="Truth" Tag="CxxSubmarineEntitySDR"  Sample="2"/>
+			<Assemble ItemClass="CSubmarineStateRep" Type="ESR" Tag="xx潜艇状态池" OPD="xx潜艇状态池Para" Sample="2"/>
+			<Assemble ItemClass="CSubmarineCtrlModel" Type="Truth" Tag="模型实例1"  Sample="2"/>
+			<Assemble ItemClass="CSubSonarSensorModel" Type="Sensor" Tag="xx潜艇声纳" OPD="xx潜艇声纳Para"  Sample="2"/>
+			<Assemble ItemClass="CSubMoveModel" Type="Behave" Tag="模型实例2"  Sample="2"/>
+		</Assemble>
+		<Assemble ItemClass="CyyTorpedoEntity" Type="Entity" Tag="yy鱼雷实体">
+			<Assemble ItemClass="CSDRController" Type="Truth" Tag="CyyTorpedoEntitySDR"  Sample="2"/>
+			<Assemble ItemClass="CTorpedoStateRep" Type="ESR" Tag="yy鱼雷状态池" OPD="yy鱼雷状态池Para"  Sample="2"/>
+			<Assemble ItemClass="CTorpedoCtrlModel" Type="Truth" Tag="模型实例1"  Sample="2"/>
+			<Assemble ItemClass="CTorpedoMoveModel" Type="Behave" Tag="模型实例2"  Sample="2"/>
+			<Assemble ItemClass="CTorpedoSonarSensorModel" Type="Sensor" Tag="yy鱼雷声纳" OPD="yy鱼雷声纳Para"  Sample="2"/>
+		</Assemble>
+		<Assemble ItemClass="CzzShipEntity" Type="Entity" Tag="zz舰艇实体">
+			<Assemble ItemClass="CSDRController" Type="Truth" Tag="CzzShipEntitySDR"  Sample="2"/>
+			<Assemble ItemClass="CShipStateRep" Type="ESR" Tag="zz舰艇状态池" OPD="zz舰艇状态池Para"  Sample="2"/>
+			<Assemble ItemClass="CDragSonarSensorModel" Type="Sensor" Tag="zz舰艇声纳" OPD="zz舰艇声纳Para"  Sample="2"/>
+			<Assemble ItemClass="CShipCtrlModel" Type="Truth" Tag="模型实例2"  Sample="2"/>
+			<Assemble ItemClass="CShipMoveModel" Type="Behave" Tag="模型实例3"  Sample="2"/>
+		</Assemble>
+	</Assembles>
+</Simulation>

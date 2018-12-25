@@ -1,0 +1,1631 @@
+TYPE=0, INFO=进入 ReadParameters
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1000,ObjName=(null)
+TYPE=0, INFO=离开 ReadParameters
+TYPE=0, INFO=进入 LoadComponent
+TYPE=0, INFO=Load component dll:libBridgex.so
+TYPE=0, INFO=ClsObj Created Name=CXBridge
+TYPE=0, INFO=Load component dll:libHyCgf.so
+TYPE=0, INFO=ClsObj Created Name=CASMRoutePlanResult
+TYPE=0, INFO=ClsObj Created Name=CAbstractMoveModel
+TYPE=0, INFO=ClsObj Created Name=CAcousticSensor
+TYPE=0, INFO=ClsObj Created Name=CActuator
+TYPE=0, INFO=ClsObj Created Name=CArea
+TYPE=0, INFO=ClsObj Created Name=CAttitudeCtrlOper
+TYPE=0, INFO=ClsObj Created Name=CBackEngineStateEvt
+TYPE=0, INFO=ClsObj Created Name=CBallisticMissileESR
+TYPE=0, INFO=ClsObj Created Name=CCircle
+TYPE=0, INFO=ClsObj Created Name=CCollisionEvent
+TYPE=0, INFO=ClsObj Created Name=CCommStateEvent
+TYPE=0, INFO=ClsObj Created Name=CCommanderESR
+TYPE=0, INFO=ClsObj Created Name=CConsoleEvt
+TYPE=0, INFO=ClsObj Created Name=CConsoleEvtConductor
+TYPE=0, INFO=ClsObj Created Name=CControlObject
+TYPE=0, INFO=ClsObj Created Name=CController
+TYPE=0, INFO=ClsObj Created Name=CCreateObjRequest
+TYPE=0, INFO=ClsObj Created Name=CCreateObjResult
+TYPE=0, INFO=ClsObj Created Name=CCreateSatOrbitEvent
+TYPE=0, INFO=ClsObj Created Name=CCruise
+TYPE=0, INFO=ClsObj Created Name=CCruiseMissileESR
+TYPE=0, INFO=ClsObj Created Name=CDataRecModel
+TYPE=0, INFO=ClsObj Created Name=CDeviceOper
+TYPE=0, INFO=ClsObj Created Name=CDisembark
+TYPE=0, INFO=ClsObj Created Name=CESM
+TYPE=0, INFO=ClsObj Created Name=CESMDetectReportEvt
+TYPE=0, INFO=ClsObj Created Name=CEllipse
+TYPE=0, INFO=ClsObj Created Name=CEntityCreateEvent
+TYPE=0, INFO=ClsObj Created Name=CEntityExitEvent
+TYPE=0, INFO=ClsObj Created Name=CEnvironment
+TYPE=0, INFO=ClsObj Created Name=CExplosionEvent
+TYPE=0, INFO=ClsObj Created Name=CFacilityESR
+TYPE=0, INFO=ClsObj Created Name=CFixedWingESR
+TYPE=0, INFO=ClsObj Created Name=CFollow
+TYPE=0, INFO=ClsObj Created Name=CGeneralEvt
+TYPE=0, INFO=ClsObj Created Name=CGroundVehicleESR
+TYPE=0, INFO=ClsObj Created Name=CIFF
+TYPE=0, INFO=ClsObj Created Name=CJammerOper
+TYPE=0, INFO=ClsObj Created Name=CLandingOn
+TYPE=0, INFO=ClsObj Created Name=CLaserSensor
+TYPE=0, INFO=ClsObj Created Name=CLaunchBomb
+TYPE=0, INFO=ClsObj Created Name=CLaunchCanon
+TYPE=0, INFO=ClsObj Created Name=CLaunchChaff
+TYPE=0, INFO=ClsObj Created Name=CLaunchFakeTarget
+TYPE=0, INFO=ClsObj Created Name=CLaunchMissile
+TYPE=0, INFO=ClsObj Created Name=CLaunchTorpedo
+TYPE=0, INFO=ClsObj Created Name=CLaunchWeapon
+TYPE=0, INFO=ClsObj Created Name=CLayoutMine
+TYPE=0, INFO=ClsObj Created Name=CLifeFormESR
+TYPE=0, INFO=ClsObj Created Name=CLoggerCtrl
+TYPE=0, INFO=ClsObj Created Name=CMagneticSensor
+TYPE=0, INFO=ClsObj Created Name=CMissileESR
+TYPE=0, INFO=ClsObj Created Name=CMissileWarheadESR
+TYPE=0, INFO=ClsObj Created Name=CModel
+TYPE=0, INFO=ClsObj Created Name=CModelSR
+TYPE=0, INFO=ClsObj Created Name=CMoveAlong
+TYPE=0, INFO=ClsObj Created Name=CMoveTo
+TYPE=0, INFO=ClsObj Created Name=CMunitionESR
+TYPE=0, INFO=ClsObj Created Name=CPatrol
+TYPE=0, INFO=ClsObj Created Name=CPhaseline
+TYPE=0, INFO=ClsObj Created Name=CPolygon
+TYPE=0, INFO=ClsObj Created Name=CRadar
+TYPE=0, INFO=ClsObj Created Name=CRadarDetectReportEvt
+TYPE=0, INFO=ClsObj Created Name=CRadioEvt
+TYPE=0, INFO=ClsObj Created Name=CRecall
+TYPE=0, INFO=ClsObj Created Name=CRectangle
+TYPE=0, INFO=ClsObj Created Name=CRegulateMoveState
+TYPE=0, INFO=ClsObj Created Name=CRemoveObjRequest
+TYPE=0, INFO=ClsObj Created Name=CRemoveObjResult
+TYPE=0, INFO=ClsObj Created Name=CRequestBackEngineStateEvt
+TYPE=0, INFO=ClsObj Created Name=CReturnBase
+TYPE=0, INFO=ClsObj Created Name=CRotaryWingESR
+TYPE=0, INFO=ClsObj Created Name=CRoute
+TYPE=0, INFO=ClsObj Created Name=CSatelliteESR
+TYPE=0, INFO=ClsObj Created Name=CScnCtrl
+TYPE=0, INFO=ClsObj Created Name=CScnProfile
+TYPE=0, INFO=ClsObj Created Name=CScnReloadEvt
+TYPE=0, INFO=ClsObj Created Name=CSensor
+TYPE=0, INFO=ClsObj Created Name=CSensorModelSR
+TYPE=0, INFO=ClsObj Created Name=CSensorOper
+TYPE=0, INFO=ClsObj Created Name=CSensorScanEvent
+TYPE=0, INFO=ClsObj Created Name=CSetData
+TYPE=0, INFO=ClsObj Created Name=CSimCtrl
+TYPE=0, INFO=ClsObj Created Name=CSimTask
+TYPE=0, INFO=ClsObj Created Name=CSimpleRadar
+TYPE=0, INFO=ClsObj Created Name=CSonar
+TYPE=0, INFO=ClsObj Created Name=CSpaceESR
+TYPE=0, INFO=ClsObj Created Name=CStateRepository
+TYPE=0, INFO=ClsObj Created Name=CSubSurfaceESR
+TYPE=0, INFO=ClsObj Created Name=CSurfaceESR
+TYPE=0, INFO=ClsObj Created Name=CTakeOff
+TYPE=0, INFO=ClsObj Created Name=CTargetIrradiateEvent
+TYPE=0, INFO=ClsObj Created Name=CTargetLossEvent
+TYPE=0, INFO=ClsObj Created Name=CTargetParaEvent
+TYPE=0, INFO=ClsObj Created Name=CTargetTrackingEvent
+TYPE=0, INFO=ClsObj Created Name=CTask
+TYPE=0, INFO=ClsObj Created Name=CSetDataRequest
+TYPE=0, INFO=ClsObj Created Name=CThermalSensor
+TYPE=0, INFO=ClsObj Created Name=CThrottleCtrlOper
+TYPE=0, INFO=ClsObj Created Name=CTorpedoESR
+TYPE=0, INFO=ClsObj Created Name=CVehicleDriveModeCtrl
+TYPE=0, INFO=ClsObj Created Name=CVisualSensor
+TYPE=0, INFO=ClsObj Created Name=CWait
+TYPE=0, INFO=ClsObj Created Name=CWayPoint
+TYPE=0, INFO=ClsObj Created Name=CWeaponLaunchEvent
+TYPE=0, INFO=ClsObj Created Name=CWeaponMountModel
+TYPE=0, INFO=ClsObj Created Name=CWeaponSysModelSR
+TYPE=0, INFO=Load component dll:libBaseEntityMoveCom.so
+TYPE=0, INFO=ClsObj Created Name=CFormationMoveServerMgr
+TYPE=0, INFO=ClsObj Created Name=CMidSurfEntMoveModel
+TYPE=0, INFO=ClsObj Created Name=CMidVehicleEntMoveModel
+TYPE=0, INFO=ClsObj Created Name=CSimpleAirEntMoveModel
+TYPE=0, INFO=ClsObj Created Name=CSimpleGroundEntMoveModel
+TYPE=0, INFO=ClsObj Created Name=CSimpleSubEntMoveModel
+TYPE=0, INFO=ClsObj Created Name=CSimpleSurfEntMoveModel
+TYPE=0, INFO=ClsObj Created Name=CSimpleXtoSurfMissileEntMoveModel
+TYPE=0, INFO=Load component dll:libDataStructComponentDll.so
+TYPE=0, INFO=ClsObj Created Name=CAAMBindingInfo
+TYPE=0, INFO=ClsObj Created Name=CAAMGuideOrder
+TYPE=0, INFO=ClsObj Created Name=CAAMMoveCtrlParams
+TYPE=0, INFO=ClsObj Created Name=CAAMMoveOrder
+TYPE=0, INFO=ClsObj Created Name=CAAMMoveStepEvt
+TYPE=0, INFO=ClsObj Created Name=CAAMSeekerBindingInfo
+TYPE=0, INFO=ClsObj Created Name=CAAMUnitFireAssignmentData
+TYPE=0, INFO=ClsObj Created Name=CAAMVehicleStateRep
+TYPE=0, INFO=ClsObj Created Name=CASMBattleOrder
+TYPE=0, INFO=ClsObj Created Name=CASMBindingInfo
+TYPE=0, INFO=ClsObj Created Name=CASMMoveOrderBefore2ndOn
+TYPE=0, INFO=ClsObj Created Name=CASMMovingCtrlParams
+TYPE=0, INFO=ClsObj Created Name=CASMPlaningInfo
+TYPE=0, INFO=ClsObj Created Name=CASMSeekerBindingInfo
+TYPE=0, INFO=ClsObj Created Name=CASMUnitFireAssignmentData
+TYPE=0, INFO=ClsObj Created Name=CActiveDecoyStateRep
+TYPE=0, INFO=ClsObj Created Name=CAircraftAttackTask
+TYPE=0, INFO=ClsObj Created Name=CAircraftMoveCtrlParams
+TYPE=0, INFO=ClsObj Created Name=CAircrftScheduleOrder
+TYPE=0, INFO=ClsObj Created Name=CAirportStateRep
+TYPE=0, INFO=ClsObj Created Name=CAntiAirOrder
+TYPE=0, INFO=ClsObj Created Name=CAntiAirTask
+TYPE=0, INFO=ClsObj Created Name=CBombStateRep
+TYPE=0, INFO=ClsObj Created Name=CChaffControlOrder
+TYPE=0, INFO=ClsObj Created Name=CChaffCtrlParam
+TYPE=0, INFO=ClsObj Created Name=CChaffIslandStateRep
+TYPE=0, INFO=ClsObj Created Name=CChaffJammingOrder
+TYPE=0, INFO=ClsObj Created Name=CChaffJammingTask
+TYPE=0, INFO=ClsObj Created Name=CChaffLaunchParams
+TYPE=0, INFO=ClsObj Created Name=CChaffStateRep
+TYPE=0, INFO=ClsObj Created Name=CChangeEntityName
+TYPE=0, INFO=ClsObj Created Name=CCircleControlObjectStateRep
+TYPE=0, INFO=ClsObj Created Name=CClutterInstruction
+TYPE=0, INFO=ClsObj Created Name=CCmdEntityStateRep
+TYPE=0, INFO=ClsObj Created Name=CControlObjStateRep
+TYPE=0, INFO=ClsObj Created Name=CCornerReflectorStateRep
+TYPE=0, INFO=ClsObj Created Name=CCreateChaffIslandEntity
+TYPE=0, INFO=ClsObj Created Name=CCreateCircleEntity
+TYPE=0, INFO=ClsObj Created Name=CCreateCmdFieldEntity
+TYPE=0, INFO=ClsObj Created Name=CCreateCornerReflectorEntity
+TYPE=0, INFO=ClsObj Created Name=CCreateFixedWingEntity
+TYPE=0, INFO=ClsObj Created Name=CCreateForceEntityEvt
+TYPE=0, INFO=ClsObj Created Name=CCreateLineEntityEvt
+TYPE=0, INFO=ClsObj Created Name=CCreatePointEntityEvt
+TYPE=0, INFO=ClsObj Created Name=CCreateRadarFieldEntity
+TYPE=0, INFO=ClsObj Created Name=CCreateRotaryWingEntity
+TYPE=0, INFO=ClsObj Created Name=CCreateSBMEntity
+TYPE=0, INFO=ClsObj Created Name=CCreateSatelliteEntity
+TYPE=0, INFO=ClsObj Created Name=CCreateSubmarineEntity
+TYPE=0, INFO=ClsObj Created Name=CCreateSurfaceShipEntity
+TYPE=0, INFO=ClsObj Created Name=CDeleteEntity
+TYPE=0, INFO=ClsObj Created Name=CDragEntity
+TYPE=0, INFO=ClsObj Created Name=CEWDetectInfo
+TYPE=0, INFO=ClsObj Created Name=CFCRTargetInfo
+TYPE=0, INFO=ClsObj Created Name=CFieldStateRep
+TYPE=0, INFO=ClsObj Created Name=CFireDistributingTask
+TYPE=0, INFO=ClsObj Created Name=CFixedWingStateRep
+TYPE=0, INFO=ClsObj Created Name=CForceScheduleTask
+TYPE=0, INFO=ClsObj Created Name=CFuzzySituationInfo
+TYPE=0, INFO=ClsObj Created Name=CGroundEWRadarStateRep
+TYPE=0, INFO=ClsObj Created Name=CGroundFCRadarStateRep
+TYPE=0, INFO=ClsObj Created Name=CGuardFieldStateRep
+TYPE=0, INFO=ClsObj Created Name=CHarborDockEntityStateRep
+TYPE=0, INFO=ClsObj Created Name=CInfraredDecoyLaunchParams
+TYPE=0, INFO=ClsObj Created Name=CLaunchActiveDecoyOrder
+TYPE=0, INFO=ClsObj Created Name=CLaunchActiveDecoyTask
+TYPE=0, INFO=ClsObj Created Name=CLineControlObjectStateRep
+TYPE=0, INFO=ClsObj Created Name=CMissileStateRep
+TYPE=0, INFO=ClsObj Created Name=CMissileWayPoints
+TYPE=0, INFO=ClsObj Created Name=CMoveAlongCircleRouteTask
+TYPE=0, INFO=ClsObj Created Name=CMoveAlongDirectionEvt
+TYPE=0, INFO=ClsObj Created Name=CMoveAlongRouteEvt
+TYPE=0, INFO=ClsObj Created Name=CMoveAlongRouteTask
+TYPE=0, INFO=ClsObj Created Name=CMoveToPointEvt
+TYPE=0, INFO=ClsObj Created Name=CMoveToPointTask
+TYPE=0, INFO=ClsObj Created Name=CMunitionStateRep
+TYPE=0, INFO=ClsObj Created Name=CPointControlObjectStateRep
+TYPE=0, INFO=ClsObj Created Name=CPolygonControlObjectStateRep
+TYPE=0, INFO=ClsObj Created Name=CRadarFieldDetectInfo
+TYPE=0, INFO=ClsObj Created Name=CRadarFieldStateRep
+TYPE=0, INFO=ClsObj Created Name=CRadarPowerOnOrder
+TYPE=0, INFO=ClsObj Created Name=CRapidFireGunLaunchEvt
+TYPE=0, INFO=ClsObj Created Name=CRectangleControlObjectStateRep
+TYPE=0, INFO=ClsObj Created Name=CRotaryWingStateRep
+TYPE=0, INFO=ClsObj Created Name=CSBMScheduleOrder
+TYPE=0, INFO=ClsObj Created Name=CScoutInfo
+TYPE=0, INFO=ClsObj Created Name=CSeekerElecAxisDirection
+TYPE=0, INFO=ClsObj Created Name=CSeekerInitSearchRange
+TYPE=0, INFO=ClsObj Created Name=CSeekerOperationOrder
+TYPE=0, INFO=ClsObj Created Name=CSeekerPowerOnOrder
+TYPE=0, INFO=ClsObj Created Name=CSeekerTrackingTargetInfo
+TYPE=0, INFO=ClsObj Created Name=CSetCircleRadius
+TYPE=0, INFO=ClsObj Created Name=CSetPointOnLineEntity
+TYPE=0, INFO=ClsObj Created Name=CSetSeaEnvParams
+TYPE=0, INFO=ClsObj Created Name=CSimEnd
+TYPE=0, INFO=ClsObj Created Name=CSimEventScript
+TYPE=0, INFO=ClsObj Created Name=CSimPause
+TYPE=0, INFO=ClsObj Created Name=CSimRefresh
+TYPE=0, INFO=ClsObj Created Name=CSimResume
+TYPE=0, INFO=ClsObj Created Name=CSimSpeedControl
+TYPE=0, INFO=ClsObj Created Name=CSimStart
+TYPE=0, INFO=ClsObj Created Name=CSonarTargetInfo
+TYPE=0, INFO=ClsObj Created Name=CStatisticAnalysisParty
+TYPE=0, INFO=ClsObj Created Name=CSubmarineMovingParams
+TYPE=0, INFO=ClsObj Created Name=CSubmarineStateRep
+TYPE=0, INFO=ClsObj Created Name=CSuppressingJammingOrder
+TYPE=0, INFO=ClsObj Created Name=CSuppressingJammingTask
+TYPE=0, INFO=ClsObj Created Name=CSupressionJammerCtrlOrder
+TYPE=0, INFO=ClsObj Created Name=CSupressionJammerPowerOnOrder
+TYPE=0, INFO=ClsObj Created Name=CSupressionJammerWorkParams
+TYPE=0, INFO=ClsObj Created Name=CSurfaceDetectionInfo
+TYPE=0, INFO=ClsObj Created Name=CSurfaceMovingParams
+TYPE=0, INFO=ClsObj Created Name=CSurfaceScheduleOrder
+TYPE=0, INFO=ClsObj Created Name=CSurfaceShipStateRep
+TYPE=0, INFO=ClsObj Created Name=CTargetInfoFromSeeker
+TYPE=0, INFO=ClsObj Created Name=CTargetInfoStateRep
+TYPE=0, INFO=ClsObj Created Name=CTargetIrradiateEvt
+TYPE=0, INFO=ClsObj Created Name=CTextControlObjectStateRep
+TYPE=0, INFO=ClsObj Created Name=CTorpedoAttackTask
+TYPE=0, INFO=ClsObj Created Name=CTorpedoBindingInfo
+TYPE=0, INFO=ClsObj Created Name=CTorpedoMoveOrder
+TYPE=0, INFO=ClsObj Created Name=CTorpedoMoveParam
+TYPE=0, INFO=ClsObj Created Name=CTorpedoSensorBingdInfo
+TYPE=0, INFO=ClsObj Created Name=CTorpedoSensorPowerOnOrder
+TYPE=0, INFO=ClsObj Created Name=CTorpedoStateRep
+TYPE=0, INFO=ClsObj Created Name=CTorpedoTargetIndication
+TYPE=0, INFO=ClsObj Created Name=CTorpedoUnitAttackInfo
+TYPE=0, INFO=ClsObj Created Name=CUnitFireSchedulingInfo
+TYPE=0, INFO=ClsObj Created Name=CUnitTorpedoAttackInfo
+TYPE=0, INFO=ClsObj Created Name=CVehicleMoveCtrlParams
+TYPE=0, INFO=Load component dll:libTFCommonModelCom.so
+TYPE=0, INFO=ClsObj Created Name=CAAMSeekerControllerModel
+TYPE=0, INFO=ClsObj Created Name=CAAMSeekerModel
+TYPE=0, INFO=ClsObj Created Name=CASMSeekerControllerModel
+TYPE=0, INFO=ClsObj Created Name=CCentralControllerModel
+TYPE=0, INFO=ClsObj Created Name=CCompositeSensorModel
+TYPE=0, INFO=ClsObj Created Name=CDamageAssessControllerModel
+TYPE=0, INFO=ClsObj Created Name=CFCControllerModel
+TYPE=0, INFO=ClsObj Created Name=CFixedWingPlatformModel
+TYPE=0, INFO=ClsObj Created Name=CInfraredSensorModel
+TYPE=0, INFO=ClsObj Created Name=CJammerModel
+TYPE=0, INFO=ClsObj Created Name=CLaserSensorModel
+TYPE=0, INFO=ClsObj Created Name=CMagSensorModel
+TYPE=0, INFO=ClsObj Created Name=CMoveControllerModel
+TYPE=0, INFO=ClsObj Created Name=CMunitionPlatformModel
+TYPE=0, INFO=ClsObj Created Name=COpticalSensorModel
+TYPE=0, INFO=ClsObj Created Name=CPassiveRadarSensorModel
+TYPE=0, INFO=ClsObj Created Name=CPlatformModel
+TYPE=0, INFO=ClsObj Created Name=CRadarSensorModel
+TYPE=0, INFO=ClsObj Created Name=CRadioCommunicationModel
+TYPE=0, INFO=ClsObj Created Name=CRotaryWingPlatformModel
+TYPE=0, INFO=ClsObj Created Name=CSatellitePlatformModel
+TYPE=0, INFO=ClsObj Created Name=CSeekerControllerModel
+TYPE=0, INFO=ClsObj Created Name=CSensorModel
+TYPE=0, INFO=ClsObj Created Name=CSonarSensorModel
+TYPE=0, INFO=ClsObj Created Name=CSubSurfacePlatformModel
+TYPE=0, INFO=ClsObj Created Name=CSurfacePlatformModel
+TYPE=0, INFO=ClsObj Created Name=CTiltRotorAircratfPlatformModel
+TYPE=0, INFO=ClsObj Created Name=CVehiclePlatformModel
+TYPE=0, INFO=Load component dll:libModelComponentDll.so
+TYPE=0, INFO=ClsObj Created Name=CAAMControllerModel
+TYPE=0, INFO=ClsObj Created Name=CAAMMoveCtrlModel
+TYPE=0, INFO=ClsObj Created Name=CAAMPlatformModel
+TYPE=0, INFO=ClsObj Created Name=CAPWControllerModel
+TYPE=0, INFO=ClsObj Created Name=CAPWMoveCtrlModel
+TYPE=0, INFO=ClsObj Created Name=CAPWPlatformModel
+TYPE=0, INFO=ClsObj Created Name=CAPWSeekerCtrlModel
+TYPE=0, INFO=ClsObj Created Name=CAPWSeekerModel
+TYPE=0, INFO=ClsObj Created Name=CASMControllerModel
+TYPE=0, INFO=ClsObj Created Name=CASMMoveCtrlModel
+TYPE=0, INFO=ClsObj Created Name=CASMPlatformModel
+TYPE=0, INFO=ClsObj Created Name=CActiveAAMSeeker
+TYPE=0, INFO=ClsObj Created Name=CActiveAAMSeekerControllerModel
+TYPE=0, INFO=ClsObj Created Name=CActiveDecoControllerModel
+TYPE=0, INFO=ClsObj Created Name=CActiveDecoyPlatformModel
+TYPE=0, INFO=ClsObj Created Name=CAir2AirMissileControllerModel
+TYPE=0, INFO=ClsObj Created Name=CAir2AirMissileMoveControllerModel
+TYPE=0, INFO=ClsObj Created Name=CAir2AirMissilePlatform
+TYPE=0, INFO=ClsObj Created Name=CAir2AirMissileSeeker
+TYPE=0, INFO=ClsObj Created Name=CAir2AirMissileSeekerControllerModel
+TYPE=0, INFO=ClsObj Created Name=CAirSonarSensorModel
+TYPE=0, INFO=ClsObj Created Name=CAircraftControllerModel
+TYPE=0, INFO=ClsObj Created Name=CAircraftDamageAssessCtrlerModel
+TYPE=0, INFO=ClsObj Created Name=CAircraftFCControllerModel
+TYPE=0, INFO=ClsObj Created Name=CAircraftFCRModel
+TYPE=0, INFO=ClsObj Created Name=CAircraftMvoeCtrlModel
+TYPE=0, INFO=ClsObj Created Name=CBombPlatformModel
+TYPE=0, INFO=ClsObj Created Name=CBuoyPlatformModel
+TYPE=0, INFO=ClsObj Created Name=CChaffControllerModel
+TYPE=0, INFO=ClsObj Created Name=CChaffPlatformModel
+TYPE=0, INFO=ClsObj Created Name=CCheatJammerModel
+TYPE=0, INFO=ClsObj Created Name=CCornerReflectorControllerModel
+TYPE=0, INFO=ClsObj Created Name=CCornerReflectorPlatformModel
+TYPE=0, INFO=ClsObj Created Name=CCrabbeSeekerControllerModel
+TYPE=0, INFO=ClsObj Created Name=CCrabbeSeekerModel
+TYPE=0, INFO=ClsObj Created Name=CDL_18cSeekerModel
+TYPE=0, INFO=ClsObj Created Name=CDL_6SeekerModel
+TYPE=0, INFO=ClsObj Created Name=CDL_6iSeekerModel
+TYPE=0, INFO=ClsObj Created Name=CDL_7SeekerModel
+TYPE=0, INFO=ClsObj Created Name=CDL_7iSeekerModel
+TYPE=0, INFO=ClsObj Created Name=CDL_8SeekerModel
+TYPE=0, INFO=ClsObj Created Name=CDL_8iSeekerModel
+TYPE=0, INFO=ClsObj Created Name=CDataFuseControllerModel
+TYPE=0, INFO=ClsObj Created Name=CEWAircraftControllerModel
+TYPE=0, INFO=ClsObj Created Name=CEWAircraftRadarModel
+TYPE=0, INFO=ClsObj Created Name=CFieldDamageAssessCtrlerModel
+TYPE=0, INFO=ClsObj Created Name=CGroupAntiShipFCModel
+TYPE=0, INFO=ClsObj Created Name=CGroupCmdControllerModel
+TYPE=0, INFO=ClsObj Created Name=CHsiuingFeng_1SeekerModel
+TYPE=0, INFO=ClsObj Created Name=CHsiuingFeng_2SeekerModel
+TYPE=0, INFO=ClsObj Created Name=CHsiuingFeng_3SeekerModel
+TYPE=0, INFO=ClsObj Created Name=CHsiungFeng_1SeekerControllerModel
+TYPE=0, INFO=ClsObj Created Name=CHsiungFeng_2SeekerControllerModel
+TYPE=0, INFO=ClsObj Created Name=CHsiungFeng_3SeekerControllerModel
+TYPE=0, INFO=ClsObj Created Name=CLandBaseEWRadarModel
+TYPE=0, INFO=ClsObj Created Name=CML_8SeekerModel
+TYPE=0, INFO=ClsObj Created Name=CMissileDamageAssessCtrlerModel
+TYPE=0, INFO=ClsObj Created Name=CMusketeSeekerControllerModel
+TYPE=0, INFO=ClsObj Created Name=CMusketeSeekerModel
+TYPE=0, INFO=ClsObj Created Name=CRapidFireShipGunModel
+TYPE=0, INFO=ClsObj Created Name=CSBMControllerModel
+TYPE=0, INFO=ClsObj Created Name=CSBMFireControllerModel
+TYPE=0, INFO=ClsObj Created Name=CSatelliteControllerModel
+TYPE=0, INFO=ClsObj Created Name=CSatelliteMoveCtrlModel
+TYPE=0, INFO=ClsObj Created Name=CSatelliteRadarModel
+TYPE=0, INFO=ClsObj Created Name=CScoutSensorModel
+TYPE=0, INFO=ClsObj Created Name=CSemiActiveAAMSeeker
+TYPE=0, INFO=ClsObj Created Name=CSemiActiveAAMSeekerControllerModel
+TYPE=0, INFO=ClsObj Created Name=CSubmarineCmdControllerModel
+TYPE=0, INFO=ClsObj Created Name=CSubmarineDamageAssessCtrlerModel
+TYPE=0, INFO=ClsObj Created Name=CSubmarineFCCtrlModel
+TYPE=0, INFO=ClsObj Created Name=CSubmarineMoveControllerModel
+TYPE=0, INFO=ClsObj Created Name=CSubmarinePlatformModel
+TYPE=0, INFO=ClsObj Created Name=CSubmarineSonarSensorModel
+TYPE=0, INFO=ClsObj Created Name=CSuppressionJammerModel
+TYPE=0, INFO=ClsObj Created Name=CSurfDamageAssessCtrlerModel
+TYPE=0, INFO=ClsObj Created Name=CSurfIrradiatorModel
+TYPE=0, INFO=ClsObj Created Name=CSurfaceCmdControllerModel
+TYPE=0, INFO=ClsObj Created Name=CSurfaceECMController
+TYPE=0, INFO=ClsObj Created Name=CSurfaceEWRadarModel
+TYPE=0, INFO=ClsObj Created Name=CSurfaceFCCtrlModel
+TYPE=0, INFO=ClsObj Created Name=CSurfaceFCRModel
+TYPE=0, INFO=ClsObj Created Name=CSurfaceMoveControllerModel
+TYPE=0, INFO=ClsObj Created Name=CSurfaceShipPlatformModel
+TYPE=0, INFO=ClsObj Created Name=CTorpedoControllerModel
+TYPE=0, INFO=ClsObj Created Name=CTorpedoDamageAssessCtrlModel
+TYPE=0, INFO=ClsObj Created Name=CTorpedoMoveCtrlModel
+TYPE=0, INFO=ClsObj Created Name=CTorpedoPlatformModel
+TYPE=0, INFO=ClsObj Created Name=CTorpedoSensorModel
+TYPE=0, INFO=ClsObj Created Name=CYJ_1218SeekerControllerModel
+TYPE=0, INFO=ClsObj Created Name=CYJ_62HSeekerControllerModel
+TYPE=0, INFO=ClsObj Created Name=CYJ_62HSeekerModel
+TYPE=0, INFO=ClsObj Created Name=CYJ_62SeekerControllerModel
+TYPE=0, INFO=ClsObj Created Name=CYJ_83JKSeekerControllerModel
+TYPE=0, INFO=ClsObj Created Name=CYJ_83SeekerControllerModel
+TYPE=0, INFO=ClsObj Created Name=CYJ_88SeekerControllerModel
+TYPE=0, INFO=ClsObj Created Name=CYJ_88SeekerModel
+TYPE=0, INFO=ClsObj Created Name=CYJ_91SeekerControllerModel
+TYPE=0, INFO=ClsObj Created Name=CYJ_91SeekerModel
+TYPE=0, INFO=Load component dll:libGroundAACom.so
+TYPE=0, INFO=ClsObj Created Name=CAAVehicleC2Model
+TYPE=0, INFO=ClsObj Created Name=CAAVehicleGuideMgrModel
+TYPE=0, INFO=Load component dll:libGroundAASimModelCom.so
+TYPE=0, INFO=ClsObj Created Name=CGroundEWRadarModel_2b
+TYPE=0, INFO=ClsObj Created Name=CGroundFCRadarModel_2b
+TYPE=0, INFO=ClsObj Created Name=CTBMMETrajectoryModel
+TYPE=0, INFO=离开 LoadComponent
+TYPE=0, INFO=进入 ParseFedItemClasses
+TYPE=0, INFO=离开 ParseFedItemClasses
+TYPE=0, INFO=进入 ParseAllComponentItemClasses
+TYPE=0, INFO=ClsObj Created Name=CEntity
+TYPE=0, INFO=动态创建类模型:CEntity成功
+TYPE=0, INFO=离开 ParseAllComponentItemClasses
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1001,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1002,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1003,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1004,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1005,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1006,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1007,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1008,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1009,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1010,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1011,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1012,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1013,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1014,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1015,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1016,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1017,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1018,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1019,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1020,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1021,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1022,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1023,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1024,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1025,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1026,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1027,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1028,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1029,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1030,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1031,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1032,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1033,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1034,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1035,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1036,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1037,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1038,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1039,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1040,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1041,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1042,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1043,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1044,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1045,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1046,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1047,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1048,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1049,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1050,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1051,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1052,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1053,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1054,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1055,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1056,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1057,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1058,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1059,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1060,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1061,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1062,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1063,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1064,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1065,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1066,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1067,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1068,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1069,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1070,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1071,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1072,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1073,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1074,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1075,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1076,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1077,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1078,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1079,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1080,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1081,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1082,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1083,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1084,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1085,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1086,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1087,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1088,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1089,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1090,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1091,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1092,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1093,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1094,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1095,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1096,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1097,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1098,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1099,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1100,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1101,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1102,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1103,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1104,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1105,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1106,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1107,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1108,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1109,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1110,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1111,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1112,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1113,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1114,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1115,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1116,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1117,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1118,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1119,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1120,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1121,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1122,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1123,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1124,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1125,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1126,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1127,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1128,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1129,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1130,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1131,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1132,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1133,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1134,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1135,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1136,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1137,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1138,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1139,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1140,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1141,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1142,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1143,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1144,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1145,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1146,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1147,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1148,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1149,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1150,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1151,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1152,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1153,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1154,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1155,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1156,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1157,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1158,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1159,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1160,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1161,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1162,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1163,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1164,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1165,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1166,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1167,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1168,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1169,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1170,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1171,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1172,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1173,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1174,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1175,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1176,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1177,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1178,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1179,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1180,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1181,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1182,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1183,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1184,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1185,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1186,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1187,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1188,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1189,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1190,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1191,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1192,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1193,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1194,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1195,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1196,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1197,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1198,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1199,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1200,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1201,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1202,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1203,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1204,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1205,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1206,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1207,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1208,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1209,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1210,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1211,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1212,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1213,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1214,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1215,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1216,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1217,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1218,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1219,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1220,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1221,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1222,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1223,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1224,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1225,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1226,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1227,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1228,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1229,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1230,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1231,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1232,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1233,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1234,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1235,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1236,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1237,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1238,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1239,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1240,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1241,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1242,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1243,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1244,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1245,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1246,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1247,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1248,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1249,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1250,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1251,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1252,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1253,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1254,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1255,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1256,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1257,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1258,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1259,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1260,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1261,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1262,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1263,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1264,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1265,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1266,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1267,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1268,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1269,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1270,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1271,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1272,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1273,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1274,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1275,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1276,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1277,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1278,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1279,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1280,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1281,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1282,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1283,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1284,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1285,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1286,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1287,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1288,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1289,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1290,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1291,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1292,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1293,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1294,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1295,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1296,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1297,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1298,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1299,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1300,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1301,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1302,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1303,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1304,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1305,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1306,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1307,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1308,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1309,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1310,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1311,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1312,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1313,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1314,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1315,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1316,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1317,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1318,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1319,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1320,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1321,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1322,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1323,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1324,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1325,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1326,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1327,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1328,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1329,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1330,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1331,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1332,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1333,ObjName=(null)
+TYPE=0, INFO=ClsObj Created Name=CZero53HFrigateEntity
+TYPE=0, INFO=装配实体模型:CZero53HFrigateEntity成功
+TYPE=0, INFO=ClsObj Created Name=CRedSatelliteEntity
+TYPE=0, INFO=装配实体模型:CRedSatelliteEntity成功
+TYPE=0, INFO=ClsObj Created Name=CSatelliteStateRep
+TYPE=0, INFO=装配实体模型:CSatelliteStateRep成功
+TYPE=0, INFO=ClsObj Created Name=CJH7Entity
+TYPE=0, INFO=装配实体模型:CJH7Entity成功
+TYPE=0, INFO=ClsObj Created Name=CJ15Entity
+TYPE=0, INFO=装配实体模型:CJ15Entity成功
+TYPE=0, INFO=ClsObj Created Name=CY8JEntity
+TYPE=0, INFO=装配实体模型:CY8JEntity成功
+TYPE=0, INFO=ClsObj Created Name=CKEAirboneESMModel
+TYPE=0, INFO=装配实体模型:CKEAirboneESMModel成功
+TYPE=0, INFO=ClsObj Created Name=CKEAirboneEWRadarModel
+TYPE=0, INFO=装配实体模型:CKEAirboneEWRadarModel成功
+TYPE=0, INFO=ClsObj Created Name=CYJ83J_DL8Entity
+TYPE=0, INFO=装配实体模型:CYJ83J_DL8Entity成功
+TYPE=0, INFO=ClsObj Created Name=CRedCommanderEntity
+TYPE=0, INFO=装配实体模型:CRedCommanderEntity成功
+TYPE=0, INFO=ClsObj Created Name=CYJ62_DL7Entity
+TYPE=0, INFO=装配实体模型:CYJ62_DL7Entity成功
+TYPE=0, INFO=ClsObj Created Name=CZero52CDestroyerEntity
+TYPE=0, INFO=装配实体模型:CZero52CDestroyerEntity成功
+TYPE=0, INFO=ClsObj Created Name=Zero52DDDG
+TYPE=0, INFO=装配实体模型:Zero52DDDG成功
+TYPE=0, INFO=ClsObj Created Name=CAircraftCarrier001Entity
+TYPE=0, INFO=装配实体模型:CAircraftCarrier001Entity成功
+TYPE=0, INFO=ClsObj Created Name=CKE_CVAircraftDispatchModel
+TYPE=0, INFO=装配实体模型:CKE_CVAircraftDispatchModel成功
+TYPE=0, INFO=ClsObj Created Name=CTwoTwoBoatEntity
+TYPE=0, INFO=装配实体模型:CTwoTwoBoatEntity成功
+TYPE=0, INFO=ClsObj Created Name=CYJ91Entity
+TYPE=0, INFO=装配实体模型:CYJ91Entity成功
+TYPE=0, INFO=ClsObj Created Name=CYJ83K_DL8iEntity
+TYPE=0, INFO=装配实体模型:CYJ83K_DL8iEntity成功
+TYPE=0, INFO=ClsObj Created Name=CASMMidMoveCtrlModel
+TYPE=0, INFO=装配实体模型:CASMMidMoveCtrlModel成功
+TYPE=0, INFO=ClsObj Created Name=CYJ18Entity
+TYPE=0, INFO=装配实体模型:CYJ18Entity成功
+TYPE=0, INFO=ClsObj Created Name=CKJ200Entity
+TYPE=0, INFO=装配实体模型:CKJ200Entity成功
+TYPE=0, INFO=ClsObj Created Name=CYJ62_DL7iEntity
+TYPE=0, INFO=装配实体模型:CYJ62_DL7iEntity成功
+TYPE=0, INFO=ClsObj Created Name=CYJ83J_DL8iEntity
+TYPE=0, INFO=装配实体模型:CYJ83J_DL8iEntity成功
+TYPE=0, INFO=ClsObj Created Name=CYJ83K_DL8Entity
+TYPE=0, INFO=装配实体模型:CYJ83K_DL8Entity成功
+TYPE=0, INFO=ClsObj Created Name=CYJ12Entity
+TYPE=0, INFO=装配实体模型:CYJ12Entity成功
+TYPE=0, INFO=ClsObj Created Name=CZero96SubmarineEntity
+TYPE=0, INFO=装配实体模型:CZero96SubmarineEntity成功
+TYPE=0, INFO=ClsObj Created Name=CRedAntiSubHelicopterEntity
+TYPE=0, INFO=装配实体模型:CRedAntiSubHelicopterEntity成功
+TYPE=0, INFO=ClsObj Created Name=CRedScoutPlaneEntity
+TYPE=0, INFO=装配实体模型:CRedScoutPlaneEntity成功
+TYPE=0, INFO=ClsObj Created Name=CRedRadarFieldEntity
+TYPE=0, INFO=装配实体模型:CRedRadarFieldEntity成功
+TYPE=0, INFO=ClsObj Created Name=CRedTorpedoEntity
+TYPE=0, INFO=装配实体模型:CRedTorpedoEntity成功
+TYPE=0, INFO=ClsObj Created Name=CRedActiveDecoyEntity
+TYPE=0, INFO=装配实体模型:CRedActiveDecoyEntity成功
+TYPE=0, INFO=ClsObj Created Name=CRedAir2AirMissileEntity
+TYPE=0, INFO=装配实体模型:CRedAir2AirMissileEntity成功
+TYPE=0, INFO=ClsObj Created Name=PL12AAMEntity
+TYPE=0, INFO=装配实体模型:PL12AAMEntity成功
+TYPE=0, INFO=ClsObj Created Name=CAPWEntity
+TYPE=0, INFO=装配实体模型:CAPWEntity成功
+TYPE=0, INFO=ClsObj Created Name=CCrabbeASMEntity
+TYPE=0, INFO=装配实体模型:CCrabbeASMEntity成功
+TYPE=0, INFO=ClsObj Created Name=CMusketeASMEntity
+TYPE=0, INFO=装配实体模型:CMusketeASMEntity成功
+TYPE=0, INFO=ClsObj Created Name=CYJ62HEntity
+TYPE=0, INFO=装配实体模型:CYJ62HEntity成功
+TYPE=0, INFO=ClsObj Created Name=CYJ88Entity
+TYPE=0, INFO=装配实体模型:CYJ88Entity成功
+TYPE=0, INFO=ClsObj Created Name=CZero51GMDestroyerEntity
+TYPE=0, INFO=装配实体模型:CZero51GMDestroyerEntity成功
+TYPE=0, INFO=ClsObj Created Name=CZero54AFrigateEntity
+TYPE=0, INFO=装配实体模型:CZero54AFrigateEntity成功
+TYPE=0, INFO=ClsObj Created Name=Zero56FFG
+TYPE=0, INFO=装配实体模型:Zero56FFG成功
+TYPE=0, INFO=ClsObj Created Name=HHQ9Entity
+TYPE=0, INFO=装配实体模型:HHQ9Entity成功
+TYPE=0, INFO=ClsObj Created Name=HHQ7Entity
+TYPE=0, INFO=装配实体模型:HHQ7Entity成功
+TYPE=0, INFO=ClsObj Created Name=HQ16Entity
+TYPE=0, INFO=装配实体模型:HQ16Entity成功
+TYPE=0, INFO=ClsObj Created Name=HQ10Entity
+TYPE=0, INFO=装配实体模型:HQ10Entity成功
+TYPE=0, INFO=ClsObj Created Name=CYJ62_ML8CEntity
+TYPE=0, INFO=装配实体模型:CYJ62_ML8CEntity成功
+TYPE=0, INFO=ClsObj Created Name=CML8CSeekerModel
+TYPE=0, INFO=装配实体模型:CML8CSeekerModel成功
+TYPE=0, INFO=ClsObj Created Name=CYJ83K_ML8Entity
+TYPE=0, INFO=装配实体模型:CYJ83K_ML8Entity成功
+TYPE=0, INFO=ClsObj Created Name=CBlueSatelliteEntity
+TYPE=0, INFO=装配实体模型:CBlueSatelliteEntity成功
+TYPE=0, INFO=ClsObj Created Name=CKingKongClassDestroyerEntity
+TYPE=0, INFO=装配实体模型:CKingKongClassDestroyerEntity成功
+TYPE=0, INFO=ClsObj Created Name=CHatakazeClassDestroyerEntity
+TYPE=0, INFO=装配实体模型:CHatakazeClassDestroyerEntity成功
+TYPE=0, INFO=ClsObj Created Name=CHatsuyukiClassDestroyerEntity
+TYPE=0, INFO=装配实体模型:CHatsuyukiClassDestroyerEntity成功
+TYPE=0, INFO=ClsObj Created Name=CP3CEntity
+TYPE=0, INFO=装配实体模型:CP3CEntity成功
+TYPE=0, INFO=ClsObj Created Name=CBlueCommanderEntity
+TYPE=0, INFO=装配实体模型:CBlueCommanderEntity成功
+TYPE=0, INFO=ClsObj Created Name=CHarpoonASMEntity
+TYPE=0, INFO=装配实体模型:CHarpoonASMEntity成功
+TYPE=0, INFO=ClsObj Created Name=CHarpoonCtrlModel
+TYPE=0, INFO=装配实体模型:CHarpoonCtrlModel成功
+TYPE=0, INFO=ClsObj Created Name=CHarpoonTrajModel
+TYPE=0, INFO=装配实体模型:CHarpoonTrajModel成功
+TYPE=0, INFO=ClsObj Created Name=CHarpoonSeekerControllerModel
+TYPE=0, INFO=装配实体模型:CHarpoonSeekerControllerModel成功
+TYPE=0, INFO=ClsObj Created Name=CHarpoonSeekerModel
+TYPE=0, INFO=装配实体模型:CHarpoonSeekerModel成功
+TYPE=0, INFO=ClsObj Created Name=LRASMEntity
+TYPE=0, INFO=装配实体模型:LRASMEntity成功
+TYPE=0, INFO=ClsObj Created Name=CLRASMCtrlModel
+TYPE=0, INFO=装配实体模型:CLRASMCtrlModel成功
+TYPE=0, INFO=ClsObj Created Name=CXToSurfMissileMoveModel
+TYPE=0, INFO=装配实体模型:CXToSurfMissileMoveModel成功
+TYPE=0, INFO=ClsObj Created Name=CLRASMSeekerCtrlModel
+TYPE=0, INFO=装配实体模型:CLRASMSeekerCtrlModel成功
+TYPE=0, INFO=ClsObj Created Name=CLRASMSeekerModel
+TYPE=0, INFO=装配实体模型:CLRASMSeekerModel成功
+TYPE=0, INFO=ClsObj Created Name=BGM-109Entity
+TYPE=0, INFO=装配实体模型:BGM-109Entity成功
+TYPE=0, INFO=ClsObj Created Name=CTomahawkCtrlModel
+TYPE=0, INFO=装配实体模型:CTomahawkCtrlModel成功
+TYPE=0, INFO=ClsObj Created Name=CTomahawkSeekerCtrlModel
+TYPE=0, INFO=装配实体模型:CTomahawkSeekerCtrlModel成功
+TYPE=0, INFO=ClsObj Created Name=CTomahawkSeekerModel
+TYPE=0, INFO=装配实体模型:CTomahawkSeekerModel成功
+TYPE=0, INFO=ClsObj Created Name=AGM-88ASMEntity
+TYPE=0, INFO=装配实体模型:AGM-88ASMEntity成功
+TYPE=0, INFO=ClsObj Created Name=CAGM88CtrlModel
+TYPE=0, INFO=装配实体模型:CAGM88CtrlModel成功
+TYPE=0, INFO=ClsObj Created Name=CAGM88TrajModel
+TYPE=0, INFO=装配实体模型:CAGM88TrajModel成功
+TYPE=0, INFO=ClsObj Created Name=CAGM88SeekerCtrlModel
+TYPE=0, INFO=装配实体模型:CAGM88SeekerCtrlModel成功
+TYPE=0, INFO=ClsObj Created Name=CAGM88SeekerModel
+TYPE=0, INFO=装配实体模型:CAGM88SeekerModel成功
+TYPE=0, INFO=ClsObj Created Name=CBlueScoutPlane
+TYPE=0, INFO=装配实体模型:CBlueScoutPlane成功
+TYPE=0, INFO=ClsObj Created Name=CE2CEntity
+TYPE=0, INFO=装配实体模型:CE2CEntity成功
+TYPE=0, INFO=ClsObj Created Name=CKiddClassDestroyerEntity
+TYPE=0, INFO=装配实体模型:CKiddClassDestroyerEntity成功
+TYPE=0, INFO=ClsObj Created Name=CChengKungClassFrigateEntity
+TYPE=0, INFO=装配实体模型:CChengKungClassFrigateEntity成功
+TYPE=0, INFO=ClsObj Created Name=CChiYangClassFrigateEntity
+TYPE=0, INFO=装配实体模型:CChiYangClassFrigateEntity成功
+TYPE=0, INFO=ClsObj Created Name=CHsiungFeng1ASMEntity
+TYPE=0, INFO=装配实体模型:CHsiungFeng1ASMEntity成功
+TYPE=0, INFO=ClsObj Created Name=CHsiungFeng3ASMEntity
+TYPE=0, INFO=装配实体模型:CHsiungFeng3ASMEntity成功
+TYPE=0, INFO=ClsObj Created Name=CHsiungFeng2ASMEntity
+TYPE=0, INFO=装配实体模型:CHsiungFeng2ASMEntity成功
+TYPE=0, INFO=ClsObj Created Name=CMurasameClassDestroyerEntity
+TYPE=0, INFO=装配实体模型:CMurasameClassDestroyerEntity成功
+TYPE=0, INFO=ClsObj Created Name=COyashioClassEntity
+TYPE=0, INFO=装配实体模型:COyashioClassEntity成功
+TYPE=0, INFO=ClsObj Created Name=AN/TPY-2Radar
+TYPE=0, INFO=装配实体模型:AN/TPY-2Radar成功
+TYPE=0, INFO=ClsObj Created Name=AN/FPS-115Radar
+TYPE=0, INFO=装配实体模型:AN/FPS-115Radar成功
+TYPE=0, INFO=ClsObj Created Name=CBlueAntiSubHelicopterEntity
+TYPE=0, INFO=装配实体模型:CBlueAntiSubHelicopterEntity成功
+TYPE=0, INFO=ClsObj Created Name=CBlueTorpedoEntity
+TYPE=0, INFO=装配实体模型:CBlueTorpedoEntity成功
+TYPE=0, INFO=ClsObj Created Name=CSSQ95DecoyEntity
+TYPE=0, INFO=装配实体模型:CSSQ95DecoyEntity成功
+TYPE=0, INFO=ClsObj Created Name=AIM120AAMEntity
+TYPE=0, INFO=装配实体模型:AIM120AAMEntity成功
+TYPE=0, INFO=ClsObj Created Name=CBlueTargetShip_1
+TYPE=0, INFO=装配实体模型:CBlueTargetShip_1成功
+TYPE=0, INFO=ClsObj Created Name=CBlueTargetShip_2
+TYPE=0, INFO=装配实体模型:CBlueTargetShip_2成功
+TYPE=0, INFO=ClsObj Created Name=CBlueCornerReflector
+TYPE=0, INFO=装配实体模型:CBlueCornerReflector成功
+TYPE=0, INFO=ClsObj Created Name=CBlueTargetGear
+TYPE=0, INFO=装配实体模型:CBlueTargetGear成功
+TYPE=0, INFO=ClsObj Created Name=CKangtingClassFrigateEntity
+TYPE=0, INFO=装配实体模型:CKangtingClassFrigateEntity成功
+TYPE=0, INFO=ClsObj Created Name=CSeaDragonClassEntity
+TYPE=0, INFO=装配实体模型:CSeaDragonClassEntity成功
+TYPE=0, INFO=ClsObj Created Name=CHyugaClassDestroyerEntity
+TYPE=0, INFO=装配实体模型:CHyugaClassDestroyerEntity成功
+TYPE=0, INFO=ClsObj Created Name=CTakanamiClassDestroyerEntity
+TYPE=0, INFO=装配实体模型:CTakanamiClassDestroyerEntity成功
+TYPE=0, INFO=ClsObj Created Name=CFogClassDestroyerEntity
+TYPE=0, INFO=装配实体模型:CFogClassDestroyerEntity成功
+TYPE=0, INFO=ClsObj Created Name=CWindTaiDaoDestroyerEntity
+TYPE=0, INFO=装配实体模型:CWindTaiDaoDestroyerEntity成功
+TYPE=0, INFO=ClsObj Created Name=CAiDangClassDestroyerEntity
+TYPE=0, INFO=装配实体模型:CAiDangClassDestroyerEntity成功
+TYPE=0, INFO=ClsObj Created Name=CAkizukiClassDestroyerEntity
+TYPE=0, INFO=装配实体模型:CAkizukiClassDestroyerEntity成功
+TYPE=0, INFO=ClsObj Created Name=CF15Entity
+TYPE=0, INFO=装配实体模型:CF15Entity成功
+TYPE=0, INFO=ClsObj Created Name=B-1B Lancer
+TYPE=0, INFO=装配实体模型:B-1B Lancer成功
+TYPE=0, INFO=ClsObj Created Name=CSu27Entity
+TYPE=0, INFO=装配实体模型:CSu27Entity成功
+TYPE=0, INFO=ClsObj Created Name=CE2KEntity
+TYPE=0, INFO=装配实体模型:CE2KEntity成功
+TYPE=0, INFO=ClsObj Created Name=CIDFAircraft
+TYPE=0, INFO=装配实体模型:CIDFAircraft成功
+TYPE=0, INFO=ClsObj Created Name=CSkySwordIIAASMEntity
+TYPE=0, INFO=装配实体模型:CSkySwordIIAASMEntity成功
+TYPE=0, INFO=ClsObj Created Name=CSkySwordIIASeekerModel
+TYPE=0, INFO=装配实体模型:CSkySwordIIASeekerModel成功
+TYPE=0, INFO=ClsObj Created Name=CSkySwordIIASeekerCtrlModel
+TYPE=0, INFO=装配实体模型:CSkySwordIIASeekerCtrlModel成功
+TYPE=0, INFO=ClsObj Created Name=CSM1Entity
+TYPE=0, INFO=装配实体模型:CSM1Entity成功
+TYPE=0, INFO=ClsObj Created Name=CSM2Entity
+TYPE=0, INFO=装配实体模型:CSM2Entity成功
+TYPE=0, INFO=ClsObj Created Name=CSeaSparrowAAMEntity
+TYPE=0, INFO=装配实体模型:CSeaSparrowAAMEntity成功
+TYPE=0, INFO=ClsObj Created Name=CESeaSparrowAAMEntity
+TYPE=0, INFO=装配实体模型:CESeaSparrowAAMEntity成功
+TYPE=0, INFO=ClsObj Created Name=CSeaRAMEntity
+TYPE=0, INFO=装配实体模型:CSeaRAMEntity成功
+TYPE=0, INFO=ClsObj Created Name=CPointControlObject
+TYPE=0, INFO=装配实体模型:CPointControlObject成功
+TYPE=0, INFO=ClsObj Created Name=CSeaEnvironmentEntity
+TYPE=0, INFO=装配实体模型:CSeaEnvironmentEntity成功
+TYPE=0, INFO=ClsObj Created Name=CSeaEnvStateRep
+TYPE=0, INFO=装配实体模型:CSeaEnvStateRep成功
+TYPE=0, INFO=ClsObj Created Name=CLineControlObject
+TYPE=0, INFO=装配实体模型:CLineControlObject成功
+TYPE=0, INFO=ClsObj Created Name=CCircleControlObject
+TYPE=0, INFO=装配实体模型:CCircleControlObject成功
+TYPE=0, INFO=ClsObj Created Name=CChaffEntity
+TYPE=0, INFO=装配实体模型:CChaffEntity成功
+TYPE=0, INFO=ClsObj Created Name=CChaffIslandEntity
+TYPE=0, INFO=装配实体模型:CChaffIslandEntity成功
+TYPE=0, INFO=ClsObj Created Name=CSDRController
+TYPE=0, INFO=装配实体模型:CSDRController成功
+TYPE=0, INFO=ClsObj Created Name=CSBMPossyEntity
+TYPE=0, INFO=装配实体模型:CSBMPossyEntity成功
+TYPE=0, INFO=ClsObj Created Name=CTBASMEntity
+TYPE=0, INFO=装配实体模型:CTBASMEntity成功
+TYPE=0, INFO=ClsObj Created Name=CTBASMIntegrateCtrlModel
+TYPE=0, INFO=装配实体模型:CTBASMIntegrateCtrlModel成功
+TYPE=0, INFO=ClsObj Created Name=CTBASMSeekerModel
+TYPE=0, INFO=装配实体模型:CTBASMSeekerModel成功
+TYPE=0, INFO=ClsObj Created Name=SM3Blk1B
+TYPE=0, INFO=装配实体模型:SM3Blk1B成功
+TYPE=0, INFO=ClsObj Created Name=CSM3IntegrateCtrlModel
+TYPE=0, INFO=装配实体模型:CSM3IntegrateCtrlModel成功
+TYPE=0, INFO=ClsObj Created Name=CSM3FLIRModel
+TYPE=0, INFO=装配实体模型:CSM3FLIRModel成功
+TYPE=0, INFO=ClsObj Created Name=CSM3MoveModel
+TYPE=0, INFO=装配实体模型:CSM3MoveModel成功
+TYPE=0, INFO=ClsObj Created Name=CAirport_TF
+TYPE=0, INFO=装配实体模型:CAirport_TF成功
+TYPE=0, INFO=ClsObj Created Name=CVNNimitz
+TYPE=0, INFO=装配实体模型:CVNNimitz成功
+TYPE=0, INFO=ClsObj Created Name=ArleighBurkeClassDDG
+TYPE=0, INFO=装配实体模型:ArleighBurkeClassDDG成功
+TYPE=0, INFO=ClsObj Created Name=TiconderogaClassCG
+TYPE=0, INFO=装配实体模型:TiconderogaClassCG成功
+TYPE=0, INFO=ClsObj Created Name=PerryClassFFG
+TYPE=0, INFO=装配实体模型:PerryClassFFG成功
+TYPE=0, INFO=ClsObj Created Name=FA18E
+TYPE=0, INFO=装配实体模型:FA18E成功
+TYPE=0, INFO=ClsObj Created Name=E2D
+TYPE=0, INFO=装配实体模型:E2D成功
+TYPE=0, INFO=ClsObj Created Name=SM6Blk1
+TYPE=0, INFO=装配实体模型:SM6Blk1成功
+TYPE=0, INFO=ClsObj Created Name=CSelfDriveShip
+TYPE=0, INFO=装配实体模型:CSelfDriveShip成功
+TYPE=0, INFO=ClsObj Created Name=ASMxx
+TYPE=0, INFO=装配实体模型:ASMxx成功
+TYPE=0, INFO=ClsObj Created Name=Exa54G2AVehicle
+TYPE=0, INFO=装配实体模型:Exa54G2AVehicle成功
+TYPE=0, INFO=ClsObj Created Name=CG2AFireCtrlModel_54
+TYPE=0, INFO=装配实体模型:CG2AFireCtrlModel_54成功
+TYPE=0, INFO=ClsObj Created Name=CVehicleRadarModel_54
+TYPE=0, INFO=装配实体模型:CVehicleRadarModel_54成功
+TYPE=0, INFO=ClsObj Created Name=CDF31WarheadEntity
+TYPE=0, INFO=装配实体模型:CDF31WarheadEntity成功
+TYPE=0, INFO=ClsObj Created Name=CBalMslWarheadDamageModel
+TYPE=0, INFO=装配实体模型:CBalMslWarheadDamageModel成功
+TYPE=0, INFO=ClsObj Created Name=CBalMslWarheadCtrlModel
+TYPE=0, INFO=装配实体模型:CBalMslWarheadCtrlModel成功
+TYPE=0, INFO=ClsObj Created Name=CBalMslWarheadMoveModel
+TYPE=0, INFO=装配实体模型:CBalMslWarheadMoveModel成功
+TYPE=0, INFO=ClsObj Created Name=CDF31Entity
+TYPE=0, INFO=装配实体模型:CDF31Entity成功
+TYPE=0, INFO=ClsObj Created Name=CBallstMissileDynamicsModel
+TYPE=0, INFO=装配实体模型:CBallstMissileDynamicsModel成功
+TYPE=0, INFO=ClsObj Created Name=CBallstMissileNaviGuidModel
+TYPE=0, INFO=装配实体模型:CBallstMissileNaviGuidModel成功
+TYPE=0, INFO=ClsObj Created Name=CBallstMissileCprtCtrlModel
+TYPE=0, INFO=装配实体模型:CBallstMissileCprtCtrlModel成功
+TYPE=0, INFO=ClsObj Created Name=CBallstMissileControllerModel
+TYPE=0, INFO=装配实体模型:CBallstMissileControllerModel成功
+TYPE=0, INFO=ClsObj Created Name=CBlstMslBodyDamageModel
+TYPE=0, INFO=装配实体模型:CBlstMslBodyDamageModel成功
+TYPE=0, INFO=ClsObj Created Name=CDF31SecondEntity
+TYPE=0, INFO=装配实体模型:CDF31SecondEntity成功
+TYPE=0, INFO=ClsObj Created Name=CBMPoweredPhaseCtrlModel
+TYPE=0, INFO=装配实体模型:CBMPoweredPhaseCtrlModel成功
+TYPE=0, INFO=ClsObj Created Name=CBMPowerdDamageModel
+TYPE=0, INFO=装配实体模型:CBMPowerdDamageModel成功
+TYPE=0, INFO=ClsObj Created Name=CDF31ThirdEntity
+TYPE=0, INFO=装配实体模型:CDF31ThirdEntity成功
+TYPE=0, INFO=ClsObj Created Name=CDF31BoostEntity
+TYPE=0, INFO=装配实体模型:CDF31BoostEntity成功
+TYPE=0, INFO=ClsObj Created Name=CDecoyWarheadEntity
+TYPE=0, INFO=装配实体模型:CDecoyWarheadEntity成功
+TYPE=0, INFO=ClsObj Created Name=CDecoyWarheadDamageModel
+TYPE=0, INFO=装配实体模型:CDecoyWarheadDamageModel成功
+TYPE=0, INFO=ClsObj Created Name=CDecoyWarheadCtrlModel
+TYPE=0, INFO=装配实体模型:CDecoyWarheadCtrlModel成功
+TYPE=0, INFO=ClsObj Created Name=CDecoyWarheadMoveModel
+TYPE=0, INFO=装配实体模型:CDecoyWarheadMoveModel成功
+TYPE=0, INFO=ClsObj Created Name=CDFMissileVehicleEntity
+TYPE=0, INFO=装配实体模型:CDFMissileVehicleEntity成功
+TYPE=0, INFO=ClsObj Created Name=CVehcBalMslLachCtrlModel
+TYPE=0, INFO=装配实体模型:CVehcBalMslLachCtrlModel成功
+TYPE=0, INFO=ClsObj Created Name=CVehicleMoveModel
+TYPE=0, INFO=装配实体模型:CVehicleMoveModel成功
+TYPE=0, INFO=ClsObj Created Name=CGBIVehicleEntity
+TYPE=0, INFO=装配实体模型:CGBIVehicleEntity成功
+TYPE=0, INFO=ClsObj Created Name=CVehcAntiMslLachCtrlModel
+TYPE=0, INFO=装配实体模型:CVehcAntiMslLachCtrlModel成功
+TYPE=0, INFO=ClsObj Created Name=CRedCommandPostEntity
+TYPE=0, INFO=装配实体模型:CRedCommandPostEntity成功
+TYPE=0, INFO=ClsObj Created Name=CBlueCommandPostEntity
+TYPE=0, INFO=装配实体模型:CBlueCommandPostEntity成功
+TYPE=0, INFO=ClsObj Created Name=CCmdAntiMslCmdCtrlModel
+TYPE=0, INFO=装配实体模型:CCmdAntiMslCmdCtrlModel成功
+TYPE=0, INFO=ClsObj Created Name=CCmdFusedInfoDealModel
+TYPE=0, INFO=装配实体模型:CCmdFusedInfoDealModel成功
+TYPE=0, INFO=ClsObj Created Name=CFighter
+TYPE=0, INFO=装配实体模型:CFighter成功
+TYPE=0, INFO=ClsObj Created Name=CUAV
+TYPE=0, INFO=装配实体模型:CUAV成功
+TYPE=0, INFO=ClsObj Created Name=CDSPSatEntity
+TYPE=0, INFO=装配实体模型:CDSPSatEntity成功
+TYPE=0, INFO=ClsObj Created Name=CInfraredSensor
+TYPE=0, INFO=装配实体模型:CInfraredSensor成功
+TYPE=0, INFO=ClsObj Created Name=CSatelliteMoveModel
+TYPE=0, INFO=装配实体模型:CSatelliteMoveModel成功
+TYPE=0, INFO=ClsObj Created Name=CSatelliteControlModel
+TYPE=0, INFO=装配实体模型:CSatelliteControlModel成功
+TYPE=0, INFO=ClsObj Created Name=CLEAPEntity
+TYPE=0, INFO=装配实体模型:CLEAPEntity成功
+TYPE=0, INFO=ClsObj Created Name=CEKVTGInfraredSensor
+TYPE=0, INFO=装配实体模型:CEKVTGInfraredSensor成功
+TYPE=0, INFO=ClsObj Created Name=CMidCouDefWarheadMoveModel
+TYPE=0, INFO=装配实体模型:CMidCouDefWarheadMoveModel成功
+TYPE=0, INFO=ClsObj Created Name=CMidCouDefWarheadCtrlModel
+TYPE=0, INFO=装配实体模型:CMidCouDefWarheadCtrlModel成功
+TYPE=0, INFO=ClsObj Created Name=CMidCouDefWarheadDamageModel
+TYPE=0, INFO=装配实体模型:CMidCouDefWarheadDamageModel成功
+TYPE=0, INFO=ClsObj Created Name=CSBIRSSatEntity
+TYPE=0, INFO=装配实体模型:CSBIRSSatEntity成功
+TYPE=0, INFO=ClsObj Created Name=CSBXFieldEntity
+TYPE=0, INFO=装配实体模型:CSBXFieldEntity成功
+TYPE=0, INFO=ClsObj Created Name=CGuideRadar
+TYPE=0, INFO=装配实体模型:CGuideRadar成功
+TYPE=0, INFO=ClsObj Created Name=CSBFieldCtrlModel
+TYPE=0, INFO=装配实体模型:CSBFieldCtrlModel成功
+TYPE=0, INFO=ClsObj Created Name=CSM3SecondEntity
+TYPE=0, INFO=装配实体模型:CSM3SecondEntity成功
+TYPE=0, INFO=ClsObj Created Name=CSM3ThirdEntity
+TYPE=0, INFO=装配实体模型:CSM3ThirdEntity成功
+TYPE=0, INFO=ClsObj Created Name=CSM3BoostEntity
+TYPE=0, INFO=装配实体模型:CSM3BoostEntity成功
+TYPE=0, INFO=ClsObj Created Name=CSTSSSatEntity
+TYPE=0, INFO=装配实体模型:CSTSSSatEntity成功
+TYPE=0, INFO=ClsObj Created Name=CArleighBurkeDDGEntity
+TYPE=0, INFO=装配实体模型:CArleighBurkeDDGEntity成功
+TYPE=0, INFO=ClsObj Created Name=CTrackRadar
+TYPE=0, INFO=装配实体模型:CTrackRadar成功
+TYPE=0, INFO=ClsObj Created Name=CSurfMissileLaunchModel
+TYPE=0, INFO=装配实体模型:CSurfMissileLaunchModel成功
+TYPE=0, INFO=ClsObj Created Name=CSurfShipCmdModel
+TYPE=0, INFO=装配实体模型:CSurfShipCmdModel成功
+TYPE=0, INFO=ClsObj Created Name=CMultiSM3Entity
+TYPE=0, INFO=装配实体模型:CMultiSM3Entity成功
+TYPE=0, INFO=ClsObj Created Name=CAntiBMMslDynamicModel
+TYPE=0, INFO=装配实体模型:CAntiBMMslDynamicModel成功
+TYPE=0, INFO=ClsObj Created Name=CAntiBMMslControlModel
+TYPE=0, INFO=装配实体模型:CAntiBMMslControlModel成功
+TYPE=0, INFO=ClsObj Created Name=CAntiBMMslNaviGuideModel
+TYPE=0, INFO=装配实体模型:CAntiBMMslNaviGuideModel成功
+TYPE=0, INFO=ClsObj Created Name=CAntiBMMslBodyDamageModel
+TYPE=0, INFO=装配实体模型:CAntiBMMslBodyDamageModel成功
+TYPE=0, INFO=ClsObj Created Name=CLBGuideRadarEntity
+TYPE=0, INFO=装配实体模型:CLBGuideRadarEntity成功
+TYPE=0, INFO=ClsObj Created Name=CEKVEntity
+TYPE=0, INFO=装配实体模型:CEKVEntity成功
+TYPE=0, INFO=ClsObj Created Name=DataDriveMissile
+TYPE=0, INFO=装配实体模型:DataDriveMissile成功
+TYPE=0, INFO=ClsObj Created Name=CTrajParseModel
+TYPE=0, INFO=装配实体模型:CTrajParseModel成功
+TYPE=0, INFO=ClsObj Created Name=CAttackMissileField
+TYPE=0, INFO=装配实体模型:CAttackMissileField成功
+TYPE=0, INFO=ClsObj Created Name=CAAGuardField
+TYPE=0, INFO=装配实体模型:CAAGuardField成功
+TYPE=0, INFO=ClsObj Created Name=CGroundAAEWRadar
+TYPE=0, INFO=装配实体模型:CGroundAAEWRadar成功
+TYPE=0, INFO=ClsObj Created Name=CGroundAAFCRadar
+TYPE=0, INFO=装配实体模型:CGroundAAFCRadar成功
+TYPE=0, INFO=ClsObj Created Name=CGroundAAMVehicle
+TYPE=0, INFO=装配实体模型:CGroundAAMVehicle成功
+TYPE=0, INFO=ClsObj Created Name=SAM-X System
+TYPE=0, INFO=装配实体模型:SAM-X System成功
+TYPE=0, INFO=ClsObj Created Name=SA-6a Gainful
+TYPE=0, INFO=装配实体模型:SA-6a Gainful成功
+TYPE=0, INFO=ClsObj Created Name=OilDepot
+TYPE=0, INFO=装配实体模型:OilDepot成功
+TYPE=0, INFO=ClsObj Created Name=Magazine
+TYPE=0, INFO=装配实体模型:Magazine成功
+TYPE=0, INFO=ClsObj Created Name=WorkStation
+TYPE=0, INFO=装配实体模型:WorkStation成功
+TYPE=0, INFO=ClsObj Created Name=Tarmac
+TYPE=0, INFO=装配实体模型:Tarmac成功
+TYPE=0, INFO=ClsObj Created Name=CBaseCommanderEntity
+TYPE=0, INFO=装配实体模型:CBaseCommanderEntity成功
+TYPE=0, INFO=ClsObj Created Name=CMotorizedCommanderEntity
+TYPE=0, INFO=装配实体模型:CMotorizedCommanderEntity成功
+TYPE=0, INFO=ClsObj Created Name=CWeatherStationEntity
+TYPE=0, INFO=装配实体模型:CWeatherStationEntity成功
+TYPE=0, INFO=ClsObj Created Name=CRepairStationEntity
+TYPE=0, INFO=装配实体模型:CRepairStationEntity成功
+TYPE=0, INFO=ClsObj Created Name=Agni-3
+TYPE=0, INFO=装配实体模型:Agni-3成功
+TYPE=0, INFO=ClsObj Created Name=Agni-4
+TYPE=0, INFO=装配实体模型:Agni-4成功
+TYPE=0, INFO=ClsObj Created Name=TBM-MinEnerge
+TYPE=0, INFO=装配实体模型:TBM-MinEnerge成功
+TYPE=0, INFO=进入 CreateGlobalObj
+TYPE=0, INFO=CreateObj: clsName=CScnMgr,Objid=1,ObjName=PlanMgr
+TYPE=0, INFO=CreateObj: clsName=CDisp,Objid=1334,ObjName=Disp
+TYPE=0, INFO=离开 CreateGlobalObj
+TYPE=0, INFO=进入 ClassInit
+TYPE=0, INFO=离开 ClassInit
+TYPE=0, INFO=进入 ReadAllHLAClasses
+TYPE=1, INFO=订阅发布时没有找到类CTrajectoryCalcTask的类信息
+TYPE=0, INFO=离开 ReadAllHLAClasses
+TYPE=0, INFO=CreateObj: clsName=CXBridge,Objid=65535,ObjName=bridge
+TYPE=1, INFO=连接失败，错误代码：113
+TYPE=1, INFO=连接失败，错误代码：111
+TYPE=1, INFO=连接失败，错误代码：113
+TYPE=1, INFO=连接失败，错误代码：111
+TYPE=1, INFO=连接失败，错误代码：113
+TYPE=1, INFO=连接失败，错误代码：111
+TYPE=1, INFO=连接失败，错误代码：113
+TYPE=0, INFO=使用桥接器:CXBridge
+TYPE=0, INFO=申请加入联邦，等待服务器应答...
+TYPE=0, INFO=加入成功，成员ID：1
+TYPE=0, INFO=进入 RegisterHLAClasses
+TYPE=0, INFO=RegisterHLAClass:ClsName=CXBridge,ClsID=-1,PS=0
+TYPE=0, INFO=RegisterHLAClass:ClsName=CASMRoutePlanResult,ClsID=65635,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CCollisionEvent,ClsID=65626,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CCommStateEvent,ClsID=65630,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CConsoleEvt,ClsID=65612,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CBackEngineStateEvt,ClsID=65621,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CCreateObjRequest,ClsID=65615,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CCreateObjResult,ClsID=65614,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CLoggerCtrl,ClsID=65620,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CRemoveObjRequest,ClsID=65613,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CRemoveObjResult,ClsID=65616,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CRequestBackEngineStateEvt,ClsID=65622,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CScnCtrl,ClsID=65619,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CSetData,ClsID=65617,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CSimCtrl,ClsID=65618,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CCreateSatOrbitEvent,ClsID=65631,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CEntityCreateEvent,ClsID=65628,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CEntityExitEvent,ClsID=65627,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CExplosionEvent,ClsID=65623,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CGeneralEvt,ClsID=65611,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CSensorScanEvent,ClsID=65629,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CTargetIrradiateEvent,ClsID=65633,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CTargetLossEvent,ClsID=65625,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CTargetParaEvent,ClsID=65624,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CTargetTrackingEvent,ClsID=65632,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CTask,ClsID=65636,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CAttitudeCtrlOper,ClsID=65660,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CCruise,ClsID=65642,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CDeviceOper,ClsID=65662,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CDisembark,ClsID=65645,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CFollow,ClsID=65641,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CJammerOper,ClsID=65655,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CLandingOn,ClsID=65644,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CLaunchChaff,ClsID=65653,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CLaunchFakeTarget,ClsID=65654,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CLaunchWeapon,ClsID=65648,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CLaunchBomb,ClsID=65651,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CLaunchCanon,ClsID=65652,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CLaunchMissile,ClsID=65649,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CLaunchTorpedo,ClsID=65650,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CLayoutMine,ClsID=65656,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CMoveAlong,ClsID=65638,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CMoveTo,ClsID=65637,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CPatrol,ClsID=65639,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CRecall,ClsID=65646,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CRegulateMoveState,ClsID=65643,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CReturnBase,ClsID=65658,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CSensorOper,ClsID=65647,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CTakeOff,ClsID=65657,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CThrottleCtrlOper,ClsID=65659,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CVehicleDriveModeCtrl,ClsID=65661,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CWait,ClsID=65640,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CAircraftAttackTask,ClsID=65757,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CAntiAirTask,ClsID=65751,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CChaffJammingTask,ClsID=65750,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CFireDistributingTask,ClsID=65749,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CForceScheduleTask,ClsID=65748,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CLaunchActiveDecoyTask,ClsID=65758,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CMoveAlongCircleRouteTask,ClsID=65755,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CMoveAlongRouteTask,ClsID=65753,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CMoveToPointTask,ClsID=65754,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CSuppressingJammingTask,ClsID=65752,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CTorpedoAttackTask,ClsID=65756,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CWeaponLaunchEvent,ClsID=65634,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CRapidFireGunLaunchEvt,ClsID=65746,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CControlObject,ClsID=65580,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CArea,ClsID=65581,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CCircle,ClsID=65582,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CEllipse,ClsID=65583,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CPolygon,ClsID=65584,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CRectangle,ClsID=65585,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CPhaseline,ClsID=65587,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CRoute,ClsID=65586,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CWayPoint,ClsID=65588,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CModelSR,ClsID=65589,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CSensorModelSR,ClsID=65590,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CWeaponSysModelSR,ClsID=65591,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CStateRepository,ClsID=65547,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CCommanderESR,ClsID=65572,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CFacilityESR,ClsID=65548,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CAirportStateRep,ClsID=65552,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CCmdEntityStateRep,ClsID=65553,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CFieldStateRep,ClsID=65549,PS=3
+TYPE=1, INFO=Warning: getObjectClassHandle 异常, Name=CStateRepository.CFacilityESR.CGroundEWRadarStateRep
+TYPE=0, INFO=RegisterHLAClass:ClsName=CGroundEWRadarStateRep,ClsID=-1,PS=3
+TYPE=1, INFO=Warning: getObjectClassHandle 异常, Name=CStateRepository.CFacilityESR.CGroundFCRadarStateRep
+TYPE=0, INFO=RegisterHLAClass:ClsName=CGroundFCRadarStateRep,ClsID=-1,PS=3
+TYPE=1, INFO=Warning: getObjectClassHandle 异常, Name=CStateRepository.CFacilityESR.CGuardFieldStateRep
+TYPE=0, INFO=RegisterHLAClass:ClsName=CGuardFieldStateRep,ClsID=-1,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CHarborDockEntityStateRep,ClsID=65551,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CRadarFieldStateRep,ClsID=65550,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CFixedWingESR,ClsID=65554,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CGroundVehicleESR,ClsID=65560,PS=3
+TYPE=1, INFO=Warning: getObjectClassHandle 异常, Name=CStateRepository.CGroundVehicleESR.CAAMVehicleStateRep
+TYPE=0, INFO=RegisterHLAClass:ClsName=CAAMVehicleStateRep,ClsID=-1,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CLifeFormESR,ClsID=65561,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CMissileESR,ClsID=65555,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CBallisticMissileESR,ClsID=65557,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CCruiseMissileESR,ClsID=65556,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CMissileWarheadESR,ClsID=65558,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CMunitionESR,ClsID=65559,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CRotaryWingESR,ClsID=65570,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CSpaceESR,ClsID=65568,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CSatelliteESR,ClsID=65569,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CSubSurfaceESR,ClsID=65566,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CSurfaceESR,ClsID=65562,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CChaffIslandStateRep,ClsID=65563,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CCornerReflectorStateRep,ClsID=65564,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CSurfaceShipStateRep,ClsID=65565,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CTorpedoESR,ClsID=65571,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CFixedWingStateRep,ClsID=65573,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CMunitionStateRep,ClsID=65574,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CActiveDecoyStateRep,ClsID=65577,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CBombStateRep,ClsID=65579,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CChaffStateRep,ClsID=65576,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CMissileStateRep,ClsID=65575,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CTorpedoStateRep,ClsID=65578,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CSubmarineStateRep,ClsID=65567,PS=3
+TYPE=1, INFO=Warning: getObjectClassHandle 异常, Name=CEntity
+TYPE=0, INFO=RegisterHLAClass:ClsName=CEntity,ClsID=-1,PS=0
+TYPE=0, INFO=RegisterHLAClass:ClsName=CEnvironment,ClsID=65544,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CScnProfile,ClsID=65545,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CSimTask,ClsID=65546,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CASMPlaningInfo,ClsID=65542,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CFuzzySituationInfo,ClsID=65541,PS=3
+TYPE=1, INFO=Warning: getObjectClassHandle 异常, Name=CSimEventScript
+TYPE=0, INFO=RegisterHLAClass:ClsName=CSimEventScript,ClsID=-1,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CStatisticAnalysisParty,ClsID=65543,PS=3
+TYPE=0, INFO=离开 RegisterHLAClasses
+TYPE=0, INFO=进入 Publish
+TYPE=0, INFO=发布,ID:100,类名:CASMRoutePlanResult
+TYPE=0, INFO=发布,ID:91,类名:CCollisionEvent
+TYPE=0, INFO=发布,ID:95,类名:CCommStateEvent
+TYPE=0, INFO=发布,ID:86,类名:CBackEngineStateEvt
+TYPE=0, INFO=发布,ID:80,类名:CCreateObjRequest
+TYPE=0, INFO=发布,ID:79,类名:CCreateObjResult
+TYPE=0, INFO=发布,ID:85,类名:CLoggerCtrl
+TYPE=0, INFO=发布,ID:78,类名:CRemoveObjRequest
+TYPE=0, INFO=发布,ID:81,类名:CRemoveObjResult
+TYPE=0, INFO=发布,ID:87,类名:CRequestBackEngineStateEvt
+TYPE=0, INFO=发布,ID:84,类名:CScnCtrl
+TYPE=0, INFO=发布,ID:82,类名:CSetData
+TYPE=0, INFO=发布,ID:83,类名:CSimCtrl
+TYPE=0, INFO=发布,ID:77,类名:CConsoleEvt
+TYPE=0, INFO=发布,ID:96,类名:CCreateSatOrbitEvent
+TYPE=0, INFO=发布,ID:93,类名:CEntityCreateEvent
+TYPE=0, INFO=发布,ID:92,类名:CEntityExitEvent
+TYPE=0, INFO=发布,ID:88,类名:CExplosionEvent
+TYPE=0, INFO=发布,ID:76,类名:CGeneralEvt
+TYPE=0, INFO=发布,ID:94,类名:CSensorScanEvent
+TYPE=0, INFO=发布,ID:98,类名:CTargetIrradiateEvent
+TYPE=0, INFO=发布,ID:90,类名:CTargetLossEvent
+TYPE=0, INFO=发布,ID:89,类名:CTargetParaEvent
+TYPE=0, INFO=发布,ID:97,类名:CTargetTrackingEvent
+TYPE=0, INFO=发布,ID:125,类名:CAttitudeCtrlOper
+TYPE=0, INFO=发布,ID:107,类名:CCruise
+TYPE=0, INFO=发布,ID:127,类名:CDeviceOper
+TYPE=0, INFO=发布,ID:110,类名:CDisembark
+TYPE=0, INFO=发布,ID:106,类名:CFollow
+TYPE=0, INFO=发布,ID:120,类名:CJammerOper
+TYPE=0, INFO=发布,ID:109,类名:CLandingOn
+TYPE=0, INFO=发布,ID:118,类名:CLaunchChaff
+TYPE=0, INFO=发布,ID:119,类名:CLaunchFakeTarget
+TYPE=0, INFO=发布,ID:116,类名:CLaunchBomb
+TYPE=0, INFO=发布,ID:117,类名:CLaunchCanon
+TYPE=0, INFO=发布,ID:114,类名:CLaunchMissile
+TYPE=0, INFO=发布,ID:115,类名:CLaunchTorpedo
+TYPE=0, INFO=发布,ID:113,类名:CLaunchWeapon
+TYPE=0, INFO=发布,ID:121,类名:CLayoutMine
+TYPE=0, INFO=发布,ID:103,类名:CMoveAlong
+TYPE=0, INFO=发布,ID:102,类名:CMoveTo
+TYPE=0, INFO=发布,ID:104,类名:CPatrol
+TYPE=0, INFO=发布,ID:111,类名:CRecall
+TYPE=0, INFO=发布,ID:108,类名:CRegulateMoveState
+TYPE=0, INFO=发布,ID:123,类名:CReturnBase
+TYPE=0, INFO=发布,ID:112,类名:CSensorOper
+TYPE=0, INFO=发布,ID:122,类名:CTakeOff
+TYPE=0, INFO=发布,ID:124,类名:CThrottleCtrlOper
+TYPE=0, INFO=发布,ID:126,类名:CVehicleDriveModeCtrl
+TYPE=0, INFO=发布,ID:105,类名:CWait
+TYPE=0, INFO=发布,ID:222,类名:CAircraftAttackTask
+TYPE=0, INFO=发布,ID:216,类名:CAntiAirTask
+TYPE=0, INFO=发布,ID:215,类名:CChaffJammingTask
+TYPE=0, INFO=发布,ID:214,类名:CFireDistributingTask
+TYPE=0, INFO=发布,ID:213,类名:CForceScheduleTask
+TYPE=0, INFO=发布,ID:223,类名:CLaunchActiveDecoyTask
+TYPE=0, INFO=发布,ID:220,类名:CMoveAlongCircleRouteTask
+TYPE=0, INFO=发布,ID:218,类名:CMoveAlongRouteTask
+TYPE=0, INFO=发布,ID:219,类名:CMoveToPointTask
+TYPE=0, INFO=发布,ID:217,类名:CSuppressingJammingTask
+TYPE=0, INFO=发布,ID:221,类名:CTorpedoAttackTask
+TYPE=0, INFO=发布,ID:101,类名:CTask
+TYPE=0, INFO=发布,ID:99,类名:CWeaponLaunchEvent
+TYPE=0, INFO=发布,ID:211,类名:CRapidFireGunLaunchEvt
+TYPE=0, INFO=发布,ID:47,类名:CCircle
+TYPE=0, INFO=发布,ID:48,类名:CEllipse
+TYPE=0, INFO=发布,ID:49,类名:CPolygon
+TYPE=0, INFO=发布,ID:50,类名:CRectangle
+TYPE=0, INFO=发布,ID:46,类名:CArea
+TYPE=0, INFO=发布,ID:52,类名:CPhaseline
+TYPE=0, INFO=发布,ID:51,类名:CRoute
+TYPE=0, INFO=发布,ID:53,类名:CWayPoint
+TYPE=0, INFO=发布,ID:45,类名:CControlObject
+TYPE=0, INFO=发布,ID:55,类名:CSensorModelSR
+TYPE=0, INFO=发布,ID:56,类名:CWeaponSysModelSR
+TYPE=0, INFO=发布,ID:54,类名:CModelSR
+TYPE=0, INFO=发布,ID:37,类名:CCommanderESR
+TYPE=0, INFO=发布,ID:17,类名:CAirportStateRep
+TYPE=0, INFO=发布,ID:18,类名:CCmdEntityStateRep
+TYPE=0, INFO=发布,ID:14,类名:CFieldStateRep
+TYPE=0, INFO=发布,ID:-60272,类名:CGroundEWRadarStateRep
+TYPE=0, INFO=发布,ID:-60271,类名:CGroundFCRadarStateRep
+TYPE=0, INFO=发布,ID:-60270,类名:CGuardFieldStateRep
+TYPE=0, INFO=发布,ID:16,类名:CHarborDockEntityStateRep
+TYPE=0, INFO=发布,ID:15,类名:CRadarFieldStateRep
+TYPE=0, INFO=发布,ID:13,类名:CFacilityESR
+TYPE=0, INFO=发布,ID:19,类名:CFixedWingESR
+TYPE=0, INFO=发布,ID:-60269,类名:CAAMVehicleStateRep
+TYPE=0, INFO=发布,ID:25,类名:CGroundVehicleESR
+TYPE=0, INFO=发布,ID:26,类名:CLifeFormESR
+TYPE=0, INFO=发布,ID:22,类名:CBallisticMissileESR
+TYPE=0, INFO=发布,ID:21,类名:CCruiseMissileESR
+TYPE=0, INFO=发布,ID:23,类名:CMissileWarheadESR
+TYPE=0, INFO=发布,ID:20,类名:CMissileESR
+TYPE=0, INFO=发布,ID:24,类名:CMunitionESR
+TYPE=0, INFO=发布,ID:35,类名:CRotaryWingESR
+TYPE=0, INFO=发布,ID:34,类名:CSatelliteESR
+TYPE=0, INFO=发布,ID:33,类名:CSpaceESR
+TYPE=0, INFO=发布,ID:31,类名:CSubSurfaceESR
+TYPE=0, INFO=发布,ID:28,类名:CChaffIslandStateRep
+TYPE=0, INFO=发布,ID:29,类名:CCornerReflectorStateRep
+TYPE=0, INFO=发布,ID:30,类名:CSurfaceShipStateRep
+TYPE=0, INFO=发布,ID:27,类名:CSurfaceESR
+TYPE=0, INFO=发布,ID:36,类名:CTorpedoESR
+TYPE=0, INFO=发布,ID:38,类名:CFixedWingStateRep
+TYPE=0, INFO=发布,ID:42,类名:CActiveDecoyStateRep
+TYPE=0, INFO=发布,ID:44,类名:CBombStateRep
+TYPE=0, INFO=发布,ID:41,类名:CChaffStateRep
+TYPE=0, INFO=发布,ID:40,类名:CMissileStateRep
+TYPE=0, INFO=发布,ID:43,类名:CTorpedoStateRep
+TYPE=0, INFO=发布,ID:39,类名:CMunitionStateRep
+TYPE=0, INFO=发布,ID:32,类名:CSubmarineStateRep
+TYPE=0, INFO=发布,ID:12,类名:CStateRepository
+TYPE=0, INFO=发布,ID:9,类名:CEnvironment
+TYPE=0, INFO=发布,ID:10,类名:CScnProfile
+TYPE=0, INFO=发布,ID:11,类名:CSimTask
+TYPE=0, INFO=发布,ID:7,类名:CASMPlaningInfo
+TYPE=0, INFO=发布,ID:6,类名:CFuzzySituationInfo
+TYPE=0, INFO=发布,ID:-60043,类名:CSimEventScript
+TYPE=0, INFO=发布,ID:8,类名:CStatisticAnalysisParty
+TYPE=0, INFO=离开 Publish
+TYPE=0, INFO=进入 Subscribe
+TYPE=1, INFO=订购,ID:100,类名:CASMRoutePlanResult
+TYPE=1, INFO=订购,ID:91,类名:CCollisionEvent
+TYPE=1, INFO=订购,ID:95,类名:CCommStateEvent
+TYPE=1, INFO=订购,ID:86,类名:CBackEngineStateEvt
+TYPE=1, INFO=订购,ID:80,类名:CCreateObjRequest
+TYPE=1, INFO=订购,ID:79,类名:CCreateObjResult
+TYPE=1, INFO=订购,ID:85,类名:CLoggerCtrl
+TYPE=1, INFO=订购,ID:78,类名:CRemoveObjRequest
+TYPE=1, INFO=订购,ID:81,类名:CRemoveObjResult
+TYPE=1, INFO=订购,ID:87,类名:CRequestBackEngineStateEvt
+TYPE=1, INFO=订购,ID:84,类名:CScnCtrl
+TYPE=1, INFO=订购,ID:82,类名:CSetData
+TYPE=1, INFO=订购,ID:83,类名:CSimCtrl
+TYPE=1, INFO=订购,ID:77,类名:CConsoleEvt
+TYPE=1, INFO=订购,ID:96,类名:CCreateSatOrbitEvent
+TYPE=1, INFO=订购,ID:93,类名:CEntityCreateEvent
+TYPE=1, INFO=订购,ID:92,类名:CEntityExitEvent
+TYPE=1, INFO=订购,ID:88,类名:CExplosionEvent
+TYPE=1, INFO=订购,ID:76,类名:CGeneralEvt
+TYPE=1, INFO=订购,ID:94,类名:CSensorScanEvent
+TYPE=1, INFO=订购,ID:98,类名:CTargetIrradiateEvent
+TYPE=1, INFO=订购,ID:90,类名:CTargetLossEvent
+TYPE=1, INFO=订购,ID:89,类名:CTargetParaEvent
+TYPE=1, INFO=订购,ID:97,类名:CTargetTrackingEvent
+TYPE=1, INFO=订购,ID:125,类名:CAttitudeCtrlOper
+TYPE=1, INFO=订购,ID:107,类名:CCruise
+TYPE=1, INFO=订购,ID:127,类名:CDeviceOper
+TYPE=1, INFO=订购,ID:110,类名:CDisembark
+TYPE=1, INFO=订购,ID:106,类名:CFollow
+TYPE=1, INFO=订购,ID:120,类名:CJammerOper
+TYPE=1, INFO=订购,ID:109,类名:CLandingOn
+TYPE=1, INFO=订购,ID:118,类名:CLaunchChaff
+TYPE=1, INFO=订购,ID:119,类名:CLaunchFakeTarget
+TYPE=1, INFO=订购,ID:116,类名:CLaunchBomb
+TYPE=1, INFO=订购,ID:117,类名:CLaunchCanon
+TYPE=1, INFO=订购,ID:114,类名:CLaunchMissile
+TYPE=1, INFO=订购,ID:115,类名:CLaunchTorpedo
+TYPE=1, INFO=订购,ID:113,类名:CLaunchWeapon
+TYPE=1, INFO=订购,ID:121,类名:CLayoutMine
+TYPE=1, INFO=订购,ID:103,类名:CMoveAlong
+TYPE=1, INFO=订购,ID:102,类名:CMoveTo
+TYPE=1, INFO=订购,ID:104,类名:CPatrol
+TYPE=1, INFO=订购,ID:111,类名:CRecall
+TYPE=1, INFO=订购,ID:108,类名:CRegulateMoveState
+TYPE=1, INFO=订购,ID:123,类名:CReturnBase
+TYPE=1, INFO=订购,ID:112,类名:CSensorOper
+TYPE=1, INFO=订购,ID:122,类名:CTakeOff
+TYPE=1, INFO=订购,ID:124,类名:CThrottleCtrlOper
+TYPE=1, INFO=订购,ID:126,类名:CVehicleDriveModeCtrl
+TYPE=1, INFO=订购,ID:105,类名:CWait
+TYPE=1, INFO=订购,ID:222,类名:CAircraftAttackTask
+TYPE=1, INFO=订购,ID:216,类名:CAntiAirTask
+TYPE=1, INFO=订购,ID:215,类名:CChaffJammingTask
+TYPE=1, INFO=订购,ID:214,类名:CFireDistributingTask
+TYPE=1, INFO=订购,ID:213,类名:CForceScheduleTask
+TYPE=1, INFO=订购,ID:223,类名:CLaunchActiveDecoyTask
+TYPE=1, INFO=订购,ID:220,类名:CMoveAlongCircleRouteTask
+TYPE=1, INFO=订购,ID:218,类名:CMoveAlongRouteTask
+TYPE=1, INFO=订购,ID:219,类名:CMoveToPointTask
+TYPE=1, INFO=订购,ID:217,类名:CSuppressingJammingTask
+TYPE=1, INFO=订购,ID:221,类名:CTorpedoAttackTask
+TYPE=1, INFO=订购,ID:101,类名:CTask
+TYPE=1, INFO=订购,ID:99,类名:CWeaponLaunchEvent
+TYPE=1, INFO=订购,ID:211,类名:CRapidFireGunLaunchEvt
+TYPE=1, INFO=订购,ID:47,类名:CCircle
+TYPE=1, INFO=订购,ID:48,类名:CEllipse
+TYPE=1, INFO=订购,ID:49,类名:CPolygon
+TYPE=1, INFO=订购,ID:50,类名:CRectangle
+TYPE=1, INFO=订购,ID:46,类名:CArea
+TYPE=1, INFO=订购,ID:52,类名:CPhaseline
+TYPE=1, INFO=订购,ID:51,类名:CRoute
+TYPE=1, INFO=订购,ID:53,类名:CWayPoint
+TYPE=1, INFO=订购,ID:45,类名:CControlObject
+TYPE=1, INFO=订购,ID:55,类名:CSensorModelSR
+TYPE=1, INFO=订购,ID:56,类名:CWeaponSysModelSR
+TYPE=1, INFO=订购,ID:54,类名:CModelSR
+TYPE=1, INFO=订购,ID:37,类名:CCommanderESR
+TYPE=1, INFO=订购,ID:17,类名:CAirportStateRep
+TYPE=1, INFO=订购,ID:18,类名:CCmdEntityStateRep
+TYPE=1, INFO=订购,ID:14,类名:CFieldStateRep
+TYPE=1, INFO=订购,ID:-60272,类名:CGroundEWRadarStateRep
+TYPE=1, INFO=订购,ID:-60271,类名:CGroundFCRadarStateRep
+TYPE=1, INFO=订购,ID:-60270,类名:CGuardFieldStateRep
+TYPE=1, INFO=订购,ID:16,类名:CHarborDockEntityStateRep
+TYPE=1, INFO=订购,ID:15,类名:CRadarFieldStateRep
+TYPE=1, INFO=订购,ID:13,类名:CFacilityESR
+TYPE=1, INFO=订购,ID:19,类名:CFixedWingESR
+TYPE=1, INFO=订购,ID:-60269,类名:CAAMVehicleStateRep
+TYPE=1, INFO=订购,ID:25,类名:CGroundVehicleESR
+TYPE=1, INFO=订购,ID:26,类名:CLifeFormESR
+TYPE=1, INFO=订购,ID:22,类名:CBallisticMissileESR
+TYPE=1, INFO=订购,ID:21,类名:CCruiseMissileESR
+TYPE=1, INFO=订购,ID:23,类名:CMissileWarheadESR
+TYPE=1, INFO=订购,ID:20,类名:CMissileESR
+TYPE=1, INFO=订购,ID:24,类名:CMunitionESR
+TYPE=1, INFO=订购,ID:35,类名:CRotaryWingESR
+TYPE=1, INFO=订购,ID:34,类名:CSatelliteESR
+TYPE=1, INFO=订购,ID:33,类名:CSpaceESR
+TYPE=1, INFO=订购,ID:31,类名:CSubSurfaceESR
+TYPE=1, INFO=订购,ID:28,类名:CChaffIslandStateRep
+TYPE=1, INFO=订购,ID:29,类名:CCornerReflectorStateRep
+TYPE=1, INFO=订购,ID:30,类名:CSurfaceShipStateRep
+TYPE=1, INFO=订购,ID:27,类名:CSurfaceESR
+TYPE=1, INFO=订购,ID:36,类名:CTorpedoESR
+TYPE=1, INFO=订购,ID:38,类名:CFixedWingStateRep
+TYPE=1, INFO=订购,ID:42,类名:CActiveDecoyStateRep
+TYPE=1, INFO=订购,ID:44,类名:CBombStateRep
+TYPE=1, INFO=订购,ID:41,类名:CChaffStateRep
+TYPE=1, INFO=订购,ID:40,类名:CMissileStateRep
+TYPE=1, INFO=订购,ID:43,类名:CTorpedoStateRep
+TYPE=1, INFO=订购,ID:39,类名:CMunitionStateRep
+TYPE=1, INFO=订购,ID:32,类名:CSubmarineStateRep
+TYPE=1, INFO=订购,ID:12,类名:CStateRepository
+TYPE=1, INFO=订购,ID:9,类名:CEnvironment
+TYPE=1, INFO=订购,ID:10,类名:CScnProfile
+TYPE=1, INFO=订购,ID:11,类名:CSimTask
+TYPE=1, INFO=订购,ID:7,类名:CASMPlaningInfo
+TYPE=1, INFO=订购,ID:6,类名:CFuzzySituationInfo
+TYPE=1, INFO=订购,ID:-60043,类名:CSimEventScript
+TYPE=1, INFO=订购,ID:8,类名:CStatisticAnalysisParty
+TYPE=0, INFO=离开 Subscribe
+TYPE=0, INFO=进入 Create MDB
+TYPE=0, INFO=离开 Create MDB
+TYPE=1, INFO=等待正确的时间联邦到来....
+TYPE=1, INFO=等待正确的时间联邦到来....
+TYPE=1, INFO=等待正确的时间联邦到来....
+TYPE=1, INFO=等待正确的时间联邦到来....
+TYPE=1, INFO=等待正确的时间联邦到来....
+TYPE=1, INFO=等待正确的时间联邦到来....
+TYPE=1, INFO=等待正确的时间联邦到来....
+TYPE=1, INFO=等待正确的时间联邦到来....
+TYPE=1, INFO=等待正确的时间联邦到来....
+TYPE=1, INFO=桥接器SendDataToCenter失败，网络错误代码：32
+TYPE=1, INFO=等待正确的时间联邦到来....
+TYPE=1, INFO=桥接器SendDataToCenter失败，网络错误代码：32
+TYPE=1, INFO=等待正确的时间联邦到来....
+TYPE=1, INFO=桥接器SendDataToCenter失败，网络错误代码：32
+TYPE=1, INFO=等待正确的时间联邦到来....
+TYPE=1, INFO=桥接器SendDataToCenter失败，网络错误代码：32
+TYPE=1, INFO=等待正确的时间联邦到来....
+TYPE=1, INFO=桥接器SendDataToCenter失败，网络错误代码：32
+TYPE=1, INFO=等待正确的时间联邦到来....
+TYPE=1, INFO=桥接器SendDataToCenter失败，网络错误代码：32
+TYPE=1, INFO=等待正确的时间联邦到来....
+TYPE=1, INFO=桥接器SendDataToCenter失败，网络错误代码：32
+TYPE=1, INFO=等待正确的时间联邦到来....
+TYPE=1, INFO=桥接器SendDataToCenter失败，网络错误代码：32
+TYPE=1, INFO=等待正确的时间联邦到来....
+TYPE=1, INFO=桥接器SendDataToCenter失败，网络错误代码：32
+TYPE=1, INFO=等待正确的时间联邦到来....
+TYPE=1, INFO=桥接器SendDataToCenter失败，网络错误代码：32
+TYPE=1, INFO=等待正确的时间联邦到来....
+TYPE=1, INFO=桥接器SendDataToCenter失败，网络错误代码：32
+TYPE=1, INFO=等待正确的时间联邦到来....
+TYPE=1, INFO=桥接器SendDataToCenter失败，网络错误代码：32
+TYPE=1, INFO=等待正确的时间联邦到来....
+TYPE=1, INFO=桥接器SendDataToCenter失败，网络错误代码：32
+TYPE=1, INFO=等待正确的时间联邦到来....
+TYPE=1, INFO=桥接器SendDataToCenter失败，网络错误代码：32
+TYPE=1, INFO=等待正确的时间联邦到来....
+TYPE=1, INFO=桥接器SendDataToCenter失败，网络错误代码：32
+TYPE=1, INFO=等待正确的时间联邦到来....
+TYPE=1, INFO=桥接器SendDataToCenter失败，网络错误代码：32
+TYPE=1, INFO=等待正确的时间联邦到来....
+TYPE=1, INFO=桥接器SendDataToCenter失败，网络错误代码：32
+TYPE=1, INFO=等待正确的时间联邦到来....
+TYPE=1, INFO=桥接器SendDataToCenter失败，网络错误代码：32
+TYPE=1, INFO=等待正确的时间联邦到来....
+TYPE=1, INFO=桥接器SendDataToCenter失败，网络错误代码：32
+TYPE=1, INFO=等待正确的时间联邦到来....
+TYPE=1, INFO=桥接器SendDataToCenter失败，网络错误代码：32
+TYPE=1, INFO=等待正确的时间联邦到来....
+TYPE=1, INFO=桥接器SendDataToCenter失败，网络错误代码：32
+TYPE=1, INFO=等待正确的时间联邦到来....
+TYPE=1, INFO=桥接器SendDataToCenter失败，网络错误代码：32
+TYPE=1, INFO=等待正确的时间联邦到来....
+TYPE=1, INFO=桥接器SendDataToCenter失败，网络错误代码：32
+TYPE=1, INFO=等待正确的时间联邦到来....
+TYPE=1, INFO=桥接器SendDataToCenter失败，网络错误代码：32
+TYPE=1, INFO=等待正确的时间联邦到来....
+TYPE=1, INFO=桥接器SendDataToCenter失败，网络错误代码：32
+TYPE=1, INFO=等待正确的时间联邦到来....
+TYPE=1, INFO=桥接器SendDataToCenter失败，网络错误代码：32
+TYPE=1, INFO=等待正确的时间联邦到来....
+TYPE=1, INFO=桥接器SendDataToCenter失败，网络错误代码：32
+TYPE=1, INFO=等待正确的时间联邦到来....

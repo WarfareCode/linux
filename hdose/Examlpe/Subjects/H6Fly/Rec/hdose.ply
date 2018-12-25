@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="GB2312"?>
+<Simulation>
+	<Scenario>
+		<Time Value="5.130000">
+			<Item ItemClass="CPlatform" ID="0" Name="" RecFile="_rec_5.1300_65562.dat"/>
+			<Item ItemClass="CPlatform" ID="0" Name="" RecFile="_rec_5.1300_65563.dat"/>
+			<Item ItemClass="CPlatform" ID="0" Name="" RecFile="_rec_5.1300_65564.dat"/>
+			<Item ItemClass="CPlatform" ID="0" Name="" RecFile="_rec_5.1300_65565.dat"/>
+			<Item ItemClass="CPlatform" ID="0" Name="" RecFile="_rec_5.1300_65566.dat"/>
+			<Item ItemClass="CPlatform" ID="0" Name="" RecFile="_rec_5.1300_65567.dat"/>
+			<Item ItemClass="CPlatform" ID="0" Name="" RecFile="_rec_5.1300_65568.dat"/>
+			<Item ItemClass="CPlatform" ID="0" Name="" RecFile="_rec_5.1300_65569.dat"/>
+			<Item ItemClass="CTrackStream" ID="0" Name="" RecFile="_rec_0.0600_65570.dat"/>
+		</Time>
+		<Time Value="300.000000">
+			<Item ItemClass="CPlatform" ID="0" Name="" RecFile="_rec_300.0000_65571.dat"/>
+			<Item ItemClass="CPlatform" ID="0" Name="" RecFile="_rec_300.0000_65572.dat"/>
+			<Item ItemClass="CPlatform" ID="0" Name="" RecFile="_rec_300.0000_65573.dat"/>
+			<Item ItemClass="CPlatform" ID="0" Name="" RecFile="_rec_300.0000_65574.dat"/>
+			<Item ItemClass="CPlatform" ID="0" Name="" RecFile="_rec_300.0000_65575.dat"/>
+			<Item ItemClass="CPlatform" ID="0" Name="" RecFile="_rec_300.0000_65576.dat"/>
+			<Item ItemClass="CPlatform" ID="0" Name="" RecFile="_rec_300.0000_65577.dat"/>
+		</Time>
+		<Time Value="600.000000">
+			<Item ItemClass="CPlatform" ID="0" Name="" RecFile="_rec_600.0000_65578.dat"/>
+			<Item ItemClass="CPlatform" ID="0" Name="" RecFile="_rec_600.0000_65579.dat"/>
+			<Item ItemClass="CPlatform" ID="0" Name="" RecFile="_rec_600.0000_65580.dat"/>
+			<Item ItemClass="CPlatform" ID="0" Name="" RecFile="_rec_600.0000_65581.dat"/>
+			<Item ItemClass="CPlatform" ID="0" Name="" RecFile="_rec_600.0000_65582.dat"/>
+			<Item ItemClass="CPlatform" ID="0" Name="" RecFile="_rec_600.0000_65583.dat"/>
+			<Item ItemClass="CPlatform" ID="0" Name="" RecFile="_rec_600.0000_65584.dat"/>
+		</Time>
+		<Time Value="900.000000">
+			<Item ItemClass="CPlatform" ID="0" Name="" RecFile="_rec_900.0000_65585.dat"/>
+			<Item ItemClass="CPlatform" ID="0" Name="" RecFile="_rec_900.0000_65586.dat"/>
+			<Item ItemClass="CPlatform" ID="0" Name="" RecFile="_rec_900.0000_65587.dat"/>
+			<Item ItemClass="CPlatform" ID="0" Name="" RecFile="_rec_900.0000_65588.dat"/>
+			<Item ItemClass="CPlatform" ID="0" Name="" RecFile="_rec_900.0000_65589.dat"/>
+			<Item ItemClass="CPlatform" ID="0" Name="" RecFile="_rec_900.0000_65590.dat"/>
+			<Item ItemClass="CPlatform" ID="0" Name="" RecFile="_rec_900.0000_65591.dat"/>
+		</Time>
+		<Time Value="1200.000000">
+			<Item ItemClass="CPlatform" ID="0" Name="" RecFile="_rec_1200.0000_65592.dat"/>
+			<Item ItemClass="CPlatform" ID="0" Name="" RecFile="_rec_1200.0000_65593.dat"/>
+			<Item ItemClass="CPlatform" ID="0" Name="" RecFile="_rec_1200.0000_65594.dat"/>
+			<Item ItemClass="CPlatform" ID="0" Name="" RecFile="_rec_1200.0000_65595.dat"/>
+			<Item ItemClass="CPlatform" ID="0" Name="" RecFile="_rec_1200.0000_65596.dat"/>
+			<Item ItemClass="CPlatform" ID="0" Name="" RecFile="_rec_1200.0000_65597.dat"/>
+			<Item ItemClass="CPlatform" ID="0" Name="" RecFile="_rec_1200.0000_65598.dat"/>
+		</Time>
+	</Scenario>
+</Simulation>

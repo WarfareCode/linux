@@ -1,0 +1,250 @@
+TYPE=0, INFO=进入 ReadParameters
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1000,ObjName=(null)
+TYPE=0, INFO=离开 ReadParameters
+TYPE=0, INFO=进入 LoadComponent
+TYPE=0, INFO=Load component dll:RTIBrged.dll
+TYPE=0, INFO=ClsObj Created Name=CRTIBridge
+TYPE=0, INFO=Load component dll:XBrged.dll
+TYPE=0, INFO=ClsObj Created Name=CXBridge
+TYPE=0, INFO=Load component dll:DataComd.dll
+TYPE=0, INFO=ClsObj Created Name=CControlObj
+TYPE=0, INFO=ClsObj Created Name=CCreateCtrlObj
+TYPE=0, INFO=ClsObj Created Name=CCreateForceEntity
+TYPE=0, INFO=ClsObj Created Name=CNodeMoveOrderEvt
+TYPE=0, INFO=ClsObj Created Name=CNodeMoveTask
+TYPE=0, INFO=ClsObj Created Name=CNodeStateRep
+TYPE=0, INFO=ClsObj Created Name=CLineObj
+TYPE=0, INFO=ClsObj Created Name=CShipStateRep
+TYPE=0, INFO=ClsObj Created Name=CSimEnd
+TYPE=0, INFO=ClsObj Created Name=CSimObjStateRep
+TYPE=0, INFO=ClsObj Created Name=CSimPause
+TYPE=0, INFO=ClsObj Created Name=CSimStart
+TYPE=0, INFO=ClsObj Created Name=CStateRepository
+TYPE=0, INFO=ClsObj Created Name=CSubmarineStateRep
+TYPE=0, INFO=ClsObj Created Name=CTargetIndicatingEvt
+TYPE=0, INFO=ClsObj Created Name=CTask
+TYPE=0, INFO=ClsObj Created Name=CSetDataRequest
+TYPE=0, INFO=ClsObj Created Name=CTorpedoBindingParams
+TYPE=0, INFO=ClsObj Created Name=CTorpedoStateRep
+TYPE=0, INFO=Load component dll:ModelComd.dll
+TYPE=0, INFO=ClsObj Created Name=CController
+TYPE=0, INFO=ClsObj Created Name=CDragSonarSensorModel
+TYPE=0, INFO=ClsObj Created Name=CModel
+TYPE=0, INFO=ClsObj Created Name=CSensorModel
+TYPE=0, INFO=ClsObj Created Name=CShipCtrlModel
+TYPE=0, INFO=ClsObj Created Name=CShipMoveModel
+TYPE=0, INFO=ClsObj Created Name=CSonarSensorModel
+TYPE=0, INFO=ClsObj Created Name=CSubmarineCtrlModel
+TYPE=0, INFO=ClsObj Created Name=CSubMoveModel
+TYPE=0, INFO=ClsObj Created Name=CSubSonarSensorModel
+TYPE=0, INFO=ClsObj Created Name=CTorpedoCtrlModel
+TYPE=0, INFO=ClsObj Created Name=CTorpedoMoveModel
+TYPE=0, INFO=ClsObj Created Name=CTorpedoSonarSensorModel
+TYPE=0, INFO=离开 LoadComponent
+TYPE=0, INFO=进入 ParseFedItemClasses
+TYPE=0, INFO=离开 ParseFedItemClasses
+TYPE=0, INFO=进入 ParseAllComponentItemClasses
+TYPE=0, INFO=离开 ParseAllComponentItemClasses
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1001,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1002,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1003,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1004,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1005,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1006,ObjName=(null)
+TYPE=0, INFO=ClsObj Created Name=CxxSubmarineEntity
+TYPE=0, INFO=装配实体模型:CxxSubmarineEntity成功
+TYPE=0, INFO=ClsObj Created Name=CSDRController
+TYPE=0, INFO=装配实体模型:CSDRController成功
+TYPE=0, INFO=ClsObj Created Name=CyyTorpedoEntity
+TYPE=0, INFO=装配实体模型:CyyTorpedoEntity成功
+TYPE=0, INFO=ClsObj Created Name=CzzShipEntity
+TYPE=0, INFO=装配实体模型:CzzShipEntity成功
+TYPE=0, INFO=进入 CreateGlobalObj
+TYPE=0, INFO=CreateObj: clsName=CScnMgr,Objid=1,ObjName=PlanMgr
+TYPE=0, INFO=CreateObj: clsName=CDisp,Objid=1007,ObjName=Disp
+TYPE=0, INFO=离开 CreateGlobalObj
+TYPE=0, INFO=进入 ClassInit
+TYPE=0, INFO=离开 ClassInit
+TYPE=0, INFO=进入 ReadAllHLAClasses
+TYPE=1, INFO=订阅发布时没有找到类CEntityStateRep的类信息
+TYPE=1, INFO=订阅发布时没有找到类CEntityMoveOrderEvt的类信息
+TYPE=1, INFO=订阅发布时没有找到类CEntityMoveTask的类信息
+TYPE=0, INFO=离开 ReadAllHLAClasses
+TYPE=0, INFO=CreateObj: clsName=CXBridge,Objid=65535,ObjName=bridge
+TYPE=0, INFO=使用桥接器:CXBridge
+TYPE=0, INFO=申请加入联邦，等待服务器应答...
+TYPE=0, INFO=加入成功，成员ID：8
+TYPE=0, INFO=进入 RegisterHLAClasses
+TYPE=0, INFO=ClsName=CRTIBridge,ClsID=-1,PS=0
+TYPE=0, INFO=ClsName=CXBridge,ClsID=-1,PS=0
+TYPE=0, INFO=ClsName=CCreateCtrlObj,ClsID=65569,PS=3
+TYPE=0, INFO=ClsName=CCreateForceEntity,ClsID=65568,PS=3
+TYPE=0, INFO=ClsName=CSimEnd,ClsID=65570,PS=3
+TYPE=0, INFO=ClsName=CSimPause,ClsID=65572,PS=3
+TYPE=0, INFO=ClsName=CSimStart,ClsID=65571,PS=3
+TYPE=0, INFO=ClsName=CTargetIndicatingEvt,ClsID=65565,PS=3
+TYPE=0, INFO=ClsName=CTask,ClsID=65573,PS=3
+TYPE=0, INFO=ClsName=CTorpedoBindingParams,ClsID=65567,PS=3
+TYPE=0, INFO=ClsName=CStateRepository,ClsID=65541,PS=3
+TYPE=0, INFO=ClsName=CSimObjStateRep,ClsID=65542,PS=3
+TYPE=0, INFO=ClsName=CControlObj,ClsID=65543,PS=3
+TYPE=0, INFO=ClsName=CLineObj,ClsID=65544,PS=3
+TYPE=0, INFO=ClsName=CShipStateRep,ClsID=65547,PS=3
+TYPE=0, INFO=ClsName=CSubmarineStateRep,ClsID=65546,PS=3
+TYPE=0, INFO=ClsName=CTorpedoStateRep,ClsID=65548,PS=3
+TYPE=0, INFO=ClsName=CModel,ClsID=65549,PS=3
+TYPE=0, INFO=ClsName=CController,ClsID=65550,PS=3
+TYPE=0, INFO=ClsName=CShipCtrlModel,ClsID=65552,PS=3
+TYPE=0, INFO=ClsName=CSubmarineCtrlModel,ClsID=65551,PS=3
+TYPE=0, INFO=ClsName=CTorpedoCtrlModel,ClsID=65553,PS=3
+TYPE=0, INFO=ClsName=CSensorModel,ClsID=65554,PS=3
+TYPE=0, INFO=ClsName=CSonarSensorModel,ClsID=65555,PS=3
+TYPE=0, INFO=ClsName=CDragSonarSensorModel,ClsID=65557,PS=3
+TYPE=0, INFO=ClsName=CSubSonarSensorModel,ClsID=65556,PS=3
+TYPE=0, INFO=ClsName=CTorpedoSonarSensorModel,ClsID=65558,PS=3
+TYPE=0, INFO=ClsName=CShipMoveModel,ClsID=65560,PS=3
+TYPE=0, INFO=ClsName=CSubMoveModel,ClsID=65559,PS=3
+TYPE=0, INFO=ClsName=CTorpedoMoveModel,ClsID=65561,PS=3
+TYPE=0, INFO=离开 RegisterHLAClasses
+TYPE=0, INFO=进入 Publish
+TYPE=0, INFO=发布,ID:34,类名:CCreateCtrlObj
+TYPE=0, INFO=发布,ID:33,类名:CCreateForceEntity
+TYPE=0, INFO=发布,ID:35,类名:CSimEnd
+TYPE=0, INFO=发布,ID:37,类名:CSimPause
+TYPE=0, INFO=发布,ID:36,类名:CSimStart
+TYPE=0, INFO=发布,ID:30,类名:CTargetIndicatingEvt
+TYPE=0, INFO=发布,ID:38,类名:CTask
+TYPE=0, INFO=发布,ID:32,类名:CTorpedoBindingParams
+TYPE=0, INFO=发布,ID:9,类名:CLineObj
+TYPE=0, INFO=发布,ID:8,类名:CControlObj
+TYPE=0, INFO=发布,ID:12,类名:CShipStateRep
+TYPE=0, INFO=发布,ID:11,类名:CSubmarineStateRep
+TYPE=0, INFO=发布,ID:13,类名:CTorpedoStateRep
+TYPE=0, INFO=发布,ID:7,类名:CSimObjStateRep
+TYPE=0, INFO=发布,ID:6,类名:CStateRepository
+TYPE=0, INFO=发布,ID:17,类名:CShipCtrlModel
+TYPE=0, INFO=发布,ID:16,类名:CSubmarineCtrlModel
+TYPE=0, INFO=发布,ID:18,类名:CTorpedoCtrlModel
+TYPE=0, INFO=发布,ID:15,类名:CController
+TYPE=0, INFO=发布,ID:22,类名:CDragSonarSensorModel
+TYPE=0, INFO=发布,ID:21,类名:CSubSonarSensorModel
+TYPE=0, INFO=发布,ID:23,类名:CTorpedoSonarSensorModel
+TYPE=0, INFO=发布,ID:20,类名:CSonarSensorModel
+TYPE=0, INFO=发布,ID:19,类名:CSensorModel
+TYPE=0, INFO=发布,ID:25,类名:CShipMoveModel
+TYPE=0, INFO=发布,ID:24,类名:CSubMoveModel
+TYPE=0, INFO=发布,ID:26,类名:CTorpedoMoveModel
+TYPE=0, INFO=发布,ID:14,类名:CModel
+TYPE=0, INFO=离开 Publish
+TYPE=0, INFO=进入 Subscribe
+TYPE=1, INFO=订购,ID:34,类名:CCreateCtrlObj
+TYPE=1, INFO=订购,ID:33,类名:CCreateForceEntity
+TYPE=1, INFO=订购,ID:35,类名:CSimEnd
+TYPE=1, INFO=订购,ID:37,类名:CSimPause
+TYPE=1, INFO=订购,ID:36,类名:CSimStart
+TYPE=1, INFO=订购,ID:30,类名:CTargetIndicatingEvt
+TYPE=1, INFO=订购,ID:38,类名:CTask
+TYPE=1, INFO=订购,ID:32,类名:CTorpedoBindingParams
+TYPE=1, INFO=订购,ID:9,类名:CLineObj
+TYPE=1, INFO=订购,ID:8,类名:CControlObj
+TYPE=1, INFO=订购,ID:12,类名:CShipStateRep
+TYPE=1, INFO=订购,ID:11,类名:CSubmarineStateRep
+TYPE=1, INFO=订购,ID:13,类名:CTorpedoStateRep
+TYPE=1, INFO=订购,ID:7,类名:CSimObjStateRep
+TYPE=1, INFO=订购,ID:6,类名:CStateRepository
+TYPE=1, INFO=订购,ID:17,类名:CShipCtrlModel
+TYPE=1, INFO=订购,ID:16,类名:CSubmarineCtrlModel
+TYPE=1, INFO=订购,ID:18,类名:CTorpedoCtrlModel
+TYPE=1, INFO=订购,ID:15,类名:CController
+TYPE=1, INFO=订购,ID:22,类名:CDragSonarSensorModel
+TYPE=1, INFO=订购,ID:21,类名:CSubSonarSensorModel
+TYPE=1, INFO=订购,ID:23,类名:CTorpedoSonarSensorModel
+TYPE=1, INFO=订购,ID:20,类名:CSonarSensorModel
+TYPE=1, INFO=订购,ID:19,类名:CSensorModel
+TYPE=1, INFO=订购,ID:25,类名:CShipMoveModel
+TYPE=1, INFO=订购,ID:24,类名:CSubMoveModel
+TYPE=1, INFO=订购,ID:26,类名:CTorpedoMoveModel
+TYPE=1, INFO=订购,ID:14,类名:CModel
+TYPE=0, INFO=离开 Subscribe
+TYPE=0, INFO=第一次获得联邦时间0.000000
+TYPE=0, INFO=进入 LoadScenario
+TYPE=0, INFO=在联邦Time=0.000000时刻场景被加载
+TYPE=0, INFO=Scn time=0.000000
+TYPE=0, INFO=CreateObj: clsName=CSDRController,Objid=1009,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CSubmarineStateRep,Objid=65707,ObjName=HLA172
+TYPE=0, INFO=CreateObj: clsName=CSubmarineCtrlModel,Objid=1010,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CSubSonarSensorModel,Objid=1011,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CSubMoveModel,Objid=1012,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CxxSubmarineEntity,Objid=1008,ObjName=xxSub
+TYPE=0, INFO=CreateObj: clsName=CSDRController,Objid=1014,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CShipStateRep,Objid=65708,ObjName=HLA173
+TYPE=0, INFO=CreateObj: clsName=CDragSonarSensorModel,Objid=1015,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CShipCtrlModel,Objid=1016,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CShipMoveModel,Objid=1017,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CzzShipEntity,Objid=1013,ObjName=xxship_1
+TYPE=0, INFO=CreateObj: clsName=CSDRController,Objid=1019,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CShipStateRep,Objid=65709,ObjName=HLA174
+TYPE=0, INFO=CreateObj: clsName=CDragSonarSensorModel,Objid=1020,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CShipCtrlModel,Objid=1021,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CShipMoveModel,Objid=1022,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CzzShipEntity,Objid=1018,ObjName=xxship_2
+TYPE=0, INFO=CreateObj: clsName=CLineObj,Objid=65710,ObjName=line_1
+TYPE=0, INFO=计划场景中的事件已调度结束,Time=0.000000
+TYPE=0, INFO=离开 LoadScenario
+TYPE=0, INFO=运行开始...
+TYPE=1, INFO=试图注册没有发布的对象CyyTorpedoEntity
+TYPE=1, INFO=类名：CyyTorpedoEntity 类ID：8016向RTI注册对象失败，自动转变为本地对象 ID=1023
+TYPE=0, INFO=CreateObj: clsName=CSDRController,Objid=1024,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CTorpedoStateRep,Objid=65711,ObjName=HLA176
+TYPE=0, INFO=CreateObj: clsName=CTorpedoCtrlModel,Objid=1025,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CTorpedoMoveModel,Objid=1026,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CTorpedoSonarSensorModel,Objid=1027,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CyyTorpedoEntity,Objid=1023,ObjName=RedTorpedo_301
+TYPE=1, INFO=试图注册没有发布的对象CyyTorpedoEntity
+TYPE=1, INFO=类名：CyyTorpedoEntity 类ID：8016向RTI注册对象失败，自动转变为本地对象 ID=1028
+TYPE=0, INFO=CreateObj: clsName=CSDRController,Objid=1029,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CTorpedoStateRep,Objid=65712,ObjName=HLA177
+TYPE=0, INFO=CreateObj: clsName=CTorpedoCtrlModel,Objid=1030,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CTorpedoMoveModel,Objid=1031,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CTorpedoSonarSensorModel,Objid=1032,ObjName=(null)
+TYPE=0, INFO=CreateObj: clsName=CyyTorpedoEntity,Objid=1028,ObjName=RedTorpedo_302
+TYPE=0, INFO=Engine 0 is closing
+TYPE=0, INFO=运行结束...
+TYPE=0, INFO=Delete LinkObj:id=1,parentid=0,threadid=1716
+TYPE=0, INFO=Delete LinkObj:id=1008,parentid=1,threadid=1716
+TYPE=0, INFO=Delete LinkObj:id=1009,parentid=1008,threadid=1716
+TYPE=0, INFO=Delete LinkObj:id=65707,parentid=1008,threadid=1716
+TYPE=0, INFO=Delete LinkObj:id=1010,parentid=1008,threadid=1716
+TYPE=0, INFO=Delete LinkObj:id=1011,parentid=1008,threadid=1716
+TYPE=0, INFO=Delete LinkObj:id=1012,parentid=1008,threadid=1716
+TYPE=0, INFO=Delete LinkObj:id=1013,parentid=1,threadid=1716
+TYPE=0, INFO=Delete LinkObj:id=1014,parentid=1013,threadid=1716
+TYPE=0, INFO=Delete LinkObj:id=65708,parentid=1013,threadid=1716
+TYPE=0, INFO=Delete LinkObj:id=1015,parentid=1013,threadid=1716
+TYPE=0, INFO=Delete LinkObj:id=1016,parentid=1013,threadid=1716
+TYPE=0, INFO=Delete LinkObj:id=1017,parentid=1013,threadid=1716
+TYPE=0, INFO=Delete LinkObj:id=1018,parentid=1,threadid=1716
+TYPE=0, INFO=Delete LinkObj:id=1019,parentid=1018,threadid=1716
+TYPE=0, INFO=Delete LinkObj:id=65709,parentid=1018,threadid=1716
+TYPE=0, INFO=Delete LinkObj:id=1020,parentid=1018,threadid=1716
+TYPE=0, INFO=Delete LinkObj:id=1021,parentid=1018,threadid=1716
+TYPE=0, INFO=Delete LinkObj:id=1022,parentid=1018,threadid=1716
+TYPE=0, INFO=Delete LinkObj:id=65710,parentid=1,threadid=1716
+TYPE=0, INFO=Delete LinkObj:id=1023,parentid=1,threadid=1716
+TYPE=0, INFO=Delete LinkObj:id=1024,parentid=1023,threadid=1716
+TYPE=0, INFO=Delete LinkObj:id=65711,parentid=1023,threadid=1716
+TYPE=0, INFO=Delete LinkObj:id=1025,parentid=1023,threadid=1716
+TYPE=0, INFO=Delete LinkObj:id=1026,parentid=1023,threadid=1716
+TYPE=0, INFO=Delete LinkObj:id=1027,parentid=1023,threadid=1716
+TYPE=0, INFO=Delete LinkObj:id=1028,parentid=1,threadid=1716
+TYPE=0, INFO=Delete LinkObj:id=1029,parentid=1028,threadid=1716
+TYPE=0, INFO=Delete LinkObj:id=65712,parentid=1028,threadid=1716
+TYPE=0, INFO=Delete LinkObj:id=1030,parentid=1028,threadid=1716
+TYPE=0, INFO=Delete LinkObj:id=1031,parentid=1028,threadid=1716
+TYPE=0, INFO=Delete LinkObj:id=1032,parentid=1028,threadid=1716
+TYPE=1, INFO=由对象管理器清除对象:类名=CDisp id=1007
+TYPE=0, INFO=Delete LinkObj:id=1007,parentid=0,threadid=1716
+TYPE=0, INFO=resignFederationExecution
+TYPE=0, INFO=destroyFederationExecution: ex1
+TYPE=0, INFO=开始清理并释放所分配的资源...
+TYPE=0, INFO=所分配的资源释放完毕

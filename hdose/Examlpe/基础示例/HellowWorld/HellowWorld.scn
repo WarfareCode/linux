@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312"?>
+<Simulation>
+ <Scenario>
+  <Time Value="0">
+      <Item ItemClass="CCountry" ID="0" Name=""/>
+   </Time>
+  </Scenario>
+</Simulation>

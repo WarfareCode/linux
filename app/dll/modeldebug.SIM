@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!-- Created by SIM_DEMO by (hy) -->
+<Simulation>
+  <Parameters>
+    <Parameter Name="FederateName" Value="Missile_model"/>
+    <Parameter Name="FederationName" Value="bwSim"/>
+    <Parameter Name="FedFile" Value="Missile.fed"/>
+    <Parameter Name="TC" Value="0"/>
+    <Parameter Name="TR" Value="0"/>
+    <Parameter Name="Wallclock" Value="0.01"/>
+    <Parameter Name="Lookahead" Value="0.01"/>
+    <Parameter Name="Timestep" Value="0.01"/>
+    <Parameter Name="RTIthread" Value="1"/>
+    <Parameter Name="FastBest" Value="0"/>
+    <Parameter Name="Bridge" Value="CNullBridge"/>
+    <Parameter Name="OPD" Value="Missile.opd"/>
+    <!--<Parameter Name="Scenario" Value="2btest.scn"/>-->
+    <Parameter Name="MDB" Value="2"/>
+
+    <!--<Parameter Name="RecPlayMode" Value="1"/>
+    <Parameter Name="RemoteObjRec" Value="0"/>
+    <Parameter Name="SimNumTimes" Value="1"/>-->
+
+    <!--仿真运行参数,xks-->
+    <Parameter Name="ExternScnParaSet" Value="0"/>
+    <!--使用Hycgf时，此参数必须有，否则会出错-->
+    <Parameter Name="ScnName" Value="1xxx"/>
+    <Parameter Name="ScnRunN" Value="1"/>
+    <Parameter Name="UseRadomSeed" Value="0"/>
+    <Parameter Name="RadomSeed" Value="0"/>
+
+  </Parameters>
+  <Events>
+    <Event Name="CGeneralEvt" HLA_name="CGeneralEvt" Publish="1" Subscribe="1"/>
+    <Event Name="CConsoleEvt" HLA_name="CConsoleEvt" Publish="1" Subscribe="1"/>
+    <Event Name="CRemoveObjRequest" HLA_name="CConsoleEvt.CRemoveObjRequest" Publish="1" Subscribe="1"/>
+    <Event Name="CCreateObjResult" HLA_name="CConsoleEvt.CCreateObjResult" Publish="1" Subscribe="1"/>
+    <Event Name="CCreateObjRequest" HLA_name="CConsoleEvt.CCreateObjRequest" Publish="1" Subscribe="1"/>
+    <Event Name="CRemoveObjResult" HLA_name="CConsoleEvt.CRemoveObjResult" Publish="1" Subscribe="1"/>
+    <Event Name="CSetData" HLA_name="CConsoleEvt.CSetData" Publish="1" Subscribe="1"/>
+    <Event Name="CSimCtrl" HLA_name="CConsoleEvt.CSimCtrl" Publish="1" Subscribe="1"/>
+    <Event Name="CScnCtrl" HLA_name="CConsoleEvt.CScnCtrl" Publish="1" Subscribe="1"/>
+    <Event Name="CLoggerCtrl" HLA_name="CConsoleEvt.CLoggerCtrl" Publish="1" Subscribe="1"/>
+    <Event Name="CBackEngineStateEvt" HLA_name="CConsoleEvt.CBackEngineStateEvt" Publish="1" Subscribe="1"/>
+    <Event Name="CRequestBackEngineStateEvt" HLA_name="CConsoleEvt.CRequestBackEngineStateEvt" Publish="1" Subscribe="1"/>
+    <Event Name="CExplosionEvent" HLA_name="CExplosionEvent" Publish="1" Subscribe="1"/>
+    <Event Name="CTargetParaEvent" HLA_name="CTargetParaEvent" Publish="1" Subscribe="1"/>
+    <Event Name="CTargetLossEvent" HLA_name="CTargetLossEvent" Publish="1" Subscribe="1"/>
+    <Event Name="CCollisionEvent" HLA_name="CCollisionEvent" Publish="1" Subscribe="1"/>
+    <Event Name="CEntityExitEvent" HLA_name="CEntityExitEvent" Publish="1" Subscribe="1"/>
+    <Event Name="CEntityCreateEvent" HLA_name="CEntityCreateEvent" Publish="1" Subscribe="1"/>
+    <Event Name="CSensorScanEvent" HLA_name="CSensorScanEvent" Publish="1" Subscribe="1"/>
+    <Event Name="CCommStateEvent" HLA_name="CCommStateEvent" Publish="1" Subscribe="1"/>
+    <Event Name="CCreateSatOrbitEvent" HLA_name="CCreateSatOrbitEvent" Publish="1" Subscribe="1"/>
+    <Event Name="CTask" HLA_name="CTask" Publish="1" Subscribe="1"/>
+    <Event Name="CMoveTo" HLA_name="CTask.CMoveTo" Publish="1" Subscribe="1"/>
+    <Event Name="CMoveAlong" HLA_name="CTask.CMoveAlong" Publish="1" Subscribe="1"/>
+    <Event Name="CPatrol" HLA_name="CTask.CPatrol" Publish="1" Subscribe="1"/>
+    <Event Name="CWait" HLA_name="CTask.CWait" Publish="1" Subscribe="1"/>
+    <Event Name="CFollow" HLA_name="CTask.CFollow" Publish="1" Subscribe="1"/>
+    <Event Name="CCruise" HLA_name="CTask.CCruise" Publish="1" Subscribe="1"/>
+    <Event Name="CReturnBase" HLA_name="CTask.CReturnBase" Publish="1" Subscribe="1"/>
+    <Event Name="CRegulateMoveState" HLA_name="CTask.CRegulateMoveState" Publish="1" Subscribe="1"/>
+    <Event Name="CLandingOn" HLA_name="CTask.CLandingOn" Publish="1" Subscribe="1"/>
+    <Event Name="CDisembark" HLA_name="CTask.CDisembark" Publish="1" Subscribe="1"/>
+    <Event Name="CRecall" HLA_name="CTask.CRecall" Publish="1" Subscribe="1"/>
+    <Event Name="CSensorOper" HLA_name="CTask.CSensorOper" Publish="1" Subscribe="1"/>
+    <Event Name="CLaunchMissile" HLA_name="CTask.CLaunchWeapon.CLaunchMissile" Publish="1" Subscribe="1"/>
+    <Event Name="CLaunchTorpedo" HLA_name="CTask.CLaunchWeapon.CLaunchTorpedo" Publish="1" Subscribe="1"/>
+    <Event Name="CLaunchBomb" HLA_name="CTask.CLaunchWeapon.CLaunchBomb" Publish="1" Subscribe="1"/>
+    <Event Name="CLaunchCanon" HLA_name="CTask.CLaunchWeapon.CLaunchCanon" Publish="1" Subscribe="1"/>
+    <Event Name="CLaunchWeapon" HLA_name="CTask.CLaunchWeapon" Publish="1" Subscribe="1"/>
+    <Event Name="CLaunchChaff" HLA_name="CTask.CLaunchChaff" Publish="1" Subscribe="1"/>
+    <Event Name="CLaunchFakeTarget" HLA_name="CTask.CLaunchFakeTarget" Publish="1" Subscribe="1"/>
+    <Event Name="CJammerOper" HLA_name="CTask.CJammerOper" Publish="1" Subscribe="1"/>
+    <Event Name="CLayoutMine" HLA_name="CTask.CLayoutMine" Publish="1" Subscribe="1"/>
+    <Event Name="CTakeOff" HLA_name="CTask.CTakeOff" Publish="1" Subscribe="1"/>
+    <Event Name="CThrottleCtrlOper" HLA_name="CTask.CThrottleCtrlOper" Publish="1" Subscribe="1"/>
+    <Event Name="CAttitudeCtrlOper" HLA_name="CTask.CAttitudeCtrlOper" Publish="1" Subscribe="1"/>
+    <Event Name="CVehicleDriveModeCtrl" HLA_name="CTask.CVehicleDriveModeCtrl" Publish="1" Subscribe="1"/>
+    <Event Name="CDeviceOper" HLA_name="CTask.CDeviceOper" Publish="1" Subscribe="1"/>
+    <Event Name="CTargetTrackingEvent" HLA_name="CTargetTrackingEvent" Publish="1" Subscribe="1"/>
+    <Event Name="CTargetIrradiateEvent" HLA_name="CTargetIrradiateEvent" Publish="1" Subscribe="1"/>
+    <Event Name="CWeaponLaunchEvent" HLA_name="CWeaponLaunchEvent" Publish="1" Subscribe="1"/>
+    <Event Name="CASMRoutePlanResult" HLA_name="CASMRoutePlanResult" Publish="1" Subscribe="1"/>
+
+    <Event Name="CRapidFireGunLaunchEvt" HLA_name="CRapidFireGunLaunchEvt" Publish="1" Subscribe="1"/>
+
+    <!--有用，但特定情况下打开-->
+    <Event Name="CForceScheduleTask" HLA_name="CTask.CForceScheduleTask" Publish="1" Subscribe="1"/>
+    <Event Name="CFireDistributingTask" HLA_name="CTask.CFireDistributingTask" Publish="1" Subscribe="1"/>
+    <Event Name="CChaffJammingTask" HLA_name="CTask.CChaffJammingTask" Publish="1" Subscribe="1"/>
+    <Event Name="CAntiAirTask" HLA_name="CTask.CAntiAirTask" Publish="1" Subscribe="1"/>
+    <Event Name="CSuppressingJammingTask" HLA_name="CTask.CSuppressingJammingTask" Publish="1" Subscribe="1"/>
+    <Event Name="CMoveAlongRouteTask" HLA_name="CTask.CMoveAlongRouteTask" Publish="1" Subscribe="1"/>
+    <Event Name="CMoveToPointTask" HLA_name="CTask.CMoveToPointTask" Publish="1" Subscribe="1"/>
+    <Event Name="CMoveAlongCircleRouteTask" HLA_name="CTask.CMoveAlongCircleRouteTask" Publish="1" Subscribe="1"/>
+    <Event Name="CTorpedoAttackTask" HLA_name="CTask.CTorpedoAttackTask" Publish="1" Subscribe="1"/>
+    <Event Name="CAircraftAttackTask" HLA_name="CTask.CAircraftAttackTask" Publish="1" Subscribe="1"/>
+    <Event Name="CLaunchActiveDecoyTask" HLA_name="CTask.CLaunchActiveDecoyTask" Publish="1" Subscribe="1"/>
+    <Event Name="CTrajectoryCalcTask" HLA_name="CTask.CTrajectoryCalcTask" Publish="0" Subscribe="0"/>
+
+    <!--无用，可删掉-->
+    <!--<Event Name="CTargetInfoFromSeeker" HLA_name="CTargetInfoFromSeeker" Publish="0" Subscribe="0"/>
+    <Event Name="CSeekerPowerOnOrder" HLA_name="CSeekerPowerOnOrder" Publish="0" Subscribe="0"/>
+    <Event Name="CRadarPowerOnOrder" HLA_name="CRadarPowerOnOrder" Publish="0" Subscribe="0"/>
+    <Event Name="CCreatePointEntityEvt" HLA_name="CCreatePointEntityEvt" Publish="0" Subscribe="0"/>
+    <Event Name="CCreateLineEntityEvt" HLA_name="CCreateLineEntityEvt" Publish="0" Subscribe="0"/>
+    <Event Name="CCreateForceEntityEvt" HLA_name="CCreateForceEntityEvt" Publish="0" Subscribe="0"/>
+    <Event Name="CCreateCircleEntity" HLA_name="CCreateCircleEntity" Publish="0" Subscribe="0"/>
+    <Event Name="CSetPointOnLineEntity" HLA_name="CSetPointOnLineEntity" Publish="0" Subscribe="0"/>
+    <Event Name="CSetCircleRadius" HLA_name="CSetCircleRadius" Publish="0" Subscribe="0"/>
+    <Event Name="CChangeEntityName" HLA_name="CChangeEntityName" Publish="0" Subscribe="0"/>
+    <Event Name="CDeleteEntity" HLA_name="CDeleteEntity" Publish="0" Subscribe="0"/>
+    <Event Name="CSetSeaEnvParams" HLA_name="CSetSeaEnvParams" Publish="0" Subscribe="0"/>
+    <Event Name="CDragEntity" HLA_name="CDragEntity" Publish="0" Subscribe="0"/>
+    <Event Name="CMoveAlongDirectionEvt" HLA_name="CMoveAlongDirectionEvt" Publish="0" Subscribe="0"/>
+    <Event Name="CMoveAlongRouteEvt" HLA_name="CMoveAlongRouteEvt" Publish="0" Subscribe="0"/>
+    <Event Name="CMoveToPointEvt" HLA_name="CMoveToPointEvt" Publish="0" Subscribe="0"/>
+    <Event Name="CSBMScheduleOrder" HLA_name="CSBMScheduleOrder" Publish="0" Subscribe="0"/>
+    <Event Name="CUnitFireSchedulingInfo" HLA_name="CUnitFireSchedulingInfo" Publish="0" Subscribe="0"/>
+    <Event Name="CASMUnitFireAssignmentData" HLA_name="CASMUnitFireAssignmentData" Publish="0" Subscribe="0"/>
+    <Event Name="CASMBindingInfo" HLA_name="CASMBindingInfo" Publish="0" Subscribe="0"/>
+    <Event Name="CVehicleMoveCtrlParams" HLA_name="CVehicleMoveCtrlParams" Publish="0" Subscribe="0"/>
+    <Event Name="CASMSeekerBindingInfo" HLA_name="CASMSeekerBindingInfo" Publish="0" Subscribe="0"/>
+    <Event Name="CMissileWayPoints" HLA_name="CMissileWayPoints" Publish="0" Subscribe="0"/>
+    <Event Name="CSeekerInitSearchRange" HLA_name="CSeekerInitSearchRange" Publish="0" Subscribe="0"/>
+    <Event Name="CSeekerElecAxisDirection" HLA_name="CSeekerElecAxisDirection" Publish="0" Subscribe="0"/>
+    <Event Name="CSeekerTrackingTargetInfo" HLA_name="CSeekerTrackingTargetInfo" Publish="0" Subscribe="0"/>
+    <Event Name="CSeekerOperationOrder" HLA_name="CSeekerOperationOrder" Publish="0" Subscribe="0"/>
+    <Event Name="CASMMoveOrderBefore2ndOn" HLA_name="CASMMoveOrderBefore2ndOn" Publish="0" Subscribe="0"/>
+    <Event Name="CASMMovingCtrlParams" HLA_name="CASMMovingCtrlParams" Publish="0" Subscribe="0"/>
+    <Event Name="CASMBattleOrder" HLA_name="CASMBattleOrder" Publish="0" Subscribe="0"/>
+    <Event Name="CClutterInstruction" HLA_name="CClutterInstruction" Publish="0" Subscribe="0"/>
+    <Event Name="CChaffLaunchParams" HLA_name="CChaffLaunchParams" Publish="0" Subscribe="0"/>
+    <Event Name="CChaffControlOrder" HLA_name="CChaffControlOrder" Publish="0" Subscribe="0"/>
+    <Event Name="CChaffJammingOrder" HLA_name="CChaffJammingOrder" Publish="0" Subscribe="0"/>
+    <Event Name="CAAMUnitFireAssignmentData" HLA_name="CAAMUnitFireAssignmentData" Publish="0" Subscribe="0"/>
+    <Event Name="CFCRTargetInfo" HLA_name="CFCRTargetInfo" Publish="0" Subscribe="0"/>
+    <Event Name="CSupressionJammerWorkParams" HLA_name="CSupressionJammerWorkParams" Publish="0" Subscribe="0"/>
+    <Event Name="CSupressionJammerPowerOnOrder" HLA_name="CSupressionJammerPowerOnOrder" Publish="0" Subscribe="0"/>
+    <Event Name="CSuppressingJammingOrder" HLA_name="CSuppressingJammingOrder" Publish="0" Subscribe="0"/>
+    <Event Name="CSupressionJammerCtrlOrder" HLA_name="CSupressionJammerCtrlOrder" Publish="0" Subscribe="0"/>
+    <Event Name="CSurfaceMovingParams" HLA_name="CSurfaceMovingParams" Publish="0" Subscribe="0"/>
+    <Event Name="CAAMBindingInfo" HLA_name="CAAMBindingInfo" Publish="0" Subscribe="0"/>
+    <Event Name="CAntiAirOrder" HLA_name="CAntiAirOrder" Publish="0" Subscribe="0"/>
+    <Event Name="CAAMGuideOrder" HLA_name="CAAMGuideOrder" Publish="0" Subscribe="0"/>
+    <Event Name="CSurfaceScheduleOrder" HLA_name="CSurfaceScheduleOrder" Publish="0" Subscribe="0"/>
+    <Event Name="CSurfaceDetectionInfo" HLA_name="CSurfaceDetectionInfo" Publish="0" Subscribe="0"/>
+    <Event Name="CLaunchActiveDecoyOrder" HLA_name="CLaunchActiveDecoyOrder" Publish="0" Subscribe="0"/>
+    <Event Name="CAAMSeekerBindingInfo" HLA_name="CAAMSeekerBindingInfo" Publish="0" Subscribe="0"/>
+    <Event Name="CAAMMoveOrder" HLA_name="CAAMMoveOrder" Publish="0" Subscribe="0"/>
+    <Event Name="CAAMMoveCtrlParams" HLA_name="CAAMMoveCtrlParams" Publish="0" Subscribe="0"/>
+    <Event Name="CChaffCtrlParam" HLA_name="CChaffCtrlParam" Publish="0" Subscribe="0"/>
+    <Event Name="CAircrftScheduleOrder" HLA_name="CAircrftScheduleOrder" Publish="0" Subscribe="0"/>
+    <Event Name="CEWDetectInfo" HLA_name="CEWDetectInfo" Publish="0" Subscribe="0"/>
+    <Event Name="CAircraftMoveCtrlParams" HLA_name="CAircraftMoveCtrlParams" Publish="0" Subscribe="0"/>
+    <Event Name="CScoutInfo" HLA_name="CScoutInfo" Publish="0" Subscribe="0"/>
+    <Event Name="CSubmarineMovingParams" HLA_name="CSubmarineMovingParams" Publish="0" Subscribe="0"/>
+    <Event Name="CTorpedoUnitAttackInfo" HLA_name="CTorpedoUnitAttackInfo" Publish="0" Subscribe="0"/>
+    <Event Name="CSonarTargetInfo" HLA_name="CSonarTargetInfo" Publish="0" Subscribe="0"/>
+    <Event Name="CUnitTorpedoAttackInfo" HLA_name="CUnitTorpedoAttackInfo" Publish="0" Subscribe="0"/>
+    <Event Name="CTorpedoTargetIndication" HLA_name="CTorpedoTargetIndication" Publish="0" Subscribe="0"/>
+    <Event Name="CTorpedoSensorPowerOnOrder" HLA_name="CTorpedoSensorPowerOnOrder" Publish="0" Subscribe="0"/>
+    <Event Name="CTorpedoSensorBingdInfo" HLA_name="CTorpedoSensorBingdInfo" Publish="0" Subscribe="0"/>
+    <Event Name="CTorpedoBindingInfo" HLA_name="CTorpedoBindingInfo" Publish="0" Subscribe="0"/>
+    <Event Name="CTorpedoMoveOrder" HLA_name="CTorpedoMoveOrder" Publish="0" Subscribe="0"/>
+    <Event Name="CTorpedoMoveParam" HLA_name="CTorpedoMoveParam" Publish="0" Subscribe="0"/>
+    <Event Name="CCreateSBMEntity" HLA_name="CCreateForceEntityEvt.CCreateSBMEntity" Publish="0" Subscribe="0"/>
+    <Event Name="CCreateSurfaceShipEntity" HLA_name="CCreateForceEntityEvt.CCreateSurfaceShipEntity" Publish="0" Subscribe="0"/>
+    <Event Name="CCreateCornerReflectorEntity" HLA_name="CCreateForceEntityEvt.CCreateCornerReflectorEntity" Publish="0" Subscribe="0"/>
+    <Event Name="CCreateSubmarineEntity" HLA_name="CCreateForceEntityEvt.CCreateSubmarineEntity" Publish="0" Subscribe="0"/>
+    <Event Name="CCreateFixedWingEntity" HLA_name="CCreateForceEntityEvt.CCreateFixedWingEntity" Publish="0" Subscribe="0"/>
+    <Event Name="CCreateRotaryWingEntity" HLA_name="CCreateForceEntityEvt.CCreateRotaryWingEntity" Publish="0" Subscribe="0"/>
+    <Event Name="CCreateRadarFieldEntity" HLA_name="CCreateForceEntityEvt.CCreateRadarFieldEntity" Publish="0" Subscribe="0"/>
+    <Event Name="CCreateCmdFieldEntity" HLA_name="CCreateForceEntityEvt.CCreateCmdFieldEntity" Publish="0" Subscribe="0"/>
+    <Event Name="CCreateSatelliteEntity" HLA_name="CCreateForceEntityEvt.CCreateSatelliteEntity" Publish="0" Subscribe="0"/>
+    <Event Name="CCreateChaffIslandEntity" HLA_name="CCreateForceEntityEvt.CCreateChaffIslandEntity" Publish="0" Subscribe="0"/>
+    <Event Name="CSimStart" HLA_name="CSimStart" Publish="0" Subscribe="0"/>
+    <Event Name="CSimPause" HLA_name="CSimPause" Publish="0" Subscribe="0"/>
+    <Event Name="CSimResume" HLA_name="CSimResume" Publish="0" Subscribe="0"/>
+    <Event Name="CSimEnd" HLA_name="CSimEnd" Publish="0" Subscribe="0"/>
+    <Event Name="CSimRefresh" HLA_name="CSimRefresh" Publish="0" Subscribe="0"/>
+    <Event Name="CSimSpeedControl" HLA_name="CSimSpeedControl" Publish="0" Subscribe="0"/>-->
+  </Events>
+
+  <Links>
+    <Link Name="CEnvironment" HLA_name="CEnvironment" Publish="1" Subscribe="1"/>
+    <Link Name="CScnProfile" HLA_name="CScnProfile" Publish="1" Subscribe="1"/>
+    <Link Name="CSimTask" HLA_name="CSimTask" Publish="1" Subscribe="1"/>
+    <Link Name="CStateRepository" HLA_name="CStateRepository" Publish="1" Subscribe="1"/>
+    <Link Name="CFacilityESR" HLA_name="CStateRepository.CFacilityESR" Publish="1" Subscribe="1"/>
+    <Link Name="CFixedWingESR" HLA_name="CStateRepository.CFixedWingESR" Publish="1" Subscribe="1"/>
+    <Link Name="CMissileESR" HLA_name="CStateRepository.CMissileESR" Publish="1" Subscribe="1"/>
+    <Link Name="CMunitionESR" HLA_name="CStateRepository.CMunitionESR" Publish="1" Subscribe="1"/>
+    <Link Name="CGroundVehicleESR" HLA_name="CStateRepository.CGroundVehicleESR" Publish="1" Subscribe="1"/>
+    <Link Name="CLifeFormESR" HLA_name="CStateRepository.CLifeFormESR" Publish="1" Subscribe="1"/>
+    <Link Name="CSurfaceESR" HLA_name="CStateRepository.CSurfaceESR" Publish="1" Subscribe="1"/>
+    <Link Name="CSubSurfaceESR" HLA_name="CStateRepository.CSubSurfaceESR" Publish="1" Subscribe="1"/>
+    <Link Name="CSpaceESR" HLA_name="CStateRepository.CSpaceESR" Publish="1" Subscribe="1"/>
+    <Link Name="CRotaryWingESR" HLA_name="CStateRepository.CRotaryWingESR" Publish="1" Subscribe="1"/>
+    <Link Name="CTorpedoESR" HLA_name="CStateRepository.CTorpedoESR" Publish="1" Subscribe="1"/>
+    <Link Name="CCommanderESR" HLA_name="CStateRepository.CCommanderESR" Publish="1" Subscribe="1"/>
+    <Link Name="CCruiseMissileESR" HLA_name="CStateRepository.CMissileESR.CCruiseMissileESR" Publish="1" Subscribe="1"/>
+    <Link Name="CBallisticMissileESR" HLA_name="CStateRepository.CMissileESR.CBallisticMissileESR" Publish="1" Subscribe="1"/>
+    <Link Name="CMissileWarheadESR" HLA_name="CStateRepository.CMissileESR.CMissileWarheadESR" Publish="1" Subscribe="1"/>
+    <Link Name="CSatelliteESR" HLA_name="CStateRepository.CSpaceESR.CSatelliteESR" Publish="1" Subscribe="1"/>
+    <Link Name="CCircle" HLA_name="CControlObject.CArea.CCircle" Publish="1" Subscribe="1"/>
+    <Link Name="CControlObject" HLA_name="CControlObject" Publish="1" Subscribe="1"/>
+    <Link Name="CEllipse" HLA_name="CControlObject.CArea.CEllipse" Publish="1" Subscribe="1"/>
+    <Link Name="CPolygon" HLA_name="CControlObject.CArea.CPolygon" Publish="1" Subscribe="1"/>
+    <Link Name="CArea" HLA_name="CControlObject.CArea" Publish="1" Subscribe="1"/>
+    <Link Name="CRectangle" HLA_name="CControlObject.CArea.CRectangle" Publish="1" Subscribe="1"/>
+    <Link Name="CRoute" HLA_name="CControlObject.CRoute" Publish="1" Subscribe="1"/>
+    <Link Name="CPhaseline" HLA_name="CControlObject.CPhaseline" Publish="1" Subscribe="1"/>
+    <Link Name="CWayPoint" HLA_name="CControlObject.CWayPoint" Publish="1" Subscribe="1"/>
+
+    <Link Name="CFixedWingStateRep" HLA_name="CStateRepository.CFixedWingStateRep" Publish="1" Subscribe="1"/>
+    <Link Name="CChaffIslandStateRep" HLA_name="CStateRepository.CSurfaceESR.CChaffIslandStateRep" Publish="1" Subscribe="1"/>
+    <Link Name="CMissileStateRep" HLA_name="CStateRepository.CMunitionStateRep.CMissileStateRep" Publish="1" Subscribe="1"/>
+    <Link Name="CCornerReflectorStateRep" HLA_name="CStateRepository.CSurfaceESR.CCornerReflectorStateRep" Publish="1" Subscribe="1"/>
+    <Link Name="CSubmarineStateRep" HLA_name="CStateRepository.CSubSurfaceESR.CSubmarineStateRep" Publish="1" Subscribe="1"/>
+    <Link Name="CSurfaceShipStateRep" HLA_name="CStateRepository.CSurfaceESR.CSurfaceShipStateRep" Publish="1" Subscribe="1"/>
+    <Link Name="CMunitionStateRep" HLA_name="CStateRepository.CMunitionStateRep" Publish="1" Subscribe="1"/>
+    <Link Name="CFieldStateRep" HLA_name="CStateRepository.CFacilityESR.CFieldStateRep" Publish="1" Subscribe="1"/>
+    <Link Name="CChaffStateRep" HLA_name="CStateRepository.CMunitionStateRep.CChaffStateRep" Publish="1" Subscribe="1"/>
+    <Link Name="CRadarFieldStateRep" HLA_name="CStateRepository.CFacilityESR.CRadarFieldStateRep" Publish="1" Subscribe="1"/>
+    <Link Name="CActiveDecoyStateRep" HLA_name="CStateRepository.CMunitionStateRep.CActiveDecoyStateRep" Publish="1" Subscribe="1"/>
+    <Link Name="CTorpedoStateRep" HLA_name="CStateRepository.CMunitionStateRep.CTorpedoStateRep" Publish="1" Subscribe="1"/>
+    <Link Name="CHarborDockEntityStateRep" HLA_name="CStateRepository.CFacilityESR.CHarborDockEntityStateRep" Publish="1" Subscribe="1"/>
+    <Link Name="CAirportStateRep" HLA_name="CStateRepository.CFacilityESR.CAirportStateRep" Publish="1" Subscribe="1"/>
+    <Link Name="CCmdEntityStateRep" HLA_name="CStateRepository.CFacilityESR.CCmdEntityStateRep" Publish="1" Subscribe="1"/>
+    <Link Name="CBombStateRep" HLA_name="CStateRepository.CMunitionStateRep.CBombStateRep" Publish="1" Subscribe="1"/>
+    <Link Name="CGroundEWRadarStateRep" HLA_name="CStateRepository.CFacilityESR.CGroundEWRadarStateRep" Publish="1" Subscribe="1"/>
+    <Link Name="CGroundFCRadarStateRep" HLA_name="CStateRepository.CFacilityESR.CGroundFCRadarStateRep" Publish="1" Subscribe="1"/>
+    <Link Name="CAAMVehicleStateRep" HLA_name="CStateRepository.CGroundVehicleESR.CAAMVehicleStateRep" Publish="1" Subscribe="1"/>
+    <Link Name="CGuardFieldStateRep" HLA_name="CStateRepository.CFacilityESR.CGuardFieldStateRep" Publish="1" Subscribe="1"/>
+
+    <Link Name="CModelSR" HLA_name="CModelSR" Publish="1" Subscribe="1"/>
+    <Link Name="CSensorModelSR" HLA_name="CModelSR.CSensorModelSR" Publish="1" Subscribe="1"/>
+    <Link Name="CWeaponSysModelSR" HLA_name="CModelSR.CWeaponSysModelSR" Publish="1" Subscribe="1"/>
+
+    <Link Name="CFuzzySituationInfo" HLA_name="CFuzzySituationInfo" Publish="1" Subscribe="1"/>
+    <Link Name="CASMPlaningInfo" HLA_name="CASMPlaningInfo" Publish="1" Subscribe="1"/>
+    <Link Name="CSimEventScript" HLA_name="CSimEventScript" Publish="1" Subscribe="1"/>
+    <Link Name="CStatisticAnalysisParty" HLA_name="CStatisticAnalysisParty" Publish="1" Subscribe="1"/>
+
+    <!--无用，可删掉-->
+    <!--<Link Name="CModel" HLA_name="CModel" Publish="1" Subscribe="1"/>
+    <Link Name="CController" HLA_name="CModel.CController" Publish="1" Subscribe="1"/>
+    <Link Name="CSensor" HLA_name="CModel.CSensor" Publish="1" Subscribe="1"/>
+    <Link Name="CAcousticSensor" HLA_name="CModel.CSensor.CAcousticSensor" Publish="1" Subscribe="1"/>
+    <Link Name="CVisualSensor" HLA_name="CModel.CSensor.CVisualSensor" Publish="1" Subscribe="1"/>
+    <Link Name="CSonar" HLA_name="CModel.CSensor.CSonar" Publish="1" Subscribe="1"/>
+    <Link Name="CIFF" HLA_name="CModel.CSensor.CIFF" Publish="1" Subscribe="1"/>
+    <Link Name="CSimpleRadar" HLA_name="CModel.CSensor.CRadar.CSimpleRadar" Publish="1" Subscribe="1"/>
+    <Link Name="CMagneticSensor" HLA_name="CModel.CSensor.CMagneticSensor" Publish="1" Subscribe="1"/>
+    <Link Name="CESM" HLA_name="CModel.CSensor.CESM" Publish="1" Subscribe="1"/>
+    <Link Name="CThermalSensor" HLA_name="CModel.CSensor.CThermalSensor" Publish="1" Subscribe="1"/>
+    <Link Name="CLaserSensor" HLA_name="CModel.CSensor.CLaserSensor" Publish="1" Subscribe="1"/>
+    <Link Name="CRadar" HLA_name="CModel.CSensor.CRadar" Publish="1" Subscribe="1"/>
+    <Link Name="CConsoleEvtConductor" HLA_name="CConsoleEvtConductor" Publish="1" Subscribe="1"/>
+
+    <Link Name="CTrackRadar" HLA_name="CModel.CSensor.CRadar.CTrackRadar" Publish="1" Subscribe="1"/>
+    <Link Name="CInfraredSensor" HLA_name="CModel.CSensor.CThermalSensor.CInfraredSensor" Publish="1" Subscribe="1"/>
+    <Link Name="CEKVTGInfraredSensor" HLA_name="CModel.CSensor.CThermalSensor.CEKVTGInfraredSensor" Publish="1" Subscribe="1"/>
+    <Link Name="CEarlyWarningRadar" HLA_name="CModel.CSensor.CRadar.CEarlyWarningRadar" Publish="1" Subscribe="1"/>
+    <Link Name="CGuideRadar" HLA_name="CModel.CSensor.CRadar.CGuideRadar" Publish="1" Subscribe="1"/>-->
+  </Links>
+
+  <Components>
+    <Component Source="XBridge.MDF"/>
+    <Component Source="HYCGF.MDF"/>
+    <Component Source="BaseEntityMoveCom.MDF"/>
+    <Component Source="DataStructComponentDll.MDF"/>
+    <Component Source="TFCommonModelCom.MDF"/>
+    <Component Source="ModelComponentDll.MDF"/>
+    <Component Source="GroundAACom.MDF"/>
+    <Component Source="GroundAASimModelCom.MDF"/>
+  </Components>
+  <ItemClasses>
+  </ItemClasses>
+  <Items>
+    <Item ItemClass="CScnMgr" ID="1" Name="PlanMgr">
+      <Item ItemClass="CDisp" ID="-1" Name="Disp">
+        <Parameter  Name="AutoUpdate" Value="10"/>
+        <Parameter  Name="Truth" Value="CTBMMETrajectoryModel;CMidVehicleEntMoveModel;CASMMidMoveCtrlModel;CXToSurfMissileMoveModel;CTomahawkTrajModel;CLRASMTrajModel;CAGM88TrajModel;CHarpoonTrajModel;CHMissileDynamicModel;CTrajParseModel;CSM6MoveCtrlModel;CMidSurfEntMoveModel;CKEESMDataRecModel;CKERadarDataRecModel;CWeaponMountModel;CSimEventScript;CConsoleEvtConductor;CSimTask;CScnProfile;CSimpleGroundEntMoveModel;CSimpleAirEntMoveModel;CVehiclePlatformModel;CA2AMissilePlatform;CRotaryWingPlatformModel;CFixedWingPlatformModel;CSatellitePlatformModel;CSimpleSurfEntMoveModel;CSimpleSubEntMoveModel;CAAMPlatformModel;CActiveDecoyPlatformModel;CAir2AirMissilePlatform;CAPWPlatformModel;CASMPlatformModel;CBombPlatformModel;CBuoyPlatformModel;CChaffPlatformModel;CCornerReflectorPlatformModel;CSubmarinePlatformModel;CSurfaceShipPlatformModel;CTorpedoPlatformModel;CSuppressionJammerModel;CSM3MoveModel;CTBASMIntegrateCtrlModel;CSatelliteMoveModel;CSurfMissileLaunchModel;CSurfShipMoveModel;CTrajectoryCalcModel;CVehicleMoveModel;CAntiBMMslBodyDamageModel;CAntiBMMslDynamicModel;CAntiBMMslNaviGuideModel;CBallstMissileDynamicsModel;CBallstMissileNaviGuidModel;CBalMslWarheadDamageModel;CBalMslWarheadMoveModel;CBlstMslBodyDamageModel;CBMPowerdDamageModel;CBMPoweredPhaseCtrlModel;CDecoyWarheadDamageModel;CDecoyWarheadMoveModel;CMidCouDefWarheadDamageModel;CMidCouDefWarheadMoveModel;CMissileBorneJammerModel;"/>
+        <Parameter  Name="Sensor" Value="CLRASMSeekerModel;CTomahawkSeekerModel;CAGM88SeekerModel;CHarpoonSeekerModel;CVehicleRadarModel_54;CTBASMSeekerModel;CSM6SeekerModel;CKEAirboneEWRadarModel;CKEAirboneESMModel;CSurfaceEWRadarModel;CEWAircraftRadarModel;CSkySwordIIASeekerModel;CA2AMissileSeeker;CML8CSeekerModel;CActiveAAMSeeker;CAir2AirMissileSeeker;CAircraftFCRModel;CAirSonarSensorModel;CAPWSeekerModel;CCrabbeSeekerModel;CDL_6iSeekerModel;CDL_6SeekerModel;CDL_7iSeekerModel;CDL_7SeekerModel;CDL_8iSeekerModel;CDL_8SeekerModel;CDL_18cSeekerModel;CHsiuingFeng_1SeekerModel;CHsiuingFeng_2SeekerModel;CHsiuingFeng_3SeekerModel;CLandBaseEWRadarModel;CML_8SeekerModel;CMusketeSeekerModel;CSatelliteRadarModel;CSemiActiveAAMSeeker;CSurfaceFCRModel;CTorpedoSensorModel;CYJ_62HSeekerModel;CYJ_88SeekerModel;CYJ_91SeekerModel;CSurfIrradiatorModel;CSM3FLIRModel;CTrackRadar;CInfraredSensor;CEKVTGInfraredSensor;CEarlyWarningRadar;CGuideRadar;CGroundEWRadarModel_2b;CGroundFCRadarModel_2b;"/>
+        <Parameter  Name="Behave" Value="CAAVehicleGuideMgrModel;CAAVehicleC2Model;CLRASMSeekerCtrlModel;CLRASMCtrlModel;CTomahawkSeekerCtrlModel;CTomahawkCtrlModel;CAGM88SeekerCtrlModel;CAGM88CtrlModel;CHarpoonSeekerControllerModel;CHarpoonCtrlModel;CG2AFireCtrlModel_54;CSM6GuideCtrlModel;CRapidFireShipGunModel;CKE_CVAircraftDispatchModel;CSkySwordIIASeekerCtrlModel;CA2AMissileSeekerCtrlModel;CA2AMissileMoveCtrlModel;CA2AMissileCtrlModel;CAAMControllerModel;CAAMMoveCtrlModel;CActiveAAMSeekerControllerModel;CActiveDecoControllerModel;CAir2AirMissileControllerModel;CAir2AirMissileMoveControllerModel;CAir2AirMissileSeekerControllerModel;CAircraftControllerModel;CAircraftDamageAssessCtrlerModel;CAircraftFCControllerModel;CAircraftMvoeCtrlModel;CAPWControllerModel;CAPWMoveCtrlModel;CAPWSeekerCtrlModel;CASMControllerModel;CASMMoveCtrlModel;CChaffControllerModel;CCheatJammerModel;CCornerReflectorControllerModel;CCrabbeSeekerControllerModel;CDataFuseControllerModel;CEWAircraftControllerModel;CFieldDamageAssessCtrlerModel;CGroupAntiShipFCModel;CGroupCmdControllerModel;CHsiungFeng_1SeekerControllerModel;CHsiungFeng_2SeekerControllerModel;CHsiungFeng_3SeekerControllerModel;CMissileDamageAssessCtrlerModel;CMusketeSeekerControllerModel;CSatelliteControllerModel;CSatelliteMoveCtrlModel;CSBMControllerModel;CSBMFireControllerModel;CScoutSensorModel;CSemiActiveAAMSeekerControllerModel;CSubmarineCmdControllerModel;CSubmarineDamageAssessCtrlerModel;CSubmarineFCCtrlModel;CSubmarineMoveControllerModel;CSubmarineSonarSensorModel;CSurfaceCmdControllerModel;CSurfaceECMController;CSurfaceFCCtrlModel;CSurfaceMoveControllerModel;CSurfDamageAssessCtrlerModel;CTorpedoControllerModel;CTorpedoDamageAssessCtrlModel;CTorpedoMoveCtrlModel;CYJ_62HSeekerControllerModel;CYJ_62SeekerControllerModel;CYJ_83JKSeekerControllerModel;CYJ_83SeekerControllerModel;CYJ_88SeekerControllerModel;CYJ_91SeekerControllerModel;CYJ_1218SeekerControllerModel;CSM3IntegrateCtrlModel;CCmdAntiMslCmdCtrlModel;CCmdFusedInfoDealModel;CSatelliteControlModel;CSBFieldCtrlModel;CSurfShipCmdModel;CVehcAntiMslLachCtrlModel;CVehcBalMslLachCtrlModel;CAntiBMMslControlModel;CBallstMissileControllerModel;CBallstMissileCprtCtrlModel;CBalMslWarheadCtrlModel;CDecoyWarheadCtrlModel;CMidCouDefWarheadCtrlModel;"/>
+        <Parameter  Name="Update" Value="CStatisticAnalysisParty;CEnvironment;CScnProfile;CSimTask;CStateRepository;CFacilityESR;CFixedWingESR;CMissileESR;CMunitionESR;CGroundVehicleESR;CLifeFormESR;CSurfaceESR;CSubSurfaceESR;CSpaceESR;CRotaryWingESR;CTorpedoESR;CCommanderESR;CCruiseMissileESR;CBallisticMissileESR;CMissileWarheadESR;CSatelliteESR;CCircle;CControlObject;CEllipse;CPolygon;CArea;CRectangle;CRoute;CPhaseline;CWayPoint;CFixedWingStateRep;CChaffIslandStateRep;CMissileStateRep;CCornerReflectorStateRep;CSubmarineStateRep;CSurfaceShipStateRep;CMunitionStateRep;CFieldStateRep;CChaffStateRep;CRadarFieldStateRep;CActiveDecoyStateRep;CTorpedoStateRep;CHarborDockEntityStateRep;CAirportStateRep;CCmdEntityStateRep;CBombStateRep;CFuzzySituationInfo;CASMPlaningInfo;CModel;CController;CSensor;CAcousticSensor;CVisualSensor;CSonar;CIFF;CSimpleRadar;CMagneticSensor;CESM;CThermalSensor;CLaserSensor;CRadar;CInfraredSensor;CEKVTGInfraredSensor;CEarlyWarningRadar;CGuideRadar;CTrackRadar;CModelSR;CSensorModelSR;CGroundEWRadarStateRep;CGroundFCRadarStateRep;CAAMVehicleStateRep;CGuardFieldStateRep;"/>
+        <Parameter  Name="Simulation" Value="None;"/>
+        <Parameter  Name="Output" Value="None;"/>
+      </Item>
+      <Item ItemClass="CConsoleEvtConductor" ID="-1" Name="ConsEvtCdtor"/>
+      <!--<Item ItemClass="CHySimConductor" ID="-1" Name="SimEvtCdtor"/>
+      <Item ItemClass="CJSTerrainService" Name="" ID="-1" />      
+      <Item ItemClass="CKEESMDataRecModel" Name="" ID="-1" />
+      <Item ItemClass="CKERadarDataRecModel" Name="" ID="-1" />-->
+    </Item>
+  </Items>
+</Simulation>

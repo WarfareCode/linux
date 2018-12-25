@@ -1,0 +1,60 @@
+TYPE=0, INFO=进入 ReadParameters
+TYPE=0, INFO=CreateObj: clsName=CParaEntry,Objid=1000,ObjName=(null)
+TYPE=0, INFO=离开 ReadParameters
+TYPE=0, INFO=进入 LoadComponent
+TYPE=0, INFO=离开 LoadComponent
+TYPE=0, INFO=进入 ParseFedItemClasses
+TYPE=0, INFO=ClsObj Created Name=CCommunication
+TYPE=0, INFO=动态创建类模型:CCommunication成功
+TYPE=0, INFO=ClsObj Created Name=CCountry
+TYPE=0, INFO=动态创建类模型:CCountry成功
+TYPE=0, INFO=离开 ParseFedItemClasses
+TYPE=0, INFO=进入 ParseAllComponentItemClasses
+TYPE=0, INFO=离开 ParseAllComponentItemClasses
+TYPE=0, INFO=进入 CreateGlobalObj
+TYPE=0, INFO=CreateObj: clsName=CScnMgr,Objid=1,ObjName=ScnMgr
+TYPE=0, INFO=CreateObj: clsName=CDisp,Objid=1001,ObjName=Disp
+TYPE=0, INFO=CreateObj: clsName=CScnMgr,Objid=2,ObjName=RemoteObjMgr
+TYPE=0, INFO=离开 CreateGlobalObj
+TYPE=0, INFO=进入 ClassInit
+TYPE=0, INFO=class=CCommunication attribute=Sender offset=84 size=4
+TYPE=0, INFO=class=CCommunication attribute=Message offset=88 size=4
+TYPE=0, INFO=class=CCountry attribute=Population offset=128 size=8
+TYPE=0, INFO=class=CCountry attribute=Name offset=136 size=4
+TYPE=0, INFO=离开 ClassInit
+TYPE=0, INFO=进入 ReadAllHLAClasses
+TYPE=0, INFO=离开 ReadAllHLAClasses
+TYPE=1, INFO=没有创建对象的类信息:类名=CTCP1Bridge
+TYPE=0, INFO=CreateObj: clsName=CNullBridge,Objid=65535,ObjName=bridge
+TYPE=1, INFO=桥接器对象CTCP1Bridge创建出错!!!
+TYPE=0, INFO=使用桥接器:CNullBridge
+TYPE=0, INFO=进入 RegisterHLAClasses
+TYPE=0, INFO=注册事件成功CCommunication
+TYPE=0, INFO=RegisterHLAClass:ClsName=CCommunication,ClsID=8000,PS=3
+TYPE=0, INFO=RegisterHLAClass:ClsName=CCountry,ClsID=0,PS=3
+TYPE=0, INFO=离开 RegisterHLAClasses
+TYPE=0, INFO=进入 Publish
+TYPE=0, INFO=离开 Publish
+TYPE=0, INFO=进入 Subscribe
+TYPE=0, INFO=离开 Subscribe
+TYPE=0, INFO=进入 Create MDB
+TYPE=0, INFO=离开 Create MDB
+TYPE=1, INFO=InitClassToMdb Name=CCountry MaxObjNu=3200 ObjDataSize=12
+TYPE=0, INFO=进入 LoadScenario
+TYPE=0, INFO=在联邦Time=0.000000时刻场景被加载
+TYPE=0, INFO=Scn time=0.000000
+TYPE=0, INFO=CreateObj: clsName=CCountry,Objid=65536,ObjName=None_1
+TYPE=0, INFO=计划场景中的事件已调度结束,Time=0.000000
+TYPE=0, INFO=离开 LoadScenario
+TYPE=0, INFO=运行开始...
+TYPE=0, INFO=场景管理器得到请求，对象 ID=65536 请求退出
+TYPE=0, INFO=Delete LinkObj:id=65536,parentid=1,threadid=-1217672784
+TYPE=0, INFO=Engine 0 is closing
+TYPE=0, INFO=运行结束...
+TYPE=0, INFO=Delete LinkObj:id=1,parentid=0,threadid=-1446622352
+TYPE=1, INFO=由对象管理器清除对象:类名=CDisp id=1001
+TYPE=0, INFO=Delete LinkObj:id=1001,parentid=0,threadid=-1446622352
+TYPE=1, INFO=由对象管理器清除对象:类名=CScnMgr id=2
+TYPE=0, INFO=Delete LinkObj:id=2,parentid=0,threadid=-1446622352
+TYPE=0, INFO=开始清理并释放所分配的资源...
+TYPE=0, INFO=所分配的资源释放完毕

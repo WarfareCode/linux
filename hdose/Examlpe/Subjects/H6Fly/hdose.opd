@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="GB2312"?>
+<Simulation>
+  <OPDEntrys>
+    <OPDEntry Name="SY雷达参数表">
+      <Parameter Name="MaxSpeed" Value="195"/>
+      <Parameter Name="MaxAcceleration" Value="7.1"/>
+    </OPDEntry>
+    <OPDEntry Name="KJ2000运动参数表">
+      <Parameter Name="MaxSpeed" Value="195"/>
+      <Parameter Name="MaxAcceleration" Value="7.1"/>
+    </OPDEntry>
+    <OPDEntry Name="KJ2000综合参数">
+      <Parameter Name="MaxSpeed" Value="195"/>
+      <Parameter Name="MaxAcceleration" Value="7.1"/>
+    </OPDEntry>
+  </OPDEntrys>
+
+  <Assembles>
+    <Assemble ItemClass="CKJ2000" Type="Entity" Tag="预警机" OPD="KJ2000综合参数">
+      <Assemble ItemClass="CPlatform" Type="ESR" Tag="状态池" OPD="参数表" Sample="4"/>
+      <Assemble ItemClass="CSensor" Type="Sensor" Tag="雷达" OPD="SY雷达参数表" Sample="10"/>
+    </Assemble>
+    <Assemble ItemClass="CPlatform" Type="Entity" Tag="运动平台">
+      <Assemble ItemClass="CPlaMove" Type="Truth" Tag="运动模型" OPD="运动参数表" Sample="2"/>
+    </Assemble>
+  </Assembles>
+</Simulation>

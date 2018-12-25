@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Component Ref="libBridgex.so">
+	<ItemClasses>
+		<ItemClass Name="CXBridge" SuperClasses="CBridge">
+
+		</ItemClass>
+	</ItemClasses>
+</Component>
